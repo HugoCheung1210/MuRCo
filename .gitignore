@@ -1,0 +1,121 @@
+# ---------------------------------------------------------------------------
+# Bulk audio & external datasets — regenerable or re-downloadable, never commit.
+# Manifests (pairs_manifest.json) ARE committed; only the audio payload is not.
+# ---------------------------------------------------------------------------
+fma_medium.zip
+fma_metadata/
+raw_audio/
+perturbations/audio/
+perturbations_temporal/audio/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.zip
+
+# Model weights / HF caches (live on the GPU box, never in the repo)
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+hf_cache/
+.cache/huggingface/
+huggingface/
+
+# Cached embedding tensors — derived payload, not results. Regenerable on CPU:
+#   scripts/analysis/clap_probe.py extract   (~8 min, no GPU, downloads CLAP to ~/.cache)
+# The probe's actual results (clap_probe*.json) ARE committed; the 8.6 MB tensor is not.
+*.npz
+*.npy
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---------------------------------------------------------------------------
+# LaTeX build artifacts (keep .tex, .bib, final PDFs in doc/ are fine to keep;
+# intermediate build files are not)
+# ---------------------------------------------------------------------------
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+doc/writeup/dissertation.log
+
+# ---------------------------------------------------------------------------
+# OS / editor junk
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+# Word lock files (e.g. the stray doc/~$nsent Form.docx)
+~$*
+*.swp
+.idea/
+.vscode/
+
+build/
+
+# Manual editor snapshots of the paper and thesis sources.
+*.bak
+
+# ---------------------------------------------------------------------------
+# Superseded MOS artefacts. Kept on disk as the local audit trail, untracked so
+# the public release ships one authoritative file per result rather than the
+# collection history beside it.
+#   pilot/result_1..7.csv  incremental Qualtrics exports during collection. Every
+#     response in them is also in N40.csv, which is the closed N=40 dataset and
+#     the one every analysis reads. result_1.csv additionally holds nine columns
+#     that exist nowhere else (the *_RATE3 AI-rerank ratings retired on
+#     2026-08-07, the pre-split consent fields, two flow-order fields), which is
+#     why these are ignored rather than deleted.
+#   ab_results_n3.json     the n=3 Part 2 pilot, superseded by ab_results.json.
+#   power_simulation_ALLSETS_superseded.json  named superseded; PROJECT_STATE.md
+#     cites it for comparison and that file does not ship either.
+results/mos/pilot/result_*.csv
+results/mos/session2/ab_results_n3.json
+results/mos/power_simulation_ALLSETS_superseded.json
+
+# The pre-AI-removal Qualtrics tables. Kept on disk, untracked: they are only the INPUT
+# that produced results/mos/qualtrics/loopmap_block<N>.csv, and it is those loopmaps that
+# qualtrics_to_responses.py reads. The loopmaps ship, so the analysis path is unaffected;
+# what a release loses is the ability to regenerate them with make_loop_index_map.py.
+results/mos/qualtrics/archive_2026-08-07_pre_ai_removal/
+
+# Presentation and pilot scaffolding. Kept on disk, untracked: none of it is an input to
+# a reported number. cocola_pilot is the author-rated self-pilot, which the thesis uses
+# only to place the |dC| ~ 0.025 audibility floor and never as evidence of preference, so
+# the floor is stated in the prose and the raw pilot does not need to ship. demo/ is a
+# walkthrough page built from that pilot, and level_review/ is the loudness-matching
+# review UI whose chosen levels are already baked into the rendered stimuli.
+results/mos/demo/
+results/mos/level_review/
+results/mos/cocola_pilot/
+
+# The MuseCPEval comparison (arXiv 2512.14629v2, ISMIR 2026) was held back while the
+# paper did not report it. The paper now reports it in Tables 3 and 4 and Section 5.1, so
+# scripts/analysis/{diagnose,musecp_*}.py, results/musecp/ and
+# results/diagnostics/diagnosis_musecp.json are tracked and ship with the release.
+
+# Style-reference corpus. Kept on disk, untracked: 32 MB of third-party arXiv PDFs and
+# LaTeX sources for the 13 accepted ICASSP papers behind doc/notes/icassp_house_style_
+# 2026-08-25.md. They are someone else's copyrighted work, they are re-fetchable from the
+# arXiv ids in icassp_examples/ids.txt, and nothing in the repo reads them.
+doc/paper/icassp_examples/
+
+# The official ICASSP 2027 template kit, downloaded 2026-09-04. Kept on disk, untracked:
+# it is the conference's own distribution and re-fetchable from the URLs in
+# doc/paper/README.md. The two files the draft actually compiles against, spconf.sty and
+# IEEEbib.bst, sit in doc/paper/ and are NOT covered by this rule.
+doc/paper/icassp_kit/

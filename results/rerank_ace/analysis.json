@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "n_seeds_used": 40,
+    "rankers": [
+      "C",
+      "clap_htsat",
+      "S",
+      "random"
+    ],
+    "judges": [
+      "C",
+      "S",
+      "clap_htsat"
+    ],
+    "note": "each ranker judged only by metrics it did NOT use; random = uniform candidate pick (baseline); human MOS is the decisive judge (mos_stimuli.json)"
+  },
+  "go_no_go": {
+    "mean_spearman_C_vs_clap_htsat": 0.38869047619047625,
+    "mean_kendall_C_vs_clap_htsat": 0.3160714285714285,
+    "mean_spearman_C_vs_S": 0.7898496734943642,
+    "frac_same_winner_C_vs_clap_htsat": 0.225,
+    "verdict": "PROCEED: C and clap_htsat disagree enough that the choice of ranker matters; full run + MOS piggyback justified"
+  },
+  "heldout_judge_mean": {
+    "C": {
+      "S": 0.519180375,
+      "clap_htsat": 0.957986943423748
+    },
+    "clap_htsat": {
+      "C": 0.7466739483089109,
+      "S": 0.48918090000000003
+    },
+    "S": {
+      "C": 0.7630580477335083,
+      "clap_htsat": 0.9567179799079895
+    },
+    "random": {
+      "C": 0.7299479913372262,
+      "S": 0.4636938,
+      "clap_htsat": 0.9541405409574508
+    }
+  },
+  "leave_one_dim_out_S": {
+    "rank_by_C_noS__winner_S": 0.484003975,
+    "rank_by_clap__winner_S": 0.48918090000000003,
+    "random__winner_S": 0.466798
+  },
+  "effect_sizes": {
+    "S(judge): C vs random": {
+      "n": 40,
+      "mean_a": 0.519180375,
+      "mean_b": 0.4636938,
+      "delta": 0.055486575,
+      "d_z": 0.97193598531159,
+      "ci95": [
+        0.038089196875,
+        0.07309454
+      ]
+    },
+    "S(judge): C vs clap_htsat": {
+      "n": 40,
+      "mean_a": 0.519180375,
+      "mean_b": 0.48918090000000003,
+      "delta": 0.029999475000000008,
+      "d_z": 0.7026386248857732,
+      "ci95": [
+        0.017716816250000003,
+        0.043805366875
+      ]
+    },
+    "clap(judge): C vs random": {
+      "n": 40,
+      "mean_a": 0.957986943423748,
+      "mean_b": 0.9541405409574508,
+      "delta": 0.00384640246629715,
+      "d_z": 0.1790111124502815,
+      "ci95": [
+        -0.0027132561430335046,
+        0.010417463704943656
+      ]
+    },
+    "S(judge): C vs C_noS (S-term contribution)": {
+      "n": 40,
+      "mean_a": 0.519180375,
+      "mean_b": 0.484003975,
+      "delta": 0.035176400000000003,
+      "d_z": 0.754372649413348,
+      "ci95": [
+        0.021995715,
+        0.05019721624999999
+      ]
+    },
+    "S(judge): C_noS vs random": {
+      "n": 40,
+      "mean_a": 0.484003975,
+      "mean_b": 0.466798,
+      "delta": 0.017205975000000005,
+      "d_z": 0.3012764135795495,
+      "ci95": [
+        -9.287874999999427e-05,
+        0.03466017562500001
+      ]
+    }
+  }
+}

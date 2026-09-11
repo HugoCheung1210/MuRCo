@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "experiment": "GRPO pilot evaluation",
+    "regime": "musicgen continuation",
+    "arms": [
+      "frozen",
+      "step0100",
+      "step0175",
+      "step0250"
+    ],
+    "n_per_context": 8,
+    "n_contexts": 10,
+    "sr": 32000,
+    "guidance_scale": 1.0,
+    "temperature": 1.0,
+    "top_k": 250,
+    "seed": 20260808,
+    "note": "standard pairs manifest; A=context, B=continuation"
+  },
+  "rows": [
+    {
+      "dimension": "H",
+      "n_control_sources": 0,
+      "per_family": [],
+      "per_magnitude": []
+    },
+    {
+      "dimension": "T",
+      "n_control_sources": 0,
+      "per_family": [],
+      "per_magnitude": []
+    },
+    {
+      "dimension": "R",
+      "n_control_sources": 0,
+      "per_family": [],
+      "per_magnitude": []
+    },
+    {
+      "dimension": "S",
+      "n_control_sources": 0,
+      "per_family": [],
+      "per_magnitude": []
+    }
+  ]
+}

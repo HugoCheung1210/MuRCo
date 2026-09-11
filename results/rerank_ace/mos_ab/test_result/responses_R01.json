@@ -1,0 +1,88 @@
+{
+  "rater": "R01",
+  "started": "2026-07-21T19:23:02.011Z",
+  "finished": "2026-07-21T19:34:00.163Z",
+  "n_trials": 20,
+  "responses": [
+    {
+      "trial_id": "t10",
+      "rating": 1
+    },
+    {
+      "trial_id": "t05",
+      "rating": 4
+    },
+    {
+      "trial_id": "t12",
+      "rating": 4
+    },
+    {
+      "trial_id": "t09",
+      "rating": 2
+    },
+    {
+      "trial_id": "t04",
+      "rating": 2
+    },
+    {
+      "trial_id": "t17",
+      "rating": 1
+    },
+    {
+      "trial_id": "t01",
+      "rating": 2
+    },
+    {
+      "trial_id": "t19",
+      "rating": 1
+    },
+    {
+      "trial_id": "t02",
+      "rating": 4
+    },
+    {
+      "trial_id": "t06",
+      "rating": 2
+    },
+    {
+      "trial_id": "t14",
+      "rating": 4
+    },
+    {
+      "trial_id": "t18",
+      "rating": 1
+    },
+    {
+      "trial_id": "t03",
+      "rating": 4
+    },
+    {
+      "trial_id": "t11",
+      "rating": 1
+    },
+    {
+      "trial_id": "t07",
+      "rating": 2
+    },
+    {
+      "trial_id": "t20",
+      "rating": 4
+    },
+    {
+      "trial_id": "t16",
+      "rating": 4
+    },
+    {
+      "trial_id": "t13",
+      "rating": 4
+    },
+    {
+      "trial_id": "t08",
+      "rating": 5
+    },
+    {
+      "trial_id": "t15",
+      "rating": 1
+    }
+  ]
+}

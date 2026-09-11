@@ -1,0 +1,156 @@
+{
+ "meta": {
+  "n_pairs": 154,
+  "n_tracks": 59,
+  "n_conditions": 20,
+  "n_boot": 20000,
+  "construction": "review_fixes.analysis_bc, with MuseCPEval added",
+  "musecp_source": "results/musecp/setup1/musecp_metrics.csv"
+ },
+ "pooled_r": {
+  "C": 0.7878,
+  "C_noS": 0.7483,
+  "clap": 0.6889,
+  "scs": 0.1668,
+  "cocola": -0.0005,
+  "musecp12": 0.5218,
+  "musecp10": 0.4195
+ },
+ "within_condition_r": {
+  "C": 0.3436,
+  "C_noS": 0.3439,
+  "clap": 0.3232,
+  "scs": 0.3019,
+  "cocola": -0.1543,
+  "musecp12": 0.075,
+  "musecp10": 0.0389
+ },
+ "contrasts": {
+  "C - musecp12 pooled": {
+   "delta_r_boot_mean": 0.2691,
+   "delta_r_point": 0.266,
+   "ci95": [
+    0.1774,
+    0.37
+   ],
+   "excludes_zero": true
+  },
+  "C - musecp12 within": {
+   "delta_r_boot_mean": 0.267,
+   "delta_r_point": 0.2686,
+   "ci95": [
+    0.1061,
+    0.4285
+   ],
+   "excludes_zero": true
+  },
+  "C - musecp10 pooled": {
+   "delta_r_boot_mean": 0.371,
+   "delta_r_point": 0.3683,
+   "ci95": [
+    0.2687,
+    0.4814
+   ],
+   "excludes_zero": true
+  },
+  "C - musecp10 within": {
+   "delta_r_boot_mean": 0.3044,
+   "delta_r_point": 0.3047,
+   "ci95": [
+    0.1323,
+    0.4714
+   ],
+   "excludes_zero": true
+  },
+  "C_noS - musecp12 pooled": {
+   "delta_r_boot_mean": 0.2287,
+   "delta_r_point": 0.2265,
+   "ci95": [
+    0.1428,
+    0.3235
+   ],
+   "excludes_zero": true
+  },
+  "C_noS - musecp12 within": {
+   "delta_r_boot_mean": 0.2667,
+   "delta_r_point": 0.2689,
+   "ci95": [
+    0.0962,
+    0.4395
+   ],
+   "excludes_zero": true
+  },
+  "C - clap pooled": {
+   "delta_r_boot_mean": 0.0963,
+   "delta_r_point": 0.0989,
+   "ci95": [
+    0.0245,
+    0.1709
+   ],
+   "excludes_zero": true
+  },
+  "C - clap within": {
+   "delta_r_boot_mean": 0.0122,
+   "delta_r_point": 0.0204,
+   "ci95": [
+    -0.1547,
+    0.1708
+   ],
+   "excludes_zero": false
+  },
+  "C - C_noS pooled": {
+   "delta_r_boot_mean": 0.0404,
+   "delta_r_point": 0.0395,
+   "ci95": [
+    0.0168,
+    0.068
+   ],
+   "excludes_zero": true
+  },
+  "C - C_noS within": {
+   "delta_r_boot_mean": 0.0004,
+   "delta_r_point": -0.0003,
+   "ci95": [
+    -0.0607,
+    0.0589
+   ],
+   "excludes_zero": false
+  },
+  "C - scs pooled": {
+   "delta_r_boot_mean": 0.6258,
+   "delta_r_point": 0.621,
+   "ci95": [
+    0.4847,
+    0.7836
+   ],
+   "excludes_zero": true
+  },
+  "C - scs within": {
+   "delta_r_boot_mean": 0.0395,
+   "delta_r_point": 0.0417,
+   "ci95": [
+    -0.2431,
+    0.2976
+   ],
+   "excludes_zero": false
+  },
+  "C - cocola pooled": {
+   "delta_r_boot_mean": 0.7841,
+   "delta_r_point": 0.7883,
+   "ci95": [
+    0.6499,
+    0.9272
+   ],
+   "excludes_zero": true
+  },
+  "C - cocola within": {
+   "delta_r_boot_mean": 0.4949,
+   "delta_r_point": 0.4979,
+   "ci95": [
+    0.2786,
+    0.7122
+   ],
+   "excludes_zero": true
+  }
+ }
+}

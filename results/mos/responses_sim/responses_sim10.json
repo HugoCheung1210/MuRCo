@@ -1,0 +1,309 @@
+{
+ "session_code": "sim10",
+ "block": "block1",
+ "dry_run": true,
+ "simulated": true,
+ "careless": false,
+ "responses": [
+  {
+   "stimulus_id": "stim_0146",
+   "rating": 4,
+   "ms_to_respond": 6076,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0011",
+   "rating": 4,
+   "ms_to_respond": 8856,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0083",
+   "rating": 2,
+   "ms_to_respond": 3287,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0028",
+   "rating": 3,
+   "ms_to_respond": 5448,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0020",
+   "rating": 3,
+   "ms_to_respond": 8894,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0112",
+   "rating": 3,
+   "ms_to_respond": 7720,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0057",
+   "rating": 4,
+   "ms_to_respond": 4327,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0141",
+   "rating": 4,
+   "ms_to_respond": 8637,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0126",
+   "rating": 3,
+   "ms_to_respond": 5148,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0047",
+   "rating": 4,
+   "ms_to_respond": 2955,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0096",
+   "rating": 3,
+   "ms_to_respond": 8408,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0166",
+   "rating": 3,
+   "ms_to_respond": 5445,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0071",
+   "rating": 4,
+   "ms_to_respond": 5096,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0058",
+   "rating": 1,
+   "ms_to_respond": 7514,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0108",
+   "rating": 4,
+   "ms_to_respond": 2680,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0054",
+   "rating": 3,
+   "ms_to_respond": 2018,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0100",
+   "rating": 3,
+   "ms_to_respond": 1709,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0172",
+   "rating": 2,
+   "ms_to_respond": 3636,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0066",
+   "rating": 3,
+   "ms_to_respond": 4284,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0124",
+   "rating": 2,
+   "ms_to_respond": 4544,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0046",
+   "rating": 4,
+   "ms_to_respond": 1629,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0143",
+   "rating": 4,
+   "ms_to_respond": 3608,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0017",
+   "rating": 2,
+   "ms_to_respond": 7482,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0113",
+   "rating": 1,
+   "ms_to_respond": 2989,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0033",
+   "rating": 3,
+   "ms_to_respond": 6887,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0178",
+   "rating": 5,
+   "ms_to_respond": 8015,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0157",
+   "rating": 3,
+   "ms_to_respond": 6771,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0135",
+   "rating": 2,
+   "ms_to_respond": 3854,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0147",
+   "rating": 2,
+   "ms_to_respond": 5691,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0156",
+   "rating": 1,
+   "ms_to_respond": 2903,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0180",
+   "rating": 1,
+   "ms_to_respond": 1862,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0003",
+   "rating": 4,
+   "ms_to_respond": 4043,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0059",
+   "rating": 2,
+   "ms_to_respond": 3219,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0061",
+   "rating": 3,
+   "ms_to_respond": 4632,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0044",
+   "rating": 5,
+   "ms_to_respond": 3037,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0063",
+   "rating": 3,
+   "ms_to_respond": 4367,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0094",
+   "rating": 3,
+   "ms_to_respond": 5127,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0130",
+   "rating": 3,
+   "ms_to_respond": 2295,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0027",
+   "rating": 1,
+   "ms_to_respond": 4114,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0179",
+   "rating": 1,
+   "ms_to_respond": 7705,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0053",
+   "rating": 1,
+   "ms_to_respond": 4077,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0051",
+   "rating": 3,
+   "ms_to_respond": 2070,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0029",
+   "rating": 5,
+   "ms_to_respond": 3132,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0026",
+   "rating": 3,
+   "ms_to_respond": 7750,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0065",
+   "rating": 2,
+   "ms_to_respond": 3466,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0041",
+   "rating": 4,
+   "ms_to_respond": 3547,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0060",
+   "rating": 5,
+   "ms_to_respond": 7379,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0067",
+   "rating": 3,
+   "ms_to_respond": 2489,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0040",
+   "rating": 4,
+   "ms_to_respond": 3209,
+   "n_plays": 1
+  },
+  {
+   "stimulus_id": "stim_0116",
+   "rating": 2,
+   "ms_to_respond": 3477,
+   "n_plays": 1
+  }
+ ]
+}

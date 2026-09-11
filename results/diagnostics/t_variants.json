@@ -1,0 +1,226 @@
+{
+  "note": "Does T have to be an MFCC Frechet distance, or would a learned embedding do better?",
+  "tau_calibrated": {
+    "clap_pooled": 0.06566454762476803,
+    "clap_proj": 0.05950909145835771,
+    "muq_L1": 0.11431178537464043,
+    "mert_L3": 0.004984486045445977
+  },
+  "variants": {
+    "mfcc (current)": {
+      "per_family": {
+        "style_swap": {
+          "mean_drop": 0.5553,
+          "dz": 10.368,
+          "auc_vs_control": 1.0
+        },
+        "lowpass": {
+          "mean_drop": 0.4795,
+          "dz": 3.3,
+          "auc_vs_control": 0.999
+        },
+        "distortion": {
+          "mean_drop": 0.3531,
+          "dz": 2.298,
+          "auc_vs_control": 0.9986
+        },
+        "pitch_shift": {
+          "mean_drop": 0.3005,
+          "dz": 2.574,
+          "auc_vs_control": 1.0
+        },
+        "time_stretch": {
+          "mean_drop": 0.1247,
+          "dz": 2.418,
+          "auc_vs_control": 0.997
+        }
+      },
+      "ranking_by_drop": [
+        "style_swap",
+        "lowpass",
+        "distortion",
+        "pitch_shift",
+        "time_stretch"
+      ],
+      "owns_timbral_families": true,
+      "selectivity": 1.958,
+      "identity_auc": {
+        "T_alone": 0.9201,
+        "C_signal": 0.9764,
+        "C_full": 0.9841
+      }
+    },
+    "clap_pooled": {
+      "per_family": {
+        "style_swap": {
+          "mean_drop": 0.9897,
+          "dz": 28.293,
+          "auc_vs_control": 1.0
+        },
+        "lowpass": {
+          "mean_drop": 0.7769,
+          "dz": 3.857,
+          "auc_vs_control": 1.0
+        },
+        "distortion": {
+          "mean_drop": 0.6992,
+          "dz": 2.057,
+          "auc_vs_control": 0.9975
+        },
+        "pitch_shift": {
+          "mean_drop": 0.5041,
+          "dz": 2.794,
+          "auc_vs_control": 1.0
+        },
+        "time_stretch": {
+          "mean_drop": 0.4122,
+          "dz": 2.818,
+          "auc_vs_control": 1.0
+        }
+      },
+      "ranking_by_drop": [
+        "style_swap",
+        "lowpass",
+        "distortion",
+        "pitch_shift",
+        "time_stretch"
+      ],
+      "owns_timbral_families": true,
+      "selectivity": 1.611,
+      "identity_auc": {
+        "T_alone": 0.9807,
+        "C_signal": 0.9845,
+        "C_full": 0.9847
+      }
+    },
+    "clap_proj": {
+      "per_family": {
+        "style_swap": {
+          "mean_drop": 0.9903,
+          "dz": 26.412,
+          "auc_vs_control": 1.0
+        },
+        "lowpass": {
+          "mean_drop": 0.794,
+          "dz": 3.831,
+          "auc_vs_control": 1.0
+        },
+        "distortion": {
+          "mean_drop": 0.7112,
+          "dz": 2.09,
+          "auc_vs_control": 0.9973
+        },
+        "pitch_shift": {
+          "mean_drop": 0.5102,
+          "dz": 2.725,
+          "auc_vs_control": 1.0
+        },
+        "time_stretch": {
+          "mean_drop": 0.4028,
+          "dz": 2.602,
+          "auc_vs_control": 1.0
+        }
+      },
+      "ranking_by_drop": [
+        "style_swap",
+        "lowpass",
+        "distortion",
+        "pitch_shift",
+        "time_stretch"
+      ],
+      "owns_timbral_families": true,
+      "selectivity": 1.649,
+      "identity_auc": {
+        "T_alone": 0.9766,
+        "C_signal": 0.9804,
+        "C_full": 0.9808
+      }
+    },
+    "muq_L1": {
+      "per_family": {
+        "style_swap": {
+          "mean_drop": 0.9908,
+          "dz": 61.137,
+          "auc_vs_control": 1.0
+        },
+        "lowpass": {
+          "mean_drop": 0.7491,
+          "dz": 3.047,
+          "auc_vs_control": 0.9998
+        },
+        "distortion": {
+          "mean_drop": 0.5626,
+          "dz": 1.714,
+          "auc_vs_control": 0.9949
+        },
+        "pitch_shift": {
+          "mean_drop": 0.8226,
+          "dz": 5.347,
+          "auc_vs_control": 1.0
+        },
+        "time_stretch": {
+          "mean_drop": 0.1659,
+          "dz": 1.985,
+          "auc_vs_control": 0.9978
+        }
+      },
+      "ranking_by_drop": [
+        "style_swap",
+        "pitch_shift",
+        "lowpass",
+        "distortion",
+        "time_stretch"
+      ],
+      "owns_timbral_families": false,
+      "selectivity": 1.327,
+      "identity_auc": {
+        "T_alone": 0.988,
+        "C_signal": 0.9908,
+        "C_full": 0.9916
+      }
+    },
+    "mert_L3": {
+      "per_family": {
+        "style_swap": {
+          "mean_drop": 0.9981,
+          "dz": 92.283,
+          "auc_vs_control": 1.0
+        },
+        "lowpass": {
+          "mean_drop": 0.7987,
+          "dz": 2.55,
+          "auc_vs_control": 0.9975
+        },
+        "distortion": {
+          "mean_drop": 0.7577,
+          "dz": 2.233,
+          "auc_vs_control": 0.9961
+        },
+        "pitch_shift": {
+          "mean_drop": 0.9346,
+          "dz": 9.256,
+          "auc_vs_control": 1.0
+        },
+        "time_stretch": {
+          "mean_drop": 0.4132,
+          "dz": 2.39,
+          "auc_vs_control": 1.0
+        }
+      },
+      "ranking_by_drop": [
+        "style_swap",
+        "pitch_shift",
+        "lowpass",
+        "distortion",
+        "time_stretch"
+      ],
+      "owns_timbral_families": false,
+      "selectivity": 1.155,
+      "identity_auc": {
+        "T_alone": 0.9759,
+        "C_signal": 0.9781,
+        "C_full": 0.9787
+      }
+    }
+  }
+}

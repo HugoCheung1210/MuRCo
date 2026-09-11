@@ -1,0 +1,45 @@
+{
+ "meta": {
+  "encoder": "muq",
+  "layer": 1,
+  "protocol": "leave-one-track-out, L2 chosen by grouped inner split on the training fold only; paired bootstrap over 90 tracks"
+ },
+ "muq_diff": {
+  "acc": 0.8472,
+  "macro_f1": 0.7763
+ },
+ "HTRS": {
+  "acc": 0.86,
+  "macro_f1": 0.8416
+ },
+ "HTR": {
+  "acc": 0.85,
+  "macro_f1": 0.8275
+ },
+ "HTRS - muq_diff": {
+  "delta_acc": 0.0129,
+  "acc_ci95": [
+   -0.0178,
+   0.0422
+  ],
+  "delta_macro_f1": 0.0657,
+  "f1_ci95": [
+   0.0334,
+   0.097
+  ],
+  "frac_le_zero_acc": 0.1985
+ },
+ "HTR - muq_diff": {
+  "delta_acc": 0.0029,
+  "acc_ci95": [
+   -0.0272,
+   0.0328
+  ],
+  "delta_macro_f1": 0.0514,
+  "f1_ci95": [
+   0.0181,
+   0.0859
+  ],
+  "frac_le_zero_acc": 0.423
+ }
+}

@@ -1,0 +1,992 @@
+{
+  "meta": {
+    "experiment": "GRPO pilot evaluation",
+    "regime": "musicgen continuation",
+    "arms": [
+      "frozen",
+      "step0150",
+      "step0300"
+    ],
+    "n_per_context": 8,
+    "n_contexts": 10,
+    "sr": 32000,
+    "guidance_scale": 1.0,
+    "temperature": 1.0,
+    "top_k": 250,
+    "seed": 20260808,
+    "note": "standard pairs manifest; A=context, B=continuation",
+    "baselines": [
+      "clap_htsat",
+      "scs"
+    ],
+    "secs": 8.0,
+    "clap_readout": "pooled",
+    "clap_ckpt": {
+      "clap_htsat": "laion/clap-htsat-unfused"
+    },
+    "scs": "signal-structural STAND-IN (SSM cosine), not official MusicWeaver SCS",
+    "fad_proxy": "per-pair embedding-distance proxy; report set-level FAD separately"
+  },
+  "scores": {
+    "frozen::heldout_00::cand00": {
+      "clap_htsat": 0.8986300826072693,
+      "scs": 0.6784526098944129
+    },
+    "frozen::heldout_00::cand01": {
+      "clap_htsat": 0.9213848114013672,
+      "scs": 0.7039593932384581
+    },
+    "frozen::heldout_00::cand02": {
+      "clap_htsat": 0.7387567162513733,
+      "scs": 0.7618133800719067
+    },
+    "frozen::heldout_00::cand03": {
+      "clap_htsat": 0.9302995204925537,
+      "scs": 0.7369487807090589
+    },
+    "frozen::heldout_00::cand04": {
+      "clap_htsat": 0.7751196622848511,
+      "scs": 0.7620925283707176
+    },
+    "frozen::heldout_00::cand05": {
+      "clap_htsat": 0.9196233749389648,
+      "scs": 0.6526352298861909
+    },
+    "frozen::heldout_00::cand06": {
+      "clap_htsat": 0.9195553660392761,
+      "scs": 0.6555782691639657
+    },
+    "frozen::heldout_00::cand07": {
+      "clap_htsat": 0.928565502166748,
+      "scs": 0.6744576966528129
+    },
+    "frozen::heldout_01::cand00": {
+      "clap_htsat": 0.939193844795227,
+      "scs": 0.5879545960683128
+    },
+    "frozen::heldout_01::cand01": {
+      "clap_htsat": 0.943571925163269,
+      "scs": 0.584146728865659
+    },
+    "frozen::heldout_01::cand02": {
+      "clap_htsat": 0.9511915445327759,
+      "scs": 0.6677449074532187
+    },
+    "frozen::heldout_01::cand03": {
+      "clap_htsat": 0.8874680995941162,
+      "scs": 0.5885230523082317
+    },
+    "frozen::heldout_01::cand04": {
+      "clap_htsat": 0.9619811773300171,
+      "scs": 0.6179045428517232
+    },
+    "frozen::heldout_01::cand05": {
+      "clap_htsat": 0.9580963253974915,
+      "scs": 0.6325079235589884
+    },
+    "frozen::heldout_01::cand06": {
+      "clap_htsat": 0.9015493392944336,
+      "scs": 0.6173868916696263
+    },
+    "frozen::heldout_01::cand07": {
+      "clap_htsat": 0.9388338327407837,
+      "scs": 0.5703109157577433
+    },
+    "frozen::heldout_02::cand00": {
+      "clap_htsat": 0.8135901689529419,
+      "scs": 0.740430210252603
+    },
+    "frozen::heldout_02::cand01": {
+      "clap_htsat": 0.845535397529602,
+      "scs": 0.7514679379129686
+    },
+    "frozen::heldout_02::cand02": {
+      "clap_htsat": 0.849966824054718,
+      "scs": 0.7607030088199811
+    },
+    "frozen::heldout_02::cand03": {
+      "clap_htsat": 0.8188310861587524,
+      "scs": 0.7328496651250228
+    },
+    "frozen::heldout_02::cand04": {
+      "clap_htsat": 0.8558052182197571,
+      "scs": 0.7596951472712655
+    },
+    "frozen::heldout_02::cand05": {
+      "clap_htsat": 0.795414924621582,
+      "scs": 0.6912770505769598
+    },
+    "frozen::heldout_02::cand06": {
+      "clap_htsat": 0.858556866645813,
+      "scs": 0.7191770367376317
+    },
+    "frozen::heldout_02::cand07": {
+      "clap_htsat": 0.8511033058166504,
+      "scs": 0.7405189798607338
+    },
+    "frozen::heldout_03::cand00": {
+      "clap_htsat": 0.9347865581512451,
+      "scs": 0.6961578224977223
+    },
+    "frozen::heldout_03::cand01": {
+      "clap_htsat": 0.9068309664726257,
+      "scs": 0.6806084275755822
+    },
+    "frozen::heldout_03::cand02": {
+      "clap_htsat": 0.9123984575271606,
+      "scs": 0.6792562110139135
+    },
+    "frozen::heldout_03::cand03": {
+      "clap_htsat": 0.940890371799469,
+      "scs": 0.702639852930894
+    },
+    "frozen::heldout_03::cand04": {
+      "clap_htsat": 0.9595722556114197,
+      "scs": 0.6169167505043905
+    },
+    "frozen::heldout_03::cand05": {
+      "clap_htsat": 0.8972104787826538,
+      "scs": 0.6798070243258639
+    },
+    "frozen::heldout_03::cand06": {
+      "clap_htsat": 0.9578309655189514,
+      "scs": 0.6824907956873305
+    },
+    "frozen::heldout_03::cand07": {
+      "clap_htsat": 0.8956526517868042,
+      "scs": 0.7029967424452288
+    },
+    "frozen::heldout_04::cand00": {
+      "clap_htsat": 0.8578279614448547,
+      "scs": 0.6414040594772691
+    },
+    "frozen::heldout_04::cand01": {
+      "clap_htsat": 0.9290781617164612,
+      "scs": 0.6788804640335742
+    },
+    "frozen::heldout_04::cand02": {
+      "clap_htsat": 0.9141637086868286,
+      "scs": 0.6496217791732658
+    },
+    "frozen::heldout_04::cand03": {
+      "clap_htsat": 0.9353764653205872,
+      "scs": 0.5670183676713932
+    },
+    "frozen::heldout_04::cand04": {
+      "clap_htsat": 0.9450199007987976,
+      "scs": 0.6421384536869884
+    },
+    "frozen::heldout_04::cand05": {
+      "clap_htsat": 0.9434372186660767,
+      "scs": 0.7359780156208081
+    },
+    "frozen::heldout_04::cand06": {
+      "clap_htsat": 0.9266881942749023,
+      "scs": 0.7019819759831379
+    },
+    "frozen::heldout_04::cand07": {
+      "clap_htsat": 0.9344098567962646,
+      "scs": 0.6872461680721622
+    },
+    "frozen::heldout_05::cand00": {
+      "clap_htsat": 0.7727203965187073,
+      "scs": 0.6057480960006504
+    },
+    "frozen::heldout_05::cand01": {
+      "clap_htsat": 0.8841037750244141,
+      "scs": 0.5552295884054113
+    },
+    "frozen::heldout_05::cand02": {
+      "clap_htsat": 0.773236870765686,
+      "scs": 0.5449433405180719
+    },
+    "frozen::heldout_05::cand03": {
+      "clap_htsat": 0.865874707698822,
+      "scs": 0.5885416162366601
+    },
+    "frozen::heldout_05::cand04": {
+      "clap_htsat": 0.7919251918792725,
+      "scs": 0.5755694639891102
+    },
+    "frozen::heldout_05::cand05": {
+      "clap_htsat": 0.859622597694397,
+      "scs": 0.5719065784792823
+    },
+    "frozen::heldout_05::cand06": {
+      "clap_htsat": 0.8510383367538452,
+      "scs": 0.5176687407734066
+    },
+    "frozen::heldout_05::cand07": {
+      "clap_htsat": 0.8736591935157776,
+      "scs": 0.5832794644617563
+    },
+    "frozen::heldout_06::cand00": {
+      "clap_htsat": 0.7372927069664001,
+      "scs": 0.4937232749657278
+    },
+    "frozen::heldout_06::cand01": {
+      "clap_htsat": 0.7073812484741211,
+      "scs": 0.49610360815320004
+    },
+    "frozen::heldout_06::cand02": {
+      "clap_htsat": 0.7716704607009888,
+      "scs": 0.5371305360040215
+    },
+    "frozen::heldout_06::cand03": {
+      "clap_htsat": 0.7474970817565918,
+      "scs": 0.5250955989817436
+    },
+    "frozen::heldout_06::cand04": {
+      "clap_htsat": 0.7763547897338867,
+      "scs": 0.5210673831679543
+    },
+    "frozen::heldout_06::cand05": {
+      "clap_htsat": 0.7555941343307495,
+      "scs": 0.5248156865114759
+    },
+    "frozen::heldout_06::cand06": {
+      "clap_htsat": 0.7183270454406738,
+      "scs": 0.5014365420608177
+    },
+    "frozen::heldout_06::cand07": {
+      "clap_htsat": 0.7763689756393433,
+      "scs": 0.5211248038560057
+    },
+    "frozen::heldout_07::cand00": {
+      "clap_htsat": 0.9574406743049622,
+      "scs": 0.6336402169786957
+    },
+    "frozen::heldout_07::cand01": {
+      "clap_htsat": 0.9278862476348877,
+      "scs": 0.5625012910222332
+    },
+    "frozen::heldout_07::cand02": {
+      "clap_htsat": 0.9315474033355713,
+      "scs": 0.5857064240500711
+    },
+    "frozen::heldout_07::cand03": {
+      "clap_htsat": 0.9416649341583252,
+      "scs": 0.6439722808944113
+    },
+    "frozen::heldout_07::cand04": {
+      "clap_htsat": 0.9276166558265686,
+      "scs": 0.6198751297321723
+    },
+    "frozen::heldout_07::cand05": {
+      "clap_htsat": 0.9247013330459595,
+      "scs": 0.5935307564140054
+    },
+    "frozen::heldout_07::cand06": {
+      "clap_htsat": 0.9460678100585938,
+      "scs": 0.5806588241581195
+    },
+    "frozen::heldout_07::cand07": {
+      "clap_htsat": 0.9361457824707031,
+      "scs": 0.6090051828872239
+    },
+    "frozen::heldout_08::cand00": {
+      "clap_htsat": 0.928081750869751,
+      "scs": 0.5649941729350284
+    },
+    "frozen::heldout_08::cand01": {
+      "clap_htsat": 0.9359596371650696,
+      "scs": 0.5306322993251233
+    },
+    "frozen::heldout_08::cand02": {
+      "clap_htsat": 0.9760662317276001,
+      "scs": 0.5609889610404388
+    },
+    "frozen::heldout_08::cand03": {
+      "clap_htsat": 0.9629031419754028,
+      "scs": 0.57389768115058
+    },
+    "frozen::heldout_08::cand04": {
+      "clap_htsat": 0.9074368476867676,
+      "scs": 0.5306475297661503
+    },
+    "frozen::heldout_08::cand05": {
+      "clap_htsat": 0.9491927027702332,
+      "scs": 0.5558022833189843
+    },
+    "frozen::heldout_08::cand06": {
+      "clap_htsat": 0.9641158580780029,
+      "scs": 0.5403802368271569
+    },
+    "frozen::heldout_08::cand07": {
+      "clap_htsat": 0.9045349955558777,
+      "scs": 0.5377195939780649
+    },
+    "frozen::heldout_09::cand00": {
+      "clap_htsat": 0.9406512379646301,
+      "scs": 0.5167684596789945
+    },
+    "frozen::heldout_09::cand01": {
+      "clap_htsat": 0.913845956325531,
+      "scs": 0.536962245766607
+    },
+    "frozen::heldout_09::cand02": {
+      "clap_htsat": 0.9233250021934509,
+      "scs": 0.5462606785093569
+    },
+    "frozen::heldout_09::cand03": {
+      "clap_htsat": 0.9500085115432739,
+      "scs": 0.5482563625527301
+    },
+    "frozen::heldout_09::cand04": {
+      "clap_htsat": 0.9387112259864807,
+      "scs": 0.529986396615715
+    },
+    "frozen::heldout_09::cand05": {
+      "clap_htsat": 0.9505812525749207,
+      "scs": 0.4996766379685818
+    },
+    "frozen::heldout_09::cand06": {
+      "clap_htsat": 0.9182881116867065,
+      "scs": 0.52964549435796
+    },
+    "frozen::heldout_09::cand07": {
+      "clap_htsat": 0.9178361296653748,
+      "scs": 0.550223329049318
+    },
+    "step0150::heldout_00::cand00": {
+      "clap_htsat": 0.9318816661834717,
+      "scs": 0.7116384047238797
+    },
+    "step0150::heldout_00::cand01": {
+      "clap_htsat": 0.9144749641418457,
+      "scs": 0.7560079434988416
+    },
+    "step0150::heldout_00::cand02": {
+      "clap_htsat": 0.9131228923797607,
+      "scs": 0.6709825569021702
+    },
+    "step0150::heldout_00::cand03": {
+      "clap_htsat": 0.9268215894699097,
+      "scs": 0.658567955747899
+    },
+    "step0150::heldout_00::cand04": {
+      "clap_htsat": 0.9293298125267029,
+      "scs": 0.6983811264209736
+    },
+    "step0150::heldout_00::cand05": {
+      "clap_htsat": 0.9175089597702026,
+      "scs": 0.674923235657432
+    },
+    "step0150::heldout_00::cand06": {
+      "clap_htsat": 0.9437476992607117,
+      "scs": 0.6760834314340392
+    },
+    "step0150::heldout_00::cand07": {
+      "clap_htsat": 0.9042701721191406,
+      "scs": 0.6611813110075528
+    },
+    "step0150::heldout_01::cand00": {
+      "clap_htsat": 0.8918243050575256,
+      "scs": 0.588150508375676
+    },
+    "step0150::heldout_01::cand01": {
+      "clap_htsat": 0.9343342781066895,
+      "scs": 0.589434601557825
+    },
+    "step0150::heldout_01::cand02": {
+      "clap_htsat": 0.9433317184448242,
+      "scs": 0.5792035440927747
+    },
+    "step0150::heldout_01::cand03": {
+      "clap_htsat": 0.9241284132003784,
+      "scs": 0.6274632700072128
+    },
+    "step0150::heldout_01::cand04": {
+      "clap_htsat": 0.9238545894622803,
+      "scs": 0.5930785096314914
+    },
+    "step0150::heldout_01::cand05": {
+      "clap_htsat": 0.9667895436286926,
+      "scs": 0.6047474380387441
+    },
+    "step0150::heldout_01::cand06": {
+      "clap_htsat": 0.931719958782196,
+      "scs": 0.5970045265489718
+    },
+    "step0150::heldout_01::cand07": {
+      "clap_htsat": 0.9051323533058167,
+      "scs": 0.5895192316493518
+    },
+    "step0150::heldout_02::cand00": {
+      "clap_htsat": 0.7448177337646484,
+      "scs": 0.7514610070944704
+    },
+    "step0150::heldout_02::cand01": {
+      "clap_htsat": 0.8239755630493164,
+      "scs": 0.7690589602576612
+    },
+    "step0150::heldout_02::cand02": {
+      "clap_htsat": 0.846076250076294,
+      "scs": 0.6969330063027765
+    },
+    "step0150::heldout_02::cand03": {
+      "clap_htsat": 0.8208125233650208,
+      "scs": 0.7961249748000065
+    },
+    "step0150::heldout_02::cand04": {
+      "clap_htsat": 0.804374098777771,
+      "scs": 0.6870208149270178
+    },
+    "step0150::heldout_02::cand05": {
+      "clap_htsat": 0.8118247389793396,
+      "scs": 0.7368101811790877
+    },
+    "step0150::heldout_02::cand06": {
+      "clap_htsat": 0.8674418926239014,
+      "scs": 0.6320133760825448
+    },
+    "step0150::heldout_02::cand07": {
+      "clap_htsat": 0.856568455696106,
+      "scs": 0.6211253236941021
+    },
+    "step0150::heldout_03::cand00": {
+      "clap_htsat": 0.9349427819252014,
+      "scs": 0.613896595372895
+    },
+    "step0150::heldout_03::cand01": {
+      "clap_htsat": 0.9270771145820618,
+      "scs": 0.6293341292050395
+    },
+    "step0150::heldout_03::cand02": {
+      "clap_htsat": 0.8615415096282959,
+      "scs": 0.6722718277880045
+    },
+    "step0150::heldout_03::cand03": {
+      "clap_htsat": 0.9214402437210083,
+      "scs": 0.6781828565546475
+    },
+    "step0150::heldout_03::cand04": {
+      "clap_htsat": 0.935813307762146,
+      "scs": 0.5537365644128808
+    },
+    "step0150::heldout_03::cand05": {
+      "clap_htsat": 0.8953030109405518,
+      "scs": 0.5827546342588348
+    },
+    "step0150::heldout_03::cand06": {
+      "clap_htsat": 0.9138739109039307,
+      "scs": 0.6874376087983451
+    },
+    "step0150::heldout_03::cand07": {
+      "clap_htsat": 0.9405423998832703,
+      "scs": 0.6399583753617508
+    },
+    "step0150::heldout_04::cand00": {
+      "clap_htsat": 0.9536055326461792,
+      "scs": 0.5988204166313182
+    },
+    "step0150::heldout_04::cand01": {
+      "clap_htsat": 0.9504019618034363,
+      "scs": 0.5512873071502803
+    },
+    "step0150::heldout_04::cand02": {
+      "clap_htsat": 0.9257432222366333,
+      "scs": 0.5777123923484744
+    },
+    "step0150::heldout_04::cand03": {
+      "clap_htsat": 0.8031526803970337,
+      "scs": 0.6622891512880689
+    },
+    "step0150::heldout_04::cand04": {
+      "clap_htsat": 0.9291384816169739,
+      "scs": 0.7473076968919719
+    },
+    "step0150::heldout_04::cand05": {
+      "clap_htsat": 0.9634582996368408,
+      "scs": 0.663999643428087
+    },
+    "step0150::heldout_04::cand06": {
+      "clap_htsat": 0.8803555965423584,
+      "scs": 0.6939564015466215
+    },
+    "step0150::heldout_04::cand07": {
+      "clap_htsat": 0.9394243955612183,
+      "scs": 0.5852221373404859
+    },
+    "step0150::heldout_05::cand00": {
+      "clap_htsat": 0.8679017424583435,
+      "scs": 0.6005498788006349
+    },
+    "step0150::heldout_05::cand01": {
+      "clap_htsat": 0.8495135307312012,
+      "scs": 0.561841421585361
+    },
+    "step0150::heldout_05::cand02": {
+      "clap_htsat": 0.9115856289863586,
+      "scs": 0.5557662204451729
+    },
+    "step0150::heldout_05::cand03": {
+      "clap_htsat": 0.8753743171691895,
+      "scs": 0.5626489322633698
+    },
+    "step0150::heldout_05::cand04": {
+      "clap_htsat": 0.8736822605133057,
+      "scs": 0.5479839531649224
+    },
+    "step0150::heldout_05::cand05": {
+      "clap_htsat": 0.8093286752700806,
+      "scs": 0.580213733776443
+    },
+    "step0150::heldout_05::cand06": {
+      "clap_htsat": 0.8589072823524475,
+      "scs": 0.5309773881444457
+    },
+    "step0150::heldout_05::cand07": {
+      "clap_htsat": 0.903780996799469,
+      "scs": 0.5230774909846385
+    },
+    "step0150::heldout_06::cand00": {
+      "clap_htsat": 0.689974844455719,
+      "scs": 0.5069980061392285
+    },
+    "step0150::heldout_06::cand01": {
+      "clap_htsat": 0.8187381029129028,
+      "scs": 0.5248870282544271
+    },
+    "step0150::heldout_06::cand02": {
+      "clap_htsat": 0.7283415794372559,
+      "scs": 0.5172463156224084
+    },
+    "step0150::heldout_06::cand03": {
+      "clap_htsat": 0.808049201965332,
+      "scs": 0.5071256497059701
+    },
+    "step0150::heldout_06::cand04": {
+      "clap_htsat": 0.7068480849266052,
+      "scs": 0.5227040298976152
+    },
+    "step0150::heldout_06::cand05": {
+      "clap_htsat": 0.8232733011245728,
+      "scs": 0.5026419812365084
+    },
+    "step0150::heldout_06::cand06": {
+      "clap_htsat": 0.696846604347229,
+      "scs": 0.5359993226120896
+    },
+    "step0150::heldout_06::cand07": {
+      "clap_htsat": 0.7707698345184326,
+      "scs": 0.5268625718479794
+    },
+    "step0150::heldout_07::cand00": {
+      "clap_htsat": 0.9472473859786987,
+      "scs": 0.5847128598596885
+    },
+    "step0150::heldout_07::cand01": {
+      "clap_htsat": 0.9211162328720093,
+      "scs": 0.5573356128043488
+    },
+    "step0150::heldout_07::cand02": {
+      "clap_htsat": 0.9217841625213623,
+      "scs": 0.5963357100571843
+    },
+    "step0150::heldout_07::cand03": {
+      "clap_htsat": 0.9628981351852417,
+      "scs": 0.5398585605449928
+    },
+    "step0150::heldout_07::cand04": {
+      "clap_htsat": 0.9204883575439453,
+      "scs": 0.5872934072996767
+    },
+    "step0150::heldout_07::cand05": {
+      "clap_htsat": 0.9598463773727417,
+      "scs": 0.6581734398399288
+    },
+    "step0150::heldout_07::cand06": {
+      "clap_htsat": 0.9373703002929688,
+      "scs": 0.5827985691242432
+    },
+    "step0150::heldout_07::cand07": {
+      "clap_htsat": 0.9578139781951904,
+      "scs": 0.5891857205390271
+    },
+    "step0150::heldout_08::cand00": {
+      "clap_htsat": 0.9782829284667969,
+      "scs": 0.5849282636310648
+    },
+    "step0150::heldout_08::cand01": {
+      "clap_htsat": 0.9718668460845947,
+      "scs": 0.5389326733612031
+    },
+    "step0150::heldout_08::cand02": {
+      "clap_htsat": 0.9586999416351318,
+      "scs": 0.549766131364354
+    },
+    "step0150::heldout_08::cand03": {
+      "clap_htsat": 0.9587557315826416,
+      "scs": 0.5323202548396402
+    },
+    "step0150::heldout_08::cand04": {
+      "clap_htsat": 0.9455235600471497,
+      "scs": 0.5487918939479097
+    },
+    "step0150::heldout_08::cand05": {
+      "clap_htsat": 0.969076931476593,
+      "scs": 0.5362138945370832
+    },
+    "step0150::heldout_08::cand06": {
+      "clap_htsat": 0.8983033299446106,
+      "scs": 0.5639960745571201
+    },
+    "step0150::heldout_08::cand07": {
+      "clap_htsat": 0.9438672661781311,
+      "scs": 0.5176778799872296
+    },
+    "step0150::heldout_09::cand00": {
+      "clap_htsat": 0.9532654881477356,
+      "scs": 0.557189169450302
+    },
+    "step0150::heldout_09::cand01": {
+      "clap_htsat": 0.8864015340805054,
+      "scs": 0.547317362442766
+    },
+    "step0150::heldout_09::cand02": {
+      "clap_htsat": 0.9231072664260864,
+      "scs": 0.5284725458180898
+    },
+    "step0150::heldout_09::cand03": {
+      "clap_htsat": 0.9566593766212463,
+      "scs": 0.5217199049313542
+    },
+    "step0150::heldout_09::cand04": {
+      "clap_htsat": 0.9527751803398132,
+      "scs": 0.5377152268928275
+    },
+    "step0150::heldout_09::cand05": {
+      "clap_htsat": 0.8984143137931824,
+      "scs": 0.547335833771269
+    },
+    "step0150::heldout_09::cand06": {
+      "clap_htsat": 0.9398042559623718,
+      "scs": 0.5340031570987688
+    },
+    "step0150::heldout_09::cand07": {
+      "clap_htsat": 0.9582495093345642,
+      "scs": 0.5211822481757926
+    },
+    "step0300::heldout_00::cand00": {
+      "clap_htsat": 0.805571436882019,
+      "scs": 0.716319011289084
+    },
+    "step0300::heldout_00::cand01": {
+      "clap_htsat": 0.9038583040237427,
+      "scs": 0.6823064425990608
+    },
+    "step0300::heldout_00::cand02": {
+      "clap_htsat": 0.947460412979126,
+      "scs": 0.664132135668116
+    },
+    "step0300::heldout_00::cand03": {
+      "clap_htsat": 0.9028893113136292,
+      "scs": 0.6551568392535878
+    },
+    "step0300::heldout_00::cand04": {
+      "clap_htsat": 0.9404089450836182,
+      "scs": 0.692822276186331
+    },
+    "step0300::heldout_00::cand05": {
+      "clap_htsat": 0.9288493394851685,
+      "scs": 0.6339399161593
+    },
+    "step0300::heldout_00::cand06": {
+      "clap_htsat": 0.9000009298324585,
+      "scs": 0.69283471805679
+    },
+    "step0300::heldout_00::cand07": {
+      "clap_htsat": 0.7439353466033936,
+      "scs": 0.7424193664403443
+    },
+    "step0300::heldout_01::cand00": {
+      "clap_htsat": 0.8943660259246826,
+      "scs": 0.5836880973073959
+    },
+    "step0300::heldout_01::cand01": {
+      "clap_htsat": 0.9248175621032715,
+      "scs": 0.6156141619268034
+    },
+    "step0300::heldout_01::cand02": {
+      "clap_htsat": 0.9244935512542725,
+      "scs": 0.6187173836043203
+    },
+    "step0300::heldout_01::cand03": {
+      "clap_htsat": 0.948237419128418,
+      "scs": 0.6065925952184923
+    },
+    "step0300::heldout_01::cand04": {
+      "clap_htsat": 0.9231600165367126,
+      "scs": 0.6388398828292522
+    },
+    "step0300::heldout_01::cand05": {
+      "clap_htsat": 0.938146710395813,
+      "scs": 0.6189935638343695
+    },
+    "step0300::heldout_01::cand06": {
+      "clap_htsat": 0.9513905048370361,
+      "scs": 0.6031026393361465
+    },
+    "step0300::heldout_01::cand07": {
+      "clap_htsat": 0.9643486142158508,
+      "scs": 0.6487601989320183
+    },
+    "step0300::heldout_02::cand00": {
+      "clap_htsat": 0.814289927482605,
+      "scs": 0.7745555573095653
+    },
+    "step0300::heldout_02::cand01": {
+      "clap_htsat": 0.7474740743637085,
+      "scs": 0.7206317801879418
+    },
+    "step0300::heldout_02::cand02": {
+      "clap_htsat": 0.828224778175354,
+      "scs": 0.7240066722949657
+    },
+    "step0300::heldout_02::cand03": {
+      "clap_htsat": 0.8187991380691528,
+      "scs": 0.7698065200770683
+    },
+    "step0300::heldout_02::cand04": {
+      "clap_htsat": 0.822274923324585,
+      "scs": 0.6941224730589135
+    },
+    "step0300::heldout_02::cand05": {
+      "clap_htsat": 0.7774487137794495,
+      "scs": 0.7593928938763367
+    },
+    "step0300::heldout_02::cand06": {
+      "clap_htsat": 0.8363744020462036,
+      "scs": 0.6858902117021024
+    },
+    "step0300::heldout_02::cand07": {
+      "clap_htsat": 0.8122249841690063,
+      "scs": 0.6672701957511079
+    },
+    "step0300::heldout_03::cand00": {
+      "clap_htsat": 0.9269781708717346,
+      "scs": 0.5949902629220449
+    },
+    "step0300::heldout_03::cand01": {
+      "clap_htsat": 0.9679253101348877,
+      "scs": 0.6514705323310779
+    },
+    "step0300::heldout_03::cand02": {
+      "clap_htsat": 0.8984265327453613,
+      "scs": 0.6460625158728719
+    },
+    "step0300::heldout_03::cand03": {
+      "clap_htsat": 0.950287938117981,
+      "scs": 0.582027982315838
+    },
+    "step0300::heldout_03::cand04": {
+      "clap_htsat": 0.9211233854293823,
+      "scs": 0.5480137726647667
+    },
+    "step0300::heldout_03::cand05": {
+      "clap_htsat": 0.9385641813278198,
+      "scs": 0.658706638339448
+    },
+    "step0300::heldout_03::cand06": {
+      "clap_htsat": 0.9633352756500244,
+      "scs": 0.7011109246627097
+    },
+    "step0300::heldout_03::cand07": {
+      "clap_htsat": 0.9298888444900513,
+      "scs": 0.6519576021226674
+    },
+    "step0300::heldout_04::cand00": {
+      "clap_htsat": 0.925112247467041,
+      "scs": 0.5896899977744462
+    },
+    "step0300::heldout_04::cand01": {
+      "clap_htsat": 0.9151654243469238,
+      "scs": 0.5791490681569167
+    },
+    "step0300::heldout_04::cand02": {
+      "clap_htsat": 0.8843880891799927,
+      "scs": 0.6687766126643239
+    },
+    "step0300::heldout_04::cand03": {
+      "clap_htsat": 0.9149096608161926,
+      "scs": 0.7014141393850899
+    },
+    "step0300::heldout_04::cand04": {
+      "clap_htsat": 0.877504289150238,
+      "scs": 0.647823745823762
+    },
+    "step0300::heldout_04::cand05": {
+      "clap_htsat": 0.9624519944190979,
+      "scs": 0.5993440506817992
+    },
+    "step0300::heldout_04::cand06": {
+      "clap_htsat": 0.9541366696357727,
+      "scs": 0.6067804526675591
+    },
+    "step0300::heldout_04::cand07": {
+      "clap_htsat": 0.9290761947631836,
+      "scs": 0.6291035804611032
+    },
+    "step0300::heldout_05::cand00": {
+      "clap_htsat": 0.8443626165390015,
+      "scs": 0.5771124762344748
+    },
+    "step0300::heldout_05::cand01": {
+      "clap_htsat": 0.8740369081497192,
+      "scs": 0.5444193608444599
+    },
+    "step0300::heldout_05::cand02": {
+      "clap_htsat": 0.8614607453346252,
+      "scs": 0.6153110330134548
+    },
+    "step0300::heldout_05::cand03": {
+      "clap_htsat": 0.8724535703659058,
+      "scs": 0.507796639884403
+    },
+    "step0300::heldout_05::cand04": {
+      "clap_htsat": 0.9142003059387207,
+      "scs": 0.5452993167200486
+    },
+    "step0300::heldout_05::cand05": {
+      "clap_htsat": 0.8828865885734558,
+      "scs": 0.582251947245976
+    },
+    "step0300::heldout_05::cand06": {
+      "clap_htsat": 0.8818087577819824,
+      "scs": 0.5242995902049052
+    },
+    "step0300::heldout_05::cand07": {
+      "clap_htsat": 0.8748190402984619,
+      "scs": 0.537188292293914
+    },
+    "step0300::heldout_06::cand00": {
+      "clap_htsat": 0.8414468765258789,
+      "scs": 0.4972462901140551
+    },
+    "step0300::heldout_06::cand01": {
+      "clap_htsat": 0.8117694854736328,
+      "scs": 0.5031668358843454
+    },
+    "step0300::heldout_06::cand02": {
+      "clap_htsat": 0.8471246361732483,
+      "scs": 0.5093096904694712
+    },
+    "step0300::heldout_06::cand03": {
+      "clap_htsat": 0.758922815322876,
+      "scs": 0.5119534332088853
+    },
+    "step0300::heldout_06::cand04": {
+      "clap_htsat": 0.7897027730941772,
+      "scs": 0.5122799937428136
+    },
+    "step0300::heldout_06::cand05": {
+      "clap_htsat": 0.8810943365097046,
+      "scs": 0.5529647696195704
+    },
+    "step0300::heldout_06::cand06": {
+      "clap_htsat": 0.8040456175804138,
+      "scs": 0.5498151708874809
+    },
+    "step0300::heldout_06::cand07": {
+      "clap_htsat": 0.7941385507583618,
+      "scs": 0.4920120903307012
+    },
+    "step0300::heldout_07::cand00": {
+      "clap_htsat": 0.9449754953384399,
+      "scs": 0.6182449895969225
+    },
+    "step0300::heldout_07::cand01": {
+      "clap_htsat": 0.9291645884513855,
+      "scs": 0.6049694135884294
+    },
+    "step0300::heldout_07::cand02": {
+      "clap_htsat": 0.9389036893844604,
+      "scs": 0.5933327478849656
+    },
+    "step0300::heldout_07::cand03": {
+      "clap_htsat": 0.9726232886314392,
+      "scs": 0.5942162947921542
+    },
+    "step0300::heldout_07::cand04": {
+      "clap_htsat": 0.9437726736068726,
+      "scs": 0.6304429665731299
+    },
+    "step0300::heldout_07::cand05": {
+      "clap_htsat": 0.940838634967804,
+      "scs": 0.5890591464680385
+    },
+    "step0300::heldout_07::cand06": {
+      "clap_htsat": 0.9295833706855774,
+      "scs": 0.585465783081362
+    },
+    "step0300::heldout_07::cand07": {
+      "clap_htsat": 0.9478880763053894,
+      "scs": 0.5822686660694106
+    },
+    "step0300::heldout_08::cand00": {
+      "clap_htsat": 0.9554693698883057,
+      "scs": 0.5745357072263908
+    },
+    "step0300::heldout_08::cand01": {
+      "clap_htsat": 0.9595001339912415,
+      "scs": 0.5934997660232849
+    },
+    "step0300::heldout_08::cand02": {
+      "clap_htsat": 0.9678442478179932,
+      "scs": 0.5586272643711065
+    },
+    "step0300::heldout_08::cand03": {
+      "clap_htsat": 0.9813820719718933,
+      "scs": 0.5339945803269106
+    },
+    "step0300::heldout_08::cand04": {
+      "clap_htsat": 0.9631285667419434,
+      "scs": 0.5519412123128038
+    },
+    "step0300::heldout_08::cand05": {
+      "clap_htsat": 0.9804185032844543,
+      "scs": 0.5126746707996591
+    },
+    "step0300::heldout_08::cand06": {
+      "clap_htsat": 0.9738503694534302,
+      "scs": 0.5394155098087818
+    },
+    "step0300::heldout_08::cand07": {
+      "clap_htsat": 0.9683895707130432,
+      "scs": 0.5406707075190559
+    },
+    "step0300::heldout_09::cand00": {
+      "clap_htsat": 0.9592644572257996,
+      "scs": 0.5354775139122435
+    },
+    "step0300::heldout_09::cand01": {
+      "clap_htsat": 0.9419733881950378,
+      "scs": 0.5610824628339592
+    },
+    "step0300::heldout_09::cand02": {
+      "clap_htsat": 0.9496913552284241,
+      "scs": 0.5369897790093137
+    },
+    "step0300::heldout_09::cand03": {
+      "clap_htsat": 0.9567906260490417,
+      "scs": 0.5284355865460577
+    },
+    "step0300::heldout_09::cand04": {
+      "clap_htsat": 0.9373911619186401,
+      "scs": 0.5315320519003041
+    },
+    "step0300::heldout_09::cand05": {
+      "clap_htsat": 0.9552698135375977,
+      "scs": 0.5038380222245399
+    },
+    "step0300::heldout_09::cand06": {
+      "clap_htsat": 0.9423795342445374,
+      "scs": 0.557818896786568
+    },
+    "step0300::heldout_09::cand07": {
+      "clap_htsat": 0.9417316317558289,
+      "scs": 0.5512962064594663
+    }
+  }
+}

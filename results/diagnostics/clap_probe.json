@@ -1,0 +1,158 @@
+{
+  "n_pairs": 1800,
+  "n_folds": 90,
+  "families": [
+    "pitch_shift",
+    "time_stretch",
+    "lowpass",
+    "distortion",
+    "style_swap"
+  ],
+  "chance_acc": 0.2,
+  "results": {
+    "HTRS": {
+      "dim": 4,
+      "secs": 7.3,
+      "nearest_centroid": {
+        "acc": 0.7511111111111111,
+        "macro_f1": 0.7422099919052867
+      },
+      "logistic": {
+        "acc": 0.8494444444444444,
+        "macro_f1": 0.828818147573719
+      }
+    },
+    "HTR": {
+      "dim": 3,
+      "secs": 0.6,
+      "nearest_centroid": {
+        "acc": 0.7077777777777777,
+        "macro_f1": 0.7026255374934334
+      },
+      "logistic": {
+        "acc": 0.83,
+        "macro_f1": 0.7980741792478985
+      }
+    },
+    "clap_htsat (scalar)": {
+      "dim": 1,
+      "secs": 0.3,
+      "nearest_centroid": {
+        "acc": 0.5077777777777778,
+        "macro_f1": 0.49101095650672244
+      },
+      "logistic": {
+        "acc": 0.49777777777777776,
+        "macro_f1": 0.464505655298811
+      }
+    },
+    "scs (scalar)": {
+      "dim": 1,
+      "secs": 0.3,
+      "nearest_centroid": {
+        "acc": 0.5138888888888888,
+        "macro_f1": 0.508275071381857
+      },
+      "logistic": {
+        "acc": 0.6666666666666666,
+        "macro_f1": 0.4504513255955115
+      }
+    },
+    "cbase (scalar)": {
+      "dim": 1,
+      "secs": 0.3,
+      "nearest_centroid": {
+        "acc": 0.5383333333333333,
+        "macro_f1": 0.5105589914060965
+      },
+      "logistic": {
+        "acc": 0.6461111111111111,
+        "macro_f1": 0.5013567152069607
+      }
+    },
+    "clap_htsat cos (local)": {
+      "dim": 1,
+      "secs": 0.3,
+      "nearest_centroid": {
+        "acc": 0.4988888888888889,
+        "macro_f1": 0.48428608095511283
+      },
+      "logistic": {
+        "acc": 0.4961111111111111,
+        "macro_f1": 0.4710209662703734
+      }
+    },
+    "clap768_diff": {
+      "dim": 768,
+      "secs": 78.3,
+      "nearest_centroid": {
+        "acc": 0.7188888888888889,
+        "macro_f1": 0.6729258095720212
+      },
+      "logistic": {
+        "acc": 0.8133333333333334,
+        "macro_f1": 0.7558564114113457
+      }
+    },
+    "clap768_ab": {
+      "dim": 1536,
+      "secs": 215.5,
+      "nearest_centroid": {
+        "acc": 0.45555555555555555,
+        "macro_f1": 0.48734082099242554
+      },
+      "logistic": {
+        "acc": 0.6894444444444444,
+        "macro_f1": 0.7005638752261983
+      }
+    },
+    "clap768_full": {
+      "dim": 2304,
+      "secs": 312.8,
+      "nearest_centroid": {
+        "acc": 0.6288888888888889,
+        "macro_f1": 0.6251329814616933
+      },
+      "logistic": {
+        "acc": 0.7983333333333333,
+        "macro_f1": 0.7689934250776278
+      }
+    },
+    "clap512_diff": {
+      "dim": 512,
+      "secs": 48.7,
+      "nearest_centroid": {
+        "acc": 0.675,
+        "macro_f1": 0.6412440174472703
+      },
+      "logistic": {
+        "acc": 0.7377777777777778,
+        "macro_f1": 0.7025441381917417
+      }
+    },
+    "clap512_ab": {
+      "dim": 1024,
+      "secs": 154.4,
+      "nearest_centroid": {
+        "acc": 0.4011111111111111,
+        "macro_f1": 0.4226664902304118
+      },
+      "logistic": {
+        "acc": 0.6144444444444445,
+        "macro_f1": 0.6336152796438024
+      }
+    },
+    "clap512_full": {
+      "dim": 1536,
+      "secs": 262.9,
+      "nearest_centroid": {
+        "acc": 0.5877777777777777,
+        "macro_f1": 0.5918261221414622
+      },
+      "logistic": {
+        "acc": 0.7194444444444444,
+        "macro_f1": 0.7016488009394761
+      }
+    }
+  }
+}

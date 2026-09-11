@@ -1,0 +1,668 @@
+{
+ "meta": {
+  "source": "external reviewer report 2026-08-24",
+  "prose": "doc/notes/icassp_review_response_2026-08-24.md",
+  "bootstrap_draws": 20000,
+  "seed": 20260824,
+  "ab_margins_refreshed": "2026-09-01 at N=40 from results/mos/session2/responses/ (40 files); the other blocks are MOS-independent and stand at their 2026-08-24 values"
+ },
+ "gap_heldout": {
+  "note": "gap 0 vs gap 1 from the SAME cache generation (default: both 2026-07-16, pre-peak_safe_concat). results/diagnostics/gap_sweep.json mixes generations and its ratio is inflated by the read-out change. Pass --gap-caches to compare two caches you have just rescored.",
+  "caches": {
+   "gap0": "s_heldout_gap0.0.json",
+   "gap1": "s_heldout_gap1.0.json"
+  },
+  "n_tuned_sources": 18,
+  "n_heldout_sources": 72,
+  "splits": {
+   "tuned_18": {
+    "gap0": {
+     "mean_drop": NaN,
+     "control_level": NaN,
+     "by_family": {}
+    },
+    "gap1": {
+     "mean_drop": NaN,
+     "control_level": NaN,
+     "by_family": {}
+    },
+    "ratio_gap1_over_gap0": NaN
+   },
+   "heldout_72": {
+    "gap0": {
+     "mean_drop": 0.07211272055283188,
+     "control_level": 0.5546412770118978,
+     "by_family": {
+      "pitch_shift": 0.06185623713665538,
+      "time_stretch": 0.016356484033167362,
+      "lowpass": 0.04058653675019741,
+      "distortion": 0.07001081222875251,
+      "style_swap": 0.17175353261538678
+     }
+    },
+    "gap1": {
+     "mean_drop": 0.09061752276288139,
+     "control_level": 0.5092226974666119,
+     "by_family": {
+      "pitch_shift": 0.08229130496167475,
+      "time_stretch": 0.00941779805968205,
+      "lowpass": 0.04782914184033871,
+      "distortion": 0.09389175764388508,
+      "style_swap": 0.21965761130882633
+     }
+    },
+    "ratio_gap1_over_gap0": 1.2566094035585906
+   },
+   "all_90": {
+    "gap0": {
+     "mean_drop": 0.07211272055283188,
+     "control_level": 0.5546412770118978,
+     "by_family": {
+      "pitch_shift": 0.06185623713665538,
+      "time_stretch": 0.016356484033167362,
+      "lowpass": 0.04058653675019741,
+      "distortion": 0.07001081222875251,
+      "style_swap": 0.17175353261538678
+     }
+    },
+    "gap1": {
+     "mean_drop": 0.09061752276288139,
+     "control_level": 0.5092226974666119,
+     "by_family": {
+      "pitch_shift": 0.08229130496167475,
+      "time_stretch": 0.00941779805968205,
+      "lowpass": 0.04782914184033871,
+      "distortion": 0.09389175764388508,
+      "style_swap": 0.21965761130882633
+     }
+    },
+    "ratio_gap1_over_gap0": 1.2566094035585906
+   }
+  }
+ },
+ "gap_sweep_heldout": {
+  "arms": {
+   "0.0": {
+    "mean_drop": 0.07211272055283188,
+    "control_level": 0.5546412770118978,
+    "by_family": {
+     "pitch_shift": 0.06185623713665538,
+     "time_stretch": 0.016356484033167362,
+     "lowpass": 0.04058653675019741,
+     "distortion": 0.07001081222875251,
+     "style_swap": 0.17175353261538678
+    },
+    "n_pairs": 198,
+    "n_sources": 18
+   },
+   "0.5": {
+    "mean_drop": 0.08752815678922667,
+    "control_level": 0.5426734959085783,
+    "by_family": {
+     "pitch_shift": 0.07006665184679958,
+     "time_stretch": 0.009925516011814276,
+     "lowpass": 0.05697937599486775,
+     "distortion": 0.08604181785550383,
+     "style_swap": 0.2146274222371479
+    },
+    "n_pairs": 198,
+    "n_sources": 18
+   },
+   "1.0": {
+    "mean_drop": 0.09061752276288139,
+    "control_level": 0.5092226974666119,
+    "by_family": {
+     "pitch_shift": 0.08229130496167475,
+     "time_stretch": 0.00941779805968205,
+     "lowpass": 0.04782914184033871,
+     "distortion": 0.09389175764388508,
+     "style_swap": 0.21965761130882633
+    },
+    "n_pairs": 198,
+    "n_sources": 18
+   },
+   "2.0": {
+    "mean_drop": 0.08267833463744156,
+    "control_level": 0.47626971101595295,
+    "by_family": {
+     "pitch_shift": 0.07952184587096174,
+     "time_stretch": 0.0044423118233680725,
+     "lowpass": 0.04461364934427871,
+     "distortion": 0.08349849563091993,
+     "style_swap": 0.2013153705176794
+    },
+    "n_pairs": 198,
+    "n_sources": 18
+   }
+  },
+  "best_gap_s": "1.0",
+  "one_readout": true,
+  "readouts_seen": [
+   {
+    "token_agg": "variants",
+    "peak_safe_concat": true
+   }
+  ],
+  "ratio_best_over_zero": 1.2566094035585906,
+  "note": "sources the gap was never tuned on, every arm in one read-out. Compare against results/diagnostics/gap_sweep.json, which mixes read-outs and therefore overstates what the gap buys."
+ },
+ "polarity": {
+  "note": "positive probes 0-1, NEGATED probes 2-3. Same sign on all four = acquiescence or concatenation artefact; opposite signs = a semantic read.",
+  "cache": "s_balanced_full.json",
+  "n_pairs": 1890,
+  "n_sources": 90,
+  "probes": [
+   {
+    "index": 0,
+    "polarity": "positive",
+    "text": "Does segment B cohere naturally with segment A as the same continuous piece?",
+    "control_level": 0.4262747776177194,
+    "drop_by_family": {
+     "pitch_shift": 0.08135253824293613,
+     "time_stretch": 0.014004409533959847,
+     "lowpass": 0.05902242500472952,
+     "distortion": 0.13039302985977244,
+     "style_swap": 0.22397248320695426
+    }
+   },
+   {
+    "index": 1,
+    "polarity": "positive",
+    "text": "Do both segments share the same instrumentation and timbral character?",
+    "control_level": 0.5805110898282793,
+    "drop_by_family": {
+     "pitch_shift": 0.07127595662518783,
+     "time_stretch": 0.005598302792619776,
+     "lowpass": 0.06511357310745451,
+     "distortion": 0.13057739944369703,
+     "style_swap": 0.28937074637247456
+    }
+   },
+   {
+    "index": 2,
+    "polarity": "negated",
+    "text": "Do segments A and B sound like two different, unrelated pieces?",
+    "control_level": 0.5511705552538236,
+    "drop_by_family": {
+     "pitch_shift": -0.08090827095287817,
+     "time_stretch": -0.015823096671590098,
+     "lowpass": -0.06994228765920356,
+     "distortion": -0.11802206801043616,
+     "style_swap": -0.21141034712394077
+    }
+   },
+   {
+    "index": 3,
+    "polarity": "negated",
+    "text": "Is there a clear change of instrument or style between A and B?",
+    "control_level": 0.6057483550575045,
+    "drop_by_family": {
+     "pitch_shift": -0.06192926438870253,
+     "time_stretch": -0.003774565623866187,
+     "lowpass": -0.06441668382397404,
+     "distortion": -0.0937737927392677,
+     "style_swap": -0.22631749113400776
+    }
+   }
+  ]
+ },
+ "null_bank": {
+  "cache": "s_nullprobe_full.json",
+  "comparator": "s_balanced_full.json",
+  "n_pairs": 1890,
+  "n_sources": 90,
+  "note": "both banks on the identical pairs and read-out, so the only difference is what is asked. A flat null bank means the coherence bank's separation is attributable to its questions.",
+  "null_bank": {
+   "mean_drop": -0.0019057472846988174,
+   "control_level": 0.42918193438090385,
+   "by_family": {
+    "pitch_shift": -0.005800107084387155,
+    "time_stretch": -0.0028879605043955424,
+    "lowpass": -0.008619229988781391,
+    "distortion": 0.021420579746848457,
+    "style_swap": -0.012195294717740682
+   },
+   "max_abs_family_drop": 0.021420579746848457
+  },
+  "coherence_bank": {
+   "mean_drop": 0.080384824614351,
+   "control_level": 0.5033929337229993,
+   "by_family": {
+    "pitch_shift": 0.07631424743406198,
+    "time_stretch": 0.009801356163289811,
+    "lowpass": 0.06206799905609201,
+    "distortion": 0.13048521465173474,
+    "style_swap": 0.2566716147897144
+   }
+  },
+  "ratio_coherence_over_null": 42.18021206681396,
+  "per_probe": {
+   "Was this audio recorded in a professional studio?": {
+    "control_level": 0.18840029173427159,
+    "drop_by_family": {
+     "pitch_shift": -0.003226461930683366,
+     "time_stretch": -0.0013161397366612045,
+     "lowpass": -0.009321769506291107,
+     "distortion": 0.04619317203760147,
+     "style_swap": 0.022394191266761884
+    },
+    "mean_drop": 0.010944598426145535
+   },
+   "Does this audio contain a human speaking voice?": {
+    "control_level": 0.18165124350537856,
+    "drop_by_family": {
+     "pitch_shift": -0.010569835954380257,
+     "time_stretch": -0.005936845799011213,
+     "lowpass": -0.014160679777463277,
+     "distortion": -0.011573097778967133,
+     "style_swap": -0.11677681905113989
+    },
+    "mean_drop": -0.03180345567219235
+   },
+   "Is this music from before 1990?": {
+    "control_level": 0.4570317827992969,
+    "drop_by_family": {
+     "pitch_shift": -0.013489497708225691,
+     "time_stretch": -0.006791032643781768,
+     "lowpass": -0.015828225016593932,
+     "distortion": 0.01175050503677792,
+     "style_swap": 0.007346265349123213
+    },
+    "mean_drop": -0.0034023969965400512
+   },
+   "Would this music suit a film soundtrack?": {
+    "control_level": 0.8896444194846683,
+    "drop_by_family": {
+     "pitch_shift": 0.0040853672557406955,
+     "time_stretch": 0.0024921761618720163,
+     "lowpass": 0.004833754345222756,
+     "distortion": 0.03931173969198156,
+     "style_swap": 0.03825518356429206
+    },
+    "mean_drop": 0.01779564420382182
+   }
+  }
+ },
+ "temporal": {
+  "note": "the pooled control-vs-violation AUC averages three conditions S does not handle alike: it detects displacement and reversal and fails only on within-segment shuffle, which preserves each segment's instrumentation, style and track identity.",
+  "by_condition": {
+   "displacement": {
+    "S_mean_drop": 0.08908446810932623,
+    "S_dz": 1.0787659471827755
+   },
+   "reverse": {
+    "S_mean_drop": 0.0611705856397748,
+    "S_dz": 0.8254169728108547
+   },
+   "shuffle": {
+    "S_mean_drop": -0.01978962392442756,
+    "S_dz": -0.36702067627564516
+   }
+  },
+  "pooled_auc": {
+   "H": 0.9520123456790124,
+   "R": 1.0,
+   "S": 0.5997283950617284,
+   "T": 0.9773827160493828,
+   "clap_htsat": 1.0,
+   "clap_htsat_proj": 1.0,
+   "clap_music": 0.9694320987654321,
+   "clap_music_proj": 0.9694320987654321,
+   "fad_proxy": 1.0,
+   "fad_proxy_proj": 1.0,
+   "scs": 1.0,
+   "scs_proj": 1.0
+  }
+ },
+ "accumulation": {
+  "note": "raw drops are not comparable across differently-scaled metrics; the paired d_z difference is. n=10 tracks, SAO inpaint, iter1 vs iter8.",
+  "dimensions": {
+   "H": {
+    "n": 10,
+    "mean_drop": 0.0010984957218170166,
+    "drop_ci95": [
+     -0.026870179176330566,
+     0.02025457501411437
+    ],
+    "dz": 0.02656610034457554,
+    "dz_ci95": [
+     -0.46305794411346807,
+     1.6754294303463675
+    ]
+   },
+   "T": {
+    "n": 10,
+    "mean_drop": 0.03390072006116818,
+    "drop_ci95": [
+     0.01012271970483973,
+     0.060752464733445026
+    ],
+    "dz": 0.7881442142285578,
+    "dz_ci95": [
+     0.29295557037182246,
+     1.9733898365244293
+    ]
+   },
+   "R": {
+    "n": 10,
+    "mean_drop": 0.0013472425734740168,
+    "drop_ci95": [
+     -0.03724103385956829,
+     0.03167026997166385
+    ],
+    "dz": 0.022696450150899716,
+    "dz_ci95": [
+     -0.4999303593802176,
+     1.172790625054968
+    ]
+   },
+   "S": {
+    "n": 10,
+    "mean_drop": 0.07760537825524808,
+    "drop_ci95": [
+     0.04698265992105007,
+     0.1116983588784933
+    ],
+    "dz": 1.3978070537540643,
+    "dz_ci95": [
+     1.088657662786747,
+     2.274014897092452
+    ]
+   }
+  },
+  "baselines": {
+   "clap_htsat": {
+    "n": 10,
+    "mean_drop": 0.08759201765060425,
+    "dz": 0.9995716383590455,
+    "dz_ci95": [
+     0.4563962327863437,
+     2.155214582626294
+    ],
+    "seeds_match_S": true,
+    "dz_S_minus_this": 0.39823541539501883,
+    "dz_diff_ci95": [
+     -0.6522702209225684,
+     1.3554562240958963
+    ]
+   },
+   "clap_music": {
+    "n": 10,
+    "mean_drop": -0.00030789971351623534,
+    "dz": -0.22091273203417716,
+    "dz_ci95": [
+     -0.7185224460443052,
+     0.6995839781517809
+    ],
+    "seeds_match_S": true,
+    "dz_S_minus_this": 1.6187197857882416,
+    "dz_diff_ci95": [
+     0.7642949265286269,
+     2.4923334990284007
+    ]
+   },
+   "scs": {
+    "n": 10,
+    "mean_drop": 0.02907796154088277,
+    "dz": 0.9307097935339946,
+    "dz_ci95": [
+     0.40166573215181056,
+     2.0325525807203255
+    ],
+    "seeds_match_S": true,
+    "dz_S_minus_this": 0.4670972602200697,
+    "dz_diff_ci95": [
+     -0.6279135632551935,
+     1.5092181854418052
+    ]
+   }
+  }
+ },
+ "r_gate": {
+  "note": "R = 1 - g*(1-raw), so R is gated to exactly 1 only where g == 0. g < t means R cannot fall further than t below 1 on that source.",
+  "pools": {
+   "battery_90": {
+    "n_sources": 90,
+    "min": 0.07656212151050568,
+    "median": 0.33404360711574554,
+    "max": 0.8923564553260803,
+    "frac_below": {
+     "0.01": 0.0,
+     "0.05": 0.0,
+     "0.1": 0.06666666666666667,
+     "0.2": 0.2777777777777778,
+     "0.3": 0.4111111111111111
+    },
+    "median_by_genre": {
+     "ambient": 0.1959923654794693,
+     "classical": 0.22535815834999084,
+     "electronic": 0.484421044588089,
+     "folk": 0.2774291932582855,
+     "jazz": 0.4128708243370056,
+     "rock": 0.4876221716403961
+    }
+   },
+   "part2_ace": {
+    "n_sources": 40,
+    "min": 0.13199147582054138,
+    "median": 0.5239922404289246,
+    "max": 0.8602845668792725,
+    "frac_below": {
+     "0.01": 0.0,
+     "0.05": 0.0,
+     "0.1": 0.0,
+     "0.2": 0.075,
+     "0.3": 0.225
+    },
+    "median_by_genre": {
+     "s01": 0.38234832882881165,
+     "s02": 0.8602845668792725,
+     "s03": 0.5526754856109619,
+     "s04": 0.26145994663238525,
+     "s05": 0.3373045027256012,
+     "s06": 0.2270461618900299,
+     "s07": 0.3133098781108856,
+     "s08": 0.5824168920516968,
+     "s09": 0.6856754422187805,
+     "s10": 0.5357535481452942,
+     "s11": 0.5255351066589355,
+     "s12": 0.6142098903656006,
+     "s13": 0.6829623579978943,
+     "s14": 0.5967680215835571,
+     "s15": 0.13199147582054138,
+     "s16": 0.44232067465782166,
+     "s17": 0.24892796576023102,
+     "s18": 0.5751259326934814,
+     "s19": 0.31923651695251465,
+     "s20": 0.5722254514694214,
+     "s21": 0.2866630554199219,
+     "s22": 0.4273912310600281,
+     "s23": 0.47995299100875854,
+     "s24": 0.7573158740997314,
+     "s25": 0.5832509398460388,
+     "s26": 0.6646332144737244,
+     "s27": 0.403303861618042,
+     "s28": 0.1449969857931137,
+     "s29": 0.7775629162788391,
+     "s30": 0.49512979388237,
+     "s31": 0.6649845838546753,
+     "s32": 0.5224493741989136,
+     "s33": 0.21208210289478302,
+     "s34": 0.36107146739959717,
+     "s35": 0.5706091523170471,
+     "s36": 0.5981101989746094,
+     "s37": 0.6180159449577332,
+     "s38": 0.2602248787879944,
+     "s39": 0.6639906764030457,
+     "s40": 0.14045467972755432
+    }
+   }
+  }
+ },
+ "ab_margins": {
+  "note": "trials were selected on C's OWN margin (select_ab_trials.py filters abs(C_i - C_j)); the rival's margin was recorded but never thresholded. This splits each arm on the rival's own margin.",
+  "n_decided_total": 736,
+  "c_margin_tertiles": [
+   {
+    "lo": 0.0218,
+    "hi": 0.0387,
+    "n": 242,
+    "win_rate": 0.7727272727272727
+   },
+   {
+    "lo": 0.0387,
+    "hi": 0.055,
+    "n": 245,
+    "win_rate": 0.6775510204081633
+   },
+   {
+    "lo": 0.055,
+    "hi": 0.1881,
+    "n": 249,
+    "win_rate": 0.7991967871485943
+   }
+  ],
+  "arms": {
+   "C_noS": {
+    "n": 258,
+    "win_rate": 0.7596899224806202,
+    "ci95": [
+     0.6834792352405631,
+     0.8277157492210367
+    ],
+    "rival_margin_median": 0.0089,
+    "rival_margin_min": 0.0001,
+    "corr_win_c_margin": -0.0036692368928513052,
+    "corr_win_rival_margin": 0.0072503843526215495,
+    "rival_below_median": {
+     "n": 127,
+     "win_rate": 0.7874015748031497,
+     "ci95": [
+      0.7031211324257426,
+      0.8730188343994314
+     ]
+    },
+    "rival_above_median": {
+     "n": 131,
+     "win_rate": 0.732824427480916,
+     "ci95": [
+      0.6229364897397685,
+      0.8448309275594761
+     ]
+    }
+   },
+   "clap_htsat": {
+    "n": 249,
+    "win_rate": 0.6907630522088354,
+    "ci95": [
+     0.5624878875968993,
+     0.8008143456137994
+    ],
+    "rival_margin_median": 0.0058,
+    "rival_margin_min": 0.0002,
+    "corr_win_c_margin": 0.05804113422193843,
+    "corr_win_rival_margin": -0.2389266889864051,
+    "rival_below_median": {
+     "n": 123,
+     "win_rate": 0.7642276422764228,
+     "ci95": [
+      0.6460176991150443,
+      0.8581573515401715
+     ]
+    },
+    "rival_above_median": {
+     "n": 126,
+     "win_rate": 0.6190476190476191,
+     "ci95": [
+      0.4131762499267335,
+      0.811965811965812
+     ]
+    }
+   },
+   "clap_music": {
+    "n": 260,
+    "win_rate": 0.6846153846153846,
+    "ci95": [
+     0.5703117156124498,
+     0.7950912816691504
+    ],
+    "rival_margin_median": 0.0002,
+    "rival_margin_min": 0.0,
+    "corr_win_c_margin": 0.04256272444977843,
+    "corr_win_rival_margin": -0.0746676103570858,
+    "rival_below_median": {
+     "n": 108,
+     "win_rate": 0.8055555555555556,
+     "ci95": [
+      0.6841885964912281,
+      0.9029588534442902
+     ]
+    },
+    "rival_above_median": {
+     "n": 152,
+     "win_rate": 0.5986842105263158,
+     "ci95": [
+      0.43899649290610554,
+      0.7500398089171972
+     ]
+    }
+   },
+   "scs": {
+    "n": 285,
+    "win_rate": 0.7017543859649122,
+    "ci95": [
+     0.5958169619690118,
+     0.7922601082686596
+    ],
+    "rival_margin_median": 0.0176,
+    "rival_margin_min": 0.0028,
+    "corr_win_c_margin": -0.020031939603503177,
+    "corr_win_rival_margin": -0.048399196034851495,
+    "rival_below_median": {
+     "n": 138,
+     "win_rate": 0.7753623188405797,
+     "ci95": [
+      0.6640609375,
+      0.8666772151898734
+     ]
+    },
+    "rival_above_median": {
+     "n": 147,
+     "win_rate": 0.6326530612244898,
+     "ci95": [
+      0.479986301369863,
+      0.7718271233510761
+     ]
+    }
+   },
+   "cocola": {
+    "n": 315,
+    "win_rate": 0.7777777777777778,
+    "ci95": [
+     0.7075874399374232,
+     0.8456845780206436
+    ],
+    "rival_margin_median": 0.5577,
+    "rival_margin_min": 0.0072,
+    "corr_win_c_margin": 0.17142411152354925,
+    "corr_win_rival_margin": -0.06649738483877267,
+    "rival_below_median": {
+     "n": 155,
+     "win_rate": 0.8258064516129032,
+     "ci95": [
+      0.7333006535947711,
+      0.9078947368421053
+     ]
+    },
+    "rival_above_median": {
+     "n": 160,
+     "win_rate": 0.73125,
+     "ci95": [
+      0.6331321603927987,
+      0.8333620689655171
+     ]
+    }
+   }
+  }
+ }
+}

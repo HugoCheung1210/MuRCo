@@ -1,0 +1,72 @@
+{
+ "superseded": {
+  "on": "2026-08-24",
+  "by": "results/diagnostics/review_response.json -> gap_sweep_heldout",
+  "reason": "the four arms below are NOT mutually comparable. The 0.0 s arm comes from s_scores_gap0.json (2026-07-16, no peak_safe_concat, control level 0.837); the 0.5/1.0/2.0 arms come from the 2026-07-17 caches which are peak-safe (control 0.588/0.559/0.527). The headline ratio therefore measures the read-out change as much as the gap. On the same 198 pairs the 0 s arm scores 0.774 old vs 0.489 new, r=0.976.",
+  "corrected_numbers": {
+   "mean_drop_by_gap_s": {
+    "0.0": 0.0721,
+    "0.5": 0.0875,
+    "1.0": 0.0906,
+    "2.0": 0.0827
+   },
+   "best_gap_s": 1.0,
+   "ratio_best_over_no_gap": 1.26,
+   "ratio_previously_published": 2.29,
+   "basis": "18 sources held out from the ones the gap was tuned on, 198 pairs, every arm token_agg=variants + peak_safe_concat=true (s_heldout_gap{0.0,0.5,1.0,2.0}.json)"
+  },
+  "what_still_holds": "1.0 s is still the best of the four out of sample and the control level still falls monotonically with gap length. Only the magnitude claim changes.",
+  "do_not_quote": "mean_drop / best_gap_s / verdict below"
+ },
+ "meta": {
+  "n_pairs": 198,
+  "n_sources": 18,
+  "caches": {
+   "0.0": "results/s_cache/s_scores_gap0.json",
+   "0.5": "results/s_cache/s_subset_gap0.5.json",
+   "1.0": "results/s_cache/s_subset_default.json",
+   "2.0": "results/s_cache/s_subset_gap2.0.json"
+  },
+  "note": "within-source drops from control"
+ },
+ "by_gap": {
+  "0.0": {
+   "pitch_shift": 0.03242012941175037,
+   "time_stretch": 0.002888285451465183,
+   "lowpass": 0.018610245651668973,
+   "distortion": 0.083797635924485,
+   "style_swap": 0.13419731758120987,
+   "control_level": 0.83723417421182,
+   "mean_drop": 0.05438272280411588
+  },
+  "0.5": {
+   "pitch_shift": 0.07213274099760586,
+   "time_stretch": 0.011043978441092703,
+   "lowpass": 0.06611153493738836,
+   "distortion": 0.15016698847628301,
+   "style_swap": 0.2607439716812223,
+   "control_level": 0.5876779175466962,
+   "mean_drop": 0.11203984290671845
+  },
+  "1.0": {
+   "pitch_shift": 0.09768310447947846,
+   "time_stretch": 0.0038010256571902167,
+   "lowpass": 0.06213202110181252,
+   "distortion": 0.17612465248546666,
+   "style_swap": 0.28415386308915913,
+   "control_level": 0.5592543559355868,
+   "mean_drop": 0.1247789333626214
+  },
+  "2.0": {
+   "pitch_shift": 0.10132715814850396,
+   "time_stretch": 0.006604176842504078,
+   "lowpass": 0.05394950540115436,
+   "distortion": 0.1632315421787401,
+   "style_swap": 0.2558681435831305,
+   "control_level": 0.5269801525606049,
+   "mean_drop": 0.11619610523080662
+  }
+ },
+ "best_gap_s": 1.0,
+ "verdict": "Mean drop peaks at gap=1.0s and falls back at 2.0s, while the control level falls monotonically with gap length. The silence buys separation by telling the model there are two segments, and past 1s it only erodes the ceiling. The shipped 1.0s is the best of the four values tried."
+}

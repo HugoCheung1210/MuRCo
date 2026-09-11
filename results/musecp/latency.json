@@ -1,0 +1,22 @@
+{
+ "n_pairs": 12,
+ "segment_seconds": 10.0,
+ "repeats": 3,
+ "ms_per_pair": {
+  "harmony": 604.0,
+  "rhythm": 55.3,
+  "structure": 2156.1,
+  "melody": 331.9,
+  "timbre": 39.7
+ },
+ "total_ms_per_pair": 3187.0,
+ "share_of_cost": {
+  "harmony": 0.1895,
+  "rhythm": 0.0174,
+  "structure": 0.6765,
+  "melody": 0.1041,
+  "timbre": 0.0125
+ },
+ "realtime_factor": 3.14,
+ "note": "single process, fastest of the passes; file reading is inside these timings because MuseCPEval's entry points take paths. Absolute ms are machine- and load-dependent, so compare against MuRCo measured in the same session, not against the published 310 ms."
+}

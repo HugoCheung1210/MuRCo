@@ -1,0 +1,105 @@
+{
+  "cache": "results/s_scores_temporal.json",
+  "token_agg": "variants",
+  "templates": {
+    "t1": "Does segment B cohere naturally with segment A as the same continuous piece?",
+    "t2": "Do both segments share the same instrumentation and timbral character?",
+    "t3": "Does B preserve the musical identity (same instruments, same style) of A?",
+    "t4": "Would a listener say these two segments belong to the same track?"
+  },
+  "drop_table": {
+    "displacement": {
+      "t1": {
+        "mean": 0.08625403750273916,
+        "dz": 0.8888969372746526
+      },
+      "t2": {
+        "mean": 0.07688840611113443,
+        "dz": 0.8146560275206239
+      },
+      "t3": {
+        "mean": 0.06769375291963418,
+        "dz": 0.6644207639003417
+      },
+      "t4": {
+        "mean": 0.12550167590379716,
+        "dz": 1.2750587225385503
+      },
+      "mean": {
+        "mean": 0.08908446810932623,
+        "dz": 1.0787659471827755
+      }
+    },
+    "reverse": {
+      "t1": {
+        "mean": 0.04495924413204193,
+        "dz": 0.48317286127833853
+      },
+      "t2": {
+        "mean": 0.08493852963050207,
+        "dz": 1.1834007250924226
+      },
+      "t3": {
+        "mean": 0.04782153061694569,
+        "dz": 0.4780034460107019
+      },
+      "t4": {
+        "mean": 0.06696303817960951,
+        "dz": 0.8307947896926048
+      },
+      "mean": {
+        "mean": 0.0611705856397748,
+        "dz": 0.8254169728108547
+      }
+    },
+    "shuffle": {
+      "t1": {
+        "mean": -0.03460764528976546,
+        "dz": -0.45728533619141803
+      },
+      "t2": {
+        "mean": -0.003262456754843394,
+        "dz": -0.06624352771643138
+      },
+      "t3": {
+        "mean": -0.044670816014210385,
+        "dz": -0.6217058240325384
+      },
+      "t4": {
+        "mean": 0.003382422361108992,
+        "dz": 0.048844790838626716
+      },
+      "mean": {
+        "mean": -0.01978962392442756,
+        "dz": -0.36702067627564516
+      }
+    }
+  },
+  "auc": {
+    "control_vs_violation": {
+      "t1": 0.567,
+      "t2": 0.6234938271604938,
+      "t3": 0.5255061728395062,
+      "t4": 0.6515061728395062,
+      "mean": 0.5997283950617284
+    }
+  },
+  "correlation": {
+    "t1": {
+      "rho_clap_htsat": 0.3084421408795559,
+      "rho_mean_s": 0.9359292965687087
+    },
+    "t2": {
+      "rho_clap_htsat": 0.4287051372448453,
+      "rho_mean_s": 0.7671395628750722
+    },
+    "t3": {
+      "rho_clap_htsat": 0.2578651872828865,
+      "rho_mean_s": 0.8833252577982511
+    },
+    "t4": {
+      "rho_clap_htsat": 0.3874918833631714,
+      "rho_mean_s": 0.8356739580866978
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "note": "Identity-discrimination AUC including COCOLA, computed 2026-08-18 for Table 4.1. Split definitions validated by reproducing the published C_full / CLAP / SCS columns exactly.",
+  "n": {"same_song": 1710, "swaps": 180, "swap_cross": 90, "swap_same": 90},
+  "splits": {
+    "transpose vs style-swap":       {"C_full": 0.976, "clap_htsat": 0.997, "scs": 1.000, "cocola": 0.685},
+    "all same-song vs style-swap":   {"C_full": 0.984, "clap_htsat": 0.977, "scs": 0.907, "cocola": 0.697},
+    "same-song vs cross-genre swap": {"C_full": 0.992, "clap_htsat": 0.990, "scs": 0.914, "cocola": 0.700},
+    "same-song vs same-genre swap":  {"C_full": 0.976, "clap_htsat": 0.963, "scs": 0.901, "cocola": 0.695}
+  },
+  "reading": "COCOLA is flat at 0.685-0.700 across all four splits while the others vary by up to 9 points. Flat = indifferent to the identity relation, not weakly informative about it. Consistent with its vertical/simultaneous construct, with its timbral blindness on the matrix, and with r=-0.013 against MOS."
+}

@@ -1,0 +1,402 @@
+{
+  "s01": [
+    "s01::cand00",
+    "s01::cand01",
+    "s01::cand02",
+    "s01::cand03",
+    "s01::cand04",
+    "s01::cand05",
+    "s01::cand06",
+    "s01::cand07"
+  ],
+  "s02": [
+    "s02::cand00",
+    "s02::cand01",
+    "s02::cand02",
+    "s02::cand03",
+    "s02::cand04",
+    "s02::cand05",
+    "s02::cand06",
+    "s02::cand07"
+  ],
+  "s03": [
+    "s03::cand00",
+    "s03::cand01",
+    "s03::cand02",
+    "s03::cand03",
+    "s03::cand04",
+    "s03::cand05",
+    "s03::cand06",
+    "s03::cand07"
+  ],
+  "s04": [
+    "s04::cand00",
+    "s04::cand01",
+    "s04::cand02",
+    "s04::cand03",
+    "s04::cand04",
+    "s04::cand05",
+    "s04::cand06",
+    "s04::cand07"
+  ],
+  "s05": [
+    "s05::cand00",
+    "s05::cand01",
+    "s05::cand02",
+    "s05::cand03",
+    "s05::cand04",
+    "s05::cand05",
+    "s05::cand06",
+    "s05::cand07"
+  ],
+  "s06": [
+    "s06::cand00",
+    "s06::cand01",
+    "s06::cand02",
+    "s06::cand03",
+    "s06::cand04",
+    "s06::cand05",
+    "s06::cand06",
+    "s06::cand07"
+  ],
+  "s07": [
+    "s07::cand00",
+    "s07::cand01",
+    "s07::cand02",
+    "s07::cand03",
+    "s07::cand04",
+    "s07::cand05",
+    "s07::cand06",
+    "s07::cand07"
+  ],
+  "s08": [
+    "s08::cand00",
+    "s08::cand01",
+    "s08::cand02",
+    "s08::cand03",
+    "s08::cand04",
+    "s08::cand05",
+    "s08::cand06",
+    "s08::cand07"
+  ],
+  "s09": [
+    "s09::cand00",
+    "s09::cand01",
+    "s09::cand02",
+    "s09::cand03",
+    "s09::cand04",
+    "s09::cand05",
+    "s09::cand06",
+    "s09::cand07"
+  ],
+  "s10": [
+    "s10::cand00",
+    "s10::cand01",
+    "s10::cand02",
+    "s10::cand03",
+    "s10::cand04",
+    "s10::cand05",
+    "s10::cand06",
+    "s10::cand07"
+  ],
+  "s11": [
+    "s11::cand00",
+    "s11::cand01",
+    "s11::cand02",
+    "s11::cand03",
+    "s11::cand04",
+    "s11::cand05",
+    "s11::cand06",
+    "s11::cand07"
+  ],
+  "s12": [
+    "s12::cand00",
+    "s12::cand01",
+    "s12::cand02",
+    "s12::cand03",
+    "s12::cand04",
+    "s12::cand05",
+    "s12::cand06",
+    "s12::cand07"
+  ],
+  "s13": [
+    "s13::cand00",
+    "s13::cand01",
+    "s13::cand02",
+    "s13::cand03",
+    "s13::cand04",
+    "s13::cand05",
+    "s13::cand06",
+    "s13::cand07"
+  ],
+  "s14": [
+    "s14::cand00",
+    "s14::cand01",
+    "s14::cand02",
+    "s14::cand03",
+    "s14::cand04",
+    "s14::cand05",
+    "s14::cand06",
+    "s14::cand07"
+  ],
+  "s15": [
+    "s15::cand00",
+    "s15::cand01",
+    "s15::cand02",
+    "s15::cand03",
+    "s15::cand04",
+    "s15::cand05",
+    "s15::cand06",
+    "s15::cand07"
+  ],
+  "s16": [
+    "s16::cand00",
+    "s16::cand01",
+    "s16::cand02",
+    "s16::cand03",
+    "s16::cand04",
+    "s16::cand05",
+    "s16::cand06",
+    "s16::cand07"
+  ],
+  "s17": [
+    "s17::cand00",
+    "s17::cand01",
+    "s17::cand02",
+    "s17::cand03",
+    "s17::cand04",
+    "s17::cand05",
+    "s17::cand06",
+    "s17::cand07"
+  ],
+  "s18": [
+    "s18::cand00",
+    "s18::cand01",
+    "s18::cand02",
+    "s18::cand03",
+    "s18::cand04",
+    "s18::cand05",
+    "s18::cand06",
+    "s18::cand07"
+  ],
+  "s19": [
+    "s19::cand00",
+    "s19::cand01",
+    "s19::cand02",
+    "s19::cand03",
+    "s19::cand04",
+    "s19::cand05",
+    "s19::cand06",
+    "s19::cand07"
+  ],
+  "s20": [
+    "s20::cand00",
+    "s20::cand01",
+    "s20::cand02",
+    "s20::cand03",
+    "s20::cand04",
+    "s20::cand05",
+    "s20::cand06",
+    "s20::cand07"
+  ],
+  "s21": [
+    "s21::cand00",
+    "s21::cand01",
+    "s21::cand02",
+    "s21::cand03",
+    "s21::cand04",
+    "s21::cand05",
+    "s21::cand06",
+    "s21::cand07"
+  ],
+  "s22": [
+    "s22::cand00",
+    "s22::cand01",
+    "s22::cand02",
+    "s22::cand03",
+    "s22::cand04",
+    "s22::cand05",
+    "s22::cand06",
+    "s22::cand07"
+  ],
+  "s23": [
+    "s23::cand00",
+    "s23::cand01",
+    "s23::cand02",
+    "s23::cand03",
+    "s23::cand04",
+    "s23::cand05",
+    "s23::cand06",
+    "s23::cand07"
+  ],
+  "s24": [
+    "s24::cand00",
+    "s24::cand01",
+    "s24::cand02",
+    "s24::cand03",
+    "s24::cand04",
+    "s24::cand05",
+    "s24::cand06",
+    "s24::cand07"
+  ],
+  "s25": [
+    "s25::cand00",
+    "s25::cand01",
+    "s25::cand02",
+    "s25::cand03",
+    "s25::cand04",
+    "s25::cand05",
+    "s25::cand06",
+    "s25::cand07"
+  ],
+  "s26": [
+    "s26::cand00",
+    "s26::cand01",
+    "s26::cand02",
+    "s26::cand03",
+    "s26::cand04",
+    "s26::cand05",
+    "s26::cand06",
+    "s26::cand07"
+  ],
+  "s27": [
+    "s27::cand00",
+    "s27::cand01",
+    "s27::cand02",
+    "s27::cand03",
+    "s27::cand04",
+    "s27::cand05",
+    "s27::cand06",
+    "s27::cand07"
+  ],
+  "s28": [
+    "s28::cand00",
+    "s28::cand01",
+    "s28::cand02",
+    "s28::cand03",
+    "s28::cand04",
+    "s28::cand05",
+    "s28::cand06",
+    "s28::cand07"
+  ],
+  "s29": [
+    "s29::cand00",
+    "s29::cand01",
+    "s29::cand02",
+    "s29::cand03",
+    "s29::cand04",
+    "s29::cand05",
+    "s29::cand06",
+    "s29::cand07"
+  ],
+  "s30": [
+    "s30::cand00",
+    "s30::cand01",
+    "s30::cand02",
+    "s30::cand03",
+    "s30::cand04",
+    "s30::cand05",
+    "s30::cand06",
+    "s30::cand07"
+  ],
+  "s31": [
+    "s31::cand00",
+    "s31::cand01",
+    "s31::cand02",
+    "s31::cand03",
+    "s31::cand04",
+    "s31::cand05",
+    "s31::cand06",
+    "s31::cand07"
+  ],
+  "s32": [
+    "s32::cand00",
+    "s32::cand01",
+    "s32::cand02",
+    "s32::cand03",
+    "s32::cand04",
+    "s32::cand05",
+    "s32::cand06",
+    "s32::cand07"
+  ],
+  "s33": [
+    "s33::cand00",
+    "s33::cand01",
+    "s33::cand02",
+    "s33::cand03",
+    "s33::cand04",
+    "s33::cand05",
+    "s33::cand06",
+    "s33::cand07"
+  ],
+  "s34": [
+    "s34::cand00",
+    "s34::cand01",
+    "s34::cand02",
+    "s34::cand03",
+    "s34::cand04",
+    "s34::cand05",
+    "s34::cand06",
+    "s34::cand07"
+  ],
+  "s35": [
+    "s35::cand00",
+    "s35::cand01",
+    "s35::cand02",
+    "s35::cand03",
+    "s35::cand04",
+    "s35::cand05",
+    "s35::cand06",
+    "s35::cand07"
+  ],
+  "s36": [
+    "s36::cand00",
+    "s36::cand01",
+    "s36::cand02",
+    "s36::cand03",
+    "s36::cand04",
+    "s36::cand05",
+    "s36::cand06",
+    "s36::cand07"
+  ],
+  "s37": [
+    "s37::cand00",
+    "s37::cand01",
+    "s37::cand02",
+    "s37::cand03",
+    "s37::cand04",
+    "s37::cand05",
+    "s37::cand06",
+    "s37::cand07"
+  ],
+  "s38": [
+    "s38::cand00",
+    "s38::cand01",
+    "s38::cand02",
+    "s38::cand03",
+    "s38::cand04",
+    "s38::cand05",
+    "s38::cand06",
+    "s38::cand07"
+  ],
+  "s39": [
+    "s39::cand00",
+    "s39::cand01",
+    "s39::cand02",
+    "s39::cand03",
+    "s39::cand04",
+    "s39::cand05",
+    "s39::cand06",
+    "s39::cand07"
+  ],
+  "s40": [
+    "s40::cand00",
+    "s40::cand01",
+    "s40::cand02",
+    "s40::cand03",
+    "s40::cand04",
+    "s40::cand05",
+    "s40::cand06",
+    "s40::cand07"
+  ]
+}

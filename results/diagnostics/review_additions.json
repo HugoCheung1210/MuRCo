@@ -1,0 +1,196 @@
+{
+ "A_per_family": {
+  "families": [
+   "pitch_shift",
+   "time_stretch",
+   "lowpass",
+   "distortion",
+   "style_swap"
+  ],
+  "protocol": "leave-one-track-out, 90 folds",
+  "HTRS": {
+   "acc": 0.86,
+   "macro_f1": 0.8416,
+   "confusion_rows_true": [
+    [
+     494,
+     12,
+     2,
+     25,
+     7
+    ],
+    [
+     7,
+     498,
+     0,
+     35,
+     0
+    ],
+    [
+     0,
+     15,
+     219,
+     34,
+     2
+    ],
+    [
+     5,
+     38,
+     52,
+     173,
+     2
+    ],
+    [
+     11,
+     3,
+     0,
+     2,
+     164
+    ]
+   ],
+   "per_family": {
+    "pitch_shift": {
+     "precision": 0.956,
+     "recall": 0.915,
+     "f1": 0.935,
+     "n": 540
+    },
+    "time_stretch": {
+     "precision": 0.88,
+     "recall": 0.922,
+     "f1": 0.901,
+     "n": 540
+    },
+    "lowpass": {
+     "precision": 0.802,
+     "recall": 0.811,
+     "f1": 0.807,
+     "n": 270
+    },
+    "distortion": {
+     "precision": 0.643,
+     "recall": 0.641,
+     "f1": 0.642,
+     "n": 270
+    },
+    "style_swap": {
+     "precision": 0.937,
+     "recall": 0.911,
+     "f1": 0.924,
+     "n": 180
+    }
+   }
+  },
+  "HTR": {
+   "acc": 0.85,
+   "macro_f1": 0.8275,
+   "confusion_rows_true": [
+    [
+     488,
+     11,
+     1,
+     28,
+     12
+    ],
+    [
+     7,
+     501,
+     0,
+     32,
+     0
+    ],
+    [
+     0,
+     13,
+     213,
+     41,
+     3
+    ],
+    [
+     7,
+     37,
+     62,
+     163,
+     1
+    ],
+    [
+     11,
+     3,
+     0,
+     1,
+     165
+    ]
+   ],
+   "per_family": {
+    "pitch_shift": {
+     "precision": 0.951,
+     "recall": 0.904,
+     "f1": 0.927,
+     "n": 540
+    },
+    "time_stretch": {
+     "precision": 0.887,
+     "recall": 0.928,
+     "f1": 0.907,
+     "n": 540
+    },
+    "lowpass": {
+     "precision": 0.772,
+     "recall": 0.789,
+     "f1": 0.78,
+     "n": 270
+    },
+    "distortion": {
+     "precision": 0.615,
+     "recall": 0.604,
+     "f1": 0.609,
+     "n": 270
+    },
+    "style_swap": {
+     "precision": 0.912,
+     "recall": 0.917,
+     "f1": 0.914,
+     "n": 180
+    }
+   }
+  },
+  "f1_gain_from_S": {
+   "pitch_shift": 0.008,
+   "time_stretch": -0.006,
+   "lowpass": 0.027,
+   "distortion": 0.033,
+   "style_swap": 0.01
+  }
+ },
+ "B_salience_gate": {
+  "note": "Does the salience gate hide rhythmic incoherence, or track perception?",
+  "salience_over_90_sources": {
+   "mean": 0.352,
+   "median": 0.334,
+   "min": 0.077,
+   "max": 0.892,
+   "frac_below_0.3": 0.411
+  },
+  "R_drop_on_time_stretch_by_salience_tertile": {
+   "t0": 0.09,
+   "t1": 0.238,
+   "t2": 0.405
+  },
+  "mos_vs_salience_on_time_stretch": {
+   "n_pairs": 44,
+   "pearson_r": -0.426,
+   "p": 0.004,
+   "spearman": -0.448
+  },
+  "R_vs_mos_on_time_stretch": {
+   "n_pairs": 44,
+   "pearson_r": 0.479,
+   "p": 0.001
+  },
+  "CAVEATS": [
+   "44 rated pairs only",
+   "correlation is BETWEEN tracks, not within",
+   "salience confounded with genre (ambient/classical are low-salience and also forgiving of a stretch)"
+  ]
+ }
+}

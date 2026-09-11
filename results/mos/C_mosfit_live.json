@@ -1,0 +1,246 @@
+{
+  "weights": {
+    "H": 0.22775458257438935,
+    "T": 0.29782335116021375,
+    "R": 0.23382127374399736,
+    "S": 0.2406007925213994
+  },
+  "control_C_geo": 0.9470830117982844,
+  "geometric": [
+    {
+      "n": 90,
+      "mean_control": 0.9470830117982844,
+      "mean_pert": 0.6197106001955152,
+      "mean_drop": 0.3273724116027692,
+      "cohen_dz": 7.590966334522109,
+      "wilcoxon_p": 1.7437900167092118e-16,
+      "perturbation": "style_swap"
+    },
+    {
+      "n": 90,
+      "mean_control": 0.9470830117982844,
+      "mean_pert": 0.7593478727653215,
+      "mean_drop": 0.187735139032963,
+      "cohen_dz": 3.338206301949421,
+      "wilcoxon_p": 1.7437900167092118e-16,
+      "perturbation": "lowpass"
+    },
+    {
+      "n": 90,
+      "mean_control": 0.9470830117982844,
+      "mean_pert": 0.7909470121648841,
+      "mean_drop": 0.15613599963340027,
+      "cohen_dz": 2.9865167340936134,
+      "wilcoxon_p": 1.7437900167092118e-16,
+      "perturbation": "distortion"
+    },
+    {
+      "n": 90,
+      "mean_control": 0.9470830117982844,
+      "mean_pert": 0.7969234275232728,
+      "mean_drop": 0.15015958427501153,
+      "cohen_dz": 3.1334265869633047,
+      "wilcoxon_p": 1.7437900167092118e-16,
+      "perturbation": "pitch_shift"
+    },
+    {
+      "n": 90,
+      "mean_control": 0.9470830117982844,
+      "mean_pert": 0.8460890923897845,
+      "mean_drop": 0.10099391940849982,
+      "cohen_dz": 2.9189728175169445,
+      "wilcoxon_p": 1.7437900167092118e-16,
+      "perturbation": "time_stretch"
+    }
+  ],
+  "linear": [
+    {
+      "n": 90,
+      "mean_control": 0.9517026033435076,
+      "mean_pert": 0.646059778328285,
+      "mean_drop": 0.30564282501522255,
+      "cohen_dz": 7.0433218093980825,
+      "wilcoxon_p": 1.7437900167092118e-16,
+      "perturbation": "style_swap"
+    },
+    {
+      "n": 90,
+      "mean_control": 0.9517026033435076,
+      "mean_pert": 0.7923091526437779,
+      "mean_drop": 0.15939345069972982,
+      "cohen_dz": 3.5597097370271418,
+      "wilcoxon_p": 1.7437900167092118e-16,
+      "perturbation": "lowpass"
+    },
+    {
+      "n": 90,
+      "mean_control": 0.9517026033435076,
+      "mean_pert": 0.8087495652208245,
+      "mean_drop": 0.14295303812268303,
+      "cohen_dz": 3.227578954205842,
+      "wilcoxon_p": 1.7437900167092118e-16,
+      "perturbation": "pitch_shift"
+    },
+    {
+      "n": 90,
+      "mean_control": 0.9517026033435076,
+      "mean_pert": 0.8108214391016386,
+      "mean_drop": 0.14088116424186908,
+      "cohen_dz": 3.185295155278414,
+      "wilcoxon_p": 1.7437900167092118e-16,
+      "perturbation": "distortion"
+    },
+    {
+      "n": 90,
+      "mean_control": 0.9517026033435076,
+      "mean_pert": 0.8549509967554987,
+      "mean_drop": 0.0967516065880088,
+      "cohen_dz": 3.520575817603338,
+      "wilcoxon_p": 1.7437900167092118e-16,
+      "perturbation": "time_stretch"
+    }
+  ],
+  "mos_crossval": {
+    "cv": {
+      "group": "source_id",
+      "n_folds": 59,
+      "n_rated_pairs": 154,
+      "n_matched_pairs": 154,
+      "n_rated_without_scores": 0,
+      "dropped_pair_ids": [],
+      "mos_max": 4.8889
+    },
+    "held_out": {
+      "C_uniform": {
+        "pearson_r": 0.7877682979947646,
+        "spearman_rho": 0.7082274214871245,
+        "fitted_params": 0,
+        "n_predicted": 154
+      },
+      "C_fitted": {
+        "pearson_r": 0.7818542538912682,
+        "spearman_rho": 0.7102084289265554,
+        "fitted_params": 4,
+        "n_predicted": 154
+      },
+      "C_fitted_noS": {
+        "pearson_r": 0.7557559351636859,
+        "spearman_rho": 0.6758282777856608,
+        "fitted_params": 3,
+        "n_predicted": 154
+      },
+      "clap_htsat_raw": {
+        "pearson_r": 0.6889050462911231,
+        "spearman_rho": 0.6385909883656524,
+        "fitted_params": 0,
+        "n_predicted": 154
+      },
+      "clap_htsat_calibrated": {
+        "pearson_r": 0.693453997105251,
+        "spearman_rho": 0.6176057840732211,
+        "fitted_params": 2,
+        "n_predicted": 154,
+        "note": "monotone within each fold, so a large Spearman drop against the raw row means the fitted slope changed sign between folds"
+      },
+      "clap_music_raw": {
+        "pearson_r": 0.41336953923546854,
+        "spearman_rho": 0.5585935043283565,
+        "fitted_params": 0,
+        "n_predicted": 154
+      },
+      "clap_music_calibrated": {
+        "pearson_r": 0.3994663462106496,
+        "spearman_rho": 0.4807420078573969,
+        "fitted_params": 2,
+        "n_predicted": 154,
+        "note": "monotone within each fold, so a large Spearman drop against the raw row means the fitted slope changed sign between folds"
+      },
+      "cocola_raw": {
+        "pearson_r": -0.0005316563257651615,
+        "spearman_rho": -0.008594777504850735,
+        "fitted_params": 0,
+        "n_predicted": 154
+      },
+      "cocola_calibrated": {
+        "pearson_r": -0.2186550924385823,
+        "spearman_rho": -0.1898133924890132,
+        "fitted_params": 2,
+        "n_predicted": 154,
+        "note": "monotone within each fold, so a large Spearman drop against the raw row means the fitted slope changed sign between folds"
+      },
+      "scs_raw": {
+        "pearson_r": 0.16680728271191095,
+        "spearman_rho": 0.19835885030657519,
+        "fitted_params": 0,
+        "n_predicted": 154
+      },
+      "scs_calibrated": {
+        "pearson_r": 0.11872926048492675,
+        "spearman_rho": 0.14133542786333636,
+        "fitted_params": 2,
+        "n_predicted": 154,
+        "note": "monotone within each fold, so a large Spearman drop against the raw row means the fitted slope changed sign between folds"
+      }
+    },
+    "in_sample": {
+      "C_fitted": {
+        "weights": {
+          "H": 0.22775458257438935,
+          "T": 0.29782335116021375,
+          "R": 0.23382127374399736,
+          "S": 0.2406007925213994
+        },
+        "pearson_r": 0.7925994367724268,
+        "spearman_rho": 0.719439430397431
+      },
+      "C_fitted_noS": {
+        "weights": {
+          "H": 0.29549438523772603,
+          "T": 0.40978558813533766,
+          "R": 0.29472002662693625
+        },
+        "pearson_r": 0.7628575318330418,
+        "spearman_rho": 0.6798333127552904
+      }
+    },
+    "weight_stability": {
+      "H": {
+        "median": 0.2305330157731236,
+        "ci95": [
+          0.11856169151826573,
+          0.328583310885523
+        ],
+        "frac_exactly_zero": 0.0,
+        "frac_folds_exactly_zero": 0.0
+      },
+      "T": {
+        "median": 0.2947448873614501,
+        "ci95": [
+          0.22045677271765723,
+          0.3903441904836048
+        ],
+        "frac_exactly_zero": 0.0,
+        "frac_folds_exactly_zero": 0.0
+      },
+      "R": {
+        "median": 0.23026549021563208,
+        "ci95": [
+          0.16774112261332366,
+          0.2976489974691359
+        ],
+        "frac_exactly_zero": 0.0,
+        "frac_folds_exactly_zero": 0.0
+      },
+      "S": {
+        "median": 0.2387871173200702,
+        "ci95": [
+          0.11739009181062125,
+          0.38898237916465744
+        ],
+        "frac_exactly_zero": 0.0,
+        "frac_folds_exactly_zero": 0.0
+      },
+      "_note": "H and T are entangled by construction and R abstains on non-percussive audio, so NNLS can drive a weight to exactly zero through collinearity. Read frac_exactly_zero before interpreting a zero as an unused dimension."
+    }
+  }
+}

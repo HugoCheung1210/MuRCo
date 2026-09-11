@@ -1,0 +1,562 @@
+320 pair(s) total, 320 to run, 8 worker(s)
+metrics: harmony, rhythm, structure, melody, timbre
+output:  results/musecp/rerank_ace
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1/320] s01::cand01
+[2/320] s01::cand03
+[3/320] s01::cand05
+[4/320] s01::cand02
+[5/320] s01::cand04
+[6/320] s01::cand00
+[7/320] s01::cand07
+[8/320] s01::cand06
+[9/320] s02::cand00
+[10/320] s02::cand01
+[11/320] s02::cand02
+[12/320] s02::cand03
+[13/320] s02::cand04
+[14/320] s02::cand05
+[15/320] s02::cand07
+[16/320] s02::cand06
+[17/320] s03::cand00
+[18/320] s03::cand01
+[19/320] s03::cand04
+[20/320] s03::cand03
+[21/320] s03::cand05
+[22/320] s03::cand02
+[23/320] s03::cand07
+[24/320] s03::cand06  ~ degraded: structural_form
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[25/320] s04::cand00
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[26/320] s04::cand01
+[27/320] s04::cand02
+[28/320] s04::cand03
+[29/320] s04::cand04
+[30/320] s04::cand05
+[31/320] s04::cand06
+[32/320] s04::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[33/320] s05::cand00
+[34/320] s05::cand01
+[35/320] s05::cand02
+[36/320] s05::cand04
+[37/320] s05::cand06
+[38/320] s05::cand05
+[39/320] s05::cand03
+[40/320] s05::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[41/320] s06::cand00
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[42/320] s06::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[43/320] s06::cand03
+[44/320] s06::cand02
+[45/320] s06::cand04
+[46/320] s06::cand06
+[47/320] s06::cand05
+[48/320] s06::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[49/320] s07::cand00
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[50/320] s07::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[51/320] s07::cand02
+[52/320] s07::cand03
+[53/320] s07::cand04
+[54/320] s07::cand05
+[55/320] s07::cand06
+[56/320] s07::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[57/320] s08::cand00
+[58/320] s08::cand01
+[59/320] s08::cand02
+[60/320] s08::cand03
+[61/320] s08::cand04
+[62/320] s08::cand05
+[63/320] s08::cand06
+[64/320] s08::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[65/320] s09::cand00
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[66/320] s09::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[67/320] s09::cand02
+[68/320] s09::cand05
+[69/320] s09::cand04
+[70/320] s09::cand06
+[71/320] s09::cand03
+[72/320] s09::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[73/320] s10::cand00
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[74/320] s10::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[75/320] s10::cand02
+[76/320] s10::cand03
+[77/320] s10::cand05
+[78/320] s10::cand04
+[79/320] s10::cand07
+[80/320] s10::cand06
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[81/320] s11::cand00
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[82/320] s11::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[83/320] s11::cand04
+[84/320] s11::cand02
+[85/320] s11::cand03
+[86/320] s11::cand05
+[87/320] s11::cand07
+[88/320] s11::cand06
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[89/320] s12::cand00
+[90/320] s12::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[91/320] s12::cand02
+[92/320] s12::cand04
+[93/320] s12::cand05
+[94/320] s12::cand03
+[95/320] s12::cand07
+[96/320] s12::cand06
+[97/320] s13::cand00
+[98/320] s13::cand01
+[99/320] s13::cand02
+[100/320] s13::cand04
+[101/320] s13::cand03
+[102/320] s13::cand05
+[103/320] s13::cand06
+[104/320] s13::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[105/320] s14::cand00
+[106/320] s14::cand01
+[107/320] s14::cand02
+[108/320] s14::cand03
+[109/320] s14::cand04
+[110/320] s14::cand05
+[111/320] s14::cand06
+[112/320] s14::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[113/320] s15::cand00
+[114/320] s15::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[115/320] s15::cand02
+[116/320] s15::cand04
+[117/320] s15::cand03
+[118/320] s15::cand05
+[119/320] s15::cand06
+[120/320] s15::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[121/320] s16::cand00
+[122/320] s16::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[123/320] s16::cand02
+[124/320] s16::cand03
+[125/320] s16::cand05
+[126/320] s16::cand04
+[127/320] s16::cand06
+[128/320] s16::cand07
+[129/320] s17::cand00
+[130/320] s17::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[131/320] s17::cand02
+[132/320] s17::cand03
+[133/320] s17::cand05
+[134/320] s17::cand04
+[135/320] s17::cand06
+[136/320] s17::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[137/320] s18::cand00
+[138/320] s18::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[139/320] s18::cand02
+[140/320] s18::cand04
+[141/320] s18::cand03
+[142/320] s18::cand05
+[143/320] s18::cand06
+[144/320] s18::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[145/320] s19::cand00
+[146/320] s19::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[147/320] s19::cand02
+[148/320] s19::cand03
+[149/320] s19::cand04
+[150/320] s19::cand05
+[151/320] s19::cand06
+[152/320] s19::cand07
+[153/320] s20::cand00
+[154/320] s20::cand01
+[155/320] s20::cand02
+[156/320] s20::cand03
+[157/320] s20::cand04
+[158/320] s20::cand05
+[159/320] s20::cand06
+[160/320] s20::cand07
+[161/320] s21::cand00
+[162/320] s21::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[163/320] s21::cand02
+[164/320] s21::cand04
+[165/320] s21::cand03
+[166/320] s21::cand05
+[167/320] s21::cand06
+[168/320] s21::cand07
+[169/320] s22::cand00
+[170/320] s22::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[171/320] s22::cand03
+[172/320] s22::cand04
+[173/320] s22::cand02
+[174/320] s22::cand05
+[175/320] s22::cand06
+[176/320] s22::cand07
+[177/320] s23::cand00
+[178/320] s23::cand01
+[179/320] s23::cand02
+[180/320] s23::cand03
+[181/320] s23::cand04
+[182/320] s23::cand05
+[183/320] s23::cand06
+[184/320] s23::cand07
+[185/320] s24::cand00
+[186/320] s24::cand01
+[187/320] s24::cand02
+[188/320] s24::cand03
+[189/320] s24::cand04
+[190/320] s24::cand05
+[191/320] s24::cand06
+[192/320] s24::cand07
+[193/320] s25::cand00
+[194/320] s25::cand01
+[195/320] s25::cand02
+[196/320] s25::cand03
+[197/320] s25::cand04
+[198/320] s25::cand05
+[199/320] s25::cand06
+[200/320] s25::cand07
+[201/320] s26::cand00
+[202/320] s26::cand01
+[203/320] s26::cand02
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[204/320] s26::cand03
+[205/320] s26::cand04
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[206/320] s26::cand05
+[207/320] s26::cand06
+[208/320] s26::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[209/320] s27::cand00
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[210/320] s27::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[211/320] s27::cand02
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[212/320] s27::cand04
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[213/320] s27::cand03
+[214/320] s27::cand05
+[215/320] s27::cand06
+[216/320] s27::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[217/320] s28::cand00
+[218/320] s28::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[219/320] s28::cand02
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[220/320] s28::cand03
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[221/320] s28::cand04
+[222/320] s28::cand05
+[223/320] s28::cand06
+[224/320] s28::cand07
+[225/320] s29::cand00
+[226/320] s29::cand01
+[227/320] s29::cand02
+[228/320] s29::cand03
+[229/320] s29::cand04
+[230/320] s29::cand05
+[231/320] s29::cand06
+[232/320] s29::cand07
+[233/320] s30::cand00
+[234/320] s30::cand01
+[235/320] s30::cand02
+[236/320] s30::cand03
+[237/320] s30::cand04
+[238/320] s30::cand05
+[239/320] s30::cand06
+[240/320] s30::cand07
+[241/320] s31::cand00
+[242/320] s31::cand01
+[243/320] s31::cand02
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[244/320] s31::cand03
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[245/320] s31::cand04
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[246/320] s31::cand05
+[247/320] s31::cand06
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[248/320] s31::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[249/320] s32::cand00
+[250/320] s32::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[251/320] s32::cand02
+[252/320] s32::cand03
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[253/320] s32::cand04
+[254/320] s32::cand05
+[255/320] s32::cand06
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[256/320] s32::cand07
+[257/320] s33::cand00
+[258/320] s33::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[259/320] s33::cand02
+[260/320] s33::cand03
+[261/320] s33::cand04
+[262/320] s33::cand05
+[263/320] s33::cand06
+[264/320] s33::cand07
+[265/320] s34::cand00
+[266/320] s34::cand01
+[267/320] s34::cand02
+[268/320] s34::cand03
+[269/320] s34::cand05
+[270/320] s34::cand04
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[271/320] s34::cand06
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[272/320] s34::cand07
+[273/320] s35::cand00
+[274/320] s35::cand01
+[275/320] s35::cand02
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[276/320] s35::cand03
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[277/320] s35::cand04
+[278/320] s35::cand05
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[279/320] s35::cand06
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[280/320] s35::cand07
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[281/320] s36::cand00
+[282/320] s36::cand01
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[283/320] s36::cand02
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[284/320] s36::cand03
+[285/320] s36::cand04
+[286/320] s36::cand05
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[287/320] s36::cand06
+[288/320] s36::cand07
+[289/320] s37::cand00
+[290/320] s37::cand01
+[291/320] s37::cand02
+[292/320] s37::cand03
+[293/320] s37::cand04
+[294/320] s37::cand05
+[295/320] s37::cand06
+[296/320] s37::cand07
+[297/320] s38::cand00
+[298/320] s38::cand01
+[299/320] s38::cand02
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[300/320] s38::cand03
+[301/320] s38::cand05
+[302/320] s38::cand04
+[303/320] s38::cand06
+[304/320] s38::cand07
+[305/320] s39::cand00
+[306/320] s39::cand01
+[307/320] s39::cand02
+[308/320] s39::cand03
+[309/320] s39::cand05
+[310/320] s39::cand04
+[311/320] s39::cand06
+[312/320] s39::cand07
+[313/320] s40::cand00
+[314/320] s40::cand01
+[315/320] s40::cand02
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[316/320] s40::cand03
+[317/320] s40::cand04
+[318/320] s40::cand06
+[319/320] s40::cand05  ~ degraded: structural_form
+[320/320] s40::cand07
+
+done — 320 record(s) → results/musecp/rerank_ace/results.json
+  failed pairs:            0
+  pairs w/ failed metric:  0
+  degraded (meaningless):  2
+RERANK DONE rc=1

@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "block": "iterative rerank; winner vs loser by C, same seed/region; fold into the greenlit MOS study's iterative block (STIMULI-SCOPE)"
+  },
+  "stimuli": [
+    {
+      "seed": "s01",
+      "c_winner": {
+        "pair_id": "s01::cand04",
+        "C": 0.7366839773988011,
+        "cand_path": "results/rerank_ace/audio/s01_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s01__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s01::cand07",
+        "C": 0.6042781223358756,
+        "cand_path": "results/rerank_ace/audio/s01_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s01__A.wav"
+      }
+    },
+    {
+      "seed": "s02",
+      "c_winner": {
+        "pair_id": "s02::cand01",
+        "C": 0.8024228337408675,
+        "cand_path": "results/rerank_ace/audio/s02_cand01__B.wav",
+        "ref_path": "results/rerank_ace/audio/s02__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s02::cand04",
+        "C": 0.7414516462584883,
+        "cand_path": "results/rerank_ace/audio/s02_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s02__A.wav"
+      }
+    },
+    {
+      "seed": "s03",
+      "c_winner": {
+        "pair_id": "s03::cand02",
+        "C": 0.7381149360029523,
+        "cand_path": "results/rerank_ace/audio/s03_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s03__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s03::cand06",
+        "C": 0.6911855422347508,
+        "cand_path": "results/rerank_ace/audio/s03_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s03__A.wav"
+      }
+    },
+    {
+      "seed": "s04",
+      "c_winner": {
+        "pair_id": "s04::cand07",
+        "C": 0.7709184674386746,
+        "cand_path": "results/rerank_ace/audio/s04_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s04__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s04::cand03",
+        "C": 0.7081120326278744,
+        "cand_path": "results/rerank_ace/audio/s04_cand03__B.wav",
+        "ref_path": "results/rerank_ace/audio/s04__A.wav"
+      }
+    },
+    {
+      "seed": "s05",
+      "c_winner": {
+        "pair_id": "s05::cand01",
+        "C": 0.7895646454237994,
+        "cand_path": "results/rerank_ace/audio/s05_cand01__B.wav",
+        "ref_path": "results/rerank_ace/audio/s05__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s05::cand07",
+        "C": 0.7673180615241079,
+        "cand_path": "results/rerank_ace/audio/s05_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s05__A.wav"
+      }
+    },
+    {
+      "seed": "s06",
+      "c_winner": {
+        "pair_id": "s06::cand02",
+        "C": 0.7344095723112659,
+        "cand_path": "results/rerank_ace/audio/s06_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s06__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s06::cand01",
+        "C": 0.6562475609807985,
+        "cand_path": "results/rerank_ace/audio/s06_cand01__B.wav",
+        "ref_path": "results/rerank_ace/audio/s06__A.wav"
+      }
+    },
+    {
+      "seed": "s07",
+      "c_winner": {
+        "pair_id": "s07::cand06",
+        "C": 0.8343932279598283,
+        "cand_path": "results/rerank_ace/audio/s07_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s07__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s07::cand04",
+        "C": 0.8067360758944203,
+        "cand_path": "results/rerank_ace/audio/s07_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s07__A.wav"
+      }
+    },
+    {
+      "seed": "s08",
+      "c_winner": {
+        "pair_id": "s08::cand05",
+        "C": 0.8251059808516473,
+        "cand_path": "results/rerank_ace/audio/s08_cand05__B.wav",
+        "ref_path": "results/rerank_ace/audio/s08__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s08::cand02",
+        "C": 0.7648442236345891,
+        "cand_path": "results/rerank_ace/audio/s08_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s08__A.wav"
+      }
+    },
+    {
+      "seed": "s09",
+      "c_winner": {
+        "pair_id": "s09::cand07",
+        "C": 0.7673851066602806,
+        "cand_path": "results/rerank_ace/audio/s09_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s09__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s09::cand05",
+        "C": 0.6680778324831876,
+        "cand_path": "results/rerank_ace/audio/s09_cand05__B.wav",
+        "ref_path": "results/rerank_ace/audio/s09__A.wav"
+      }
+    },
+    {
+      "seed": "s10",
+      "c_winner": {
+        "pair_id": "s10::cand02",
+        "C": 0.7625018000379646,
+        "cand_path": "results/rerank_ace/audio/s10_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s10__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s10::cand07",
+        "C": 0.673166311270961,
+        "cand_path": "results/rerank_ace/audio/s10_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s10__A.wav"
+      }
+    },
+    {
+      "seed": "s11",
+      "c_winner": {
+        "pair_id": "s11::cand02",
+        "C": 0.8244376398040778,
+        "cand_path": "results/rerank_ace/audio/s11_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s11__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s11::cand05",
+        "C": 0.7529805933160223,
+        "cand_path": "results/rerank_ace/audio/s11_cand05__B.wav",
+        "ref_path": "results/rerank_ace/audio/s11__A.wav"
+      }
+    },
+    {
+      "seed": "s12",
+      "c_winner": {
+        "pair_id": "s12::cand00",
+        "C": 0.7604813934848146,
+        "cand_path": "results/rerank_ace/audio/s12_cand00__B.wav",
+        "ref_path": "results/rerank_ace/audio/s12__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s12::cand06",
+        "C": 0.6924016771022604,
+        "cand_path": "results/rerank_ace/audio/s12_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s12__A.wav"
+      }
+    },
+    {
+      "seed": "s13",
+      "c_winner": {
+        "pair_id": "s13::cand07",
+        "C": 0.8345620891229223,
+        "cand_path": "results/rerank_ace/audio/s13_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s13__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s13::cand06",
+        "C": 0.74004928879653,
+        "cand_path": "results/rerank_ace/audio/s13_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s13__A.wav"
+      }
+    },
+    {
+      "seed": "s14",
+      "c_winner": {
+        "pair_id": "s14::cand04",
+        "C": 0.7715273977367323,
+        "cand_path": "results/rerank_ace/audio/s14_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s14__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s14::cand06",
+        "C": 0.6742986108181745,
+        "cand_path": "results/rerank_ace/audio/s14_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s14__A.wav"
+      }
+    },
+    {
+      "seed": "s15",
+      "c_winner": {
+        "pair_id": "s15::cand01",
+        "C": 0.748525460573489,
+        "cand_path": "results/rerank_ace/audio/s15_cand01__B.wav",
+        "ref_path": "results/rerank_ace/audio/s15__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s15::cand03",
+        "C": 0.6605905791911112,
+        "cand_path": "results/rerank_ace/audio/s15_cand03__B.wav",
+        "ref_path": "results/rerank_ace/audio/s15__A.wav"
+      }
+    },
+    {
+      "seed": "s16",
+      "c_winner": {
+        "pair_id": "s16::cand06",
+        "C": 0.7811952938233828,
+        "cand_path": "results/rerank_ace/audio/s16_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s16__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s16::cand03",
+        "C": 0.6366129012886074,
+        "cand_path": "results/rerank_ace/audio/s16_cand03__B.wav",
+        "ref_path": "results/rerank_ace/audio/s16__A.wav"
+      }
+    },
+    {
+      "seed": "s17",
+      "c_winner": {
+        "pair_id": "s17::cand03",
+        "C": 0.7905094358949829,
+        "cand_path": "results/rerank_ace/audio/s17_cand03__B.wav",
+        "ref_path": "results/rerank_ace/audio/s17__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s17::cand04",
+        "C": 0.7072536401694418,
+        "cand_path": "results/rerank_ace/audio/s17_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s17__A.wav"
+      }
+    },
+    {
+      "seed": "s18",
+      "c_winner": {
+        "pair_id": "s18::cand04",
+        "C": 0.7829855649279839,
+        "cand_path": "results/rerank_ace/audio/s18_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s18__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s18::cand05",
+        "C": 0.7324360710843452,
+        "cand_path": "results/rerank_ace/audio/s18_cand05__B.wav",
+        "ref_path": "results/rerank_ace/audio/s18__A.wav"
+      }
+    },
+    {
+      "seed": "s19",
+      "c_winner": {
+        "pair_id": "s19::cand02",
+        "C": 0.6233273811756749,
+        "cand_path": "results/rerank_ace/audio/s19_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s19__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s19::cand00",
+        "C": 0.5683649839399603,
+        "cand_path": "results/rerank_ace/audio/s19_cand00__B.wav",
+        "ref_path": "results/rerank_ace/audio/s19__A.wav"
+      }
+    },
+    {
+      "seed": "s20",
+      "c_winner": {
+        "pair_id": "s20::cand02",
+        "C": 0.8319266941205302,
+        "cand_path": "results/rerank_ace/audio/s20_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s20__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s20::cand04",
+        "C": 0.798529750026945,
+        "cand_path": "results/rerank_ace/audio/s20_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s20__A.wav"
+      }
+    },
+    {
+      "seed": "s21",
+      "c_winner": {
+        "pair_id": "s21::cand01",
+        "C": 0.7219424228987309,
+        "cand_path": "results/rerank_ace/audio/s21_cand01__B.wav",
+        "ref_path": "results/rerank_ace/audio/s21__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s21::cand00",
+        "C": 0.6457529845117441,
+        "cand_path": "results/rerank_ace/audio/s21_cand00__B.wav",
+        "ref_path": "results/rerank_ace/audio/s21__A.wav"
+      }
+    },
+    {
+      "seed": "s22",
+      "c_winner": {
+        "pair_id": "s22::cand00",
+        "C": 0.7518193242592114,
+        "cand_path": "results/rerank_ace/audio/s22_cand00__B.wav",
+        "ref_path": "results/rerank_ace/audio/s22__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s22::cand03",
+        "C": 0.5636876859699645,
+        "cand_path": "results/rerank_ace/audio/s22_cand03__B.wav",
+        "ref_path": "results/rerank_ace/audio/s22__A.wav"
+      }
+    },
+    {
+      "seed": "s23",
+      "c_winner": {
+        "pair_id": "s23::cand05",
+        "C": 0.8034104591200195,
+        "cand_path": "results/rerank_ace/audio/s23_cand05__B.wav",
+        "ref_path": "results/rerank_ace/audio/s23__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s23::cand00",
+        "C": 0.7411077802782924,
+        "cand_path": "results/rerank_ace/audio/s23_cand00__B.wav",
+        "ref_path": "results/rerank_ace/audio/s23__A.wav"
+      }
+    },
+    {
+      "seed": "s24",
+      "c_winner": {
+        "pair_id": "s24::cand04",
+        "C": 0.8208229091720386,
+        "cand_path": "results/rerank_ace/audio/s24_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s24__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s24::cand07",
+        "C": 0.7039681731968694,
+        "cand_path": "results/rerank_ace/audio/s24_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s24__A.wav"
+      }
+    },
+    {
+      "seed": "s25",
+      "c_winner": {
+        "pair_id": "s25::cand03",
+        "C": 0.7963201870054085,
+        "cand_path": "results/rerank_ace/audio/s25_cand03__B.wav",
+        "ref_path": "results/rerank_ace/audio/s25__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s25::cand00",
+        "C": 0.7330654968597241,
+        "cand_path": "results/rerank_ace/audio/s25_cand00__B.wav",
+        "ref_path": "results/rerank_ace/audio/s25__A.wav"
+      }
+    },
+    {
+      "seed": "s26",
+      "c_winner": {
+        "pair_id": "s26::cand01",
+        "C": 0.7678526247535585,
+        "cand_path": "results/rerank_ace/audio/s26_cand01__B.wav",
+        "ref_path": "results/rerank_ace/audio/s26__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s26::cand07",
+        "C": 0.6596734522891117,
+        "cand_path": "results/rerank_ace/audio/s26_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s26__A.wav"
+      }
+    },
+    {
+      "seed": "s27",
+      "c_winner": {
+        "pair_id": "s27::cand06",
+        "C": 0.7325686299107373,
+        "cand_path": "results/rerank_ace/audio/s27_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s27__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s27::cand02",
+        "C": 0.6350833225330798,
+        "cand_path": "results/rerank_ace/audio/s27_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s27__A.wav"
+      }
+    },
+    {
+      "seed": "s28",
+      "c_winner": {
+        "pair_id": "s28::cand05",
+        "C": 0.7134141335898099,
+        "cand_path": "results/rerank_ace/audio/s28_cand05__B.wav",
+        "ref_path": "results/rerank_ace/audio/s28__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s28::cand02",
+        "C": 0.6518261020600226,
+        "cand_path": "results/rerank_ace/audio/s28_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s28__A.wav"
+      }
+    },
+    {
+      "seed": "s29",
+      "c_winner": {
+        "pair_id": "s29::cand03",
+        "C": 0.8007128373677679,
+        "cand_path": "results/rerank_ace/audio/s29_cand03__B.wav",
+        "ref_path": "results/rerank_ace/audio/s29__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s29::cand07",
+        "C": 0.7365955858923378,
+        "cand_path": "results/rerank_ace/audio/s29_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s29__A.wav"
+      }
+    },
+    {
+      "seed": "s30",
+      "c_winner": {
+        "pair_id": "s30::cand06",
+        "C": 0.7795731321425818,
+        "cand_path": "results/rerank_ace/audio/s30_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s30__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s30::cand04",
+        "C": 0.6974661891452424,
+        "cand_path": "results/rerank_ace/audio/s30_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s30__A.wav"
+      }
+    },
+    {
+      "seed": "s31",
+      "c_winner": {
+        "pair_id": "s31::cand02",
+        "C": 0.7220401899775445,
+        "cand_path": "results/rerank_ace/audio/s31_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s31__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s31::cand07",
+        "C": 0.5371288004849236,
+        "cand_path": "results/rerank_ace/audio/s31_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s31__A.wav"
+      }
+    },
+    {
+      "seed": "s32",
+      "c_winner": {
+        "pair_id": "s32::cand01",
+        "C": 0.701967508619111,
+        "cand_path": "results/rerank_ace/audio/s32_cand01__B.wav",
+        "ref_path": "results/rerank_ace/audio/s32__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s32::cand06",
+        "C": 0.5821222801879619,
+        "cand_path": "results/rerank_ace/audio/s32_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s32__A.wav"
+      }
+    },
+    {
+      "seed": "s33",
+      "c_winner": {
+        "pair_id": "s33::cand02",
+        "C": 0.808151722475418,
+        "cand_path": "results/rerank_ace/audio/s33_cand02__B.wav",
+        "ref_path": "results/rerank_ace/audio/s33__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s33::cand05",
+        "C": 0.7855351132583619,
+        "cand_path": "results/rerank_ace/audio/s33_cand05__B.wav",
+        "ref_path": "results/rerank_ace/audio/s33__A.wav"
+      }
+    },
+    {
+      "seed": "s34",
+      "c_winner": {
+        "pair_id": "s34::cand04",
+        "C": 0.7182827008686454,
+        "cand_path": "results/rerank_ace/audio/s34_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s34__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s34::cand00",
+        "C": 0.6559777765885146,
+        "cand_path": "results/rerank_ace/audio/s34_cand00__B.wav",
+        "ref_path": "results/rerank_ace/audio/s34__A.wav"
+      }
+    },
+    {
+      "seed": "s35",
+      "c_winner": {
+        "pair_id": "s35::cand07",
+        "C": 0.8060967638573493,
+        "cand_path": "results/rerank_ace/audio/s35_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s35__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s35::cand04",
+        "C": 0.7535287055227221,
+        "cand_path": "results/rerank_ace/audio/s35_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s35__A.wav"
+      }
+    },
+    {
+      "seed": "s36",
+      "c_winner": {
+        "pair_id": "s36::cand07",
+        "C": 0.7812018738592643,
+        "cand_path": "results/rerank_ace/audio/s36_cand07__B.wav",
+        "ref_path": "results/rerank_ace/audio/s36__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s36::cand06",
+        "C": 0.6774747673326155,
+        "cand_path": "results/rerank_ace/audio/s36_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s36__A.wav"
+      }
+    },
+    {
+      "seed": "s37",
+      "c_winner": {
+        "pair_id": "s37::cand06",
+        "C": 0.7366731396149968,
+        "cand_path": "results/rerank_ace/audio/s37_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s37__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s37::cand05",
+        "C": 0.7116086321998168,
+        "cand_path": "results/rerank_ace/audio/s37_cand05__B.wav",
+        "ref_path": "results/rerank_ace/audio/s37__A.wav"
+      }
+    },
+    {
+      "seed": "s38",
+      "c_winner": {
+        "pair_id": "s38::cand00",
+        "C": 0.7178511977019948,
+        "cand_path": "results/rerank_ace/audio/s38_cand00__B.wav",
+        "ref_path": "results/rerank_ace/audio/s38__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s38::cand06",
+        "C": 0.6649377691779805,
+        "cand_path": "results/rerank_ace/audio/s38_cand06__B.wav",
+        "ref_path": "results/rerank_ace/audio/s38__A.wav"
+      }
+    },
+    {
+      "seed": "s39",
+      "c_winner": {
+        "pair_id": "s39::cand04",
+        "C": 0.7615720342979316,
+        "cand_path": "results/rerank_ace/audio/s39_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s39__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s39::cand03",
+        "C": 0.7029057521716365,
+        "cand_path": "results/rerank_ace/audio/s39_cand03__B.wav",
+        "ref_path": "results/rerank_ace/audio/s39__A.wav"
+      }
+    },
+    {
+      "seed": "s40",
+      "c_winner": {
+        "pair_id": "s40::cand04",
+        "C": 0.7300594183860332,
+        "cand_path": "results/rerank_ace/audio/s40_cand04__B.wav",
+        "ref_path": "results/rerank_ace/audio/s40__A.wav"
+      },
+      "c_loser": {
+        "pair_id": "s40::cand01",
+        "C": 0.6919990763305369,
+        "cand_path": "results/rerank_ace/audio/s40_cand01__B.wav",
+        "ref_path": "results/rerank_ace/audio/s40__A.wav"
+      }
+    }
+  ]
+}

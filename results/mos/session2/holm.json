@@ -1,0 +1,119 @@
+{
+  "note": "win rate over DECIDED ratings (ties dropped), the statistic in Table 4; cluster bootstrap over source seeds; Holm across arms.",
+  "n_trials": 80,
+  "n_ratings": 959,
+  "designed_arms": [
+    "C_noS",
+    "clap_htsat",
+    "clap_music",
+    "cocola",
+    "scs"
+  ],
+  "arms": {
+    "C_noS": {
+      "n_trials": 28,
+      "n_ratings": 332,
+      "n_decided": 258,
+      "n_ties": 74,
+      "win_rate_decided": 0.7597,
+      "ci95_cluster_by_seed": [
+        0.6853,
+        0.8301
+      ],
+      "n_seeds": 24,
+      "p_boot_two_sided": 5e-05,
+      "designed": true,
+      "p_holm_m5": 0.00025,
+      "p_holm_m6": 0.0003
+    },
+    "clap_htsat": {
+      "n_trials": 28,
+      "n_ratings": 331,
+      "n_decided": 249,
+      "n_ties": 82,
+      "win_rate_decided": 0.6908,
+      "ci95_cluster_by_seed": [
+        0.5627,
+        0.8031
+      ],
+      "n_seeds": 28,
+      "p_boot_two_sided": 0.0043,
+      "designed": true,
+      "p_holm_m5": 0.0043,
+      "p_holm_m6": 0.0043
+    },
+    "clap_music": {
+      "n_trials": 27,
+      "n_ratings": 332,
+      "n_decided": 260,
+      "n_ties": 72,
+      "win_rate_decided": 0.6846,
+      "ci95_cluster_by_seed": [
+        0.5692,
+        0.7924
+      ],
+      "n_seeds": 26,
+      "p_boot_two_sided": 0.0016,
+      "designed": true,
+      "p_holm_m5": 0.0032,
+      "p_holm_m6": 0.0032
+    },
+    "cocola": {
+      "n_trials": 34,
+      "n_ratings": 408,
+      "n_decided": 315,
+      "n_ties": 93,
+      "win_rate_decided": 0.7778,
+      "ci95_cluster_by_seed": [
+        0.7068,
+        0.8464
+      ],
+      "n_seeds": 33,
+      "p_boot_two_sided": 5e-05,
+      "designed": true,
+      "p_holm_m5": 0.00025,
+      "p_holm_m6": 0.0003
+    },
+    "scs": {
+      "n_trials": 31,
+      "n_ratings": 378,
+      "n_decided": 285,
+      "n_ties": 93,
+      "win_rate_decided": 0.7018,
+      "ci95_cluster_by_seed": [
+        0.6,
+        0.7911
+      ],
+      "n_seeds": 31,
+      "p_boot_two_sided": 5e-05,
+      "designed": true,
+      "p_holm_m5": 0.00025,
+      "p_holm_m6": 0.0003
+    },
+    "musecp": {
+      "n_trials": 33,
+      "n_ratings": 392,
+      "n_decided": 301,
+      "n_ties": 91,
+      "win_rate_decided": 0.7542,
+      "ci95_cluster_by_seed": [
+        0.6746,
+        0.8293
+      ],
+      "n_seeds": 26,
+      "p_boot_two_sided": 5e-05,
+      "designed": false,
+      "note": "post hoc: not in any `settles` cell. The 33 trials where musecp_mean12 prefers the rival candidate.",
+      "p_holm_m6": 0.0003
+    }
+  },
+  "holm_m5": {
+    "largest_adjusted_p": 0.0043,
+    "all_significant_0.05": true
+  },
+  "holm_m6": {
+    "note": "robustness only. Folding a post hoc comparison into the family tightens every threshold, so surviving at m=6 is stronger than surviving at m=5. It does not make MuseCPEval pre-specified.",
+    "largest_adjusted_p": 0.0043,
+    "all_significant_0.05": true
+  }
+}

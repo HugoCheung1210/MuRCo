@@ -1,0 +1,2 @@
+# Marks the repository root. Scripts walk up for this file (or .git) instead of counting
+# parent directories, so they work from any subfolder and in an extracted release zip.

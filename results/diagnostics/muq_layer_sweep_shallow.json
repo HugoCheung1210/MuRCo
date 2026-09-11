@@ -1,0 +1,19 @@
+{
+ "meta": {
+  "encoder": "muq",
+  "protocol": "leave-one-track-out, L2 fixed at C=1, difference feature e_B - e_A; a SCREEN that selects on the scored folds and therefore favours the baseline, which is the intended direction",
+  "best_layer": "1"
+ },
+ "by_layer": {
+  "1": {
+   "acc": 0.85,
+   "macro_f1": 0.7796,
+   "file": "muq_L1.npz"
+  },
+  "2": {
+   "acc": 0.8483,
+   "macro_f1": 0.7821,
+   "file": "muq_L2.npz"
+  }
+ }
+}

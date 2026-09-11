@@ -1,0 +1,184 @@
+{
+  "n_pairs": 154,
+  "n_sources": 59,
+  "dropped": [],
+  "rivals": [
+    "tunejury_b",
+    "tunejury_rel",
+    "songeval_coherence_b",
+    "songeval_coherence_rel",
+    "songeval_musicality_b",
+    "songeval_musicality_rel",
+    "songeval_memorability_b",
+    "songeval_memorability_rel",
+    "songeval_clarity_b",
+    "songeval_clarity_rel",
+    "songeval_naturalness_b",
+    "songeval_naturalness_rel"
+  ],
+  "weights": "uniform",
+  "marginal_r": {
+    "C": 0.7877682979947651,
+    "C_noS": 0.7482630077654085,
+    "clap_htsat": 0.6889050462911233,
+    "scs": 0.166807282711911,
+    "tunejury_b": 0.2241947198841517,
+    "tunejury_rel": 0.1958355863763252,
+    "songeval_coherence_b": -0.14093117862315055,
+    "songeval_coherence_rel": 0.18724650950428184,
+    "songeval_musicality_b": -0.13910331087261127,
+    "songeval_musicality_rel": 0.20466051198838248,
+    "songeval_memorability_b": -0.16220582197273212,
+    "songeval_memorability_rel": 0.25216623993394954,
+    "songeval_clarity_b": -0.13257097232813878,
+    "songeval_clarity_rel": 0.18612677469821157,
+    "songeval_naturalness_b": -0.13918668242952428,
+    "songeval_naturalness_rel": 0.19481193921121395
+  },
+  "contrasts": {
+    "C - C_noS": {
+      "delta_r": 0.04041175092941487,
+      "ci95": [
+        0.01681209459727173,
+        0.06799379803772443
+      ],
+      "frac_le_zero": 0.00015,
+      "excludes_zero": true
+    },
+    "C - clap_htsat": {
+      "delta_r": 0.09635150793982876,
+      "ci95": [
+        0.025380814069503987,
+        0.16985499513244096
+      ],
+      "frac_le_zero": 0.003,
+      "excludes_zero": true
+    },
+    "C_noS - clap_htsat": {
+      "delta_r": 0.05621936709776746,
+      "ci95": [
+        -0.027552613622648048,
+        0.13735964433055836
+      ],
+      "frac_le_zero": 0.09075,
+      "excludes_zero": false
+    },
+    "C - scs": {
+      "delta_r": 0.6242954494812035,
+      "ci95": [
+        0.4829349246846398,
+        0.7817090916183811
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - tunejury_b": {
+      "delta_r": 0.5617411195786869,
+      "ci95": [
+        0.418487046165638,
+        0.7008608395657209
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - tunejury_rel": {
+      "delta_r": 0.5921088362741592,
+      "ci95": [
+        0.4297736911157546,
+        0.768137658304327
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - songeval_coherence_b": {
+      "delta_r": 0.9252669950928486,
+      "ci95": [
+        0.7609031161381368,
+        1.0859019566670165
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - songeval_coherence_rel": {
+      "delta_r": 0.598204483328011,
+      "ci95": [
+        0.47707906577862047,
+        0.7275282711005548
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - songeval_musicality_b": {
+      "delta_r": 0.9217110841496357,
+      "ci95": [
+        0.7467036081041116,
+        1.0953818656614744
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - songeval_musicality_rel": {
+      "delta_r": 0.5806045501112538,
+      "ci95": [
+        0.45021189523550664,
+        0.7147408448641295
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - songeval_memorability_b": {
+      "delta_r": 0.9442397081355463,
+      "ci95": [
+        0.7611642224585305,
+        1.119873784626235
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - songeval_memorability_rel": {
+      "delta_r": 0.5334218547304795,
+      "ci95": [
+        0.40758332405020886,
+        0.6654744980019668
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - songeval_clarity_b": {
+      "delta_r": 0.9147102727651032,
+      "ci95": [
+        0.730117630175287,
+        1.0904174292031172
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - songeval_clarity_rel": {
+      "delta_r": 0.600562926520366,
+      "ci95": [
+        0.46970049494500965,
+        0.7328107627056754
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - songeval_naturalness_b": {
+      "delta_r": 0.9212220781357079,
+      "ci95": [
+        0.7320854230821318,
+        1.101712646289522
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - songeval_naturalness_rel": {
+      "delta_r": 0.5891784749149177,
+      "ci95": [
+        0.45314550713661694,
+        0.7317650411089639
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "HTRS": {
+    "dim": 4,
+    "dropped": "none",
+    "acc": 0.86,
+    "macro_f1": 0.8416
+  },
+  "TRS": {
+    "dim": 3,
+    "dropped": "H",
+    "acc": 0.7361,
+    "macro_f1": 0.6837
+  },
+  "HRS": {
+    "dim": 3,
+    "dropped": "T",
+    "acc": 0.7956,
+    "macro_f1": 0.7645
+  },
+  "HTS": {
+    "dim": 3,
+    "dropped": "R",
+    "acc": 0.8344,
+    "macro_f1": 0.8115
+  },
+  "HTR": {
+    "dim": 3,
+    "dropped": "S",
+    "acc": 0.85,
+    "macro_f1": 0.8275
+  },
+  "contrasts": {
+    "HTRS - TRS": {
+      "delta_acc": 0.1238,
+      "acc_ci95": [
+        0.1022,
+        0.1439
+      ],
+      "delta_macro_f1": 0.158,
+      "f1_ci95": [
+        0.1394,
+        0.1763
+      ],
+      "frac_le_zero_acc": 0.0
+    },
+    "HTRS - HRS": {
+      "delta_acc": 0.0646,
+      "acc_ci95": [
+        0.0478,
+        0.0822
+      ],
+      "delta_macro_f1": 0.0772,
+      "f1_ci95": [
+        0.058,
+        0.0971
+      ],
+      "frac_le_zero_acc": 0.0
+    },
+    "HTRS - HTS": {
+      "delta_acc": 0.0257,
+      "acc_ci95": [
+        0.0094,
+        0.0411
+      ],
+      "delta_macro_f1": 0.0303,
+      "f1_ci95": [
+        0.0131,
+        0.0455
+      ],
+      "frac_le_zero_acc": 0.001
+    },
+    "HTRS - HTR": {
+      "delta_acc": 0.01,
+      "acc_ci95": [
+        -0.0011,
+        0.0206
+      ],
+      "delta_macro_f1": 0.014,
+      "f1_ci95": [
+        0.0002,
+        0.0278
+      ],
+      "frac_le_zero_acc": 0.04
+    }
+  },
+  "meta": {
+    "n_pairs": 1800,
+    "n_tracks": 90,
+    "protocol": "leave-one-track-out over tracks, L2 chosen by a grouped inner split on the training fold only; paired bootstrap over tracks. Identical to diagnose_nested_cv.py."
+  }
+}

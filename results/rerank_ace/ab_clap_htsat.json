@@ -1,0 +1,234 @@
+{
+ "meta": {
+  "rival": "clap_htsat",
+  "rerank_dir": "results/rerank_ace",
+  "n_seeds": 20,
+  "n_trials": 10,
+  "n_agree_dropped": 5,
+  "agree_seeds": [
+   "s02",
+   "s10",
+   "s13",
+   "s16",
+   "s17"
+  ],
+  "n_held_out_thin_margin": 5,
+  "min_margin": 0.01,
+  "claim": "C vs published baseline \u2014 composite",
+  "note": "seeds where both metrics pick the same candidate carry no information"
+ },
+ "trials": [
+  {
+   "seed": "s01",
+   "c_pick": {
+    "pair_id": "s01::cand04",
+    "C": 0.7367,
+    "rival_score": 0.9696
+   },
+   "rival_pick": {
+    "pair_id": "s01::cand05",
+    "C": 0.7058,
+    "rival_score": 0.9702
+   },
+   "c_margin": 0.0309
+  },
+  {
+   "seed": "s03",
+   "c_pick": {
+    "pair_id": "s03::cand02",
+    "C": 0.7381,
+    "rival_score": 0.9707
+   },
+   "rival_pick": {
+    "pair_id": "s03::cand03",
+    "C": 0.713,
+    "rival_score": 0.9754
+   },
+   "c_margin": 0.0251
+  },
+  {
+   "seed": "s04",
+   "c_pick": {
+    "pair_id": "s04::cand07",
+    "C": 0.7709,
+    "rival_score": 0.9735
+   },
+   "rival_pick": {
+    "pair_id": "s04::cand06",
+    "C": 0.7411,
+    "rival_score": 0.9801
+   },
+   "c_margin": 0.0299
+  },
+  {
+   "seed": "s06",
+   "c_pick": {
+    "pair_id": "s06::cand02",
+    "C": 0.7344,
+    "rival_score": 0.938
+   },
+   "rival_pick": {
+    "pair_id": "s06::cand07",
+    "C": 0.7052,
+    "rival_score": 0.9485
+   },
+   "c_margin": 0.0293
+  },
+  {
+   "seed": "s09",
+   "c_pick": {
+    "pair_id": "s09::cand07",
+    "C": 0.7674,
+    "rival_score": 0.8738
+   },
+   "rival_pick": {
+    "pair_id": "s09::cand03",
+    "C": 0.7151,
+    "rival_score": 0.9374
+   },
+   "c_margin": 0.0523
+  },
+  {
+   "seed": "s12",
+   "c_pick": {
+    "pair_id": "s12::cand00",
+    "C": 0.7605,
+    "rival_score": 0.9708
+   },
+   "rival_pick": {
+    "pair_id": "s12::cand03",
+    "C": 0.7474,
+    "rival_score": 0.976
+   },
+   "c_margin": 0.0131
+  },
+  {
+   "seed": "s14",
+   "c_pick": {
+    "pair_id": "s14::cand04",
+    "C": 0.7715,
+    "rival_score": 0.9818
+   },
+   "rival_pick": {
+    "pair_id": "s14::cand07",
+    "C": 0.7029,
+    "rival_score": 0.9855
+   },
+   "c_margin": 0.0686
+  },
+  {
+   "seed": "s15",
+   "c_pick": {
+    "pair_id": "s15::cand01",
+    "C": 0.7485,
+    "rival_score": 0.9539
+   },
+   "rival_pick": {
+    "pair_id": "s15::cand07",
+    "C": 0.7268,
+    "rival_score": 0.9756
+   },
+   "c_margin": 0.0217
+  },
+  {
+   "seed": "s19",
+   "c_pick": {
+    "pair_id": "s19::cand02",
+    "C": 0.6233,
+    "rival_score": 0.8988
+   },
+   "rival_pick": {
+    "pair_id": "s19::cand04",
+    "C": 0.6022,
+    "rival_score": 0.9414
+   },
+   "c_margin": 0.0211
+  },
+  {
+   "seed": "s20",
+   "c_pick": {
+    "pair_id": "s20::cand02",
+    "C": 0.8319,
+    "rival_score": 0.9803
+   },
+   "rival_pick": {
+    "pair_id": "s20::cand01",
+    "C": 0.8043,
+    "rival_score": 0.9886
+   },
+   "c_margin": 0.0277
+  }
+ ],
+ "held_out_thin_margin": [
+  {
+   "seed": "s05",
+   "c_pick": {
+    "pair_id": "s05::cand01",
+    "C": 0.7896,
+    "rival_score": 0.9471
+   },
+   "rival_pick": {
+    "pair_id": "s05::cand03",
+    "C": 0.7861,
+    "rival_score": 0.9789
+   },
+   "c_margin": 0.0034
+  },
+  {
+   "seed": "s07",
+   "c_pick": {
+    "pair_id": "s07::cand06",
+    "C": 0.8344,
+    "rival_score": 0.9926
+   },
+   "rival_pick": {
+    "pair_id": "s07::cand05",
+    "C": 0.8284,
+    "rival_score": 0.9947
+   },
+   "c_margin": 0.006
+  },
+  {
+   "seed": "s08",
+   "c_pick": {
+    "pair_id": "s08::cand05",
+    "C": 0.8251,
+    "rival_score": 0.9842
+   },
+   "rival_pick": {
+    "pair_id": "s08::cand03",
+    "C": 0.8162,
+    "rival_score": 0.9924
+   },
+   "c_margin": 0.0089
+  },
+  {
+   "seed": "s11",
+   "c_pick": {
+    "pair_id": "s11::cand02",
+    "C": 0.8244,
+    "rival_score": 0.9758
+   },
+   "rival_pick": {
+    "pair_id": "s11::cand03",
+    "C": 0.8239,
+    "rival_score": 0.9888
+   },
+   "c_margin": 0.0005
+  },
+  {
+   "seed": "s18",
+   "c_pick": {
+    "pair_id": "s18::cand04",
+    "C": 0.783,
+    "rival_score": 0.9844
+   },
+   "rival_pick": {
+    "pair_id": "s18::cand02",
+    "C": 0.7745,
+    "rival_score": 0.9859
+   },
+   "c_margin": 0.0085
+  }
+ ]
+}

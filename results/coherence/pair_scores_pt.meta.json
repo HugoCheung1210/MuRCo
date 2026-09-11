@@ -1,0 +1,8 @@
+{
+  "variant": "swap",
+  "source_scores": "results/pair_scores.csv",
+  "s_cache": null,
+  "s_cache_2": null,
+  "n_rows": 1890,
+  "note": "score_S replaced from results/s_scores_pt.json (1890 rows); H/T/R untouched."
+}

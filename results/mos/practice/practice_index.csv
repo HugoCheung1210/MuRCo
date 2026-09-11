@@ -1,0 +1,3 @@
+stimulus_id,file,expected_rating,segment_a,offset_a_s,segment_b,offset_b_s,note,seconds,rms,peak
+practice_hi,practice_hi.mp3,5,practice_cand_06,0.0,practice_cand_06,0.0,control: identical segment repeated,13.0,0.1,0.6309
+practice_lo,practice_lo.mp3,1,practice_cand_05,0.0,practice_cand_06,12.0,different piece substituted,13.0,0.1,0.676

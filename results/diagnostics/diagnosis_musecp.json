@@ -1,0 +1,275 @@
+{
+ "musecp12": {
+  "dim": 12,
+  "acc": 0.97,
+  "macro_f1": 0.9647
+ },
+ "musecp_harmony": {
+  "dim": 3,
+  "acc": 0.7339,
+  "macro_f1": 0.5651
+ },
+ "musecp_rhythm": {
+  "dim": 3,
+  "acc": 0.5078,
+  "macro_f1": 0.2541
+ },
+ "musecp_structure": {
+  "dim": 2,
+  "acc": 0.3917,
+  "macro_f1": 0.2181
+ },
+ "musecp_melody": {
+  "dim": 2,
+  "acc": 0.7411,
+  "macro_f1": 0.7336
+ },
+ "musecp_timbre": {
+  "dim": 2,
+  "acc": 0.6067,
+  "macro_f1": 0.4929
+ },
+ "musecp10_noTimbre": {
+  "dim": 10,
+  "acc": 0.9333,
+  "macro_f1": 0.9173
+ },
+ "HTRS": {
+  "dim": 4,
+  "acc": 0.86,
+  "macro_f1": 0.8416
+ },
+ "HTR": {
+  "dim": 3,
+  "acc": 0.85,
+  "macro_f1": 0.8275
+ },
+ "contrasts": {
+  "HTRS - musecp12": {
+   "delta_acc": -0.1105,
+   "acc_ci95": [
+    -0.1378,
+    -0.0839
+   ],
+   "delta_macro_f1": -0.1237,
+   "f1_ci95": [
+    -0.1498,
+    -0.0961
+   ],
+   "frac_le_zero_acc": 1.0
+  },
+  "HTR - musecp12": {
+   "delta_acc": -0.1195,
+   "acc_ci95": [
+    -0.1456,
+    -0.095
+   ],
+   "delta_macro_f1": -0.1368,
+   "f1_ci95": [
+    -0.1626,
+    -0.1119
+   ],
+   "frac_le_zero_acc": 1.0
+  },
+  "HTRS - musecp10_noTimbre": {
+   "delta_acc": -0.0733,
+   "acc_ci95": [
+    -0.1006,
+    -0.0472
+   ],
+   "delta_macro_f1": -0.0757,
+   "f1_ci95": [
+    -0.1036,
+    -0.0498
+   ],
+   "frac_le_zero_acc": 1.0
+  },
+  "musecp12 - musecp10_noTimbre": {
+   "delta_acc": 0.0368,
+   "acc_ci95": [
+    0.025,
+    0.05
+   ],
+   "delta_macro_f1": 0.0476,
+   "f1_ci95": [
+    0.0331,
+    0.0641
+   ],
+   "frac_le_zero_acc": 0.0
+  }
+ },
+ "signature": {
+  "mean": {
+   "pitch_shift": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.5925925925925926,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": 0.8358391717807023,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": 0.7649655981258964,
+    "rhythm_meter.delta_bpm_folded": 5.554265206796095,
+    "rhythm_meter.beat_mir_eval.F-measure": 0.7800781037772894,
+    "rhythm_meter.beat_mir_eval.Information gain": 0.7327880576876169,
+    "structural_form.pairwise_f": 0.9742060869806627,
+    "structural_form.ari": 0.9031069378981055,
+    "melodic_content.contour_dtw_similarity": 0.8013726961090255,
+    "melodic_content.motif_3gram_recall": 0.42962033288667273,
+    "timbre_texture.mfcc_skl_similarity": 0.7150416593977973,
+    "timbre_texture.mean_mfcc_cosine": 0.9935191608420995
+   },
+   "control": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.0,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": 0.9999999773829659,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": 0.9999999931105887,
+    "rhythm_meter.delta_bpm_folded": 0.0,
+    "rhythm_meter.beat_mir_eval.F-measure": 0.9555555555555556,
+    "rhythm_meter.beat_mir_eval.Information gain": 0.9555555555555556,
+    "structural_form.pairwise_f": 1.0,
+    "structural_form.ari": 1.0,
+    "melodic_content.contour_dtw_similarity": 0.9999991492844291,
+    "melodic_content.motif_3gram_recall": 1.0,
+    "timbre_texture.mfcc_skl_similarity": 0.9999984657618717,
+    "timbre_texture.mean_mfcc_cosine": 0.999999997918062
+   },
+   "time_stretch": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.0691358024691358,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": 0.995691954617271,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": 0.9798240526987932,
+    "rhythm_meter.delta_bpm_folded": 15.741438103897824,
+    "rhythm_meter.beat_mir_eval.F-measure": 0.2675992525188901,
+    "rhythm_meter.beat_mir_eval.Information gain": 0.41141430611668184,
+    "structural_form.pairwise_f": 0.9234338407845291,
+    "structural_form.ari": 0.7005363795923915,
+    "melodic_content.contour_dtw_similarity": 0.6359988497815666,
+    "melodic_content.motif_3gram_recall": 0.36953811269824344,
+    "timbre_texture.mfcc_skl_similarity": 0.902791350289352,
+    "timbre_texture.mean_mfcc_cosine": 0.9985504048322512
+   },
+   "lowpass": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.01604938271604938,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": 0.9997234750631235,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": 0.999262279982019,
+    "rhythm_meter.delta_bpm_folded": 9.1333520373886,
+    "rhythm_meter.beat_mir_eval.F-measure": 0.6888481417595449,
+    "rhythm_meter.beat_mir_eval.Information gain": 0.6694937682745412,
+    "structural_form.pairwise_f": 0.9629839353178046,
+    "structural_form.ari": 0.8317614505022837,
+    "melodic_content.contour_dtw_similarity": 0.989965131384044,
+    "melodic_content.motif_3gram_recall": 0.9003435604579395,
+    "timbre_texture.mfcc_skl_similarity": 0.17895524701002424,
+    "timbre_texture.mean_mfcc_cosine": 0.938947051444692
+   },
+   "distortion": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.022839506172839506,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": 0.9969106753432734,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": 0.9940047119469256,
+    "rhythm_meter.delta_bpm_folded": 8.899365753343352,
+    "rhythm_meter.beat_mir_eval.F-measure": 0.6510244551987171,
+    "rhythm_meter.beat_mir_eval.Information gain": 0.6368475441016448,
+    "structural_form.pairwise_f": 0.9439933902587968,
+    "structural_form.ari": 0.7121189600161864,
+    "melodic_content.contour_dtw_similarity": 0.8861606146001846,
+    "melodic_content.motif_3gram_recall": 0.6900642567309235,
+    "timbre_texture.mfcc_skl_similarity": 0.6018561389051097,
+    "timbre_texture.mean_mfcc_cosine": 0.9882636307021568
+   },
+   "style_swap": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.45370370370370366,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": 0.851417202075365,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": 0.7743072577168886,
+    "rhythm_meter.delta_bpm_folded": 21.641661906670585,
+    "rhythm_meter.beat_mir_eval.F-measure": 0.25833023481985135,
+    "rhythm_meter.beat_mir_eval.Information gain": 0.382257757272056,
+    "structural_form.pairwise_f": 0.9017545975223937,
+    "structural_form.ari": 0.5266602160835933,
+    "melodic_content.contour_dtw_similarity": 0.2845595295845385,
+    "melodic_content.motif_3gram_recall": 0.027173569894158128,
+    "timbre_texture.mfcc_skl_similarity": 0.19204231787397796,
+    "timbre_texture.mean_mfcc_cosine": 0.8667671421112497
+   }
+  },
+  "shift_from_control": {
+   "pitch_shift": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.5926,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": -0.1642,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": -0.235,
+    "rhythm_meter.delta_bpm_folded": 5.5543,
+    "rhythm_meter.beat_mir_eval.F-measure": -0.1755,
+    "rhythm_meter.beat_mir_eval.Information gain": -0.2228,
+    "structural_form.pairwise_f": -0.0258,
+    "structural_form.ari": -0.0969,
+    "melodic_content.contour_dtw_similarity": -0.1986,
+    "melodic_content.motif_3gram_recall": -0.5704,
+    "timbre_texture.mfcc_skl_similarity": -0.285,
+    "timbre_texture.mean_mfcc_cosine": -0.0065
+   },
+   "time_stretch": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.0691,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": -0.0043,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": -0.0202,
+    "rhythm_meter.delta_bpm_folded": 15.7414,
+    "rhythm_meter.beat_mir_eval.F-measure": -0.688,
+    "rhythm_meter.beat_mir_eval.Information gain": -0.5441,
+    "structural_form.pairwise_f": -0.0766,
+    "structural_form.ari": -0.2995,
+    "melodic_content.contour_dtw_similarity": -0.364,
+    "melodic_content.motif_3gram_recall": -0.6305,
+    "timbre_texture.mfcc_skl_similarity": -0.0972,
+    "timbre_texture.mean_mfcc_cosine": -0.0014
+   },
+   "lowpass": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.016,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": -0.0003,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": -0.0007,
+    "rhythm_meter.delta_bpm_folded": 9.1334,
+    "rhythm_meter.beat_mir_eval.F-measure": -0.2667,
+    "rhythm_meter.beat_mir_eval.Information gain": -0.2861,
+    "structural_form.pairwise_f": -0.037,
+    "structural_form.ari": -0.1682,
+    "melodic_content.contour_dtw_similarity": -0.01,
+    "melodic_content.motif_3gram_recall": -0.0997,
+    "timbre_texture.mfcc_skl_similarity": -0.821,
+    "timbre_texture.mean_mfcc_cosine": -0.0611
+   },
+   "distortion": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.0228,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": -0.0031,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": -0.006,
+    "rhythm_meter.delta_bpm_folded": 8.8994,
+    "rhythm_meter.beat_mir_eval.F-measure": -0.3045,
+    "rhythm_meter.beat_mir_eval.Information gain": -0.3187,
+    "structural_form.pairwise_f": -0.056,
+    "structural_form.ari": -0.2879,
+    "melodic_content.contour_dtw_similarity": -0.1138,
+    "melodic_content.motif_3gram_recall": -0.3099,
+    "timbre_texture.mfcc_skl_similarity": -0.3981,
+    "timbre_texture.mean_mfcc_cosine": -0.0117
+   },
+   "style_swap": {
+    "harmony_tonality.key_relatedness.distance_norm_0to1": 0.4537,
+    "harmony_tonality.chroma_similarity.mean_chroma_cosine": -0.1486,
+    "harmony_tonality.chroma_similarity.chroma_dtw_cosine": -0.2257,
+    "rhythm_meter.delta_bpm_folded": 21.6417,
+    "rhythm_meter.beat_mir_eval.F-measure": -0.6972,
+    "rhythm_meter.beat_mir_eval.Information gain": -0.5733,
+    "structural_form.pairwise_f": -0.0982,
+    "structural_form.ari": -0.4733,
+    "melodic_content.contour_dtw_similarity": -0.7154,
+    "melodic_content.motif_3gram_recall": -0.9728,
+    "timbre_texture.mfcc_skl_similarity": -0.808,
+    "timbre_texture.mean_mfcc_cosine": -0.1332
+   }
+  }
+ },
+ "meta": {
+  "n_pairs": 1800,
+  "n_tracks": 90,
+  "families": [
+   "pitch_shift",
+   "time_stretch",
+   "lowpass",
+   "distortion",
+   "style_swap"
+  ],
+  "scorer": "musecpeval 0.3.0, 12 paper-reported metrics over five facets",
+  "protocol": "leave-one-track-out; L2 chosen on a grouped inner split of the training fold only; paired bootstrap over tracks",
+  "note": "Setup-1 only. Setup 2 and Setup 3 have no original for MuseCPEval to reference, so it cannot be run there."
+ }
+}

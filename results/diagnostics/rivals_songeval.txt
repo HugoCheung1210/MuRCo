@@ -1,0 +1,68 @@
+SONGEVAL rows: 1890   columns: ['songeval_coherence_cat', 'songeval_coherence_rel', 'songeval_musicality_cat', 'songeval_musicality_rel', 'songeval_memorability_cat', 'songeval_memorability_rel', 'songeval_clarity_cat', 'songeval_clarity_rel', 'songeval_naturalness_cat', 'songeval_naturalness_rel']   primary: songeval_coherence_rel
+
+=== SONGEVAL on the perturbation matrix ===
+(drop = control - perturbed, matching the separability matrix convention;
+ a metric that cannot see a perturbation has drop ~ 0)
+
+perturbation        n songeval_coherence_cat_mean songeval_coherence_cat_drop songeval_coherence_cat_dz songeval_coherence_rel_mean songeval_coherence_rel_drop songeval_coherence_rel_dz songeval_musicality_cat_mean songeval_musicality_cat_drop songeval_musicality_cat_dz songeval_musicality_rel_mean songeval_musicality_rel_drop songeval_musicality_rel_dz songeval_memorability_cat_mean songeval_memorability_cat_drop songeval_memorability_cat_dz songeval_memorability_rel_mean songeval_memorability_rel_drop songeval_memorability_rel_dz songeval_clarity_cat_mean songeval_clarity_cat_drop songeval_clarity_cat_dz songeval_clarity_rel_mean songeval_clarity_rel_drop songeval_clarity_rel_dz songeval_naturalness_cat_mean songeval_naturalness_cat_drop songeval_naturalness_cat_dz songeval_naturalness_rel_mean songeval_naturalness_rel_drop songeval_naturalness_rel_dz 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+control            90          2.776        +0.000         nan         -0.021        +0.000         nan          2.656        +0.000         nan         -0.063        +0.000         nan          2.720        +0.000         nan          0.039        +0.000         nan          2.535        +0.000         nan         -0.088        +0.000         nan          2.560        +0.000         nan         -0.015        +0.000         nan 
+pitch_shift       540          2.599        +0.177        1.33         -0.129        +0.108        0.93          2.423        +0.232        1.73         -0.219        +0.156        1.36          2.463        +0.257        1.80         -0.133        +0.173        1.51          2.349        +0.186        1.36         -0.193        +0.105        0.87          2.367        +0.194        1.53         -0.148        +0.133        1.20 
+time_stretch      540          2.602        +0.174        1.45         -0.142        +0.121        1.08          2.485        +0.171        1.48         -0.165        +0.102        0.96          2.498        +0.221        1.62         -0.113        +0.153        1.23          2.344        +0.192        1.51         -0.216        +0.129        1.10          2.388        +0.172        1.51         -0.139        +0.123        1.14 
+lowpass           270          2.695        +0.081        0.67          0.001        -0.022       -0.23          2.570        +0.085        0.74         -0.047        -0.016       -0.16          2.632        +0.088        0.69          0.059        -0.020       -0.18          2.462        +0.073        0.60         -0.063        -0.025       -0.24          2.516        +0.045        0.39          0.026        -0.041       -0.39 
+distortion        270          2.697        +0.080        0.52         -0.013        -0.008       -0.07          2.534        +0.122        0.78         -0.073        +0.010        0.09          2.596        +0.123        0.74          0.014        +0.026        0.22          2.420        +0.116        0.75         -0.084        -0.004       -0.03          2.480        +0.081        0.55          0.000        -0.015       -0.13 
+style_swap        180          2.612        +0.164        0.48         -0.194        +0.173        0.76          2.485        +0.171        0.55         -0.252        +0.189        0.88          2.508        +0.212        0.61         -0.181        +0.220        0.92          2.368        +0.167        0.51         -0.268        +0.180        0.74          2.404        +0.157        0.52         -0.182        +0.167        0.73 
+
+=== C's own dimensions, same statistic (for comparison) ===
+
+perturbation          H_drop     T_drop     R_drop     S_drop
+-------------------------------------------------------------
+pitch_shift           +0.155     +0.300     +0.025     +0.051
+time_stretch          +0.004     +0.125     +0.244     +0.006
+lowpass               +0.000     +0.479     +0.033     +0.036
+distortion            +0.003     +0.353     +0.048     +0.099
+style_swap            +0.140     +0.555     +0.255     +0.202
+
+Reading: a family where SONGEVAL's drop is ~0 while C's dimensions move is a
+family SONGEVAL cannot see on these pairs. The _b columns are the absolute reading (B alone, what the model was trained for);
+the _rel columns are the relational one (cat - mean of the parts). A rival whose _b moves
+but whose _rel does not is measuring clip quality, not the junction.
+
+
+=== SONGEVAL as a re-ranker on songeval_coherence_rel (40 seeds, 8 candidates each) ===
+
+rank agreement (mean Spearman over seeds); near 0 = a distinct signal
+    songeval_coherence_rel vs C            rho = +0.102
+    songeval_coherence_rel vs clap_htsat   rho = +0.132
+    songeval_coherence_rel vs clap_music   rho = -0.010
+    songeval_coherence_rel vs scs          rho = +0.079
+    songeval_coherence_rel vs score_S      rho = +0.047
+
+winner's held-out S (S was not used to rank); paired over seeds
+    contrast                    mean diff                  95% CI     d_z
+    C - random                    +0.0532   [+0.0439, +0.0627]   +1.72  *
+    C - songeval_coherence_rel    +0.0653   [+0.0467, +0.0851]   +1.04  *
+    songeval_coherence_rel - random    -0.0121   [-0.0279, +0.0036]   -0.23
+    clap_htsat - random           +0.0232   [+0.0125, +0.0338]   +0.67  *
+
+rank-by-songeval_coherence_rel vs expected-random, per judge (the rival judged on itself is the sanity check)
+    judge              rival-rand                  95% CI    d_z      C-rand
+    score_S               -0.0121   [-0.0279, +0.0033]  -0.23     +0.0532
+    score_H               +0.0024   [-0.0005, +0.0056]  +0.25     +0.0057
+    score_T               -0.0025   [-0.0122, +0.0074]  -0.08     +0.0298
+    score_R               +0.0005   [-0.0139, +0.0139]  +0.01     +0.0202
+    C                     -0.0052   [-0.0155, +0.0042]  -0.16     +0.0348
+    clap_htsat            -0.0003   [-0.0055, +0.0049]  -0.02     +0.0063
+    clap_music            -0.0001   [-0.0002, +0.0000]  -0.19     +0.0001
+    scs                   -0.0004   [-0.0169, +0.0143]  -0.01     +0.0374
+    songeval_coherence_cat      +0.0490   [+0.0261, +0.0714]  +0.66 *   +0.0159
+    songeval_coherence_rel      +0.0671   [+0.0587, +0.0759]  +2.37 *   -0.0015
+    songeval_musicality_cat      +0.0330   [+0.0127, +0.0535]  +0.50 *   +0.0110
+    songeval_musicality_rel      +0.0541   [+0.0399, +0.0693]  +1.13 *   -0.0015
+    songeval_memorability_cat      +0.0289   [+0.0049, +0.0534]  +0.36 *   +0.0248
+    songeval_memorability_rel      +0.0561   [+0.0427, +0.0702]  +1.25 *   +0.0149
+    songeval_clarity_cat      +0.0222   [+0.0035, +0.0405]  +0.37 *   +0.0198
+    songeval_clarity_rel      +0.0484   [+0.0361, +0.0612]  +1.18 *   +0.0060
+    songeval_naturalness_cat      +0.0096   [-0.0101, +0.0299]  +0.15     +0.0165
+    songeval_naturalness_rel      +0.0393   [+0.0267, +0.0521]  +0.95 *   +0.0050
+    * = 95% CI excludes zero

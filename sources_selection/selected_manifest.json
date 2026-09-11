@@ -1,0 +1,1434 @@
+[
+  {
+    "track_id": 70448,
+    "duration": 203.0,
+    "title": "Vivaldi - Concerto in C Major for Oboe and Orchestra andante",
+    "artist": "Advent Chamber Orchestra",
+    "license": "Attribution-Share Alike 3.0 United States",
+    "genre_ids": [
+      442,
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_01",
+    "genre": "classical",
+    "archive_entry": "fma_medium/070/070448.mp3",
+    "copied_to": "raw_audio/classical_01.mp3"
+  },
+  {
+    "track_id": 55956,
+    "duration": 208.0,
+    "title": "Winter Mvt 1 Allegro non molto",
+    "artist": "John Harrison with the Wichita State University Chamber Players",
+    "license": "Attribution-ShareAlike 3.0 International",
+    "genre_ids": [
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_02",
+    "genre": "classical",
+    "archive_entry": "fma_medium/055/055956.mp3",
+    "copied_to": "raw_audio/classical_02.mp3"
+  },
+  {
+    "track_id": 14649,
+    "duration": 298.0,
+    "title": "Lutoslawski: Variations on a Theme by Paganini",
+    "artist": "Neal and Nancy O'Doan",
+    "license": "Electronic Frontier Foundation Open Audio License",
+    "genre_ids": [
+      187,
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_03",
+    "genre": "classical",
+    "archive_entry": "fma_medium/014/014649.mp3",
+    "copied_to": "raw_audio/classical_03.mp3"
+  },
+  {
+    "track_id": 70450,
+    "duration": 202.0,
+    "title": "Corelli - Concerto Grosso G Minor 1",
+    "artist": "Advent Chamber Orchestra",
+    "license": "Attribution-Share Alike 3.0 United States",
+    "genre_ids": [
+      442,
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_04",
+    "genre": "classical",
+    "archive_entry": "fma_medium/070/070450.mp3",
+    "copied_to": "raw_audio/classical_04.mp3"
+  },
+  {
+    "track_id": 82071,
+    "duration": 341.0,
+    "title": "An Ordinary Day In The Life Of A Superhero",
+    "artist": "Linden Killam",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      659,
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_05",
+    "genre": "classical",
+    "archive_entry": "fma_medium/082/082071.mp3",
+    "copied_to": "raw_audio/classical_05.mp3"
+  },
+  {
+    "track_id": 134984,
+    "duration": 404.0,
+    "title": "III. Lent",
+    "artist": "Gavin Gamboa",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      659,
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_06",
+    "genre": "classical",
+    "archive_entry": "fma_medium/134/134984.mp3",
+    "copied_to": "raw_audio/classical_06.mp3"
+  },
+  {
+    "track_id": 113600,
+    "duration": 136.0,
+    "title": "Black and White 07",
+    "artist": "Megatone",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      659,
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_07",
+    "genre": "classical",
+    "archive_entry": "fma_medium/113/113600.mp3",
+    "copied_to": "raw_audio/classical_07.mp3"
+  },
+  {
+    "track_id": 38956,
+    "duration": 174.0,
+    "title": "Veloma",
+    "artist": "Fabrizio Paterlini",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_08",
+    "genre": "classical",
+    "archive_entry": "fma_medium/038/038956.mp3",
+    "copied_to": "raw_audio/classical_08.mp3"
+  },
+  {
+    "track_id": 113603,
+    "duration": 178.0,
+    "title": "Black and White 10",
+    "artist": "Megatone",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      659,
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_09",
+    "genre": "classical",
+    "archive_entry": "fma_medium/113/113603.mp3",
+    "copied_to": "raw_audio/classical_09.mp3"
+  },
+  {
+    "track_id": 113594,
+    "duration": 197.0,
+    "title": "Black and White 01",
+    "artist": "Megatone",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      659,
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_10",
+    "genre": "classical",
+    "archive_entry": "fma_medium/113/113594.mp3",
+    "copied_to": "raw_audio/classical_10.mp3"
+  },
+  {
+    "track_id": 11429,
+    "duration": 360.0,
+    "title": "Sonata No. 13 in E Flat Major, Op. 27 No. 1 - I. Andante - Allegro - Tempo I",
+    "artist": "Daniel Veesey",
+    "license": "Public Domain",
+    "genre_ids": [
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_11",
+    "genre": "classical",
+    "archive_entry": "fma_medium/011/011429.mp3",
+    "copied_to": "raw_audio/classical_11.mp3"
+  },
+  {
+    "track_id": 21530,
+    "duration": 88.0,
+    "title": "Geese",
+    "artist": "Andrew Christopher Smith",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_12",
+    "genre": "classical",
+    "archive_entry": "fma_medium/021/021530.mp3",
+    "copied_to": "raw_audio/classical_12.mp3"
+  },
+  {
+    "track_id": 21533,
+    "duration": 167.0,
+    "title": "Very Slow",
+    "artist": "Andrew Christopher Smith",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_13",
+    "genre": "classical",
+    "archive_entry": "fma_medium/021/021533.mp3",
+    "copied_to": "raw_audio/classical_13.mp3"
+  },
+  {
+    "track_id": 75711,
+    "duration": 227.0,
+    "title": "Gnossienne 5",
+    "artist": "Chad Crouch",
+    "license": "Attribution-NonCommercial 3.0 International",
+    "genre_ids": [
+      187,
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_14",
+    "genre": "classical",
+    "archive_entry": "fma_medium/075/075711.mp3",
+    "copied_to": "raw_audio/classical_14.mp3"
+  },
+  {
+    "track_id": 48399,
+    "duration": 103.0,
+    "title": "Ego sum abbas",
+    "artist": "MIT Concert Choir",
+    "license": "Attribution-Noncommercial 3.0 United States",
+    "genre_ids": [
+      443,
+      187,
+      5
+    ],
+    "genre_top": "Classical",
+    "selection_id": "classical_15",
+    "genre": "classical",
+    "archive_entry": "fma_medium/048/048399.mp3",
+    "copied_to": "raw_audio/classical_15.mp3"
+  },
+  {
+    "track_id": 111782,
+    "duration": 247.0,
+    "title": "iuwe",
+    "artist": "Nightech",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_01",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/111/111782.mp3",
+    "copied_to": "raw_audio/ambient_01.mp3"
+  },
+  {
+    "track_id": 111781,
+    "duration": 228.0,
+    "title": "oiwob",
+    "artist": "Nightech",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_02",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/111/111781.mp3",
+    "copied_to": "raw_audio/ambient_02.mp3"
+  },
+  {
+    "track_id": 75606,
+    "duration": 344.0,
+    "title": "Chrome",
+    "artist": "Rho",
+    "license": "Attribution-Noncommercial 3.0 United States",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_03",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/075/075606.mp3",
+    "copied_to": "raw_audio/ambient_03.mp3"
+  },
+  {
+    "track_id": 149721,
+    "duration": 130.0,
+    "title": "Dark November #6",
+    "artist": "Wayne Kinos",
+    "license": "Attribution",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_04",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/149/149721.mp3",
+    "copied_to": "raw_audio/ambient_04.mp3"
+  },
+  {
+    "track_id": 69021,
+    "duration": 239.0,
+    "title": "Witchifalls Ta",
+    "artist": "Peter DiPhillips",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      107,
+      18,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_05",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/069/069021.mp3",
+    "copied_to": "raw_audio/ambient_05.mp3"
+  },
+  {
+    "track_id": 154494,
+    "duration": 203.0,
+    "title": "Rophre Huagod",
+    "artist": "M-PeX",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_06",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/154/154494.mp3",
+    "copied_to": "raw_audio/ambient_06.mp3"
+  },
+  {
+    "track_id": 149718,
+    "duration": 130.0,
+    "title": "Dark November #3",
+    "artist": "Wayne Kinos",
+    "license": "Attribution",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_07",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/149/149718.mp3",
+    "copied_to": "raw_audio/ambient_07.mp3"
+  },
+  {
+    "track_id": 155292,
+    "duration": 224.0,
+    "title": "Scarlet Sails",
+    "artist": "Alex Mason",
+    "license": "Attribution-NonCommercial",
+    "genre_ids": [
+      107,
+      18,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_08",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/155/155292.mp3",
+    "copied_to": "raw_audio/ambient_08.mp3"
+  },
+  {
+    "track_id": 47016,
+    "duration": 305.0,
+    "title": "The Way Out",
+    "artist": "Spectral Mystics",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_09",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/047/047016.mp3",
+    "copied_to": "raw_audio/ambient_09.mp3"
+  },
+  {
+    "track_id": 111996,
+    "duration": 541.0,
+    "title": "Manh",
+    "artist": "Serakhe0n",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_10",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/111/111996.mp3",
+    "copied_to": "raw_audio/ambient_10.mp3"
+  },
+  {
+    "track_id": 75611,
+    "duration": 142.0,
+    "title": "Tears Want You",
+    "artist": "Rho",
+    "license": "Attribution-Noncommercial 3.0 United States",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_11",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/075/075611.mp3",
+    "copied_to": "raw_audio/ambient_11.mp3"
+  },
+  {
+    "track_id": 111998,
+    "duration": 243.0,
+    "title": "Regn",
+    "artist": "Serakhe0n",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_12",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/111/111998.mp3",
+    "copied_to": "raw_audio/ambient_12.mp3"
+  },
+  {
+    "track_id": 47012,
+    "duration": 218.0,
+    "title": "Open The Small Eyes",
+    "artist": "Spectral Mystics",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_13",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/047/047012.mp3",
+    "copied_to": "raw_audio/ambient_13.mp3"
+  },
+  {
+    "track_id": 149724,
+    "duration": 201.0,
+    "title": "Dark November #9",
+    "artist": "Wayne Kinos",
+    "license": "Attribution",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_14",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/149/149724.mp3",
+    "copied_to": "raw_audio/ambient_14.mp3"
+  },
+  {
+    "track_id": 27107,
+    "duration": 568.0,
+    "title": "Argentinian Cows",
+    "artist": "Koen Park",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      107,
+      1235
+    ],
+    "genre_top": "Instrumental",
+    "selection_id": "ambient_15",
+    "genre": "ambient",
+    "archive_entry": "fma_medium/027/027107.mp3",
+    "copied_to": "raw_audio/ambient_15.mp3"
+  },
+  {
+    "track_id": 68751,
+    "duration": 366.0,
+    "title": "Neutral Analysis",
+    "artist": "Benton-C Bainbridge",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_01",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/068/068751.mp3",
+    "copied_to": "raw_audio/electronic_01.mp3"
+  },
+  {
+    "track_id": 55761,
+    "duration": 114.0,
+    "title": "Zombie Town",
+    "artist": "Anti-Cheat",
+    "license": "Attribution-NonCommercial 3.0 International",
+    "genre_ids": [
+      240,
+      297,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_02",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/055/055761.mp3",
+    "copied_to": "raw_audio/electronic_02.mp3"
+  },
+  {
+    "track_id": 30305,
+    "duration": 202.0,
+    "title": "Flux People",
+    "artist": "Alcove",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      236,
+      181,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_03",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/030/030305.mp3",
+    "copied_to": "raw_audio/electronic_03.mp3"
+  },
+  {
+    "track_id": 131813,
+    "duration": 417.0,
+    "title": "Lamer (Dub Remix)",
+    "artist": "Arce",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_04",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/131/131813.mp3",
+    "copied_to": "raw_audio/electronic_04.mp3"
+  },
+  {
+    "track_id": 25004,
+    "duration": 129.0,
+    "title": "Let Spring Decide",
+    "artist": "Chromix",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      297,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_05",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/025/025004.mp3",
+    "copied_to": "raw_audio/electronic_05.mp3"
+  },
+  {
+    "track_id": 79604,
+    "duration": 261.0,
+    "title": "Trolls Got Dub",
+    "artist": "trollhead",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      468,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_06",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/079/079604.mp3",
+    "copied_to": "raw_audio/electronic_06.mp3"
+  },
+  {
+    "track_id": 48559,
+    "duration": 257.0,
+    "title": "The Well and Truly Lost",
+    "artist": "Edward Shallow",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      240,
+      297,
+      286,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_07",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/048/048559.mp3",
+    "copied_to": "raw_audio/electronic_07.mp3"
+  },
+  {
+    "track_id": 97684,
+    "duration": 237.0,
+    "title": "(Outside) Looking In",
+    "artist": "Wurlitztraction",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      42,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_08",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/097/097684.mp3",
+    "copied_to": "raw_audio/electronic_08.mp3"
+  },
+  {
+    "track_id": 26907,
+    "duration": 280.0,
+    "title": "Plastic Metal (Goto C64 Mash)",
+    "artist": "Signal Electrique",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      297,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_09",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/026/026907.mp3",
+    "copied_to": "raw_audio/electronic_09.mp3"
+  },
+  {
+    "track_id": 68584,
+    "duration": 250.0,
+    "title": "Love Frequencies",
+    "artist": "Indian Wells",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      42,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_10",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/068/068584.mp3",
+    "copied_to": "raw_audio/electronic_10.mp3"
+  },
+  {
+    "track_id": 147297,
+    "duration": 294.0,
+    "title": "Oh Josephine",
+    "artist": "Vienna Ditto",
+    "license": "Attribution",
+    "genre_ids": [
+      286,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_11",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/147/147297.mp3",
+    "copied_to": "raw_audio/electronic_11.mp3"
+  },
+  {
+    "track_id": 127087,
+    "duration": 255.0,
+    "title": "Paaswaas",
+    "artist": "Oelek",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      183,
+      182,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_12",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/127/127087.mp3",
+    "copied_to": "raw_audio/electronic_12.mp3"
+  },
+  {
+    "track_id": 69591,
+    "duration": 195.0,
+    "title": "Rooftop Serenade",
+    "artist": "Anitek",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      495,
+      286,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_13",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/069/069591.mp3",
+    "copied_to": "raw_audio/electronic_13.mp3"
+  },
+  {
+    "track_id": 53451,
+    "duration": 178.0,
+    "title": "Love it",
+    "artist": "Fanas",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_14",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/053/053451.mp3",
+    "copied_to": "raw_audio/electronic_14.mp3"
+  },
+  {
+    "track_id": 137394,
+    "duration": 433.0,
+    "title": "it's up to you",
+    "artist": "beat.dowsing",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      495,
+      286,
+      15
+    ],
+    "genre_top": "Electronic",
+    "selection_id": "electronic_15",
+    "genre": "electronic",
+    "archive_entry": "fma_medium/137/137394.mp3",
+    "copied_to": "raw_audio/electronic_15.mp3"
+  },
+  {
+    "track_id": 68857,
+    "duration": 140.0,
+    "title": "Ruffles",
+    "artist": "Howie & Ann Mitchell",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      17
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_01",
+    "genre": "folk",
+    "archive_entry": "fma_medium/068/068857.mp3",
+    "copied_to": "raw_audio/folk_01.mp3"
+  },
+  {
+    "track_id": 11507,
+    "duration": 280.0,
+    "title": "Past Time",
+    "artist": "Big Blood",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      17
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_02",
+    "genre": "folk",
+    "archive_entry": "fma_medium/011/011507.mp3",
+    "copied_to": "raw_audio/folk_02.mp3"
+  },
+  {
+    "track_id": 16025,
+    "duration": 153.0,
+    "title": "Facebook",
+    "artist": "Nicky Cook",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      17,
+      103
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_03",
+    "genre": "folk",
+    "archive_entry": "fma_medium/016/016025.mp3",
+    "copied_to": "raw_audio/folk_03.mp3"
+  },
+  {
+    "track_id": 22299,
+    "duration": 199.0,
+    "title": "enjoy the silence",
+    "artist": "Jan Grünfeld",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      17,
+      103
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_04",
+    "genre": "folk",
+    "archive_entry": "fma_medium/022/022299.mp3",
+    "copied_to": "raw_audio/folk_04.mp3"
+  },
+  {
+    "track_id": 155306,
+    "duration": 162.0,
+    "title": "Tiny Man",
+    "artist": "Greg Atkinson",
+    "license": "Attribution",
+    "genre_ids": [
+      17,
+      103
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_05",
+    "genre": "folk",
+    "archive_entry": "fma_medium/155/155306.mp3",
+    "copied_to": "raw_audio/folk_05.mp3"
+  },
+  {
+    "track_id": 130962,
+    "duration": 221.0,
+    "title": "one slipper boy",
+    "artist": "Martha Rose",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      17,
+      103
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_06",
+    "genre": "folk",
+    "archive_entry": "fma_medium/130/130962.mp3",
+    "copied_to": "raw_audio/folk_06.mp3"
+  },
+  {
+    "track_id": 43964,
+    "duration": 275.0,
+    "title": "The Leaden Circles",
+    "artist": "James Beaudreau",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      17
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_07",
+    "genre": "folk",
+    "archive_entry": "fma_medium/043/043964.mp3",
+    "copied_to": "raw_audio/folk_07.mp3"
+  },
+  {
+    "track_id": 146965,
+    "duration": 184.0,
+    "title": "Take For Granted",
+    "artist": "Derek Clegg",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      17,
+      103
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_08",
+    "genre": "folk",
+    "archive_entry": "fma_medium/146/146965.mp3",
+    "copied_to": "raw_audio/folk_08.mp3"
+  },
+  {
+    "track_id": 115917,
+    "duration": 206.0,
+    "title": "Camino a la locura",
+    "artist": "Ionn Connor",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      33,
+      17,
+      94
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_09",
+    "genre": "folk",
+    "archive_entry": "fma_medium/115/115917.mp3",
+    "copied_to": "raw_audio/folk_09.mp3"
+  },
+  {
+    "track_id": 32697,
+    "duration": 267.0,
+    "title": "Zomerdagen Oostenwind",
+    "artist": "Het Gloren",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      17
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_10",
+    "genre": "folk",
+    "archive_entry": "fma_medium/032/032697.mp3",
+    "copied_to": "raw_audio/folk_10.mp3"
+  },
+  {
+    "track_id": 126977,
+    "duration": 210.0,
+    "title": "The Largest Ships",
+    "artist": "Vio/Mire",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      17
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_11",
+    "genre": "folk",
+    "archive_entry": "fma_medium/126/126977.mp3",
+    "copied_to": "raw_audio/folk_11.mp3"
+  },
+  {
+    "track_id": 34550,
+    "duration": 90.0,
+    "title": "Track 8",
+    "artist": "Bronze Horse",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      17
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_12",
+    "genre": "folk",
+    "archive_entry": "fma_medium/034/034550.mp3",
+    "copied_to": "raw_audio/folk_12.mp3"
+  },
+  {
+    "track_id": 107573,
+    "duration": 207.0,
+    "title": "Xenophilia",
+    "artist": "Kelly Latimore",
+    "license": "Attribution",
+    "genre_ids": [
+      17
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_13",
+    "genre": "folk",
+    "archive_entry": "fma_medium/107/107573.mp3",
+    "copied_to": "raw_audio/folk_13.mp3"
+  },
+  {
+    "track_id": 79994,
+    "duration": 94.0,
+    "title": "Old Man's Beard",
+    "artist": "Hudson",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      17,
+      103
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_14",
+    "genre": "folk",
+    "archive_entry": "fma_medium/079/079994.mp3",
+    "copied_to": "raw_audio/folk_14.mp3"
+  },
+  {
+    "track_id": 47629,
+    "duration": 328.0,
+    "title": "Take Me Home (overmedicated)",
+    "artist": "Clever Elsa",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      33,
+      17
+    ],
+    "genre_top": "Folk",
+    "selection_id": "folk_15",
+    "genre": "folk",
+    "archive_entry": "fma_medium/047/047629.mp3",
+    "copied_to": "raw_audio/folk_15.mp3"
+  },
+  {
+    "track_id": 1059,
+    "duration": 146.0,
+    "title": "Numbrcrunchr",
+    "artist": "Lozenge",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_01",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/001/001059.mp3",
+    "copied_to": "raw_audio/jazz_01.mp3"
+  },
+  {
+    "track_id": 68222,
+    "duration": 417.0,
+    "title": "Arana",
+    "artist": "Jazz at Mladost Club",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      97,
+      4,
+      37
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_02",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/068/068222.mp3",
+    "copied_to": "raw_audio/jazz_02.mp3"
+  },
+  {
+    "track_id": 133424,
+    "duration": 212.0,
+    "title": "04 A Man At The Clock",
+    "artist": "UP Paolo Pavan Pasqualino Ubaldini",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_03",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/133/133424.mp3",
+    "copied_to": "raw_audio/jazz_03.mp3"
+  },
+  {
+    "track_id": 59946,
+    "duration": 133.0,
+    "title": "Kinda’ Beautiful, Kinda’ Fucked Up, Kinda Birdies Churpy Churpy Stomp!",
+    "artist": "Jared C. Balogh",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_04",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/059/059946.mp3",
+    "copied_to": "raw_audio/jazz_04.mp3"
+  },
+  {
+    "track_id": 11319,
+    "duration": 164.0,
+    "title": "soprano saxphone",
+    "artist": "Li Zenghui",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      74,
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_05",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/011/011319.mp3",
+    "copied_to": "raw_audio/jazz_05.mp3"
+  },
+  {
+    "track_id": 1964,
+    "duration": 151.0,
+    "title": "Chant Of The Moon",
+    "artist": "Voodoo Suite",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      4,
+      37
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_06",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/001/001964.mp3",
+    "copied_to": "raw_audio/jazz_06.mp3"
+  },
+  {
+    "track_id": 154428,
+    "duration": 521.0,
+    "title": "Gracias",
+    "artist": "Milton Arias",
+    "license": "Attribution-ShareAlike",
+    "genre_ids": [
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_07",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/154/154428.mp3",
+    "copied_to": "raw_audio/jazz_07.mp3"
+  },
+  {
+    "track_id": 1966,
+    "duration": 224.0,
+    "title": "You're My Thrill",
+    "artist": "Voodoo Suite",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      4,
+      37
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_08",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/001/001966.mp3",
+    "copied_to": "raw_audio/jazz_08.mp3"
+  },
+  {
+    "track_id": 16442,
+    "duration": 285.0,
+    "title": "Salvation is a Sorry Excuse for a Pony",
+    "artist": "Sonic Suicide Squad",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      74,
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_09",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/016/016442.mp3",
+    "copied_to": "raw_audio/jazz_09.mp3"
+  },
+  {
+    "track_id": 68245,
+    "duration": 341.0,
+    "title": "L.A. Hifi",
+    "artist": "Miodrag Marjanov Quintet",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_10",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/068/068245.mp3",
+    "copied_to": "raw_audio/jazz_10.mp3"
+  },
+  {
+    "track_id": 68234,
+    "duration": 477.0,
+    "title": "Spain",
+    "artist": "M.A.G. Trio",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_11",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/068/068234.mp3",
+    "copied_to": "raw_audio/jazz_11.mp3"
+  },
+  {
+    "track_id": 82504,
+    "duration": 469.0,
+    "title": "diku",
+    "artist": "Pavel Tukki",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_12",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/082/082504.mp3",
+    "copied_to": "raw_audio/jazz_12.mp3"
+  },
+  {
+    "track_id": 12673,
+    "duration": 204.0,
+    "title": "Songe D'Automne",
+    "artist": "Latché Swing",
+    "license": "Attribution-Noncommercial-Share Alike 2.0 France",
+    "genre_ids": [
+      179,
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_13",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/012/012673.mp3",
+    "copied_to": "raw_audio/jazz_13.mp3"
+  },
+  {
+    "track_id": 126437,
+    "duration": 373.0,
+    "title": "Balzi Mossi (Mozambiguo)",
+    "artist": "Boom Boom Beckett",
+    "license": "Attribution-NonCommercial",
+    "genre_ids": [
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_14",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/126/126437.mp3",
+    "copied_to": "raw_audio/jazz_14.mp3"
+  },
+  {
+    "track_id": 39555,
+    "duration": 186.0,
+    "title": "Upsurge",
+    "artist": "Jonah Dempcy",
+    "license": "Attribution-NonCommercial 3.0 International",
+    "genre_ids": [
+      4
+    ],
+    "genre_top": "Jazz",
+    "selection_id": "jazz_15",
+    "genre": "jazz",
+    "archive_entry": "fma_medium/039/039555.mp3",
+    "copied_to": "raw_audio/jazz_15.mp3"
+  },
+  {
+    "track_id": 9551,
+    "duration": 198.0,
+    "title": "Torque",
+    "artist": "Kristin Hersh",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      12
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_01",
+    "genre": "rock",
+    "archive_entry": "fma_medium/009/009551.mp3",
+    "copied_to": "raw_audio/rock_01.mp3"
+  },
+  {
+    "track_id": 75681,
+    "duration": 171.0,
+    "title": "Overstock",
+    "artist": "Shearer",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      25,
+      12
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_02",
+    "genre": "rock",
+    "archive_entry": "fma_medium/075/075681.mp3",
+    "copied_to": "raw_audio/rock_02.mp3"
+  },
+  {
+    "track_id": 42806,
+    "duration": 72.0,
+    "title": "Who Cares",
+    "artist": "Waylon Thornton and the Heavy Hands",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      25,
+      27,
+      12,
+      85
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_03",
+    "genre": "rock",
+    "archive_entry": "fma_medium/042/042806.mp3",
+    "copied_to": "raw_audio/rock_03.mp3"
+  },
+  {
+    "track_id": 51598,
+    "duration": 128.0,
+    "title": "Outside In",
+    "artist": "Raspberry Bulbs",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      25,
+      12,
+      31,
+      167
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_04",
+    "genre": "rock",
+    "archive_entry": "fma_medium/051/051598.mp3",
+    "copied_to": "raw_audio/rock_04.mp3"
+  },
+  {
+    "track_id": 107656,
+    "duration": 70.0,
+    "title": "Buzzer",
+    "artist": "Tony Gage",
+    "license": "Attribution-Noncommercial-Share Alike 2.0 UK: England",
+    "genre_ids": [
+      12
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_05",
+    "genre": "rock",
+    "archive_entry": "fma_medium/107/107656.mp3",
+    "copied_to": "raw_audio/rock_05.mp3"
+  },
+  {
+    "track_id": 15755,
+    "duration": 67.0,
+    "title": "Blues Theme",
+    "artist": "Jonny Chan and the New Dynasty 6",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      25,
+      12,
+      85
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_06",
+    "genre": "rock",
+    "archive_entry": "fma_medium/015/015755.mp3",
+    "copied_to": "raw_audio/rock_06.mp3"
+  },
+  {
+    "track_id": 122470,
+    "duration": 140.0,
+    "title": "Post-it Note",
+    "artist": "Eric & Magill",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      66,
+      12,
+      359
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_07",
+    "genre": "rock",
+    "archive_entry": "fma_medium/122/122470.mp3",
+    "copied_to": "raw_audio/rock_07.mp3"
+  },
+  {
+    "track_id": 121806,
+    "duration": 148.0,
+    "title": "The Dull Life of a City Stockbroker",
+    "artist": "Argument Clinic",
+    "license": "Attribution-NonCommercial-ShareAlike",
+    "genre_ids": [
+      25,
+      12
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_08",
+    "genre": "rock",
+    "archive_entry": "fma_medium/121/121806.mp3",
+    "copied_to": "raw_audio/rock_08.mp3"
+  },
+  {
+    "track_id": 60462,
+    "duration": 311.0,
+    "title": "Thulebasen Live at FoEG",
+    "artist": "Thulebasen",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      98,
+      12
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_09",
+    "genre": "rock",
+    "archive_entry": "fma_medium/060/060462.mp3",
+    "copied_to": "raw_audio/rock_09.mp3"
+  },
+  {
+    "track_id": 128706,
+    "duration": 95.0,
+    "title": "Medusa's On The Loose",
+    "artist": "The Crypts!",
+    "license": "Attribution",
+    "genre_ids": [
+      88,
+      12,
+      85
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_10",
+    "genre": "rock",
+    "archive_entry": "fma_medium/128/128706.mp3",
+    "copied_to": "raw_audio/rock_10.mp3"
+  },
+  {
+    "track_id": 83046,
+    "duration": 542.0,
+    "title": "Steppin' On Yer Toes / Last Time I Rock N' Roll",
+    "artist": "Olneyville Sound System",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      12
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_11",
+    "genre": "rock",
+    "archive_entry": "fma_medium/083/083046.mp3",
+    "copied_to": "raw_audio/rock_11.mp3"
+  },
+  {
+    "track_id": 130400,
+    "duration": 293.0,
+    "title": "No Olympics on Stolen Land",
+    "artist": "Legally Blind",
+    "license": "Attribution",
+    "genre_ids": [
+      25,
+      12
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_12",
+    "genre": "rock",
+    "archive_entry": "fma_medium/130/130400.mp3",
+    "copied_to": "raw_audio/rock_12.mp3"
+  },
+  {
+    "track_id": 129263,
+    "duration": 583.0,
+    "title": "Don't Leave Me",
+    "artist": "The IMG",
+    "license": "Attribution",
+    "genre_ids": [
+      66,
+      12
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_13",
+    "genre": "rock",
+    "archive_entry": "fma_medium/129/129263.mp3",
+    "copied_to": "raw_audio/rock_13.mp3"
+  },
+  {
+    "track_id": 76552,
+    "duration": 424.0,
+    "title": "into obscurity",
+    "artist": "the silence industry",
+    "license": "Attribution-NonCommercial-ShareAlike 3.0 International",
+    "genre_ids": [
+      58,
+      12,
+      314
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_14",
+    "genre": "rock",
+    "archive_entry": "fma_medium/076/076552.mp3",
+    "copied_to": "raw_audio/rock_14.mp3"
+  },
+  {
+    "track_id": 6522,
+    "duration": 301.0,
+    "title": "I Can't Go For That",
+    "artist": "Sakura Madams",
+    "license": "Attribution-Noncommercial-Share Alike 3.0 United States",
+    "genre_ids": [
+      12
+    ],
+    "genre_top": "Rock",
+    "selection_id": "rock_15",
+    "genre": "rock",
+    "archive_entry": "fma_medium/006/006522.mp3",
+    "copied_to": "raw_audio/rock_15.mp3"
+  }
+]

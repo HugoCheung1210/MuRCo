@@ -1,0 +1,108 @@
+{
+  "note": "Identity AUC (same-song vs style-swap) split by swap genre. Cluster bootstrap over the 90 source tracks, paired across metrics by reusing the same resample.",
+  "n_boot": 10000,
+  "auc": {
+    "cross": {
+      "C": 0.9919,
+      "C_noS": 0.9814,
+      "CLAP": 0.9901,
+      "S": 0.9524
+    },
+    "same": {
+      "C": 0.9763,
+      "C_noS": 0.9713,
+      "CLAP": 0.9631,
+      "S": 0.8834
+    }
+  },
+  "contrasts": {
+    "cross: C - CLAP": {
+      "delta": 0.0018,
+      "ci95": [
+        -0.0039,
+        0.0076
+      ],
+      "excludes_zero": false
+    },
+    "cross: C - C_noS": {
+      "delta": 0.0105,
+      "ci95": [
+        0.0021,
+        0.0191
+      ],
+      "excludes_zero": true
+    },
+    "cross: C - S": {
+      "delta": 0.0395,
+      "ci95": [
+        0.0214,
+        0.0602
+      ],
+      "excludes_zero": true
+    },
+    "same: C - CLAP": {
+      "delta": 0.0132,
+      "ci95": [
+        -0.0011,
+        0.0285
+      ],
+      "excludes_zero": false
+    },
+    "same: C - C_noS": {
+      "delta": 0.005,
+      "ci95": [
+        -0.0084,
+        0.0186
+      ],
+      "excludes_zero": false
+    },
+    "same: C - S": {
+      "delta": 0.0928,
+      "ci95": [
+        0.0575,
+        0.1317
+      ],
+      "excludes_zero": true
+    },
+    "degradation cross->same: C": {
+      "delta": 0.0157,
+      "ci95": [
+        0.0063,
+        0.0255
+      ],
+      "excludes_zero": true
+    },
+    "degradation cross->same: C_noS": {
+      "delta": 0.0102,
+      "ci95": [
+        -0.0021,
+        0.0232
+      ],
+      "excludes_zero": false
+    },
+    "degradation cross->same: CLAP": {
+      "delta": 0.027,
+      "ci95": [
+        0.0149,
+        0.0403
+      ],
+      "excludes_zero": true
+    },
+    "degradation cross->same: S": {
+      "delta": 0.069,
+      "ci95": [
+        0.0292,
+        0.1109
+      ],
+      "excludes_zero": true
+    },
+    "is C's lead over CLAP larger on same-genre?": {
+      "delta_of_deltas": -0.0113,
+      "ci95": [
+        -0.0277,
+        0.004
+      ],
+      "note": "negative means C's advantage is LARGER on the harder same-genre split"
+    }
+  }
+}

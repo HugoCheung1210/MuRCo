@@ -1,0 +1,28 @@
+{
+  "withdrawn": [
+    "ambient_01",
+    "ambient_02",
+    "ambient_10",
+    "ambient_12"
+  ],
+  "reason": "harsh on audition; \u00a7F gives no per-clip warning",
+  "date": "2026-08-02",
+  "stimuli_removed": [
+    "stim_0001",
+    "stim_0002",
+    "stim_0003",
+    "stim_0004",
+    "stim_0005",
+    "stim_0024",
+    "stim_0025",
+    "stim_0026",
+    "stim_0030",
+    "stim_0031",
+    "stim_0032"
+  ],
+  "n_stimuli_removed": 11,
+  "n_before": 190,
+  "n_after": 179,
+  "audio_left_in_qualtrics_library": true,
+  "note": "loop tables filtered; stimulus_index.csv left intact so the withdrawn rows stay auditable. Re-run stamp_qualtrics_urls.py --paste then build_mos_qsf.py."
+}

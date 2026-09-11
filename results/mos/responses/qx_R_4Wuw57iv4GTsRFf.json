@@ -1,0 +1,182 @@
+{
+ "session_code": "R_4Wuw57iv4GTsRFf",
+ "generated": "2026-08-30T13:52:46.468527+00:00",
+ "source": "N40.csv",
+ "qualtrics_status": "IP Address",
+ "block": "block1",
+ "n_skipped": 0,
+ "responses": [
+  {
+   "stimulus_id": "stim_0089",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0054",
+   "rating": 3
+  },
+  {
+   "stimulus_id": "stim_0119",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0036",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0011",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0061",
+   "rating": 3
+  },
+  {
+   "stimulus_id": "stim_0095",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0129",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0117",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0017",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0139",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0183",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0013",
+   "rating": 3
+  },
+  {
+   "stimulus_id": "stim_0016",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0092",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0060",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0070",
+   "rating": 3
+  },
+  {
+   "stimulus_id": "stim_0179",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0141",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0043",
+   "rating": 1
+  },
+  {
+   "stimulus_id": "stim_0033",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0065",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0050",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0040",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0015",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0172",
+   "rating": 3
+  },
+  {
+   "stimulus_id": "stim_0132",
+   "rating": 3
+  },
+  {
+   "stimulus_id": "stim_0048",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0106",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0127",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0140",
+   "rating": 3
+  },
+  {
+   "stimulus_id": "stim_0007",
+   "rating": 1
+  },
+  {
+   "stimulus_id": "stim_0028",
+   "rating": 1
+  },
+  {
+   "stimulus_id": "stim_0077",
+   "rating": 3
+  },
+  {
+   "stimulus_id": "stim_0137",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0126",
+   "rating": 3
+  },
+  {
+   "stimulus_id": "stim_0174",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0044",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0085",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0008",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0094",
+   "rating": 4
+  },
+  {
+   "stimulus_id": "stim_0027",
+   "rating": 5
+  },
+  {
+   "stimulus_id": "stim_0084",
+   "rating": 3
+  }
+ ]
+}

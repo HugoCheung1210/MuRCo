@@ -1,0 +1,560 @@
+{
+  "meta": {
+    "purpose": "frozen context set for GRPO continuation training",
+    "created": "2026-08-04",
+    "seed": 20260804,
+    "context_s": 10.0,
+    "generate_s": 10.0,
+    "sources": "raw_audio/ (FMA-Medium 30 s clips)",
+    "screening": "ethics-audition survivors only; see dropped{}",
+    "split_unit": "track (no track appears in both splits)",
+    "n_available_after_screening": 59,
+    "genres": {
+      "ambient": 11,
+      "classical": 13,
+      "electronic": 11,
+      "folk": 5,
+      "jazz": 13,
+      "rock": 6
+    }
+  },
+  "dropped": {
+    "audition_excluded": [
+      "classical_13",
+      "classical_15",
+      "electronic_01",
+      "electronic_08",
+      "electronic_09",
+      "electronic_11",
+      "folk_02",
+      "folk_03",
+      "folk_04",
+      "folk_07",
+      "folk_08",
+      "folk_09",
+      "folk_10",
+      "folk_11",
+      "folk_14",
+      "folk_15",
+      "jazz_05",
+      "jazz_09",
+      "rock_02",
+      "rock_03",
+      "rock_07",
+      "rock_08",
+      "rock_09",
+      "rock_10",
+      "rock_12",
+      "rock_14",
+      "rock_15"
+    ],
+    "withdrawn_harsh": [
+      "ambient_01",
+      "ambient_02",
+      "ambient_10",
+      "ambient_12"
+    ]
+  },
+  "contexts": [
+    {
+      "context_id": "train_00",
+      "track": "ambient_03",
+      "genre": "ambient",
+      "audio": "raw_audio/ambient_03.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_01",
+      "track": "ambient_04",
+      "genre": "ambient",
+      "audio": "raw_audio/ambient_04.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_02",
+      "track": "ambient_05",
+      "genre": "ambient",
+      "audio": "raw_audio/ambient_05.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_03",
+      "track": "ambient_07",
+      "genre": "ambient",
+      "audio": "raw_audio/ambient_07.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_04",
+      "track": "ambient_08",
+      "genre": "ambient",
+      "audio": "raw_audio/ambient_08.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_05",
+      "track": "ambient_13",
+      "genre": "ambient",
+      "audio": "raw_audio/ambient_13.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_06",
+      "track": "ambient_14",
+      "genre": "ambient",
+      "audio": "raw_audio/ambient_14.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_07",
+      "track": "classical_01",
+      "genre": "classical",
+      "audio": "raw_audio/classical_01.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_08",
+      "track": "classical_03",
+      "genre": "classical",
+      "audio": "raw_audio/classical_03.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_09",
+      "track": "classical_05",
+      "genre": "classical",
+      "audio": "raw_audio/classical_05.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_10",
+      "track": "classical_07",
+      "genre": "classical",
+      "audio": "raw_audio/classical_07.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_11",
+      "track": "classical_08",
+      "genre": "classical",
+      "audio": "raw_audio/classical_08.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_12",
+      "track": "classical_09",
+      "genre": "classical",
+      "audio": "raw_audio/classical_09.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_13",
+      "track": "classical_10",
+      "genre": "classical",
+      "audio": "raw_audio/classical_10.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_14",
+      "track": "classical_12",
+      "genre": "classical",
+      "audio": "raw_audio/classical_12.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_15",
+      "track": "electronic_02",
+      "genre": "electronic",
+      "audio": "raw_audio/electronic_02.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_16",
+      "track": "electronic_04",
+      "genre": "electronic",
+      "audio": "raw_audio/electronic_04.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_17",
+      "track": "electronic_05",
+      "genre": "electronic",
+      "audio": "raw_audio/electronic_05.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_18",
+      "track": "electronic_06",
+      "genre": "electronic",
+      "audio": "raw_audio/electronic_06.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_19",
+      "track": "electronic_12",
+      "genre": "electronic",
+      "audio": "raw_audio/electronic_12.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_20",
+      "track": "electronic_13",
+      "genre": "electronic",
+      "audio": "raw_audio/electronic_13.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_21",
+      "track": "electronic_14",
+      "genre": "electronic",
+      "audio": "raw_audio/electronic_14.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_22",
+      "track": "electronic_15",
+      "genre": "electronic",
+      "audio": "raw_audio/electronic_15.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_23",
+      "track": "folk_05",
+      "genre": "folk",
+      "audio": "raw_audio/folk_05.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_24",
+      "track": "folk_06",
+      "genre": "folk",
+      "audio": "raw_audio/folk_06.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_25",
+      "track": "folk_12",
+      "genre": "folk",
+      "audio": "raw_audio/folk_12.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_26",
+      "track": "folk_13",
+      "genre": "folk",
+      "audio": "raw_audio/folk_13.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_27",
+      "track": "jazz_04",
+      "genre": "jazz",
+      "audio": "raw_audio/jazz_04.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_28",
+      "track": "jazz_06",
+      "genre": "jazz",
+      "audio": "raw_audio/jazz_06.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_29",
+      "track": "jazz_07",
+      "genre": "jazz",
+      "audio": "raw_audio/jazz_07.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_30",
+      "track": "jazz_08",
+      "genre": "jazz",
+      "audio": "raw_audio/jazz_08.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_31",
+      "track": "jazz_10",
+      "genre": "jazz",
+      "audio": "raw_audio/jazz_10.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_32",
+      "track": "jazz_11",
+      "genre": "jazz",
+      "audio": "raw_audio/jazz_11.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_33",
+      "track": "jazz_12",
+      "genre": "jazz",
+      "audio": "raw_audio/jazz_12.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_34",
+      "track": "jazz_13",
+      "genre": "jazz",
+      "audio": "raw_audio/jazz_13.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_35",
+      "track": "rock_01",
+      "genre": "rock",
+      "audio": "raw_audio/rock_01.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_36",
+      "track": "rock_04",
+      "genre": "rock",
+      "audio": "raw_audio/rock_04.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_37",
+      "track": "rock_05",
+      "genre": "rock",
+      "audio": "raw_audio/rock_05.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_38",
+      "track": "rock_06",
+      "genre": "rock",
+      "audio": "raw_audio/rock_06.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "train_39",
+      "track": "rock_13",
+      "genre": "rock",
+      "audio": "raw_audio/rock_13.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "train"
+    },
+    {
+      "context_id": "heldout_00",
+      "track": "ambient_09",
+      "genre": "ambient",
+      "audio": "raw_audio/ambient_09.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "heldout"
+    },
+    {
+      "context_id": "heldout_01",
+      "track": "ambient_11",
+      "genre": "ambient",
+      "audio": "raw_audio/ambient_11.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "heldout"
+    },
+    {
+      "context_id": "heldout_02",
+      "track": "ambient_15",
+      "genre": "ambient",
+      "audio": "raw_audio/ambient_15.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "heldout"
+    },
+    {
+      "context_id": "heldout_03",
+      "track": "classical_04",
+      "genre": "classical",
+      "audio": "raw_audio/classical_04.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "heldout"
+    },
+    {
+      "context_id": "heldout_04",
+      "track": "classical_06",
+      "genre": "classical",
+      "audio": "raw_audio/classical_06.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "heldout"
+    },
+    {
+      "context_id": "heldout_05",
+      "track": "electronic_03",
+      "genre": "electronic",
+      "audio": "raw_audio/electronic_03.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "heldout"
+    },
+    {
+      "context_id": "heldout_06",
+      "track": "electronic_07",
+      "genre": "electronic",
+      "audio": "raw_audio/electronic_07.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "heldout"
+    },
+    {
+      "context_id": "heldout_07",
+      "track": "folk_01",
+      "genre": "folk",
+      "audio": "raw_audio/folk_01.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "heldout"
+    },
+    {
+      "context_id": "heldout_08",
+      "track": "jazz_02",
+      "genre": "jazz",
+      "audio": "raw_audio/jazz_02.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "heldout"
+    },
+    {
+      "context_id": "heldout_09",
+      "track": "rock_11",
+      "genre": "rock",
+      "audio": "raw_audio/rock_11.mp3",
+      "context_start_s": 5.0,
+      "context_end_s": 15.0,
+      "generate_s": 10.0,
+      "split": "heldout"
+    }
+  ]
+}

@@ -1,0 +1,1124 @@
+{
+ "meta": {
+  "rivals": [
+   "clap_htsat",
+   "clap_music",
+   "scs",
+   "C_noS",
+   "cocola"
+  ],
+  "budget": 80,
+  "base_margin": 0.03,
+  "topup_margin": 0.02,
+  "protected": "C_noS",
+  "n_trials": 80,
+  "trials_per_contrast": {
+   "C_noS": 28,
+   "clap_htsat": 28,
+   "clap_music": 27,
+   "cocola": 34,
+   "scs": 31
+  },
+  "median_c_margin": 0.0474,
+  "design": "set cover at base_margin, then budget spent topping up the protected contrast; fixed trial count",
+  "rationale": "self-pilot found preference ~chance below |dC| 0.025 and monotone above it"
+ },
+ "trials": [
+  {
+   "seed": "s01",
+   "c_pick": "s01::cand04",
+   "rival_pick": "s01::cand05",
+   "c_margin": 0.0309,
+   "settles": [
+    "clap_htsat",
+    "cocola"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0006,
+    "cocola": 8.1959
+   }
+  },
+  {
+   "seed": "s01",
+   "c_pick": "s01::cand05",
+   "rival_pick": "s01::cand02",
+   "c_margin": 0.0482,
+   "settles": [
+    "scs"
+   ],
+   "rival_margins": {
+    "scs": 0.0389
+   }
+  },
+  {
+   "seed": "s02",
+   "c_pick": "s02::cand01",
+   "rival_pick": "s02::cand04",
+   "c_margin": 0.061,
+   "settles": [
+    "C_noS",
+    "cocola"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0014,
+    "cocola": 0.2894
+   }
+  },
+  {
+   "seed": "s02",
+   "c_pick": "s02::cand00",
+   "rival_pick": "s02::cand07",
+   "c_margin": 0.0398,
+   "settles": [
+    "clap_htsat"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0153
+   }
+  },
+  {
+   "seed": "s03",
+   "c_pick": "s03::cand05",
+   "rival_pick": "s03::cand06",
+   "c_margin": 0.0318,
+   "settles": [
+    "C_noS",
+    "clap_music",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0304,
+    "clap_music": 0.0004,
+    "scs": 0.0141
+   }
+  },
+  {
+   "seed": "s03",
+   "c_pick": "s03::cand00",
+   "rival_pick": "s03::cand06",
+   "c_margin": 0.0409,
+   "settles": [
+    "clap_htsat"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0003
+   }
+  },
+  {
+   "seed": "s04",
+   "c_pick": "s04::cand07",
+   "rival_pick": "s04::cand02",
+   "c_margin": 0.0436,
+   "settles": [
+    "clap_music",
+    "cocola"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0,
+    "cocola": 1.0918
+   }
+  },
+  {
+   "seed": "s04",
+   "c_pick": "s04::cand07",
+   "rival_pick": "s04::cand00",
+   "c_margin": 0.0387,
+   "settles": [
+    "scs"
+   ],
+   "rival_margins": {
+    "scs": 0.0036
+   }
+  },
+  {
+   "seed": "s06",
+   "c_pick": "s06::cand02",
+   "rival_pick": "s06::cand01",
+   "c_margin": 0.0782,
+   "settles": [
+    "C_noS",
+    "clap_music",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0021,
+    "clap_music": 0.0007,
+    "cocola": 0.6099,
+    "scs": 0.0116
+   }
+  },
+  {
+   "seed": "s08",
+   "c_pick": "s08::cand00",
+   "rival_pick": "s08::cand07",
+   "c_margin": 0.0364,
+   "settles": [
+    "clap_music",
+    "cocola"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0,
+    "cocola": 2.4734
+   }
+  },
+  {
+   "seed": "s09",
+   "c_pick": "s09::cand01",
+   "rival_pick": "s09::cand06",
+   "c_margin": 0.0765,
+   "settles": [
+    "C_noS",
+    "clap_music",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0024,
+    "clap_music": 0.0,
+    "cocola": 2.9803,
+    "scs": 0.0494
+   }
+  },
+  {
+   "seed": "s09",
+   "c_pick": "s09::cand07",
+   "rival_pick": "s09::cand05",
+   "c_margin": 0.0993,
+   "settles": [
+    "clap_htsat"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0089
+   }
+  },
+  {
+   "seed": "s10",
+   "c_pick": "s10::cand02",
+   "rival_pick": "s10::cand04",
+   "c_margin": 0.0537,
+   "settles": [
+    "clap_music",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0,
+    "cocola": 0.807,
+    "scs": 0.0091
+   }
+  },
+  {
+   "seed": "s10",
+   "c_pick": "s10::cand06",
+   "rival_pick": "s10::cand07",
+   "c_margin": 0.0488,
+   "settles": [
+    "clap_htsat"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.001
+   }
+  },
+  {
+   "seed": "s11",
+   "c_pick": "s11::cand06",
+   "rival_pick": "s11::cand05",
+   "c_margin": 0.0362,
+   "settles": [
+    "C_noS",
+    "clap_htsat",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0029,
+    "clap_htsat": 0.0341,
+    "scs": 0.0037
+   }
+  },
+  {
+   "seed": "s11",
+   "c_pick": "s11::cand02",
+   "rival_pick": "s11::cand06",
+   "c_margin": 0.0353,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 0.0376
+   }
+  },
+  {
+   "seed": "s12",
+   "c_pick": "s12::cand03",
+   "rival_pick": "s12::cand06",
+   "c_margin": 0.055,
+   "settles": [
+    "clap_music"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0001
+   }
+  },
+  {
+   "seed": "s12",
+   "c_pick": "s12::cand00",
+   "rival_pick": "s12::cand01",
+   "c_margin": 0.0428,
+   "settles": [
+    "clap_htsat"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.002
+   }
+  },
+  {
+   "seed": "s13",
+   "c_pick": "s13::cand03",
+   "rival_pick": "s13::cand01",
+   "c_margin": 0.0611,
+   "settles": [
+    "clap_music",
+    "cocola"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0001,
+    "cocola": 0.5567
+   }
+  },
+  {
+   "seed": "s14",
+   "c_pick": "s14::cand04",
+   "rival_pick": "s14::cand02",
+   "c_margin": 0.0691,
+   "settles": [
+    "clap_htsat",
+    "clap_music",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0008,
+    "clap_music": 0.0002,
+    "scs": 0.0167
+   }
+  },
+  {
+   "seed": "s14",
+   "c_pick": "s14::cand00",
+   "rival_pick": "s14::cand06",
+   "c_margin": 0.0958,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 0.0258
+   }
+  },
+  {
+   "seed": "s15",
+   "c_pick": "s15::cand04",
+   "rival_pick": "s15::cand02",
+   "c_margin": 0.0529,
+   "settles": [
+    "C_noS",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0127,
+    "scs": 0.0251
+   }
+  },
+  {
+   "seed": "s15",
+   "c_pick": "s15::cand01",
+   "rival_pick": "s15::cand03",
+   "c_margin": 0.0879,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 0.4353
+   }
+  },
+  {
+   "seed": "s15",
+   "c_pick": "s15::cand01",
+   "rival_pick": "s15::cand00",
+   "c_margin": 0.0531,
+   "settles": [
+    "clap_htsat"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0019
+   }
+  },
+  {
+   "seed": "s16",
+   "c_pick": "s16::cand01",
+   "rival_pick": "s16::cand02",
+   "c_margin": 0.0397,
+   "settles": [
+    "clap_htsat",
+    "clap_music",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0007,
+    "clap_music": 0.0001,
+    "scs": 0.0096
+   }
+  },
+  {
+   "seed": "s16",
+   "c_pick": "s16::cand06",
+   "rival_pick": "s16::cand03",
+   "c_margin": 0.1446,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 3.6819
+   }
+  },
+  {
+   "seed": "s17",
+   "c_pick": "s17::cand02",
+   "rival_pick": "s17::cand04",
+   "c_margin": 0.0615,
+   "settles": [
+    "clap_htsat",
+    "cocola"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0014,
+    "cocola": 1.1819
+   }
+  },
+  {
+   "seed": "s18",
+   "c_pick": "s18::cand00",
+   "rival_pick": "s18::cand05",
+   "c_margin": 0.0325,
+   "settles": [
+    "clap_htsat",
+    "clap_music",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0005,
+    "clap_music": 0.0001,
+    "scs": 0.0072
+   }
+  },
+  {
+   "seed": "s19",
+   "c_pick": "s19::cand07",
+   "rival_pick": "s19::cand01",
+   "c_margin": 0.0454,
+   "settles": [
+    "clap_music",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0008,
+    "cocola": 1.6259,
+    "scs": 0.0195
+   }
+  },
+  {
+   "seed": "s19",
+   "c_pick": "s19::cand02",
+   "rival_pick": "s19::cand01",
+   "c_margin": 0.0536,
+   "settles": [
+    "clap_htsat"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0109
+   }
+  },
+  {
+   "seed": "s20",
+   "c_pick": "s20::cand02",
+   "rival_pick": "s20::cand04",
+   "c_margin": 0.0334,
+   "settles": [
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "cocola": 0.0729,
+    "scs": 0.051
+   }
+  },
+  {
+   "seed": "s21",
+   "c_pick": "s21::cand03",
+   "rival_pick": "s21::cand00",
+   "c_margin": 0.0492,
+   "settles": [
+    "C_noS",
+    "clap_htsat",
+    "clap_music",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0109,
+    "clap_htsat": 0.0058,
+    "clap_music": 0.0003,
+    "scs": 0.0144
+   }
+  },
+  {
+   "seed": "s21",
+   "c_pick": "s21::cand01",
+   "rival_pick": "s21::cand02",
+   "c_margin": 0.0671,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 0.1492
+   }
+  },
+  {
+   "seed": "s22",
+   "c_pick": "s22::cand01",
+   "rival_pick": "s22::cand05",
+   "c_margin": 0.1107,
+   "settles": [
+    "clap_htsat",
+    "clap_music",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0102,
+    "clap_music": 0.0005,
+    "scs": 0.0117
+   }
+  },
+  {
+   "seed": "s22",
+   "c_pick": "s22::cand00",
+   "rival_pick": "s22::cand03",
+   "c_margin": 0.1881,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 0.2265
+   }
+  },
+  {
+   "seed": "s23",
+   "c_pick": "s23::cand07",
+   "rival_pick": "s23::cand00",
+   "c_margin": 0.0481,
+   "settles": [
+    "clap_htsat",
+    "cocola"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0309,
+    "cocola": 0.0951
+   }
+  },
+  {
+   "seed": "s23",
+   "c_pick": "s23::cand05",
+   "rival_pick": "s23::cand06",
+   "c_margin": 0.0322,
+   "settles": [
+    "C_noS",
+    "clap_music"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0061,
+    "clap_music": 0.0003
+   }
+  },
+  {
+   "seed": "s23",
+   "c_pick": "s23::cand04",
+   "rival_pick": "s23::cand00",
+   "c_margin": 0.0411,
+   "settles": [
+    "scs"
+   ],
+   "rival_margins": {
+    "scs": 0.0054
+   }
+  },
+  {
+   "seed": "s24",
+   "c_pick": "s24::cand00",
+   "rival_pick": "s24::cand03",
+   "c_margin": 0.0457,
+   "settles": [
+    "C_noS",
+    "clap_music",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.009,
+    "clap_music": 0.0001,
+    "scs": 0.0531
+   }
+  },
+  {
+   "seed": "s24",
+   "c_pick": "s24::cand04",
+   "rival_pick": "s24::cand07",
+   "c_margin": 0.1169,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 0.1447
+   }
+  },
+  {
+   "seed": "s25",
+   "c_pick": "s25::cand06",
+   "rival_pick": "s25::cand07",
+   "c_margin": 0.0315,
+   "settles": [
+    "C_noS",
+    "clap_music",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0145,
+    "clap_music": 0.0005,
+    "cocola": 0.7916,
+    "scs": 0.1185
+   }
+  },
+  {
+   "seed": "s26",
+   "c_pick": "s26::cand04",
+   "rival_pick": "s26::cand07",
+   "c_margin": 0.1037,
+   "settles": [
+    "clap_htsat",
+    "cocola"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0032,
+    "cocola": 1.5557
+   }
+  },
+  {
+   "seed": "s26",
+   "c_pick": "s26::cand04",
+   "rival_pick": "s26::cand02",
+   "c_margin": 0.0616,
+   "settles": [
+    "scs"
+   ],
+   "rival_margins": {
+    "scs": 0.0176
+   }
+  },
+  {
+   "seed": "s27",
+   "c_pick": "s27::cand06",
+   "rival_pick": "s27::cand02",
+   "c_margin": 0.0975,
+   "settles": [
+    "clap_htsat",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0163,
+    "cocola": 0.5577,
+    "scs": 0.0558
+   }
+  },
+  {
+   "seed": "s27",
+   "c_pick": "s27::cand06",
+   "rival_pick": "s27::cand07",
+   "c_margin": 0.068,
+   "settles": [
+    "clap_music"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0002
+   }
+  },
+  {
+   "seed": "s28",
+   "c_pick": "s28::cand03",
+   "rival_pick": "s28::cand02",
+   "c_margin": 0.054,
+   "settles": [
+    "C_noS",
+    "clap_htsat",
+    "clap_music",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0307,
+    "clap_htsat": 0.0173,
+    "clap_music": 0.001,
+    "cocola": 1.8963,
+    "scs": 0.0071
+   }
+  },
+  {
+   "seed": "s29",
+   "c_pick": "s29::cand03",
+   "rival_pick": "s29::cand00",
+   "c_margin": 0.0482,
+   "settles": [
+    "clap_htsat",
+    "cocola"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0002,
+    "cocola": 0.3652
+   }
+  },
+  {
+   "seed": "s29",
+   "c_pick": "s29::cand03",
+   "rival_pick": "s29::cand07",
+   "c_margin": 0.0641,
+   "settles": [
+    "scs"
+   ],
+   "rival_margins": {
+    "scs": 0.0028
+   }
+  },
+  {
+   "seed": "s30",
+   "c_pick": "s30::cand02",
+   "rival_pick": "s30::cand04",
+   "c_margin": 0.0601,
+   "settles": [
+    "clap_htsat",
+    "cocola"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0013,
+    "cocola": 0.062
+   }
+  },
+  {
+   "seed": "s30",
+   "c_pick": "s30::cand06",
+   "rival_pick": "s30::cand03",
+   "c_margin": 0.0463,
+   "settles": [
+    "clap_music"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0001
+   }
+  },
+  {
+   "seed": "s31",
+   "c_pick": "s31::cand00",
+   "rival_pick": "s31::cand04",
+   "c_margin": 0.0394,
+   "settles": [
+    "clap_htsat",
+    "clap_music",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0363,
+    "clap_music": 0.0004,
+    "scs": 0.0216
+   }
+  },
+  {
+   "seed": "s31",
+   "c_pick": "s31::cand05",
+   "rival_pick": "s31::cand07",
+   "c_margin": 0.1407,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 0.0916
+   }
+  },
+  {
+   "seed": "s31",
+   "c_pick": "s31::cand00",
+   "rival_pick": "s31::cand01",
+   "c_margin": 0.0562,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0089
+   }
+  },
+  {
+   "seed": "s32",
+   "c_pick": "s32::cand01",
+   "rival_pick": "s32::cand03",
+   "c_margin": 0.0406,
+   "settles": [
+    "C_noS",
+    "clap_htsat",
+    "clap_music",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0136,
+    "clap_htsat": 0.0164,
+    "clap_music": 0.001,
+    "cocola": 0.029,
+    "scs": 0.0243
+   }
+  },
+  {
+   "seed": "s34",
+   "c_pick": "s34::cand05",
+   "rival_pick": "s34::cand07",
+   "c_margin": 0.0482,
+   "settles": [
+    "C_noS",
+    "clap_htsat",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0038,
+    "clap_htsat": 0.0044,
+    "scs": 0.0527
+   }
+  },
+  {
+   "seed": "s34",
+   "c_pick": "s34::cand04",
+   "rival_pick": "s34::cand00",
+   "c_margin": 0.0623,
+   "settles": [
+    "clap_music"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0001
+   }
+  },
+  {
+   "seed": "s34",
+   "c_pick": "s34::cand06",
+   "rival_pick": "s34::cand00",
+   "c_margin": 0.032,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 0.4401
+   }
+  },
+  {
+   "seed": "s35",
+   "c_pick": "s35::cand06",
+   "rival_pick": "s35::cand04",
+   "c_margin": 0.0445,
+   "settles": [
+    "clap_music",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0002,
+    "cocola": 0.1181,
+    "scs": 0.0776
+   }
+  },
+  {
+   "seed": "s36",
+   "c_pick": "s36::cand02",
+   "rival_pick": "s36::cand03",
+   "c_margin": 0.0324,
+   "settles": [
+    "clap_music",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0,
+    "scs": 0.0053
+   }
+  },
+  {
+   "seed": "s36",
+   "c_pick": "s36::cand03",
+   "rival_pick": "s36::cand01",
+   "c_margin": 0.033,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 0.0072
+   }
+  },
+  {
+   "seed": "s36",
+   "c_pick": "s36::cand01",
+   "rival_pick": "s36::cand06",
+   "c_margin": 0.0309,
+   "settles": [
+    "clap_htsat"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0029
+   }
+  },
+  {
+   "seed": "s36",
+   "c_pick": "s36::cand03",
+   "rival_pick": "s36::cand00",
+   "c_margin": 0.0306,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0001
+   }
+  },
+  {
+   "seed": "s38",
+   "c_pick": "s38::cand02",
+   "rival_pick": "s38::cand06",
+   "c_margin": 0.0315,
+   "settles": [
+    "C_noS",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0001,
+    "cocola": 0.7664,
+    "scs": 0.0288
+   }
+  },
+  {
+   "seed": "s38",
+   "c_pick": "s38::cand00",
+   "rival_pick": "s38::cand01",
+   "c_margin": 0.0324,
+   "settles": [
+    "clap_htsat"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0108
+   }
+  },
+  {
+   "seed": "s39",
+   "c_pick": "s39::cand04",
+   "rival_pick": "s39::cand03",
+   "c_margin": 0.0587,
+   "settles": [
+    "C_noS",
+    "clap_htsat",
+    "clap_music",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0144,
+    "clap_htsat": 0.0544,
+    "clap_music": 0.0008,
+    "cocola": 3.363,
+    "scs": 0.0581
+   }
+  },
+  {
+   "seed": "s40",
+   "c_pick": "s40::cand04",
+   "rival_pick": "s40::cand01",
+   "c_margin": 0.0381,
+   "settles": [
+    "clap_htsat",
+    "cocola",
+    "scs"
+   ],
+   "rival_margins": {
+    "clap_htsat": 0.0039,
+    "cocola": 1.4993,
+    "scs": 0.0599
+   }
+  },
+  {
+   "seed": "s21",
+   "c_pick": "s21::cand06",
+   "rival_pick": "s21::cand00",
+   "c_margin": 0.0631,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0081
+   }
+  },
+  {
+   "seed": "s34",
+   "c_pick": "s34::cand04",
+   "rival_pick": "s34::cand07",
+   "c_margin": 0.0497,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0009
+   }
+  },
+  {
+   "seed": "s32",
+   "c_pick": "s32::cand01",
+   "rival_pick": "s32::cand00",
+   "c_margin": 0.0491,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0004
+   }
+  },
+  {
+   "seed": "s25",
+   "c_pick": "s25::cand03",
+   "rival_pick": "s25::cand07",
+   "c_margin": 0.0354,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0101
+   }
+  },
+  {
+   "seed": "s14",
+   "c_pick": "s14::cand07",
+   "rival_pick": "s14::cand06",
+   "c_margin": 0.0286,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0355
+   }
+  },
+  {
+   "seed": "s22",
+   "c_pick": "s22::cand04",
+   "rival_pick": "s22::cand06",
+   "c_margin": 0.0267,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.005
+   }
+  },
+  {
+   "seed": "s27",
+   "c_pick": "s27::cand06",
+   "rival_pick": "s27::cand04",
+   "c_margin": 0.025,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0001
+   }
+  },
+  {
+   "seed": "s30",
+   "c_pick": "s30::cand02",
+   "rival_pick": "s30::cand03",
+   "c_margin": 0.0243,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0117
+   }
+  },
+  {
+   "seed": "s04",
+   "c_pick": "s04::cand06",
+   "rival_pick": "s04::cand01",
+   "c_margin": 0.0231,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0116
+   }
+  },
+  {
+   "seed": "s40",
+   "c_pick": "s40::cand04",
+   "rival_pick": "s40::cand05",
+   "c_margin": 0.0226,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0191
+   }
+  },
+  {
+   "seed": "s01",
+   "c_pick": "s01::cand05",
+   "rival_pick": "s01::cand06",
+   "c_margin": 0.0218,
+   "settles": [
+    "C_noS"
+   ],
+   "rival_margins": {
+    "C_noS": 0.0024
+   }
+  },
+  {
+   "seed": "s31",
+   "c_pick": "s31::cand06",
+   "rival_pick": "s31::cand01",
+   "c_margin": 0.0821,
+   "settles": [
+    "clap_music"
+   ],
+   "rival_margins": {
+    "clap_music": 0.0002
+   }
+  },
+  {
+   "seed": "s19",
+   "c_pick": "s19::cand07",
+   "rival_pick": "s19::cand00",
+   "c_margin": 0.0467,
+   "settles": [
+    "cocola"
+   ],
+   "rival_margins": {
+    "cocola": 2.782
+   }
+  },
+  {
+   "seed": "s17",
+   "c_pick": "s17::cand03",
+   "rival_pick": "s17::cand07",
+   "c_margin": 0.0299,
+   "settles": [
+    "scs"
+   ],
+   "rival_margins": {
+    "scs": 0.0122
+   }
+  }
+ ]
+}

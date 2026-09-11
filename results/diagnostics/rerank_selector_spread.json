@@ -1,0 +1,29 @@
+{
+  "n_seeds": 40,
+  "pool": 8,
+  "selectors": {
+    "C": {
+      "relative_range_median": 0.0914
+    },
+    "C_noS": {
+      "relative_range_median": 0.0577,
+      "spearman_vs_C_mean": 0.6393,
+      "argmax_agrees_with_C": 0.425
+    },
+    "clap_htsat": {
+      "relative_range_median": 0.0493,
+      "spearman_vs_C_mean": 0.3887,
+      "argmax_agrees_with_C": 0.225
+    },
+    "clap_music": {
+      "relative_range_median": 0.0008,
+      "spearman_vs_C_mean": 0.3732,
+      "argmax_agrees_with_C": 0.25
+    },
+    "scs": {
+      "relative_range_median": 0.1888,
+      "spearman_vs_C_mean": 0.4208,
+      "argmax_agrees_with_C": 0.4
+    }
+  }
+}

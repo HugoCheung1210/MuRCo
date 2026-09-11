@@ -1,0 +1,89 @@
+{
+ "meta": {
+  "protocol": "leave-one-track-out, L2 fixed at C=1.0, difference feature e_B - e_A. A SCREEN: it selects the layer on the folds it scores, which favours the baseline deliberately. The winning layer is then re-run under the nested protocol for the reportable number.",
+  "screen_offset": "MuQ layer 6 screens at 0.7883 against 0.7967 nested, so the screen runs about 0.008 low.",
+  "shipped_layer": 6,
+  "reported_in_paper": {
+   "muq": {
+    "layer": 1,
+    "acc": 0.8472,
+    "macro_f1": 0.7763
+   },
+   "mert": {
+    "layer": 12,
+    "acc": 0.7944,
+    "macro_f1": 0.7143
+   }
+  }
+ },
+ "muq": {
+  "by_layer": {
+   "1": {
+    "acc": 0.85,
+    "macro_f1": 0.7796
+   },
+   "2": {
+    "acc": 0.8483,
+    "macro_f1": 0.7821
+   },
+   "3": {
+    "acc": 0.8444,
+    "macro_f1": 0.778
+   },
+   "6": {
+    "acc": 0.7883,
+    "macro_f1": 0.7283
+   },
+   "9": {
+    "acc": 0.7228,
+    "macro_f1": 0.6764
+   },
+   "12": {
+    "acc": 0.6944,
+    "macro_f1": 0.6423
+   }
+  },
+  "best_layer": "1",
+  "range": 0.1556,
+  "shipped_vs_best": 0.0617,
+  "note": "monotone in depth, peaking at the shallowest layer tried and flat across 1-3 (0.850/0.848/0.844), so the peak is bracketed. The task is spectral and deeper layers abstract the spectral detail away."
+ },
+ "mert": {
+  "by_layer": {
+   "12": {
+    "acc": 0.7928,
+    "macro_f1": 0.7058,
+    "file": "mert_L12.npz"
+   },
+   "18": {
+    "acc": 0.7661,
+    "macro_f1": 0.6904,
+    "file": "mert_L18.npz"
+   },
+   "24": {
+    "acc": 0.7556,
+    "macro_f1": 0.6785,
+    "file": "mert_L24.npz"
+   },
+   "3": {
+    "acc": 0.7789,
+    "macro_f1": 0.7076,
+    "file": "mert_L3.npz"
+   },
+   "6": {
+    "acc": 0.78,
+    "macro_f1": 0.7039,
+    "file": "mert_L6.npz"
+   },
+   "9": {
+    "acc": 0.7822,
+    "macro_f1": 0.7035,
+    "file": "mert_L9.npz"
+   }
+  },
+  "best_layer": "12",
+  "range": 0.0372,
+  "shipped_vs_best": 0.0128,
+  "note": "flat across six layers; layer 6 is within 0.013 of the best and every layer stays below CLAP's 0.832."
+ }
+}

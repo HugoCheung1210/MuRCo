@@ -1,0 +1,294 @@
+{
+ "clap768_diff": {
+  "dim": 768,
+  "acc": 0.8322,
+  "macro_f1": 0.7755
+ },
+ "clap768_full": {
+  "dim": 2304,
+  "acc": 0.8178,
+  "macro_f1": 0.7812
+ },
+ "muq_diff": {
+  "dim": 1024,
+  "acc": 0.8456,
+  "macro_f1": 0.7758
+ },
+ "mert_diff": {
+  "dim": 1024,
+  "acc": 0.7906,
+  "macro_f1": 0.7186
+ },
+ "HTRS": {
+  "dim": 4,
+  "acc": 0.86,
+  "macro_f1": 0.8416
+ },
+ "HTR": {
+  "dim": 3,
+  "acc": 0.85,
+  "macro_f1": 0.8275
+ },
+ "scs": {
+  "dim": 1,
+  "acc": 0.6678,
+  "macro_f1": 0.4561
+ },
+ "clap_cosine": {
+  "dim": 1,
+  "acc": 0.4994,
+  "macro_f1": 0.4709
+ },
+ "tunejury_rel": {
+  "dim": 1,
+  "acc": 0.3806,
+  "macro_f1": 0.2423
+ },
+ "songeval_coherence_rel": {
+  "dim": 1,
+  "acc": 0.3156,
+  "macro_f1": 0.2079
+ },
+ "cocola": {
+  "dim": 1,
+  "acc": 0.3861,
+  "macro_f1": 0.2541
+ },
+ "muq_cosine": {
+  "dim": 1,
+  "acc": 0.6839,
+  "macro_f1": 0.5253
+ },
+ "mert_cosine": {
+  "dim": 1,
+  "acc": 0.6467,
+  "macro_f1": 0.465
+ },
+ "contrasts": {
+  "HTRS - HTR": {
+   "delta_acc": 0.0101,
+   "acc_ci95": [
+    -0.0011,
+    0.0206
+   ],
+   "delta_macro_f1": 0.0142,
+   "f1_ci95": [
+    -0.0004,
+    0.028
+   ],
+   "frac_le_zero_acc": 0.0415
+  },
+  "HTRS - clap768_diff": {
+   "delta_acc": 0.0279,
+   "acc_ci95": [
+    -0.0045,
+    0.0589
+   ],
+   "delta_macro_f1": 0.0664,
+   "f1_ci95": [
+    0.0327,
+    0.0998
+   ],
+   "frac_le_zero_acc": 0.044
+  },
+  "HTRS - clap768_full": {
+   "delta_acc": 0.0423,
+   "acc_ci95": [
+    0.0106,
+    0.0728
+   ],
+   "delta_macro_f1": 0.0606,
+   "f1_ci95": [
+    0.0269,
+    0.0938
+   ],
+   "frac_le_zero_acc": 0.004
+  },
+  "HTRS - muq_diff": {
+   "delta_acc": 0.0149,
+   "acc_ci95": [
+    -0.0144,
+    0.0428
+   ],
+   "delta_macro_f1": 0.0664,
+   "f1_ci95": [
+    0.036,
+    0.0974
+   ],
+   "frac_le_zero_acc": 0.1605
+  },
+  "HTRS - mert_diff": {
+   "delta_acc": 0.0695,
+   "acc_ci95": [
+    0.0378,
+    0.0994
+   ],
+   "delta_macro_f1": 0.1229,
+   "f1_ci95": [
+    0.0893,
+    0.1535
+   ],
+   "frac_le_zero_acc": 0.0
+  },
+  "HTR - clap768_diff": {
+   "delta_acc": 0.0172,
+   "acc_ci95": [
+    -0.0122,
+    0.0495
+   ],
+   "delta_macro_f1": 0.0517,
+   "f1_ci95": [
+    0.0197,
+    0.0863
+   ],
+   "frac_le_zero_acc": 0.135
+  },
+  "HTR - clap768_full": {
+   "delta_acc": 0.0329,
+   "acc_ci95": [
+    0.0,
+    0.0639
+   ],
+   "delta_macro_f1": 0.0469,
+   "f1_ci95": [
+    0.0135,
+    0.0796
+   ],
+   "frac_le_zero_acc": 0.0265
+  },
+  "HTR - muq_diff": {
+   "delta_acc": 0.0046,
+   "acc_ci95": [
+    -0.0244,
+    0.0344
+   ],
+   "delta_macro_f1": 0.0523,
+   "f1_ci95": [
+    0.0206,
+    0.0855
+   ],
+   "frac_le_zero_acc": 0.3905
+  },
+  "HTR - mert_diff": {
+   "delta_acc": 0.0594,
+   "acc_ci95": [
+    0.0294,
+    0.0889
+   ],
+   "delta_macro_f1": 0.1089,
+   "f1_ci95": [
+    0.077,
+    0.1424
+   ],
+   "frac_le_zero_acc": 0.0
+  },
+  "HTRS - scs": {
+   "delta_acc": 0.1925,
+   "acc_ci95": [
+    0.1594,
+    0.2217
+   ],
+   "delta_macro_f1": 0.3857,
+   "f1_ci95": [
+    0.358,
+    0.4132
+   ],
+   "frac_le_zero_acc": 0.0
+  },
+  "HTRS - clap_cosine": {
+   "delta_acc": 0.3605,
+   "acc_ci95": [
+    0.3267,
+    0.3922
+   ],
+   "delta_macro_f1": 0.371,
+   "f1_ci95": [
+    0.3377,
+    0.4029
+   ],
+   "frac_le_zero_acc": 0.0
+  },
+  "HTRS - tunejury_rel": {
+   "delta_acc": 0.4794,
+   "acc_ci95": [
+    0.4522,
+    0.5078
+   ],
+   "delta_macro_f1": 0.5995,
+   "f1_ci95": [
+    0.5748,
+    0.6243
+   ],
+   "frac_le_zero_acc": 0.0
+  },
+  "HTRS - songeval_coherence_rel": {
+   "delta_acc": 0.5446,
+   "acc_ci95": [
+    0.5133,
+    0.575
+   ],
+   "delta_macro_f1": 0.6345,
+   "f1_ci95": [
+    0.6053,
+    0.6632
+   ],
+   "frac_le_zero_acc": 0.0
+  },
+  "HTRS - cocola": {
+   "delta_acc": 0.4735,
+   "acc_ci95": [
+    0.4411,
+    0.5067
+   ],
+   "delta_macro_f1": 0.5878,
+   "f1_ci95": [
+    0.5606,
+    0.6158
+   ],
+   "frac_le_zero_acc": 0.0
+  },
+  "HTRS - muq_cosine": {
+   "delta_acc": 0.1761,
+   "acc_ci95": [
+    0.1489,
+    0.2
+   ],
+   "delta_macro_f1": 0.3163,
+   "f1_ci95": [
+    0.2917,
+    0.339
+   ],
+   "frac_le_zero_acc": 0.0
+  },
+  "HTRS - mert_cosine": {
+   "delta_acc": 0.2135,
+   "acc_ci95": [
+    0.1867,
+    0.24
+   ],
+   "delta_macro_f1": 0.3767,
+   "f1_ci95": [
+    0.3519,
+    0.4012
+   ],
+   "frac_le_zero_acc": 0.0
+  }
+ },
+ "meta": {
+  "n_pairs": 1800,
+  "n_tracks": 90,
+  "protocol": "leave-one-track-out over tracks, L2 chosen by a grouped inner split on the training fold only; paired bootstrap over tracks",
+  "scalars_compared": [
+   "scs",
+   "clap_cosine",
+   "tunejury_rel",
+   "songeval_coherence_rel",
+   "cocola",
+   "muq_cosine",
+   "mert_cosine"
+  ],
+  "best_scalar": "muq_cosine",
+  "best_scalar_acc": 0.6839,
+  "note": "strongest-scalar claim in the abstract must quote best_scalar."
+ }
+}

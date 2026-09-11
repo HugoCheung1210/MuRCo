@@ -1,0 +1,158 @@
+[
+  {
+    "key": "classical_01::pitch_shift::-4st",
+    "ref": "perturbations/audio/classical_01__A.wav",
+    "est": "perturbations/audio/classical_01__pitch_shift__-4st.wav",
+    "id": "classical_01::pitch_shift::-4st",
+    "source_id": "classical_01",
+    "genre": "classical",
+    "perturbation": "pitch_shift",
+    "dim_target": "H",
+    "magnitude": -4.0,
+    "harmony_tonality": {
+      "key_relatedness": {
+        "distance_norm_0to1": 0.6666666666666666
+      },
+      "chroma_similarity": {
+        "mean_chroma_cosine": 0.860271748667303,
+        "chroma_dtw_cosine": 0.7461635539015676
+      }
+    },
+    "rhythm_meter": {
+      "delta_bpm_folded": 0.0,
+      "beat_mir_eval": {
+        "F-measure": 0.9,
+        "Information gain": 0.6039370046136163
+      }
+    },
+    "structural_form": {
+      "pairwise_f": 0.9887879145521067,
+      "ari": 0.8421844125413117
+    },
+    "melodic_content": {
+      "contour_dtw_similarity": 0.8331381661377913,
+      "motif_3gram_recall": 0.5882352941176471
+    },
+    "timbre_texture": {
+      "mfcc_skl_similarity": 0.5623075947761108,
+      "mean_mfcc_cosine": 0.9954351609635065
+    }
+  },
+  {
+    "key": "classical_01::pitch_shift::-2st",
+    "ref": "perturbations/audio/classical_01__A.wav",
+    "est": "perturbations/audio/classical_01__pitch_shift__-2st.wav",
+    "id": "classical_01::pitch_shift::-2st",
+    "source_id": "classical_01",
+    "genre": "classical",
+    "perturbation": "pitch_shift",
+    "dim_target": "H",
+    "magnitude": -2.0,
+    "harmony_tonality": {
+      "key_relatedness": {
+        "distance_norm_0to1": 0.3333333333333333
+      },
+      "chroma_similarity": {
+        "mean_chroma_cosine": 0.8360736739597695,
+        "chroma_dtw_cosine": 0.7600305524090876
+      }
+    },
+    "rhythm_meter": {
+      "delta_bpm_folded": 0.0,
+      "beat_mir_eval": {
+        "F-measure": 1.0,
+        "Information gain": 0.7067782836077847
+      }
+    },
+    "structural_form": {
+      "pairwise_f": 0.9887879145521067,
+      "ari": 0.8421844125413117
+    },
+    "melodic_content": {
+      "contour_dtw_similarity": 0.882721529714329,
+      "motif_3gram_recall": 0.7647058823529411
+    },
+    "timbre_texture": {
+      "mfcc_skl_similarity": 0.821449214658177,
+      "mean_mfcc_cosine": 0.9983768602620926
+    }
+  },
+  {
+    "key": "classical_01::pitch_shift::-1st",
+    "ref": "perturbations/audio/classical_01__A.wav",
+    "est": "perturbations/audio/classical_01__pitch_shift__-1st.wav",
+    "id": "classical_01::pitch_shift::-1st",
+    "source_id": "classical_01",
+    "genre": "classical",
+    "perturbation": "pitch_shift",
+    "dim_target": "H",
+    "magnitude": -1.0,
+    "harmony_tonality": {
+      "key_relatedness": {
+        "distance_norm_0to1": 0.8333333333333334
+      },
+      "chroma_similarity": {
+        "mean_chroma_cosine": 0.7943472930679609,
+        "chroma_dtw_cosine": 0.7138435281315354
+      }
+    },
+    "rhythm_meter": {
+      "delta_bpm_folded": 0.0,
+      "beat_mir_eval": {
+        "F-measure": 1.0,
+        "Information gain": 0.9124608415961211
+      }
+    },
+    "structural_form": {
+      "pairwise_f": 0.9887879145521067,
+      "ari": 0.8421844125413117
+    },
+    "melodic_content": {
+      "contour_dtw_similarity": 0.9198654057906059,
+      "motif_3gram_recall": 0.4117647058823529
+    },
+    "timbre_texture": {
+      "mfcc_skl_similarity": 0.9331964260550083,
+      "mean_mfcc_cosine": 0.9992864592115906
+    }
+  },
+  {
+    "key": "classical_01::control::ctrl",
+    "ref": "perturbations/audio/classical_01__A.wav",
+    "est": "perturbations/audio/classical_01__control__ctrl.wav",
+    "id": "classical_01::control::ctrl",
+    "source_id": "classical_01",
+    "genre": "classical",
+    "perturbation": "control",
+    "dim_target": "control",
+    "magnitude": 0.0,
+    "harmony_tonality": {
+      "key_relatedness": {
+        "distance_norm_0to1": 0.0
+      },
+      "chroma_similarity": {
+        "mean_chroma_cosine": 0.9999999782281933,
+        "chroma_dtw_cosine": 1.0
+      }
+    },
+    "rhythm_meter": {
+      "delta_bpm_folded": 0.0,
+      "beat_mir_eval": {
+        "F-measure": 1.0,
+        "Information gain": 1.0
+      }
+    },
+    "structural_form": {
+      "pairwise_f": 1.0,
+      "ari": 1.0
+    },
+    "melodic_content": {
+      "contour_dtw_similarity": 1.0,
+      "motif_3gram_recall": 1.0
+    },
+    "timbre_texture": {
+      "mfcc_skl_similarity": 1.0,
+      "mean_mfcc_cosine": 0.9999999998703925
+    }
+  }
+]

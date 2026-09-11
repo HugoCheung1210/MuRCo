@@ -1,0 +1,9 @@
+FMA Medium selective source download
+seed: 42
+selected_total: 90
+classical: 15
+ambient: 15
+electronic: 15
+folk: 15
+jazz: 15
+rock: 15

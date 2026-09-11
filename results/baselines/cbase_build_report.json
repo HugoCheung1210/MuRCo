@@ -1,0 +1,47 @@
+{
+  "norm": "none",
+  "members": [
+    "scs",
+    "clap_htsat"
+  ],
+  "matrix": {
+    "n_pairs": 1890,
+    "normalization": {
+      "scs": {
+        "how": "none",
+        "note": "raw members (both already native ~[0,1], control~1); most transparent naive combination"
+      },
+      "clap_htsat": {
+        "how": "none",
+        "note": "raw members (both already native ~[0,1], control~1); most transparent naive combination"
+      }
+    },
+    "cbase_mean": 0.8792219170760723,
+    "cbase_std": 0.11012789524615209,
+    "wrote": [
+      "results/baseline_scores_cbase.json",
+      "results/pair_scores_cbase.csv"
+    ]
+  },
+  "drift_ranges_fitted_on_matrix": null,
+  "drift": {
+    "sao": {
+      "model": "sao",
+      "ceiling_mean": 0.9698467194242163,
+      "drop_iter8": 0.23391195895287487,
+      "wrote": "results/drift_cbase_sao.json"
+    },
+    "ace": {
+      "model": "ace",
+      "ceiling_mean": 0.9990731257144387,
+      "drop_iter8": 0.2106751172484378,
+      "wrote": "results/drift_cbase_ace.json"
+    },
+    "musicgen": {
+      "model": "musicgen",
+      "ceiling_mean": 0.999999996548777,
+      "drop_iter8": 0.6939777185240843,
+      "wrote": "results/drift_cbase_musicgen.json"
+    }
+  }
+}

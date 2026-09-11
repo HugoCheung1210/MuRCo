@@ -1,0 +1,45 @@
+{
+ "meta": {
+  "encoder": "mert",
+  "layer": 12,
+  "protocol": "leave-one-track-out, L2 chosen by grouped inner split on the training fold only; paired bootstrap over 90 tracks"
+ },
+ "mert_diff": {
+  "acc": 0.7944,
+  "macro_f1": 0.7143
+ },
+ "HTRS": {
+  "acc": 0.86,
+  "macro_f1": 0.8416
+ },
+ "HTR": {
+  "acc": 0.85,
+  "macro_f1": 0.8275
+ },
+ "HTRS - mert_diff": {
+  "delta_acc": 0.0658,
+  "acc_ci95": [
+   0.0356,
+   0.095
+  ],
+  "delta_macro_f1": 0.1273,
+  "f1_ci95": [
+   0.0985,
+   0.1556
+  ],
+  "frac_le_zero_acc": 0.0
+ },
+ "HTR - mert_diff": {
+  "delta_acc": 0.0554,
+  "acc_ci95": [
+   0.0267,
+   0.0833
+  ],
+  "delta_macro_f1": 0.1132,
+  "f1_ci95": [
+   0.0843,
+   0.1415
+  ],
+  "frac_le_zero_acc": 0.0
+ }
+}

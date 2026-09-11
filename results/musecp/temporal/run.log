@@ -1,0 +1,727 @@
+540 pair(s) total, 540 to run, 8 worker(s)
+metrics: harmony, rhythm, structure, melody, timbre
+output:  results/musecp/temporal
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1/540] classical_02::shuffle::shuf_beat
+[2/540] classical_02::control::ctrl
+[3/540] classical_01::shuffle::shuf_bar
+[4/540] classical_01::shuffle::shuf_beat
+[5/540] classical_01::displacement::disp_far
+[6/540] classical_01::reverse::rev
+[7/540] classical_01::displacement::disp_near
+[8/540] classical_01::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[9/540] classical_02::shuffle::shuf_bar
+[10/540] classical_02::reverse::rev
+[11/540] classical_02::displacement::disp_far
+[12/540] classical_03::control::ctrl
+[13/540] classical_02::displacement::disp_near
+[14/540] classical_03::shuffle::shuf_beat
+[15/540] classical_03::reverse::rev
+[16/540] classical_03::shuffle::shuf_bar
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[17/540] classical_03::displacement::disp_far
+[18/540] classical_03::displacement::disp_near
+[19/540] classical_04::shuffle::shuf_bar
+[20/540] classical_04::shuffle::shuf_beat
+[21/540] classical_04::control::ctrl
+[22/540] classical_04::reverse::rev
+[23/540] classical_04::displacement::disp_near
+[24/540] classical_04::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[25/540] classical_05::control::ctrl
+[26/540] classical_05::shuffle::shuf_beat
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[27/540] classical_05::shuffle::shuf_bar
+[28/540] classical_05::reverse::rev
+[29/540] classical_05::displacement::disp_near
+[30/540] classical_05::displacement::disp_far
+[31/540] classical_06::shuffle::shuf_beat
+[32/540] classical_06::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[33/540] classical_06::shuffle::shuf_bar
+[34/540] classical_06::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[35/540] classical_06::displacement::disp_far
+[36/540] classical_06::displacement::disp_near
+[37/540] classical_07::control::ctrl
+[38/540] classical_07::shuffle::shuf_beat
+[39/540] classical_07::reverse::rev
+[40/540] classical_07::shuffle::shuf_bar
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[41/540] classical_07::displacement::disp_near
+[42/540] classical_08::control::ctrl
+[43/540] classical_08::shuffle::shuf_beat
+[44/540] classical_07::displacement::disp_far
+[45/540] classical_08::shuffle::shuf_bar
+[46/540] classical_08::reverse::rev
+[47/540] classical_08::displacement::disp_near
+[48/540] classical_08::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[49/540] classical_09::shuffle::shuf_beat
+[50/540] classical_09::control::ctrl
+[51/540] classical_09::shuffle::shuf_bar
+[52/540] classical_10::control::ctrl
+[53/540] classical_09::reverse::rev
+[54/540] classical_10::shuffle::shuf_beat
+[55/540] classical_09::displacement::disp_near
+[56/540] classical_09::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[57/540] classical_10::reverse::rev
+[58/540] classical_10::displacement::disp_near
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[59/540] classical_10::displacement::disp_far
+[60/540] classical_11::shuffle::shuf_beat
+[61/540] classical_10::shuffle::shuf_bar
+[62/540] classical_11::control::ctrl
+[63/540] classical_11::shuffle::shuf_bar
+[64/540] classical_11::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[65/540] classical_11::displacement::disp_near
+[66/540] classical_11::displacement::disp_far
+[67/540] classical_12::control::ctrl
+[68/540] classical_12::shuffle::shuf_beat
+[69/540] classical_12::shuffle::shuf_bar
+[70/540] classical_12::reverse::rev
+[71/540] classical_12::displacement::disp_near
+[72/540] classical_12::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[73/540] classical_13::control::ctrl
+[74/540] classical_13::shuffle::shuf_beat
+[75/540] classical_13::shuffle::shuf_bar
+[76/540] classical_13::displacement::disp_near
+[77/540] classical_13::displacement::disp_far
+[78/540] classical_13::reverse::rev
+[79/540] classical_14::shuffle::shuf_beat
+[80/540] classical_14::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[81/540] classical_14::shuffle::shuf_bar
+[82/540] classical_14::reverse::rev
+[83/540] classical_14::displacement::disp_near
+[84/540] classical_15::control::ctrl
+[85/540] classical_15::shuffle::shuf_beat
+[86/540] classical_15::shuffle::shuf_bar
+[87/540] classical_15::reverse::rev
+[88/540] classical_14::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[89/540] classical_15::displacement::disp_near
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[90/540] classical_15::displacement::disp_far
+[91/540] ambient_01::control::ctrl
+[92/540] ambient_01::shuffle::shuf_beat
+[93/540] ambient_01::reverse::rev
+[94/540] ambient_01::shuffle::shuf_bar
+[95/540] ambient_01::displacement::disp_near
+[96/540] ambient_01::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[97/540] ambient_02::control::ctrl
+[98/540] ambient_02::shuffle::shuf_beat
+[99/540] ambient_02::shuffle::shuf_bar
+[100/540] ambient_02::displacement::disp_near
+[101/540] ambient_02::displacement::disp_far
+[102/540] ambient_02::reverse::rev
+[103/540] ambient_03::control::ctrl
+[104/540] ambient_03::shuffle::shuf_beat
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[105/540] ambient_03::shuffle::shuf_bar
+[106/540] ambient_03::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[107/540] ambient_03::displacement::disp_near
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[108/540] ambient_03::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[109/540] ambient_04::control::ctrl
+[110/540] ambient_04::shuffle::shuf_beat
+[111/540] ambient_04::shuffle::shuf_bar
+[112/540] ambient_04::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[113/540] ambient_04::displacement::disp_near
+[114/540] ambient_05::control::ctrl
+[115/540] ambient_04::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[116/540] ambient_05::shuffle::shuf_beat
+[117/540] ambient_05::reverse::rev
+[118/540] ambient_05::shuffle::shuf_bar
+[119/540] ambient_05::displacement::disp_near
+[120/540] ambient_05::displacement::disp_far
+[121/540] ambient_06::shuffle::shuf_beat
+[122/540] ambient_06::control::ctrl
+[123/540] ambient_06::shuffle::shuf_bar
+[124/540] ambient_06::reverse::rev
+[125/540] ambient_06::displacement::disp_near
+[126/540] ambient_06::displacement::disp_far
+[127/540] ambient_07::control::ctrl
+[128/540] ambient_07::shuffle::shuf_beat
+[129/540] ambient_07::shuffle::shuf_bar
+[130/540] ambient_07::reverse::rev
+[131/540] ambient_07::displacement::disp_near
+[132/540] ambient_07::displacement::disp_far
+[133/540] ambient_08::shuffle::shuf_beat
+[134/540] ambient_08::control::ctrl
+[135/540] ambient_08::reverse::rev
+[136/540] ambient_08::shuffle::shuf_bar
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[137/540] ambient_08::displacement::disp_near
+[138/540] ambient_08::displacement::disp_far
+[139/540] ambient_09::control::ctrl
+[140/540] ambient_09::shuffle::shuf_beat
+[141/540] ambient_09::shuffle::shuf_bar
+[142/540] ambient_09::reverse::rev
+[143/540] ambient_09::displacement::disp_far
+[144/540] ambient_09::displacement::disp_near
+[145/540] ambient_10::control::ctrl
+[146/540] ambient_10::shuffle::shuf_beat
+[147/540] ambient_10::shuffle::shuf_bar
+[148/540] ambient_10::reverse::rev
+[149/540] ambient_10::displacement::disp_near
+[150/540] ambient_11::control::ctrl
+[151/540] ambient_10::displacement::disp_far
+[152/540] ambient_11::shuffle::shuf_beat
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[153/540] ambient_11::shuffle::shuf_bar
+[154/540] ambient_11::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[155/540] ambient_11::displacement::disp_near
+[156/540] ambient_11::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[157/540] ambient_12::reverse::rev
+[158/540] ambient_12::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[159/540] ambient_12::shuffle::shuf_beat
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[160/540] ambient_12::shuffle::shuf_bar
+[161/540] ambient_13::control::ctrl
+[162/540] ambient_13::shuffle::shuf_beat
+[163/540] ambient_12::displacement::disp_far
+[164/540] ambient_12::displacement::disp_near
+[165/540] ambient_13::shuffle::shuf_bar
+[166/540] ambient_13::reverse::rev
+[167/540] ambient_13::displacement::disp_near
+[168/540] ambient_13::displacement::disp_far
+[169/540] ambient_14::control::ctrl
+[170/540] ambient_14::shuffle::shuf_beat
+[171/540] ambient_14::reverse::rev
+[172/540] ambient_14::shuffle::shuf_bar
+[173/540] ambient_14::displacement::disp_near
+[174/540] ambient_14::displacement::disp_far
+[175/540] ambient_15::control::ctrl
+[176/540] ambient_15::shuffle::shuf_beat
+[177/540] ambient_15::shuffle::shuf_bar
+[178/540] ambient_15::reverse::rev
+[179/540] ambient_15::displacement::disp_near
+[180/540] ambient_15::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[181/540] electronic_01::control::ctrl
+[182/540] electronic_01::shuffle::shuf_beat
+[183/540] electronic_01::shuffle::shuf_bar
+[184/540] electronic_01::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[185/540] electronic_01::displacement::disp_near
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[186/540] electronic_02::shuffle::shuf_beat
+[187/540] electronic_01::displacement::disp_far
+[188/540] electronic_02::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[189/540] electronic_02::reverse::rev
+[190/540] electronic_02::displacement::disp_near
+[191/540] electronic_02::shuffle::shuf_bar
+[192/540] electronic_02::displacement::disp_far
+[193/540] electronic_03::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[194/540] electronic_03::shuffle::shuf_bar
+[195/540] electronic_03::reverse::rev
+[196/540] electronic_03::shuffle::shuf_beat
+[197/540] electronic_03::displacement::disp_near
+[198/540] electronic_03::displacement::disp_far
+[199/540] electronic_04::control::ctrl
+[200/540] electronic_04::shuffle::shuf_beat
+[201/540] electronic_04::shuffle::shuf_bar
+[202/540] electronic_04::reverse::rev
+[203/540] electronic_04::displacement::disp_near
+[204/540] electronic_04::displacement::disp_far
+[205/540] electronic_05::control::ctrl
+[206/540] electronic_05::shuffle::shuf_beat
+[207/540] electronic_05::shuffle::shuf_bar
+[208/540] electronic_05::reverse::rev
+[209/540] electronic_05::displacement::disp_near
+[210/540] electronic_05::displacement::disp_far
+[211/540] electronic_06::control::ctrl
+[212/540] electronic_06::shuffle::shuf_beat
+[213/540] electronic_06::shuffle::shuf_bar
+[214/540] electronic_06::reverse::rev
+[215/540] electronic_06::displacement::disp_near
+[216/540] electronic_06::displacement::disp_far
+[217/540] electronic_07::control::ctrl
+[218/540] electronic_07::shuffle::shuf_beat
+[219/540] electronic_07::shuffle::shuf_bar
+[220/540] electronic_07::reverse::rev
+[221/540] electronic_07::displacement::disp_near
+[222/540] electronic_07::displacement::disp_far
+[223/540] electronic_08::control::ctrl
+[224/540] electronic_08::shuffle::shuf_beat
+[225/540] electronic_08::shuffle::shuf_bar
+[226/540] electronic_08::reverse::rev
+[227/540] electronic_08::displacement::disp_near
+[228/540] electronic_08::displacement::disp_far
+[229/540] electronic_09::control::ctrl
+[230/540] electronic_09::shuffle::shuf_beat
+[231/540] electronic_09::shuffle::shuf_bar
+[232/540] electronic_09::reverse::rev
+[233/540] electronic_09::displacement::disp_near
+[234/540] electronic_09::displacement::disp_far
+[235/540] electronic_10::shuffle::shuf_beat
+[236/540] electronic_10::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[237/540] electronic_10::shuffle::shuf_bar
+[238/540] electronic_10::reverse::rev
+[239/540] electronic_10::displacement::disp_near
+[240/540] electronic_10::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[241/540] electronic_11::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[242/540] electronic_11::shuffle::shuf_beat
+[243/540] electronic_11::reverse::rev
+[244/540] electronic_11::shuffle::shuf_bar
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[245/540] electronic_11::displacement::disp_near
+[246/540] electronic_12::control::ctrl
+[247/540] electronic_11::displacement::disp_far
+[248/540] electronic_12::shuffle::shuf_beat
+[249/540] electronic_12::shuffle::shuf_bar
+[250/540] electronic_12::reverse::rev
+[251/540] electronic_12::displacement::disp_near
+[252/540] electronic_12::displacement::disp_far
+[253/540] electronic_13::control::ctrl
+[254/540] electronic_13::shuffle::shuf_beat
+[255/540] electronic_13::shuffle::shuf_bar
+[256/540] electronic_13::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[257/540] electronic_13::displacement::disp_near
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[258/540] electronic_13::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[259/540] electronic_14::control::ctrl
+[260/540] electronic_14::shuffle::shuf_beat
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[261/540] electronic_14::reverse::rev
+[262/540] electronic_14::displacement::disp_near
+[263/540] electronic_14::displacement::disp_far
+[264/540] electronic_14::shuffle::shuf_bar
+[265/540] electronic_15::control::ctrl
+[266/540] electronic_15::shuffle::shuf_beat
+[267/540] electronic_15::shuffle::shuf_bar
+[268/540] electronic_15::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[269/540] electronic_15::displacement::disp_far
+[270/540] folk_01::control::ctrl
+[271/540] folk_01::shuffle::shuf_beat
+[272/540] electronic_15::displacement::disp_near
+[273/540] folk_01::shuffle::shuf_bar
+[274/540] folk_01::reverse::rev
+[275/540] folk_01::displacement::disp_near
+[276/540] folk_01::displacement::disp_far
+[277/540] folk_02::control::ctrl
+[278/540] folk_02::shuffle::shuf_beat
+[279/540] folk_02::shuffle::shuf_bar
+[280/540] folk_02::reverse::rev
+[281/540] folk_02::displacement::disp_near
+[282/540] folk_02::displacement::disp_far
+[283/540] folk_03::control::ctrl
+[284/540] folk_03::shuffle::shuf_beat
+[285/540] folk_03::shuffle::shuf_bar
+[286/540] folk_03::displacement::disp_near
+[287/540] folk_03::reverse::rev
+[288/540] folk_03::displacement::disp_far
+[289/540] folk_04::control::ctrl
+[290/540] folk_04::shuffle::shuf_beat
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[291/540] folk_04::shuffle::shuf_bar
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[292/540] folk_04::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[293/540] folk_04::displacement::disp_near
+[294/540] folk_04::displacement::disp_far
+[295/540] folk_05::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[296/540] folk_05::shuffle::shuf_beat
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[297/540] folk_05::shuffle::shuf_bar
+[298/540] folk_05::reverse::rev
+[299/540] folk_05::displacement::disp_near
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[300/540] folk_05::displacement::disp_far
+[301/540] folk_06::control::ctrl
+[302/540] folk_06::shuffle::shuf_beat
+[303/540] folk_06::shuffle::shuf_bar
+[304/540] folk_06::reverse::rev
+[305/540] folk_06::displacement::disp_near
+[306/540] folk_06::displacement::disp_far
+[307/540] folk_07::control::ctrl
+[308/540] folk_07::shuffle::shuf_beat
+[309/540] folk_07::shuffle::shuf_bar
+[310/540] folk_07::reverse::rev
+[311/540] folk_07::displacement::disp_near
+[312/540] folk_07::displacement::disp_far
+[313/540] folk_08::control::ctrl
+[314/540] folk_08::shuffle::shuf_beat
+[315/540] folk_08::shuffle::shuf_bar
+[316/540] folk_08::reverse::rev
+[317/540] folk_08::displacement::disp_near
+[318/540] folk_08::displacement::disp_far
+[319/540] folk_09::control::ctrl
+[320/540] folk_09::shuffle::shuf_beat
+[321/540] folk_09::shuffle::shuf_bar
+[322/540] folk_09::reverse::rev
+[323/540] folk_09::displacement::disp_near
+[324/540] folk_09::displacement::disp_far
+[325/540] folk_10::control::ctrl
+[326/540] folk_10::shuffle::shuf_beat
+[327/540] folk_10::shuffle::shuf_bar
+[328/540] folk_10::reverse::rev
+[329/540] folk_10::displacement::disp_near
+[330/540] folk_10::displacement::disp_far
+[331/540] folk_11::control::ctrl
+[332/540] folk_11::shuffle::shuf_beat
+[333/540] folk_11::shuffle::shuf_bar
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[334/540] folk_11::reverse::rev
+[335/540] folk_11::displacement::disp_near
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[336/540] folk_11::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[337/540] folk_12::shuffle::shuf_beat
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[338/540] folk_12::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[339/540] folk_12::shuffle::shuf_bar
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[340/540] folk_12::reverse::rev
+[341/540] folk_12::displacement::disp_near
+[342/540] folk_12::displacement::disp_far
+[343/540] folk_13::control::ctrl
+[344/540] folk_13::shuffle::shuf_beat
+[345/540] folk_13::shuffle::shuf_bar
+[346/540] folk_13::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[347/540] folk_13::displacement::disp_near
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[348/540] folk_13::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[349/540] folk_14::control::ctrl
+[350/540] folk_14::shuffle::shuf_beat
+[351/540] folk_14::shuffle::shuf_bar
+[352/540] folk_14::reverse::rev
+[353/540] folk_14::displacement::disp_near
+[354/540] folk_14::displacement::disp_far
+[355/540] folk_15::control::ctrl
+[356/540] folk_15::shuffle::shuf_beat
+[357/540] folk_15::shuffle::shuf_bar
+[358/540] folk_15::reverse::rev
+[359/540] folk_15::displacement::disp_near
+[360/540] folk_15::displacement::disp_far
+[361/540] jazz_01::control::ctrl
+[362/540] jazz_01::shuffle::shuf_beat
+[363/540] jazz_01::shuffle::shuf_bar
+[364/540] jazz_01::reverse::rev
+[365/540] jazz_01::displacement::disp_near
+[366/540] jazz_01::displacement::disp_far
+[367/540] jazz_02::control::ctrl
+[368/540] jazz_02::shuffle::shuf_beat
+[369/540] jazz_02::shuffle::shuf_bar
+[370/540] jazz_02::reverse::rev
+[371/540] jazz_02::displacement::disp_near
+[372/540] jazz_02::displacement::disp_far
+[373/540] jazz_03::control::ctrl
+[374/540] jazz_03::shuffle::shuf_beat
+[375/540] jazz_03::shuffle::shuf_bar
+[376/540] jazz_03::reverse::rev
+[377/540] jazz_03::displacement::disp_near
+[378/540] jazz_03::displacement::disp_far
+[379/540] jazz_04::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[380/540] jazz_04::shuffle::shuf_bar
+[381/540] jazz_04::shuffle::shuf_beat
+[382/540] jazz_04::reverse::rev
+[383/540] jazz_04::displacement::disp_near
+[384/540] jazz_04::displacement::disp_far
+[385/540] jazz_05::control::ctrl
+[386/540] jazz_05::shuffle::shuf_beat
+[387/540] jazz_05::shuffle::shuf_bar
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[388/540] jazz_05::reverse::rev
+[389/540] jazz_05::displacement::disp_near
+[390/540] jazz_05::displacement::disp_far
+[391/540] jazz_06::control::ctrl
+[392/540] jazz_06::shuffle::shuf_beat
+[393/540] jazz_06::reverse::rev
+[394/540] jazz_06::shuffle::shuf_bar
+[395/540] jazz_06::displacement::disp_near
+[396/540] jazz_06::displacement::disp_far
+[397/540] jazz_07::control::ctrl
+[398/540] jazz_07::shuffle::shuf_beat
+[399/540] jazz_07::shuffle::shuf_bar
+[400/540] jazz_07::reverse::rev
+[401/540] jazz_07::displacement::disp_near
+[402/540] jazz_07::displacement::disp_far
+[403/540] jazz_08::control::ctrl
+[404/540] jazz_08::shuffle::shuf_beat
+[405/540] jazz_08::shuffle::shuf_bar
+[406/540] jazz_08::reverse::rev
+[407/540] jazz_08::displacement::disp_near
+[408/540] jazz_08::displacement::disp_far
+[409/540] jazz_09::control::ctrl
+[410/540] jazz_09::shuffle::shuf_beat
+[411/540] jazz_09::shuffle::shuf_bar
+[412/540] jazz_09::reverse::rev
+[413/540] jazz_09::displacement::disp_near
+[414/540] jazz_09::displacement::disp_far
+[415/540] jazz_10::shuffle::shuf_beat
+[416/540] jazz_10::control::ctrl
+[417/540] jazz_10::shuffle::shuf_bar
+[418/540] jazz_10::reverse::rev
+[419/540] jazz_10::displacement::disp_near
+[420/540] jazz_10::displacement::disp_far
+[421/540] jazz_11::control::ctrl
+[422/540] jazz_11::shuffle::shuf_beat
+[423/540] jazz_11::reverse::rev
+[424/540] jazz_11::shuffle::shuf_bar
+[425/540] jazz_11::displacement::disp_near
+[426/540] jazz_11::displacement::disp_far
+[427/540] jazz_12::control::ctrl
+[428/540] jazz_12::shuffle::shuf_beat
+[429/540] jazz_12::shuffle::shuf_bar
+[430/540] jazz_12::reverse::rev
+[431/540] jazz_12::displacement::disp_near
+[432/540] jazz_12::displacement::disp_far  ~ degraded: structural_form
+[433/540] jazz_13::control::ctrl
+[434/540] jazz_13::shuffle::shuf_beat
+[435/540] jazz_13::shuffle::shuf_bar
+[436/540] jazz_13::reverse::rev
+[437/540] jazz_13::displacement::disp_near
+[438/540] jazz_13::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[439/540] jazz_14::control::ctrl
+[440/540] jazz_14::shuffle::shuf_beat
+[441/540] jazz_14::shuffle::shuf_bar
+[442/540] jazz_14::reverse::rev
+[443/540] jazz_14::displacement::disp_near
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[444/540] jazz_14::displacement::disp_far
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[445/540] jazz_15::control::ctrl
+[446/540] jazz_15::shuffle::shuf_beat
+[447/540] jazz_15::shuffle::shuf_bar
+[448/540] jazz_15::reverse::rev
+[449/540] rock_01::control::ctrl
+[450/540] jazz_15::displacement::disp_near
+[451/540] jazz_15::displacement::disp_far
+[452/540] rock_01::shuffle::shuf_beat
+[453/540] rock_01::shuffle::shuf_bar
+[454/540] rock_01::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[455/540] rock_01::displacement::disp_near
+[456/540] rock_01::displacement::disp_far
+[457/540] rock_02::control::ctrl
+[458/540] rock_02::shuffle::shuf_beat
+[459/540] rock_02::shuffle::shuf_bar
+[460/540] rock_02::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[461/540] rock_02::displacement::disp_near
+[462/540] rock_02::displacement::disp_far
+[463/540] rock_03::control::ctrl
+[464/540] rock_03::shuffle::shuf_bar
+[465/540] rock_03::reverse::rev
+[466/540] rock_03::shuffle::shuf_beat
+[467/540] rock_03::displacement::disp_near
+[468/540] rock_03::displacement::disp_far
+[469/540] rock_04::control::ctrl
+[470/540] rock_04::shuffle::shuf_beat
+[471/540] rock_04::shuffle::shuf_bar
+[472/540] rock_04::reverse::rev
+[473/540] rock_04::displacement::disp_near
+[474/540] rock_04::displacement::disp_far
+[475/540] rock_05::control::ctrl
+[476/540] rock_05::shuffle::shuf_beat
+[477/540] rock_05::shuffle::shuf_bar
+[478/540] rock_05::reverse::rev
+[479/540] rock_05::displacement::disp_near
+[480/540] rock_05::displacement::disp_far
+[481/540] rock_06::control::ctrl
+[482/540] rock_06::shuffle::shuf_beat
+[483/540] rock_06::shuffle::shuf_bar
+[484/540] rock_06::reverse::rev
+[485/540] rock_06::displacement::disp_near
+[486/540] rock_06::displacement::disp_far
+[487/540] rock_07::control::ctrl
+[488/540] rock_07::shuffle::shuf_beat
+[489/540] rock_07::shuffle::shuf_bar
+[490/540] rock_07::reverse::rev
+[491/540] rock_07::displacement::disp_near
+[492/540] rock_07::displacement::disp_far
+[493/540] rock_08::control::ctrl
+[494/540] rock_08::shuffle::shuf_beat
+[495/540] rock_08::shuffle::shuf_bar
+[496/540] rock_08::reverse::rev
+[497/540] rock_08::displacement::disp_near
+[498/540] rock_08::displacement::disp_far
+[499/540] rock_09::control::ctrl
+[500/540] rock_09::shuffle::shuf_beat
+[501/540] rock_09::shuffle::shuf_bar
+[502/540] rock_09::reverse::rev
+[503/540] rock_09::displacement::disp_near
+[504/540] rock_09::displacement::disp_far
+[505/540] rock_10::control::ctrl
+[506/540] rock_10::shuffle::shuf_beat
+[507/540] rock_10::shuffle::shuf_bar
+[508/540] rock_10::reverse::rev
+[509/540] rock_10::displacement::disp_near
+[510/540] rock_10::displacement::disp_far
+[511/540] rock_11::control::ctrl
+[512/540] rock_11::shuffle::shuf_beat
+[513/540] rock_11::shuffle::shuf_bar
+[514/540] rock_11::reverse::rev
+[515/540] rock_11::displacement::disp_near
+[516/540] rock_11::displacement::disp_far
+[517/540] rock_12::control::ctrl
+[518/540] rock_12::shuffle::shuf_beat
+[519/540] rock_12::shuffle::shuf_bar
+[520/540] rock_12::reverse::rev
+[521/540] rock_12::displacement::disp_near
+[522/540] rock_12::displacement::disp_far
+[523/540] rock_13::control::ctrl
+[524/540] rock_13::shuffle::shuf_beat
+[525/540] rock_13::shuffle::shuf_bar
+[526/540] rock_13::reverse::rev
+[527/540] rock_13::displacement::disp_near
+[528/540] rock_13::displacement::disp_far
+[529/540] rock_14::control::ctrl
+[530/540] rock_14::shuffle::shuf_beat
+[531/540] rock_14::shuffle::shuf_bar
+[532/540] rock_14::reverse::rev
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[533/540] rock_14::displacement::disp_near
+[534/540] rock_14::displacement::disp_far
+[535/540] rock_15::control::ctrl
+[536/540] rock_15::shuffle::shuf_beat
+[537/540] rock_15::shuffle::shuf_bar
+[538/540] rock_15::reverse::rev
+[539/540] rock_15::displacement::disp_near
+[540/540] rock_15::displacement::disp_far
+
+done — 540 record(s) → results/musecp/temporal/results.json
+  failed pairs:            0
+  pairs w/ failed metric:  0
+  degraded (meaningless):  1
+TEMPORAL DONE rc=1

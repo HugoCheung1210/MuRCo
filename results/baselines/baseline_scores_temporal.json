@@ -1,0 +1,3297 @@
+{
+  "meta": {
+    "sr": 48000,
+    "seconds": 8.0,
+    "offset": 6.0,
+    "families": [
+      "O"
+    ],
+    "seed": 42,
+    "dsp_backend": "rubberband",
+    "formant_preserving": true,
+    "n_sources": 90,
+    "n_pairs": 540,
+    "pitch_steps": [
+      -4,
+      -2,
+      -1,
+      1,
+      2,
+      4
+    ],
+    "time_stretch_percent": [
+      -20,
+      -10,
+      -5,
+      5,
+      10,
+      20
+    ],
+    "lowpass_cutoffs_hz": [
+      8000,
+      4000,
+      2000
+    ],
+    "distortion_drives": [
+      4.0,
+      12.0,
+      32.0
+    ],
+    "baselines": [
+      "clap_htsat",
+      "clap_music",
+      "scs",
+      "fad_proxy"
+    ],
+    "secs": 8.0,
+    "clap_readout": "pooled",
+    "clap_ckpt": {
+      "clap_htsat": "laion/clap-htsat-unfused",
+      "clap_music": "laion/larger_clap_music"
+    },
+    "scs": "signal-structural STAND-IN (SSM cosine), not official MusicWeaver SCS",
+    "fad_proxy": "per-pair embedding-distance proxy; report set-level FAD separately"
+  },
+  "scores": {
+    "classical_01::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999992154909,
+      "fad_proxy": 1.0
+    },
+    "classical_01::shuffle::shuf_beat": {
+      "clap_htsat": 0.9827933311462402,
+      "clap_music": 0.9996874332427979,
+      "scs": 0.5345032401429471,
+      "fad_proxy": 0.7921743392944336
+    },
+    "classical_01::shuffle::shuf_bar": {
+      "clap_htsat": 0.9893906116485596,
+      "clap_music": 0.9997569918632507,
+      "scs": 0.542321484331175,
+      "fad_proxy": 0.829184889793396
+    },
+    "classical_01::reverse::rev": {
+      "clap_htsat": 0.9661927223205566,
+      "clap_music": 0.9997280240058899,
+      "scs": 0.5965943522360577,
+      "fad_proxy": 0.7311357259750366
+    },
+    "classical_01::displacement::disp_near": {
+      "clap_htsat": 0.9803091287612915,
+      "clap_music": 0.9982647895812988,
+      "scs": 0.5960975065817462,
+      "fad_proxy": 0.7808544635772705
+    },
+    "classical_01::displacement::disp_far": {
+      "clap_htsat": 0.959110677242279,
+      "clap_music": 0.9986243844032288,
+      "scs": 0.5644575174524399,
+      "fad_proxy": 0.7120364904403687
+    },
+    "classical_02::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988497046,
+      "fad_proxy": 1.0
+    },
+    "classical_02::shuffle::shuf_beat": {
+      "clap_htsat": 0.9896785020828247,
+      "clap_music": 0.9998826384544373,
+      "scs": 0.5296076126870247,
+      "fad_proxy": 0.8311245441436768
+    },
+    "classical_02::shuffle::shuf_bar": {
+      "clap_htsat": 0.9915004968643188,
+      "clap_music": 0.9998639822006226,
+      "scs": 0.5966813880590464,
+      "fad_proxy": 0.8443201780319214
+    },
+    "classical_02::reverse::rev": {
+      "clap_htsat": 0.9659750461578369,
+      "clap_music": 0.9998841285705566,
+      "scs": 0.6237715397000985,
+      "fad_proxy": 0.7305046319961548
+    },
+    "classical_02::displacement::disp_near": {
+      "clap_htsat": 0.9663072228431702,
+      "clap_music": 0.9994615316390991,
+      "scs": 0.6305417606571851,
+      "fad_proxy": 0.7314690947532654
+    },
+    "classical_02::displacement::disp_far": {
+      "clap_htsat": 0.9507737159729004,
+      "clap_music": 0.9994755983352661,
+      "scs": 0.6766642378651111,
+      "fad_proxy": 0.6926454901695251
+    },
+    "classical_03::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999991978317,
+      "fad_proxy": 1.0
+    },
+    "classical_03::shuffle::shuf_beat": {
+      "clap_htsat": 0.9905164241790771,
+      "clap_music": 0.9999634623527527,
+      "scs": 0.664639499934621,
+      "fad_proxy": 0.836982786655426
+    },
+    "classical_03::shuffle::shuf_bar": {
+      "clap_htsat": 0.9610888957977295,
+      "clap_music": 0.9999613165855408,
+      "scs": 0.5998827120604525,
+      "fad_proxy": 0.7170937657356262
+    },
+    "classical_03::reverse::rev": {
+      "clap_htsat": 0.7927107214927673,
+      "clap_music": 0.9999591112136841,
+      "scs": 0.760460246246105,
+      "fad_proxy": 0.5234010815620422
+    },
+    "classical_03::displacement::disp_near": {
+      "clap_htsat": 0.9317116737365723,
+      "clap_music": 0.9997466802597046,
+      "scs": 0.6600705320521144,
+      "fad_proxy": 0.6567537784576416
+    },
+    "classical_03::displacement::disp_far": {
+      "clap_htsat": 0.8842397332191467,
+      "clap_music": 0.9995811581611633,
+      "scs": 0.5876841600686469,
+      "fad_proxy": 0.5950711965560913
+    },
+    "classical_04::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989897301,
+      "fad_proxy": 1.0
+    },
+    "classical_04::shuffle::shuf_beat": {
+      "clap_htsat": 0.9775220155715942,
+      "clap_music": 0.9995402097702026,
+      "scs": 0.6466724293547004,
+      "fad_proxy": 0.7693175673484802
+    },
+    "classical_04::shuffle::shuf_bar": {
+      "clap_htsat": 0.9901715517044067,
+      "clap_music": 0.9992480278015137,
+      "scs": 0.5747551101637149,
+      "fad_proxy": 0.8345314860343933
+    },
+    "classical_04::reverse::rev": {
+      "clap_htsat": 0.8747062087059021,
+      "clap_music": 0.999372124671936,
+      "scs": 0.6210144819246934,
+      "fad_proxy": 0.5855016112327576
+    },
+    "classical_04::displacement::disp_near": {
+      "clap_htsat": 0.9718711376190186,
+      "clap_music": 0.998659610748291,
+      "scs": 0.6231247447624083,
+      "fad_proxy": 0.7488205432891846
+    },
+    "classical_04::displacement::disp_far": {
+      "clap_htsat": 0.9690811634063721,
+      "clap_music": 0.9978743195533752,
+      "scs": 0.6735610305967229,
+      "fad_proxy": 0.7398227453231812
+    },
+    "classical_05::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990016948,
+      "fad_proxy": 1.0
+    },
+    "classical_05::shuffle::shuf_beat": {
+      "clap_htsat": 0.9874525666236877,
+      "clap_music": 0.9953668713569641,
+      "scs": 0.5768371474864987,
+      "fad_proxy": 0.8169727325439453
+    },
+    "classical_05::shuffle::shuf_bar": {
+      "clap_htsat": 0.9917986392974854,
+      "clap_music": 0.9963670969009399,
+      "scs": 0.7139771874534873,
+      "fad_proxy": 0.8466514348983765
+    },
+    "classical_05::reverse::rev": {
+      "clap_htsat": 0.8762891888618469,
+      "clap_music": 0.9963665008544922,
+      "scs": 0.5926899359720549,
+      "fad_proxy": 0.5870435237884521
+    },
+    "classical_05::displacement::disp_near": {
+      "clap_htsat": 0.9912739396095276,
+      "clap_music": 0.9958054423332214,
+      "scs": 0.6214609234020473,
+      "fad_proxy": 0.8425827622413635
+    },
+    "classical_05::displacement::disp_far": {
+      "clap_htsat": 0.9773236513137817,
+      "clap_music": 0.9908403158187866,
+      "scs": 0.6689901735363194,
+      "fad_proxy": 0.7685369253158569
+    },
+    "classical_06::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999992613621,
+      "fad_proxy": 1.0
+    },
+    "classical_06::shuffle::shuf_beat": {
+      "clap_htsat": 0.9472496509552002,
+      "clap_music": 0.9991946816444397,
+      "scs": 0.6190809744649913,
+      "fad_proxy": 0.6852371096611023
+    },
+    "classical_06::shuffle::shuf_bar": {
+      "clap_htsat": 0.9703314900398254,
+      "clap_music": 0.9990211129188538,
+      "scs": 0.7015377051060078,
+      "fad_proxy": 0.7437759041786194
+    },
+    "classical_06::reverse::rev": {
+      "clap_htsat": 0.9205049276351929,
+      "clap_music": 0.9992351531982422,
+      "scs": 0.6786878414896304,
+      "fad_proxy": 0.6394281387329102
+    },
+    "classical_06::displacement::disp_near": {
+      "clap_htsat": 0.8169258236885071,
+      "clap_music": 0.9942750930786133,
+      "scs": 0.6311540684134234,
+      "fad_proxy": 0.5388675928115845
+    },
+    "classical_06::displacement::disp_far": {
+      "clap_htsat": 0.7882254719734192,
+      "clap_music": 0.9782058596611023,
+      "scs": 0.620194616294377,
+      "fad_proxy": 0.5207304954528809
+    },
+    "classical_07::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999992340057,
+      "fad_proxy": 1.0
+    },
+    "classical_07::shuffle::shuf_beat": {
+      "clap_htsat": 0.9653676152229309,
+      "clap_music": 0.9996883273124695,
+      "scs": 0.5966446518934403,
+      "fad_proxy": 0.7287589311599731
+    },
+    "classical_07::shuffle::shuf_bar": {
+      "clap_htsat": 0.9863623380661011,
+      "clap_music": 0.9997090101242065,
+      "scs": 0.7114398716736061,
+      "fad_proxy": 0.8106614351272583
+    },
+    "classical_07::reverse::rev": {
+      "clap_htsat": 0.797453761100769,
+      "clap_music": 0.9997541904449463,
+      "scs": 0.734687457675038,
+      "fad_proxy": 0.526287317276001
+    },
+    "classical_07::displacement::disp_near": {
+      "clap_htsat": 0.9863436222076416,
+      "clap_music": 0.9982247352600098,
+      "scs": 0.7136348070383667,
+      "fad_proxy": 0.8105558753013611
+    },
+    "classical_07::displacement::disp_far": {
+      "clap_htsat": 0.9749583601951599,
+      "clap_music": 0.9972605109214783,
+      "scs": 0.6151793052791176,
+      "fad_proxy": 0.7595947980880737
+    },
+    "classical_08::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990256958,
+      "fad_proxy": 1.0
+    },
+    "classical_08::shuffle::shuf_beat": {
+      "clap_htsat": 0.9915018677711487,
+      "clap_music": 0.9995831251144409,
+      "scs": 0.6295658208347273,
+      "fad_proxy": 0.8443299531936646
+    },
+    "classical_08::shuffle::shuf_bar": {
+      "clap_htsat": 0.9931092858314514,
+      "clap_music": 0.9995318055152893,
+      "scs": 0.7191209992933172,
+      "fad_proxy": 0.8576178550720215
+    },
+    "classical_08::reverse::rev": {
+      "clap_htsat": 0.8599331378936768,
+      "clap_music": 0.9994032979011536,
+      "scs": 0.7815976165127394,
+      "fad_proxy": 0.5719153881072998
+    },
+    "classical_08::displacement::disp_near": {
+      "clap_htsat": 0.9774714708328247,
+      "clap_music": 0.9977595806121826,
+      "scs": 0.7543062813924795,
+      "fad_proxy": 0.7691178917884827
+    },
+    "classical_08::displacement::disp_far": {
+      "clap_htsat": 0.9808604121208191,
+      "clap_music": 0.9986578226089478,
+      "scs": 0.7701878945597553,
+      "fad_proxy": 0.7832743525505066
+    },
+    "classical_09::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999991802581,
+      "fad_proxy": 1.0
+    },
+    "classical_09::shuffle::shuf_beat": {
+      "clap_htsat": 0.9906824827194214,
+      "clap_music": 0.9996424913406372,
+      "scs": 0.7700546195366116,
+      "fad_proxy": 0.8381844758987427
+    },
+    "classical_09::shuffle::shuf_bar": {
+      "clap_htsat": 0.9959302544593811,
+      "clap_music": 0.9996833801269531,
+      "scs": 0.6353535963834448,
+      "fad_proxy": 0.8868474960327148
+    },
+    "classical_09::reverse::rev": {
+      "clap_htsat": 0.8060437440872192,
+      "clap_music": 0.9998133182525635,
+      "scs": 0.7575829136985381,
+      "fad_proxy": 0.531686007976532
+    },
+    "classical_09::displacement::disp_near": {
+      "clap_htsat": 0.9873772859573364,
+      "clap_music": 0.9942243099212646,
+      "scs": 0.634118975190226,
+      "fad_proxy": 0.8165252208709717
+    },
+    "classical_09::displacement::disp_far": {
+      "clap_htsat": 0.9841465353965759,
+      "clap_music": 0.9920109510421753,
+      "scs": 0.6683230613252047,
+      "fad_proxy": 0.7988362908363342
+    },
+    "classical_10::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990567905,
+      "fad_proxy": 1.0
+    },
+    "classical_10::shuffle::shuf_beat": {
+      "clap_htsat": 0.9918856620788574,
+      "clap_music": 0.9993482828140259,
+      "scs": 0.6015105588740212,
+      "fad_proxy": 0.8473427295684814
+    },
+    "classical_10::shuffle::shuf_bar": {
+      "clap_htsat": 0.9891448616981506,
+      "clap_music": 0.999226450920105,
+      "scs": 0.6653678354466102,
+      "fad_proxy": 0.8275566101074219
+    },
+    "classical_10::reverse::rev": {
+      "clap_htsat": 0.8789067268371582,
+      "clap_music": 0.9991970062255859,
+      "scs": 0.677157528438513,
+      "fad_proxy": 0.5896332859992981
+    },
+    "classical_10::displacement::disp_near": {
+      "clap_htsat": 0.9878842234611511,
+      "clap_music": 0.9921971559524536,
+      "scs": 0.6839605023249116,
+      "fad_proxy": 0.8195755481719971
+    },
+    "classical_10::displacement::disp_far": {
+      "clap_htsat": 0.9874588251113892,
+      "clap_music": 0.9962167143821716,
+      "scs": 0.649429747230712,
+      "fad_proxy": 0.8170099258422852
+    },
+    "classical_11::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999991907769,
+      "fad_proxy": 1.0
+    },
+    "classical_11::shuffle::shuf_beat": {
+      "clap_htsat": 0.9709485769271851,
+      "clap_music": 0.999927282333374,
+      "scs": 0.7038434369783895,
+      "fad_proxy": 0.7457734942436218
+    },
+    "classical_11::shuffle::shuf_bar": {
+      "clap_htsat": 0.9711751937866211,
+      "clap_music": 0.9999578595161438,
+      "scs": 0.6253395444400783,
+      "fad_proxy": 0.7465152144432068
+    },
+    "classical_11::reverse::rev": {
+      "clap_htsat": 0.8596081733703613,
+      "clap_music": 0.9999765157699585,
+      "scs": 0.8311584350825438,
+      "fad_proxy": 0.5716317296028137
+    },
+    "classical_11::displacement::disp_near": {
+      "clap_htsat": 0.9385808706283569,
+      "clap_music": 0.999504566192627,
+      "scs": 0.6647943374364069,
+      "fad_proxy": 0.6686021089553833
+    },
+    "classical_11::displacement::disp_far": {
+      "clap_htsat": 0.9447631239891052,
+      "clap_music": 0.9996706247329712,
+      "scs": 0.7466696199192138,
+      "fad_proxy": 0.6802486181259155
+    },
+    "classical_12::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990474302,
+      "fad_proxy": 1.0
+    },
+    "classical_12::shuffle::shuf_beat": {
+      "clap_htsat": 0.9838630557060242,
+      "clap_music": 0.9997442960739136,
+      "scs": 0.5038994771348092,
+      "fad_proxy": 0.797408401966095
+    },
+    "classical_12::shuffle::shuf_bar": {
+      "clap_htsat": 0.9887394309043884,
+      "clap_music": 0.9994204044342041,
+      "scs": 0.487278820152415,
+      "fad_proxy": 0.8249247074127197
+    },
+    "classical_12::reverse::rev": {
+      "clap_htsat": 0.9658862352371216,
+      "clap_music": 0.9995454549789429,
+      "scs": 0.5980831800393758,
+      "fad_proxy": 0.7302476763725281
+    },
+    "classical_12::displacement::disp_near": {
+      "clap_htsat": 0.9727335572242737,
+      "clap_music": 0.9982215166091919,
+      "scs": 0.5220527818340105,
+      "fad_proxy": 0.7517375946044922
+    },
+    "classical_12::displacement::disp_far": {
+      "clap_htsat": 0.977486252784729,
+      "clap_music": 0.9978506565093994,
+      "scs": 0.522878495847904,
+      "fad_proxy": 0.7691764235496521
+    },
+    "classical_13::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999992240038,
+      "fad_proxy": 1.0
+    },
+    "classical_13::shuffle::shuf_beat": {
+      "clap_htsat": 0.9775459170341492,
+      "clap_music": 0.99990314245224,
+      "scs": 0.5738654903194045,
+      "fad_proxy": 0.7694118618965149
+    },
+    "classical_13::shuffle::shuf_bar": {
+      "clap_htsat": 0.9837679862976074,
+      "clap_music": 0.9999181628227234,
+      "scs": 0.85136385754252,
+      "fad_proxy": 0.7969334721565247
+    },
+    "classical_13::reverse::rev": {
+      "clap_htsat": 0.8053871989250183,
+      "clap_music": 0.9998637437820435,
+      "scs": 0.6621788751413848,
+      "fad_proxy": 0.5312652587890625
+    },
+    "classical_13::displacement::disp_near": {
+      "clap_htsat": 0.7967400550842285,
+      "clap_music": 0.9993587732315063,
+      "scs": 0.6472969382047511,
+      "fad_proxy": 0.5258488655090332
+    },
+    "classical_13::displacement::disp_far": {
+      "clap_htsat": 0.8520203232765198,
+      "clap_music": 0.999457597732544,
+      "scs": 0.6612117017252133,
+      "fad_proxy": 0.5651752352714539
+    },
+    "classical_14::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999991935269,
+      "fad_proxy": 1.0
+    },
+    "classical_14::shuffle::shuf_beat": {
+      "clap_htsat": 0.9908630847930908,
+      "clap_music": 0.9996426701545715,
+      "scs": 0.6626363534944677,
+      "fad_proxy": 0.8395072817802429
+    },
+    "classical_14::shuffle::shuf_bar": {
+      "clap_htsat": 0.994752049446106,
+      "clap_music": 0.9997049570083618,
+      "scs": 0.7081107397942434,
+      "fad_proxy": 0.8734498620033264
+    },
+    "classical_14::reverse::rev": {
+      "clap_htsat": 0.875436544418335,
+      "clap_music": 0.9997764825820923,
+      "scs": 0.7139273767251196,
+      "fad_proxy": 0.5862108469009399
+    },
+    "classical_14::displacement::disp_near": {
+      "clap_htsat": 0.9851269721984863,
+      "clap_music": 0.9984533786773682,
+      "scs": 0.760338520516018,
+      "fad_proxy": 0.803916335105896
+    },
+    "classical_14::displacement::disp_far": {
+      "clap_htsat": 0.9927236437797546,
+      "clap_music": 0.9986952543258667,
+      "scs": 0.6663518184942065,
+      "fad_proxy": 0.8542604446411133
+    },
+    "classical_15::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999991052969,
+      "fad_proxy": 1.0
+    },
+    "classical_15::shuffle::shuf_beat": {
+      "clap_htsat": 0.9888901710510254,
+      "clap_music": 0.9999639391899109,
+      "scs": 0.5823709645342428,
+      "fad_proxy": 0.8258957266807556
+    },
+    "classical_15::shuffle::shuf_bar": {
+      "clap_htsat": 0.9891102313995361,
+      "clap_music": 0.9999600648880005,
+      "scs": 0.5761112047968542,
+      "fad_proxy": 0.8273295760154724
+    },
+    "classical_15::reverse::rev": {
+      "clap_htsat": 0.9247373938560486,
+      "clap_music": 0.9999727606773376,
+      "scs": 0.6223994697901389,
+      "fad_proxy": 0.6457108855247498
+    },
+    "classical_15::displacement::disp_near": {
+      "clap_htsat": 0.875240683555603,
+      "clap_music": 0.9996093511581421,
+      "scs": 0.6330099393929793,
+      "fad_proxy": 0.5860201716423035
+    },
+    "classical_15::displacement::disp_far": {
+      "clap_htsat": 0.8351694941520691,
+      "clap_music": 0.9994750618934631,
+      "scs": 0.6457074272371373,
+      "fad_proxy": 0.5518804788589478
+    },
+    "ambient_01::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990527118,
+      "fad_proxy": 1.0
+    },
+    "ambient_01::shuffle::shuf_beat": {
+      "clap_htsat": 0.976010799407959,
+      "clap_music": 0.9994208812713623,
+      "scs": 0.6011297108788262,
+      "fad_proxy": 0.7634934782981873
+    },
+    "ambient_01::shuffle::shuf_bar": {
+      "clap_htsat": 0.9762773513793945,
+      "clap_music": 0.9993308782577515,
+      "scs": 0.5894094727257976,
+      "fad_proxy": 0.7645009756088257
+    },
+    "ambient_01::reverse::rev": {
+      "clap_htsat": 0.893808126449585,
+      "clap_music": 0.9993056654930115,
+      "scs": 0.6517292612298802,
+      "fad_proxy": 0.6054214239120483
+    },
+    "ambient_01::displacement::disp_near": {
+      "clap_htsat": 0.9426862001419067,
+      "clap_music": 0.9990183115005493,
+      "scs": 0.6459924180934429,
+      "fad_proxy": 0.6762212514877319
+    },
+    "ambient_01::displacement::disp_far": {
+      "clap_htsat": 0.9137604832649231,
+      "clap_music": 0.9985618591308594,
+      "scs": 0.5963040237269271,
+      "fad_proxy": 0.6299881935119629
+    },
+    "ambient_02::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988615713,
+      "fad_proxy": 1.0
+    },
+    "ambient_02::shuffle::shuf_beat": {
+      "clap_htsat": 0.9852524399757385,
+      "clap_music": 0.9987752437591553,
+      "scs": 0.5551501420793695,
+      "fad_proxy": 0.8045833706855774
+    },
+    "ambient_02::shuffle::shuf_bar": {
+      "clap_htsat": 0.9752282500267029,
+      "clap_music": 0.9988114833831787,
+      "scs": 0.6347397153203843,
+      "fad_proxy": 0.7605829834938049
+    },
+    "ambient_02::reverse::rev": {
+      "clap_htsat": 0.9700997471809387,
+      "clap_music": 0.998828649520874,
+      "scs": 0.7106459617825029,
+      "fad_proxy": 0.7430337071418762
+    },
+    "ambient_02::displacement::disp_near": {
+      "clap_htsat": 0.8893827199935913,
+      "clap_music": 0.9974023103713989,
+      "scs": 0.7233229243644202,
+      "fad_proxy": 0.6005343794822693
+    },
+    "ambient_02::displacement::disp_far": {
+      "clap_htsat": 0.9413942098617554,
+      "clap_music": 0.9963182806968689,
+      "scs": 0.6628272995086234,
+      "fad_proxy": 0.6737759709358215
+    },
+    "ambient_03::control::ctrl": {
+      "clap_htsat": 0.997582197189331,
+      "clap_music": 0.9911853671073914,
+      "scs": 0.9999900921958417,
+      "fad_proxy": 0.9104623794555664
+    },
+    "ambient_03::shuffle::shuf_beat": {
+      "clap_htsat": 0.9785599112510681,
+      "clap_music": 0.9875032901763916,
+      "scs": 0.5359920104982019,
+      "fad_proxy": 0.773485541343689
+    },
+    "ambient_03::shuffle::shuf_bar": {
+      "clap_htsat": 0.9728890657424927,
+      "clap_music": 0.9878917932510376,
+      "scs": 0.5375957440780308,
+      "fad_proxy": 0.7522709965705872
+    },
+    "ambient_03::reverse::rev": {
+      "clap_htsat": 0.9408329129219055,
+      "clap_music": 0.9859051704406738,
+      "scs": 0.5532227725630833,
+      "fad_proxy": 0.672727644443512
+    },
+    "ambient_03::displacement::disp_near": {
+      "clap_htsat": 0.9841035604476929,
+      "clap_music": 0.9869161248207092,
+      "scs": 0.574084524428076,
+      "fad_proxy": 0.798618495464325
+    },
+    "ambient_03::displacement::disp_far": {
+      "clap_htsat": 0.9803096652030945,
+      "clap_music": 0.9906371831893921,
+      "scs": 0.6023322083209053,
+      "fad_proxy": 0.7808564901351929
+    },
+    "ambient_04::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999993429137,
+      "fad_proxy": 1.0
+    },
+    "ambient_04::shuffle::shuf_beat": {
+      "clap_htsat": 0.9137824773788452,
+      "clap_music": 0.9997077584266663,
+      "scs": 0.6098914636542866,
+      "fad_proxy": 0.6300179362297058
+    },
+    "ambient_04::shuffle::shuf_bar": {
+      "clap_htsat": 0.9236307144165039,
+      "clap_music": 0.9997695684432983,
+      "scs": 0.6687133933798813,
+      "fad_proxy": 0.6440393328666687
+    },
+    "ambient_04::reverse::rev": {
+      "clap_htsat": 0.9655206203460693,
+      "clap_music": 0.9997255802154541,
+      "scs": 0.786290203396798,
+      "fad_proxy": 0.7291963696479797
+    },
+    "ambient_04::displacement::disp_near": {
+      "clap_htsat": 0.9041574001312256,
+      "clap_music": 0.9889639616012573,
+      "scs": 0.7199647632835189,
+      "fad_proxy": 0.6176007390022278
+    },
+    "ambient_04::displacement::disp_far": {
+      "clap_htsat": 0.8059853315353394,
+      "clap_music": 0.9923974275588989,
+      "scs": 0.7425732367259181,
+      "fad_proxy": 0.5316485166549683
+    },
+    "ambient_05::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988483377,
+      "fad_proxy": 1.0
+    },
+    "ambient_05::shuffle::shuf_beat": {
+      "clap_htsat": 0.9674051403999329,
+      "clap_music": 0.9996270537376404,
+      "scs": 0.5676911028196451,
+      "fad_proxy": 0.7347099781036377
+    },
+    "ambient_05::shuffle::shuf_bar": {
+      "clap_htsat": 0.9802337884902954,
+      "clap_music": 0.9995987415313721,
+      "scs": 0.616470047233576,
+      "fad_proxy": 0.7805272936820984
+    },
+    "ambient_05::reverse::rev": {
+      "clap_htsat": 0.9837043285369873,
+      "clap_music": 0.9996160268783569,
+      "scs": 0.7601456321937281,
+      "fad_proxy": 0.7966165542602539
+    },
+    "ambient_05::displacement::disp_near": {
+      "clap_htsat": 0.9643392562866211,
+      "clap_music": 0.9981048703193665,
+      "scs": 0.6893647538676769,
+      "fad_proxy": 0.7258574366569519
+    },
+    "ambient_05::displacement::disp_far": {
+      "clap_htsat": 0.973055899143219,
+      "clap_music": 0.9995104074478149,
+      "scs": 0.6264344218004068,
+      "fad_proxy": 0.7528457045555115
+    },
+    "ambient_06::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989428308,
+      "fad_proxy": 1.0
+    },
+    "ambient_06::shuffle::shuf_beat": {
+      "clap_htsat": 0.9519072771072388,
+      "clap_music": 0.9987166523933411,
+      "scs": 0.5430544735583454,
+      "fad_proxy": 0.6951196789741516
+    },
+    "ambient_06::shuffle::shuf_bar": {
+      "clap_htsat": 0.9701676368713379,
+      "clap_music": 0.9987091422080994,
+      "scs": 0.5860590196872799,
+      "fad_proxy": 0.7432505488395691
+    },
+    "ambient_06::reverse::rev": {
+      "clap_htsat": 0.9415972232818604,
+      "clap_music": 0.998965859413147,
+      "scs": 0.7394639989704686,
+      "fad_proxy": 0.6741572022438049
+    },
+    "ambient_06::displacement::disp_near": {
+      "clap_htsat": 0.9570576548576355,
+      "clap_music": 0.984832763671875,
+      "scs": 0.6959026141112113,
+      "fad_proxy": 0.7069881558418274
+    },
+    "ambient_06::displacement::disp_far": {
+      "clap_htsat": 0.9726849794387817,
+      "clap_music": 0.985175609588623,
+      "scs": 0.6615949858510539,
+      "fad_proxy": 0.751571536064148
+    },
+    "ambient_07::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999991585806,
+      "fad_proxy": 1.0
+    },
+    "ambient_07::shuffle::shuf_beat": {
+      "clap_htsat": 0.9730490446090698,
+      "clap_music": 0.9998264312744141,
+      "scs": 0.5709486691527399,
+      "fad_proxy": 0.7528219223022461
+    },
+    "ambient_07::shuffle::shuf_bar": {
+      "clap_htsat": 0.9923355579376221,
+      "clap_music": 0.9999171495437622,
+      "scs": 0.6221502437637041,
+      "fad_proxy": 0.850995659828186
+    },
+    "ambient_07::reverse::rev": {
+      "clap_htsat": 0.9179581999778748,
+      "clap_music": 0.9998713135719299,
+      "scs": 0.8256274302154873,
+      "fad_proxy": 0.6357849836349487
+    },
+    "ambient_07::displacement::disp_near": {
+      "clap_htsat": 0.9640745520591736,
+      "clap_music": 0.9960469007492065,
+      "scs": 0.6773495191879408,
+      "fad_proxy": 0.7251208424568176
+    },
+    "ambient_07::displacement::disp_far": {
+      "clap_htsat": 0.974818229675293,
+      "clap_music": 0.9961986541748047,
+      "scs": 0.7370963856113733,
+      "fad_proxy": 0.7590851187705994
+    },
+    "ambient_08::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.999999999230069,
+      "fad_proxy": 1.0
+    },
+    "ambient_08::shuffle::shuf_beat": {
+      "clap_htsat": 0.9397712349891663,
+      "clap_music": 0.9990071654319763,
+      "scs": 0.537826977974478,
+      "fad_proxy": 0.6707667708396912
+    },
+    "ambient_08::shuffle::shuf_bar": {
+      "clap_htsat": 0.982642412185669,
+      "clap_music": 0.9990572929382324,
+      "scs": 0.6639973345613903,
+      "fad_proxy": 0.7914546728134155
+    },
+    "ambient_08::reverse::rev": {
+      "clap_htsat": 0.9956874251365662,
+      "clap_music": 0.9991060495376587,
+      "scs": 0.6671448600711661,
+      "fad_proxy": 0.8839072585105896
+    },
+    "ambient_08::displacement::disp_near": {
+      "clap_htsat": 0.9607052803039551,
+      "clap_music": 0.9887175559997559,
+      "scs": 0.7698140698344913,
+      "fad_proxy": 0.7160974144935608
+    },
+    "ambient_08::displacement::disp_far": {
+      "clap_htsat": 0.9814863204956055,
+      "clap_music": 0.9823344945907593,
+      "scs": 0.7674960392592902,
+      "fad_proxy": 0.7860833406448364
+    },
+    "ambient_09::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.999999999137055,
+      "fad_proxy": 1.0
+    },
+    "ambient_09::shuffle::shuf_beat": {
+      "clap_htsat": 0.9628791213035583,
+      "clap_music": 0.9993566274642944,
+      "scs": 0.5318281725000094,
+      "fad_proxy": 0.7218466997146606
+    },
+    "ambient_09::shuffle::shuf_bar": {
+      "clap_htsat": 0.9755586981773376,
+      "clap_music": 0.9994315505027771,
+      "scs": 0.599030211321284,
+      "fad_proxy": 0.7618036270141602
+    },
+    "ambient_09::reverse::rev": {
+      "clap_htsat": 0.989727795124054,
+      "clap_music": 0.9994603395462036,
+      "scs": 0.6967307106286932,
+      "fad_proxy": 0.8314600586891174
+    },
+    "ambient_09::displacement::disp_near": {
+      "clap_htsat": 0.9035688638687134,
+      "clap_music": 0.992957353591919,
+      "scs": 0.6949156121504781,
+      "fad_proxy": 0.6168774962425232
+    },
+    "ambient_09::displacement::disp_far": {
+      "clap_htsat": 0.9035770297050476,
+      "clap_music": 0.9954244494438171,
+      "scs": 0.7193481454566909,
+      "fad_proxy": 0.6168875098228455
+    },
+    "ambient_10::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988272109,
+      "fad_proxy": 1.0
+    },
+    "ambient_10::shuffle::shuf_beat": {
+      "clap_htsat": 0.9660428166389465,
+      "clap_music": 0.999508798122406,
+      "scs": 0.6178690618534565,
+      "fad_proxy": 0.7307005524635315
+    },
+    "ambient_10::shuffle::shuf_bar": {
+      "clap_htsat": 0.9898653030395508,
+      "clap_music": 0.9995207786560059,
+      "scs": 0.8567693464371007,
+      "fad_proxy": 0.8324020504951477
+    },
+    "ambient_10::reverse::rev": {
+      "clap_htsat": 0.9880315065383911,
+      "clap_music": 0.9994853734970093,
+      "scs": 0.7706151009870008,
+      "fad_proxy": 0.8204783201217651
+    },
+    "ambient_10::displacement::disp_near": {
+      "clap_htsat": 0.9467931985855103,
+      "clap_music": 0.9983357787132263,
+      "scs": 0.7518191882922078,
+      "fad_proxy": 0.6843072175979614
+    },
+    "ambient_10::displacement::disp_far": {
+      "clap_htsat": 0.9686932563781738,
+      "clap_music": 0.9991257786750793,
+      "scs": 0.8074079311834181,
+      "fad_proxy": 0.7386208176612854
+    },
+    "ambient_11::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.999999998761104,
+      "fad_proxy": 1.0
+    },
+    "ambient_11::shuffle::shuf_beat": {
+      "clap_htsat": 0.9840222597122192,
+      "clap_music": 0.9991505146026611,
+      "scs": 0.49659275390710816,
+      "fad_proxy": 0.7982081174850464
+    },
+    "ambient_11::shuffle::shuf_bar": {
+      "clap_htsat": 0.9921681880950928,
+      "clap_music": 0.9989124536514282,
+      "scs": 0.5988018082942719,
+      "fad_proxy": 0.8496209979057312
+    },
+    "ambient_11::reverse::rev": {
+      "clap_htsat": 0.8693460822105408,
+      "clap_music": 0.9988853931427002,
+      "scs": 0.5978577413817008,
+      "fad_proxy": 0.5804094672203064
+    },
+    "ambient_11::displacement::disp_near": {
+      "clap_htsat": 0.9838191270828247,
+      "clap_music": 0.9951006174087524,
+      "scs": 0.5693530785271735,
+      "fad_proxy": 0.7971886396408081
+    },
+    "ambient_11::displacement::disp_far": {
+      "clap_htsat": 0.9420030117034912,
+      "clap_music": 0.9930615425109863,
+      "scs": 0.6679445416640805,
+      "fad_proxy": 0.6749224662780762
+    },
+    "ambient_12::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999993656445,
+      "fad_proxy": 1.0
+    },
+    "ambient_12::shuffle::shuf_beat": {
+      "clap_htsat": 0.8197678923606873,
+      "clap_music": 0.9995869398117065,
+      "scs": 0.536508156593405,
+      "fad_proxy": 0.5408109426498413
+    },
+    "ambient_12::shuffle::shuf_bar": {
+      "clap_htsat": 0.9496585130691528,
+      "clap_music": 0.9996492266654968,
+      "scs": 0.5209166140179768,
+      "fad_proxy": 0.6902556419372559
+    },
+    "ambient_12::reverse::rev": {
+      "clap_htsat": 0.9789208173751831,
+      "clap_music": 0.9996435046195984,
+      "scs": 0.5406844585793076,
+      "fad_proxy": 0.7749695181846619
+    },
+    "ambient_12::displacement::disp_near": {
+      "clap_htsat": 0.9805575013160706,
+      "clap_music": 0.999578595161438,
+      "scs": 0.6369334623757276,
+      "fad_proxy": 0.7819384932518005
+    },
+    "ambient_12::displacement::disp_far": {
+      "clap_htsat": 0.9822579622268677,
+      "clap_music": 0.9994783997535706,
+      "scs": 0.5719662939118209,
+      "fad_proxy": 0.7896407842636108
+    },
+    "ambient_13::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999991912316,
+      "fad_proxy": 1.0
+    },
+    "ambient_13::shuffle::shuf_beat": {
+      "clap_htsat": 0.9737515449523926,
+      "clap_music": 0.9991855621337891,
+      "scs": 0.8169164683060817,
+      "fad_proxy": 0.7552711367607117
+    },
+    "ambient_13::shuffle::shuf_bar": {
+      "clap_htsat": 0.9857347011566162,
+      "clap_music": 0.9992071986198425,
+      "scs": 0.7905635964244667,
+      "fad_proxy": 0.807184100151062
+    },
+    "ambient_13::reverse::rev": {
+      "clap_htsat": 0.9824575185775757,
+      "clap_music": 0.9991874098777771,
+      "scs": 0.7569553226648987,
+      "fad_proxy": 0.7905787229537964
+    },
+    "ambient_13::displacement::disp_near": {
+      "clap_htsat": 0.8907121419906616,
+      "clap_music": 0.9917097091674805,
+      "scs": 0.794887653701056,
+      "fad_proxy": 0.601983904838562
+    },
+    "ambient_13::displacement::disp_far": {
+      "clap_htsat": 0.9110031127929688,
+      "clap_music": 0.9947460889816284,
+      "scs": 0.8283494660166181,
+      "fad_proxy": 0.6263124942779541
+    },
+    "ambient_14::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990314392,
+      "fad_proxy": 1.0
+    },
+    "ambient_14::shuffle::shuf_beat": {
+      "clap_htsat": 0.9475462436676025,
+      "clap_music": 0.9994072318077087,
+      "scs": 0.6050300218980122,
+      "fad_proxy": 0.6858447194099426
+    },
+    "ambient_14::shuffle::shuf_bar": {
+      "clap_htsat": 0.9835788607597351,
+      "clap_music": 0.9994422793388367,
+      "scs": 0.6556154344294612,
+      "fad_proxy": 0.7959943413734436
+    },
+    "ambient_14::reverse::rev": {
+      "clap_htsat": 0.9889975190162659,
+      "clap_music": 0.999448835849762,
+      "scs": 0.6760362864775392,
+      "fad_proxy": 0.8265929222106934
+    },
+    "ambient_14::displacement::disp_near": {
+      "clap_htsat": 0.9874826669692993,
+      "clap_music": 0.9980044960975647,
+      "scs": 0.765394280756085,
+      "fad_proxy": 0.8171520829200745
+    },
+    "ambient_14::displacement::disp_far": {
+      "clap_htsat": 0.9907508492469788,
+      "clap_music": 0.9938951134681702,
+      "scs": 0.790535607059198,
+      "fad_proxy": 0.8386828899383545
+    },
+    "ambient_15::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0000001192092896,
+      "scs": 0.9999999990676914,
+      "fad_proxy": 1.0
+    },
+    "ambient_15::shuffle::shuf_beat": {
+      "clap_htsat": 0.9349351525306702,
+      "clap_music": 0.9998351335525513,
+      "scs": 0.6383628947896554,
+      "fad_proxy": 0.6621831655502319
+    },
+    "ambient_15::shuffle::shuf_bar": {
+      "clap_htsat": 0.9769497513771057,
+      "clap_music": 0.9998527765274048,
+      "scs": 0.8014987241660478,
+      "fad_proxy": 0.76707923412323
+    },
+    "ambient_15::reverse::rev": {
+      "clap_htsat": 0.980646014213562,
+      "clap_music": 0.9998756051063538,
+      "scs": 0.750797789150423,
+      "fad_proxy": 0.7823272347450256
+    },
+    "ambient_15::displacement::disp_near": {
+      "clap_htsat": 0.963295042514801,
+      "clap_music": 0.9998149871826172,
+      "scs": 0.7153314804176159,
+      "fad_proxy": 0.7229765057563782
+    },
+    "ambient_15::displacement::disp_far": {
+      "clap_htsat": 0.9541925191879272,
+      "clap_music": 0.9980412125587463,
+      "scs": 0.7466528794355677,
+      "fad_proxy": 0.7002538442611694
+    },
+    "electronic_01::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990728554,
+      "fad_proxy": 1.0
+    },
+    "electronic_01::shuffle::shuf_beat": {
+      "clap_htsat": 0.9723986983299255,
+      "clap_music": 0.9999738931655884,
+      "scs": 0.5933738879101065,
+      "fad_proxy": 0.7505970597267151
+    },
+    "electronic_01::shuffle::shuf_bar": {
+      "clap_htsat": 0.9819097518920898,
+      "clap_music": 0.9999780058860779,
+      "scs": 0.6637850092929195,
+      "fad_proxy": 0.7880217432975769
+    },
+    "electronic_01::reverse::rev": {
+      "clap_htsat": 0.9676364064216614,
+      "clap_music": 0.999975323677063,
+      "scs": 0.7990928765475332,
+      "fad_proxy": 0.7354033589363098
+    },
+    "electronic_01::displacement::disp_near": {
+      "clap_htsat": 0.8985158205032349,
+      "clap_music": 0.9998778104782104,
+      "scs": 0.7266579941308305,
+      "fad_proxy": 0.6108244061470032
+    },
+    "electronic_01::displacement::disp_far": {
+      "clap_htsat": 0.8464217185974121,
+      "clap_music": 0.9997977018356323,
+      "scs": 0.7046776137039354,
+      "fad_proxy": 0.5606067776679993
+    },
+    "electronic_02::control::ctrl": {
+      "clap_htsat": 0.99992436170578,
+      "clap_music": 0.9998388886451721,
+      "scs": 0.9999999882500925,
+      "fad_proxy": 0.9828960299491882
+    },
+    "electronic_02::shuffle::shuf_beat": {
+      "clap_htsat": 0.9883893728256226,
+      "clap_music": 0.9957455992698669,
+      "scs": 0.5365381826008798,
+      "fad_proxy": 0.822702944278717
+    },
+    "electronic_02::shuffle::shuf_bar": {
+      "clap_htsat": 0.9864604473114014,
+      "clap_music": 0.9960322380065918,
+      "scs": 0.5649283394579628,
+      "fad_proxy": 0.8112142086029053
+    },
+    "electronic_02::reverse::rev": {
+      "clap_htsat": 0.9926653504371643,
+      "clap_music": 0.9952234029769897,
+      "scs": 0.6645851294452001,
+      "fad_proxy": 0.853762686252594
+    },
+    "electronic_02::displacement::disp_near": {
+      "clap_htsat": 0.9890499114990234,
+      "clap_music": 0.9937382936477661,
+      "scs": 0.6724686394906289,
+      "fad_proxy": 0.8269343972206116
+    },
+    "electronic_02::displacement::disp_far": {
+      "clap_htsat": 0.9923465251922607,
+      "clap_music": 0.9912038445472717,
+      "scs": 0.6680387484125853,
+      "fad_proxy": 0.8510863780975342
+    },
+    "electronic_03::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.999999999232352,
+      "fad_proxy": 1.0
+    },
+    "electronic_03::shuffle::shuf_beat": {
+      "clap_htsat": 0.9910404086112976,
+      "clap_music": 0.9991494417190552,
+      "scs": 0.556034123891861,
+      "fad_proxy": 0.8408233523368835
+    },
+    "electronic_03::shuffle::shuf_bar": {
+      "clap_htsat": 0.9939180612564087,
+      "clap_music": 0.9989759922027588,
+      "scs": 0.6118375459206727,
+      "fad_proxy": 0.8650714159011841
+    },
+    "electronic_03::reverse::rev": {
+      "clap_htsat": 0.8549133539199829,
+      "clap_music": 0.9990028142929077,
+      "scs": 0.7488465006297971,
+      "fad_proxy": 0.5675997734069824
+    },
+    "electronic_03::displacement::disp_near": {
+      "clap_htsat": 0.9353523254394531,
+      "clap_music": 0.9956698417663574,
+      "scs": 0.5545958549376937,
+      "fad_proxy": 0.6629021763801575
+    },
+    "electronic_03::displacement::disp_far": {
+      "clap_htsat": 0.8666889667510986,
+      "clap_music": 0.9945312738418579,
+      "scs": 0.5608306770518947,
+      "fad_proxy": 0.5779559016227722
+    },
+    "electronic_04::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990378317,
+      "fad_proxy": 1.0
+    },
+    "electronic_04::shuffle::shuf_beat": {
+      "clap_htsat": 0.9720956683158875,
+      "clap_music": 0.999853253364563,
+      "scs": 0.5201091793617053,
+      "fad_proxy": 0.7495735883712769
+    },
+    "electronic_04::shuffle::shuf_bar": {
+      "clap_htsat": 0.9818965196609497,
+      "clap_music": 0.9998595714569092,
+      "scs": 0.5478774511688835,
+      "fad_proxy": 0.7879608273506165
+    },
+    "electronic_04::reverse::rev": {
+      "clap_htsat": 0.8773312568664551,
+      "clap_music": 0.9998337626457214,
+      "scs": 0.5979092274930687,
+      "fad_proxy": 0.5880685448646545
+    },
+    "electronic_04::displacement::disp_near": {
+      "clap_htsat": 0.9774024486541748,
+      "clap_music": 0.9997098445892334,
+      "scs": 0.5767568619812342,
+      "fad_proxy": 0.7688463926315308
+    },
+    "electronic_04::displacement::disp_far": {
+      "clap_htsat": 0.9842116832733154,
+      "clap_music": 0.9998022317886353,
+      "scs": 0.5702125542650781,
+      "fad_proxy": 0.7991669178009033
+    },
+    "electronic_05::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989493116,
+      "fad_proxy": 1.0
+    },
+    "electronic_05::shuffle::shuf_beat": {
+      "clap_htsat": 0.9887104630470276,
+      "clap_music": 0.9991310834884644,
+      "scs": 0.49387745185749093,
+      "fad_proxy": 0.8247390389442444
+    },
+    "electronic_05::shuffle::shuf_bar": {
+      "clap_htsat": 0.9890151023864746,
+      "clap_music": 0.9990171790122986,
+      "scs": 0.5898832624805415,
+      "fad_proxy": 0.8267077207565308
+    },
+    "electronic_05::reverse::rev": {
+      "clap_htsat": 0.9242163300514221,
+      "clap_music": 0.9989873766899109,
+      "scs": 0.5773994247854016,
+      "fad_proxy": 0.6449212431907654
+    },
+    "electronic_05::displacement::disp_near": {
+      "clap_htsat": 0.9588481187820435,
+      "clap_music": 0.998595118522644,
+      "scs": 0.6173925285836804,
+      "fad_proxy": 0.711379885673523
+    },
+    "electronic_05::displacement::disp_far": {
+      "clap_htsat": 0.9767639636993408,
+      "clap_music": 0.9971352815628052,
+      "scs": 0.6523947986890618,
+      "fad_proxy": 0.7663612365722656
+    },
+    "electronic_06::control::ctrl": {
+      "clap_htsat": 0.9999914765357971,
+      "clap_music": 0.9999990463256836,
+      "scs": 0.9999999972442899,
+      "fad_proxy": 0.9941966533660889
+    },
+    "electronic_06::shuffle::shuf_beat": {
+      "clap_htsat": 0.9882012009620667,
+      "clap_music": 0.9990320801734924,
+      "scs": 0.5296042245007369,
+      "fad_proxy": 0.8215273022651672
+    },
+    "electronic_06::shuffle::shuf_bar": {
+      "clap_htsat": 0.9911555051803589,
+      "clap_music": 0.9993252754211426,
+      "scs": 0.5273043633190256,
+      "fad_proxy": 0.841687023639679
+    },
+    "electronic_06::reverse::rev": {
+      "clap_htsat": 0.811652421951294,
+      "clap_music": 0.9987530708312988,
+      "scs": 0.5589843248233088,
+      "fad_proxy": 0.5353374481201172
+    },
+    "electronic_06::displacement::disp_near": {
+      "clap_htsat": 0.9329532384872437,
+      "clap_music": 0.9984676837921143,
+      "scs": 0.6070095485286088,
+      "fad_proxy": 0.6588188409805298
+    },
+    "electronic_06::displacement::disp_far": {
+      "clap_htsat": 0.8794394731521606,
+      "clap_music": 0.9934734106063843,
+      "scs": 0.5289181967518215,
+      "fad_proxy": 0.5901666879653931
+    },
+    "electronic_07::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989358721,
+      "fad_proxy": 1.0
+    },
+    "electronic_07::shuffle::shuf_beat": {
+      "clap_htsat": 0.9888743758201599,
+      "clap_music": 0.9980699419975281,
+      "scs": 0.5062605277442098,
+      "fad_proxy": 0.8257936239242554
+    },
+    "electronic_07::shuffle::shuf_bar": {
+      "clap_htsat": 0.9921437501907349,
+      "clap_music": 0.9979564547538757,
+      "scs": 0.5478674041433886,
+      "fad_proxy": 0.8494219779968262
+    },
+    "electronic_07::reverse::rev": {
+      "clap_htsat": 0.9423595666885376,
+      "clap_music": 0.9977940917015076,
+      "scs": 0.5809105159310425,
+      "fad_proxy": 0.6755987405776978
+    },
+    "electronic_07::displacement::disp_near": {
+      "clap_htsat": 0.9575448036193848,
+      "clap_music": 0.9932169318199158,
+      "scs": 0.5312353875748705,
+      "fad_proxy": 0.7081685662269592
+    },
+    "electronic_07::displacement::disp_far": {
+      "clap_htsat": 0.948671817779541,
+      "clap_music": 0.9887500405311584,
+      "scs": 0.6025811826899329,
+      "fad_proxy": 0.6881769895553589
+    },
+    "electronic_08::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989261956,
+      "fad_proxy": 1.0
+    },
+    "electronic_08::shuffle::shuf_beat": {
+      "clap_htsat": 0.9889158606529236,
+      "clap_music": 0.9970149993896484,
+      "scs": 0.5718032783007633,
+      "fad_proxy": 0.8260619640350342
+    },
+    "electronic_08::shuffle::shuf_bar": {
+      "clap_htsat": 0.9900256991386414,
+      "clap_music": 0.995558500289917,
+      "scs": 0.7247288346871796,
+      "fad_proxy": 0.8335113525390625
+    },
+    "electronic_08::reverse::rev": {
+      "clap_htsat": 0.9611648917198181,
+      "clap_music": 0.9953740835189819,
+      "scs": 0.6422345390702786,
+      "fad_proxy": 0.7172917723655701
+    },
+    "electronic_08::displacement::disp_near": {
+      "clap_htsat": 0.9863610863685608,
+      "clap_music": 0.9951805472373962,
+      "scs": 0.6213039771492148,
+      "fad_proxy": 0.8106538653373718
+    },
+    "electronic_08::displacement::disp_far": {
+      "clap_htsat": 0.939785361289978,
+      "clap_music": 0.989852786064148,
+      "scs": 0.6378487349040052,
+      "fad_proxy": 0.6707926392555237
+    },
+    "electronic_09::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989592098,
+      "fad_proxy": 1.0
+    },
+    "electronic_09::shuffle::shuf_beat": {
+      "clap_htsat": 0.9893859624862671,
+      "clap_music": 0.9979441165924072,
+      "scs": 0.5212973272344232,
+      "fad_proxy": 0.8291535377502441
+    },
+    "electronic_09::shuffle::shuf_bar": {
+      "clap_htsat": 0.989072859287262,
+      "clap_music": 0.9980366230010986,
+      "scs": 0.4952622126334534,
+      "fad_proxy": 0.8270846009254456
+    },
+    "electronic_09::reverse::rev": {
+      "clap_htsat": 0.904130756855011,
+      "clap_music": 0.9981279969215393,
+      "scs": 0.5107173939042888,
+      "fad_proxy": 0.6175678372383118
+    },
+    "electronic_09::displacement::disp_near": {
+      "clap_htsat": 0.9270808696746826,
+      "clap_music": 0.9956714510917664,
+      "scs": 0.5115663670208362,
+      "fad_proxy": 0.6493207812309265
+    },
+    "electronic_09::displacement::disp_far": {
+      "clap_htsat": 0.9487829804420471,
+      "clap_music": 0.9945698976516724,
+      "scs": 0.5444164659194315,
+      "fad_proxy": 0.6884095072746277
+    },
+    "electronic_10::control::ctrl": {
+      "clap_htsat": 1.0000001192092896,
+      "clap_music": 1.0,
+      "scs": 0.9999999990923804,
+      "fad_proxy": 1.0
+    },
+    "electronic_10::shuffle::shuf_beat": {
+      "clap_htsat": 0.9866887331008911,
+      "clap_music": 0.9966312050819397,
+      "scs": 0.5084223307024031,
+      "fad_proxy": 0.8125132918357849
+    },
+    "electronic_10::shuffle::shuf_bar": {
+      "clap_htsat": 0.9859590530395508,
+      "clap_music": 0.9967360496520996,
+      "scs": 0.556719555008792,
+      "fad_proxy": 0.8084141612052917
+    },
+    "electronic_10::reverse::rev": {
+      "clap_htsat": 0.9420442581176758,
+      "clap_music": 0.9969052076339722,
+      "scs": 0.6628315796326114,
+      "fad_proxy": 0.6750005483627319
+    },
+    "electronic_10::displacement::disp_near": {
+      "clap_htsat": 0.9815249443054199,
+      "clap_music": 0.9932428002357483,
+      "scs": 0.569383997665526,
+      "fad_proxy": 0.7862586975097656
+    },
+    "electronic_10::displacement::disp_far": {
+      "clap_htsat": 0.9890832901000977,
+      "clap_music": 0.9967851042747498,
+      "scs": 0.5630498359639522,
+      "fad_proxy": 0.8271526098251343
+    },
+    "electronic_11::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989786752,
+      "fad_proxy": 1.0
+    },
+    "electronic_11::shuffle::shuf_beat": {
+      "clap_htsat": 0.978966236114502,
+      "clap_music": 0.9973104596138,
+      "scs": 0.6055275955650805,
+      "fad_proxy": 0.7751573324203491
+    },
+    "electronic_11::shuffle::shuf_bar": {
+      "clap_htsat": 0.980871856212616,
+      "clap_music": 0.9981527328491211,
+      "scs": 0.6749887802731623,
+      "fad_proxy": 0.7833249568939209
+    },
+    "electronic_11::reverse::rev": {
+      "clap_htsat": 0.9542532563209534,
+      "clap_music": 0.9984126687049866,
+      "scs": 0.7082725300931463,
+      "fad_proxy": 0.7003930807113647
+    },
+    "electronic_11::displacement::disp_near": {
+      "clap_htsat": 0.9634255766868591,
+      "clap_music": 0.9946073293685913,
+      "scs": 0.7163164206868782,
+      "fad_proxy": 0.7233330011367798
+    },
+    "electronic_11::displacement::disp_far": {
+      "clap_htsat": 0.915296196937561,
+      "clap_music": 0.9901269674301147,
+      "scs": 0.7168638173492488,
+      "fad_proxy": 0.6320798993110657
+    },
+    "electronic_12::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999991408641,
+      "fad_proxy": 1.0
+    },
+    "electronic_12::shuffle::shuf_beat": {
+      "clap_htsat": 0.9829015731811523,
+      "clap_music": 0.9978724718093872,
+      "scs": 0.5156267875480505,
+      "fad_proxy": 0.7926930785179138
+    },
+    "electronic_12::shuffle::shuf_bar": {
+      "clap_htsat": 0.9899415373802185,
+      "clap_music": 0.9985456466674805,
+      "scs": 0.5633731597534539,
+      "fad_proxy": 0.8329280018806458
+    },
+    "electronic_12::reverse::rev": {
+      "clap_htsat": 0.8860914707183838,
+      "clap_music": 0.9946746230125427,
+      "scs": 0.6287643948728414,
+      "fad_proxy": 0.597012460231781
+    },
+    "electronic_12::displacement::disp_near": {
+      "clap_htsat": 0.8892444372177124,
+      "clap_music": 0.9966883063316345,
+      "scs": 0.5423329302033709,
+      "fad_proxy": 0.6003844738006592
+    },
+    "electronic_12::displacement::disp_far": {
+      "clap_htsat": 0.9044589996337891,
+      "clap_music": 0.9935261607170105,
+      "scs": 0.6740024987391947,
+      "fad_proxy": 0.6179729104042053
+    },
+    "electronic_13::control::ctrl": {
+      "clap_htsat": 0.9995987415313721,
+      "clap_music": 0.9998963475227356,
+      "scs": 0.9999985827067328,
+      "fad_proxy": 0.9614778757095337
+    },
+    "electronic_13::shuffle::shuf_beat": {
+      "clap_htsat": 0.9858638644218445,
+      "clap_music": 0.9990817308425903,
+      "scs": 0.5376120297056446,
+      "fad_proxy": 0.8078906536102295
+    },
+    "electronic_13::shuffle::shuf_bar": {
+      "clap_htsat": 0.9931098222732544,
+      "clap_music": 0.9989799857139587,
+      "scs": 0.6135342843459188,
+      "fad_proxy": 0.8576221466064453
+    },
+    "electronic_13::reverse::rev": {
+      "clap_htsat": 0.9207503199577332,
+      "clap_music": 0.9991614818572998,
+      "scs": 0.534255542070959,
+      "fad_proxy": 0.6397844552993774
+    },
+    "electronic_13::displacement::disp_near": {
+      "clap_htsat": 0.9784009456634521,
+      "clap_music": 0.9993528723716736,
+      "scs": 0.6105968678966368,
+      "fad_proxy": 0.7728378772735596
+    },
+    "electronic_13::displacement::disp_far": {
+      "clap_htsat": 0.9235497713088989,
+      "clap_music": 0.9986975789070129,
+      "scs": 0.5863203987755603,
+      "fad_proxy": 0.6439179182052612
+    },
+    "electronic_14::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989633588,
+      "fad_proxy": 1.0
+    },
+    "electronic_14::shuffle::shuf_beat": {
+      "clap_htsat": 0.986862301826477,
+      "clap_music": 0.9975528120994568,
+      "scs": 0.561642489190199,
+      "fad_proxy": 0.8135106563568115
+    },
+    "electronic_14::shuffle::shuf_bar": {
+      "clap_htsat": 0.9886645078659058,
+      "clap_music": 0.9981661438941956,
+      "scs": 0.6201859058492417,
+      "fad_proxy": 0.824445366859436
+    },
+    "electronic_14::reverse::rev": {
+      "clap_htsat": 0.9151037931442261,
+      "clap_music": 0.9980928897857666,
+      "scs": 0.596758647978959,
+      "fad_proxy": 0.6318159699440002
+    },
+    "electronic_14::displacement::disp_near": {
+      "clap_htsat": 0.9569135308265686,
+      "clap_music": 0.9967364072799683,
+      "scs": 0.5504937384784315,
+      "fad_proxy": 0.7066409587860107
+    },
+    "electronic_14::displacement::disp_far": {
+      "clap_htsat": 0.9773039221763611,
+      "clap_music": 0.9971786141395569,
+      "scs": 0.5485876045926337,
+      "fad_proxy": 0.7684594392776489
+    },
+    "electronic_15::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.99999999900528,
+      "fad_proxy": 1.0
+    },
+    "electronic_15::shuffle::shuf_beat": {
+      "clap_htsat": 0.9629796147346497,
+      "clap_music": 0.9997772574424744,
+      "scs": 0.6367325354790675,
+      "fad_proxy": 0.7221188545227051
+    },
+    "electronic_15::shuffle::shuf_bar": {
+      "clap_htsat": 0.9755942821502686,
+      "clap_music": 0.9997472763061523,
+      "scs": 0.6264974759428377,
+      "fad_proxy": 0.7619357705116272
+    },
+    "electronic_15::reverse::rev": {
+      "clap_htsat": 0.9469639658927917,
+      "clap_music": 0.9997092485427856,
+      "scs": 0.7447098763825994,
+      "fad_proxy": 0.6846542358398438
+    },
+    "electronic_15::displacement::disp_near": {
+      "clap_htsat": 0.9759690761566162,
+      "clap_music": 0.9978649616241455,
+      "scs": 0.7560698078879518,
+      "fad_proxy": 0.7633365392684937
+    },
+    "electronic_15::displacement::disp_far": {
+      "clap_htsat": 0.9503155946731567,
+      "clap_music": 0.9989873170852661,
+      "scs": 0.6909511330512217,
+      "fad_proxy": 0.6916585564613342
+    },
+    "folk_01::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999987912189,
+      "fad_proxy": 1.0
+    },
+    "folk_01::shuffle::shuf_beat": {
+      "clap_htsat": 0.9889689683914185,
+      "clap_music": 0.9981299638748169,
+      "scs": 0.5226544530536804,
+      "fad_proxy": 0.8264068365097046
+    },
+    "folk_01::shuffle::shuf_bar": {
+      "clap_htsat": 0.9931097030639648,
+      "clap_music": 0.9985591173171997,
+      "scs": 0.5104282192426416,
+      "fad_proxy": 0.8576210141181946
+    },
+    "folk_01::reverse::rev": {
+      "clap_htsat": 0.8648167848587036,
+      "clap_music": 0.999058723449707,
+      "scs": 0.5837052470565978,
+      "fad_proxy": 0.5762541890144348
+    },
+    "folk_01::displacement::disp_near": {
+      "clap_htsat": 0.9892637133598328,
+      "clap_music": 0.9981231689453125,
+      "scs": 0.5776243410504562,
+      "fad_proxy": 0.8283408880233765
+    },
+    "folk_01::displacement::disp_far": {
+      "clap_htsat": 0.95815110206604,
+      "clap_music": 0.9976339340209961,
+      "scs": 0.6016341406960105,
+      "fad_proxy": 0.7096527218818665
+    },
+    "folk_02::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988533153,
+      "fad_proxy": 1.0
+    },
+    "folk_02::shuffle::shuf_beat": {
+      "clap_htsat": 0.9834924936294556,
+      "clap_music": 0.999000072479248,
+      "scs": 0.5443904311554024,
+      "fad_proxy": 0.79556804895401
+    },
+    "folk_02::shuffle::shuf_bar": {
+      "clap_htsat": 0.9877833127975464,
+      "clap_music": 0.9991022944450378,
+      "scs": 0.5615216784963315,
+      "fad_proxy": 0.818961501121521
+    },
+    "folk_02::reverse::rev": {
+      "clap_htsat": 0.9722775816917419,
+      "clap_music": 0.9988424777984619,
+      "scs": 0.5736103127023743,
+      "fad_proxy": 0.7501868009567261
+    },
+    "folk_02::displacement::disp_near": {
+      "clap_htsat": 0.967125654220581,
+      "clap_music": 0.9970552325248718,
+      "scs": 0.6189291422895862,
+      "fad_proxy": 0.7338773012161255
+    },
+    "folk_02::displacement::disp_far": {
+      "clap_htsat": 0.9671157598495483,
+      "clap_music": 0.9970216751098633,
+      "scs": 0.6178071272582043,
+      "fad_proxy": 0.7338476777076721
+    },
+    "folk_03::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988593925,
+      "fad_proxy": 1.0
+    },
+    "folk_03::shuffle::shuf_beat": {
+      "clap_htsat": 0.9967891573905945,
+      "clap_music": 0.9995008707046509,
+      "scs": 0.5482202075187221,
+      "fad_proxy": 0.8982072472572327
+    },
+    "folk_03::shuffle::shuf_bar": {
+      "clap_htsat": 0.9946460723876953,
+      "clap_music": 0.9995979070663452,
+      "scs": 0.5766014990676616,
+      "fad_proxy": 0.8723401427268982
+    },
+    "folk_03::reverse::rev": {
+      "clap_htsat": 0.8704156279563904,
+      "clap_music": 0.9994572997093201,
+      "scs": 0.560278114405448,
+      "fad_proxy": 0.5814099907875061
+    },
+    "folk_03::displacement::disp_near": {
+      "clap_htsat": 0.8974548578262329,
+      "clap_music": 0.999101459980011,
+      "scs": 0.5653424019233356,
+      "fad_proxy": 0.609587550163269
+    },
+    "folk_03::displacement::disp_far": {
+      "clap_htsat": 0.9887586832046509,
+      "clap_music": 0.9990180730819702,
+      "scs": 0.5240955802695885,
+      "fad_proxy": 0.8250481486320496
+    },
+    "folk_04::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.999999998680744,
+      "fad_proxy": 1.0
+    },
+    "folk_04::shuffle::shuf_beat": {
+      "clap_htsat": 0.979472279548645,
+      "clap_music": 0.9994060397148132,
+      "scs": 0.525014689189447,
+      "fad_proxy": 0.7772725820541382
+    },
+    "folk_04::shuffle::shuf_bar": {
+      "clap_htsat": 0.9900282025337219,
+      "clap_music": 0.9992364048957825,
+      "scs": 0.5535243086735565,
+      "fad_proxy": 0.8335290551185608
+    },
+    "folk_04::reverse::rev": {
+      "clap_htsat": 0.9702426195144653,
+      "clap_music": 0.9994014501571655,
+      "scs": 0.6199514521448714,
+      "fad_proxy": 0.7434908747673035
+    },
+    "folk_04::displacement::disp_near": {
+      "clap_htsat": 0.9729117751121521,
+      "clap_music": 0.9988811612129211,
+      "scs": 0.5871706792454441,
+      "fad_proxy": 0.7523490786552429
+    },
+    "folk_04::displacement::disp_far": {
+      "clap_htsat": 0.8878799676895142,
+      "clap_music": 0.9954623579978943,
+      "scs": 0.5790085611724988,
+      "fad_proxy": 0.5989147424697876
+    },
+    "folk_05::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999991283837,
+      "fad_proxy": 1.0
+    },
+    "folk_05::shuffle::shuf_beat": {
+      "clap_htsat": 0.9875553846359253,
+      "clap_music": 0.9998235106468201,
+      "scs": 0.7822274383275716,
+      "fad_proxy": 0.8175872564315796
+    },
+    "folk_05::shuffle::shuf_bar": {
+      "clap_htsat": 0.9726361036300659,
+      "clap_music": 0.9998239874839783,
+      "scs": 0.7598182490188558,
+      "fad_proxy": 0.7514048218727112
+    },
+    "folk_05::reverse::rev": {
+      "clap_htsat": 0.9306216239929199,
+      "clap_music": 0.9998661875724792,
+      "scs": 0.7727744504447465,
+      "fad_proxy": 0.6549665331840515
+    },
+    "folk_05::displacement::disp_near": {
+      "clap_htsat": 0.9097952842712402,
+      "clap_music": 0.9994100332260132,
+      "scs": 0.7710763933427554,
+      "fad_proxy": 0.6247336268424988
+    },
+    "folk_05::displacement::disp_far": {
+      "clap_htsat": 0.8050297498703003,
+      "clap_music": 0.9990782141685486,
+      "scs": 0.7135033163845941,
+      "fad_proxy": 0.5310367345809937
+    },
+    "folk_06::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999992054587,
+      "fad_proxy": 1.0
+    },
+    "folk_06::shuffle::shuf_beat": {
+      "clap_htsat": 0.9813584685325623,
+      "clap_music": 0.9998090267181396,
+      "scs": 0.593613932947736,
+      "fad_proxy": 0.7855041027069092
+    },
+    "folk_06::shuffle::shuf_bar": {
+      "clap_htsat": 0.9891504049301147,
+      "clap_music": 0.9997720718383789,
+      "scs": 0.6738501579559248,
+      "fad_proxy": 0.8275932669639587
+    },
+    "folk_06::reverse::rev": {
+      "clap_htsat": 0.9245223999023438,
+      "clap_music": 0.9998118877410889,
+      "scs": 0.6913573359789529,
+      "fad_proxy": 0.6453844904899597
+    },
+    "folk_06::displacement::disp_near": {
+      "clap_htsat": 0.9364346265792847,
+      "clap_music": 0.9958920478820801,
+      "scs": 0.6775256821998663,
+      "fad_proxy": 0.6647860407829285
+    },
+    "folk_06::displacement::disp_far": {
+      "clap_htsat": 0.9080817103385925,
+      "clap_music": 0.9970493912696838,
+      "scs": 0.5917044675770671,
+      "fad_proxy": 0.6225252151489258
+    },
+    "folk_07::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990279232,
+      "fad_proxy": 1.0
+    },
+    "folk_07::shuffle::shuf_beat": {
+      "clap_htsat": 0.9819240570068359,
+      "clap_music": 0.9989393949508667,
+      "scs": 0.6326930696299059,
+      "fad_proxy": 0.7880880832672119
+    },
+    "folk_07::shuffle::shuf_bar": {
+      "clap_htsat": 0.9959622621536255,
+      "clap_music": 0.9992543458938599,
+      "scs": 0.7002308978613287,
+      "fad_proxy": 0.8872433304786682
+    },
+    "folk_07::reverse::rev": {
+      "clap_htsat": 0.8346697092056274,
+      "clap_music": 0.999090313911438,
+      "scs": 0.7358873911802042,
+      "fad_proxy": 0.5515061616897583
+    },
+    "folk_07::displacement::disp_near": {
+      "clap_htsat": 0.9567140936851501,
+      "clap_music": 0.9957658052444458,
+      "scs": 0.6365940217012114,
+      "fad_proxy": 0.7061620354652405
+    },
+    "folk_07::displacement::disp_far": {
+      "clap_htsat": 0.9575368165969849,
+      "clap_music": 0.9956914782524109,
+      "scs": 0.6011231324342468,
+      "fad_proxy": 0.7081490755081177
+    },
+    "folk_08::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988159628,
+      "fad_proxy": 1.0
+    },
+    "folk_08::shuffle::shuf_beat": {
+      "clap_htsat": 0.9858100414276123,
+      "clap_music": 0.9990134239196777,
+      "scs": 0.5158406611787376,
+      "fad_proxy": 0.8075955510139465
+    },
+    "folk_08::shuffle::shuf_bar": {
+      "clap_htsat": 0.9921044707298279,
+      "clap_music": 0.998906672000885,
+      "scs": 0.5798895667921837,
+      "fad_proxy": 0.8491023182868958
+    },
+    "folk_08::reverse::rev": {
+      "clap_htsat": 0.9167124629020691,
+      "clap_music": 0.9988685250282288,
+      "scs": 0.6130767474069152,
+      "fad_proxy": 0.6340383291244507
+    },
+    "folk_08::displacement::disp_near": {
+      "clap_htsat": 0.9725827574729919,
+      "clap_music": 0.9976310133934021,
+      "scs": 0.6151777856840831,
+      "fad_proxy": 0.7512227296829224
+    },
+    "folk_08::displacement::disp_far": {
+      "clap_htsat": 0.8750101327896118,
+      "clap_music": 0.9937665462493896,
+      "scs": 0.6565888568939728,
+      "fad_proxy": 0.5857962369918823
+    },
+    "folk_09::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988683631,
+      "fad_proxy": 1.0
+    },
+    "folk_09::shuffle::shuf_beat": {
+      "clap_htsat": 0.9734930396080017,
+      "clap_music": 0.9990147352218628,
+      "scs": 0.5452524744164706,
+      "fad_proxy": 0.7543643116950989
+    },
+    "folk_09::shuffle::shuf_bar": {
+      "clap_htsat": 0.9866441488265991,
+      "clap_music": 0.9988919496536255,
+      "scs": 0.5991886133327325,
+      "fad_proxy": 0.8122585415840149
+    },
+    "folk_09::reverse::rev": {
+      "clap_htsat": 0.9370073080062866,
+      "clap_music": 0.9987708926200867,
+      "scs": 0.6864435861327045,
+      "fad_proxy": 0.6657935976982117
+    },
+    "folk_09::displacement::disp_near": {
+      "clap_htsat": 0.9679157733917236,
+      "clap_music": 0.9986244440078735,
+      "scs": 0.6183050629927822,
+      "fad_proxy": 0.7362461686134338
+    },
+    "folk_09::displacement::disp_far": {
+      "clap_htsat": 0.9741898775100708,
+      "clap_music": 0.9985366463661194,
+      "scs": 0.5792548579568023,
+      "fad_proxy": 0.756824254989624
+    },
+    "folk_10::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999987253514,
+      "fad_proxy": 1.0
+    },
+    "folk_10::shuffle::shuf_beat": {
+      "clap_htsat": 0.9888169765472412,
+      "clap_music": 0.998017430305481,
+      "scs": 0.48923222980815484,
+      "fad_proxy": 0.8254234790802002
+    },
+    "folk_10::shuffle::shuf_bar": {
+      "clap_htsat": 0.9853827953338623,
+      "clap_music": 0.997897744178772,
+      "scs": 0.5257367107551836,
+      "fad_proxy": 0.8052806258201599
+    },
+    "folk_10::reverse::rev": {
+      "clap_htsat": 0.9061993360519409,
+      "clap_music": 0.9981968998908997,
+      "scs": 0.5565310594654791,
+      "fad_proxy": 0.6201404929161072
+    },
+    "folk_10::displacement::disp_near": {
+      "clap_htsat": 0.9791139960289001,
+      "clap_music": 0.9980474710464478,
+      "scs": 0.5433324923743479,
+      "fad_proxy": 0.7757712006568909
+    },
+    "folk_10::displacement::disp_far": {
+      "clap_htsat": 0.9573101997375488,
+      "clap_music": 0.9973890781402588,
+      "scs": 0.5752867767065395,
+      "fad_proxy": 0.7075988054275513
+    },
+    "folk_11::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989470766,
+      "fad_proxy": 1.0
+    },
+    "folk_11::shuffle::shuf_beat": {
+      "clap_htsat": 0.9820451140403748,
+      "clap_music": 0.9993209838867188,
+      "scs": 0.6467860637190314,
+      "fad_proxy": 0.7886487245559692
+    },
+    "folk_11::shuffle::shuf_bar": {
+      "clap_htsat": 0.9874755144119263,
+      "clap_music": 0.9995025992393494,
+      "scs": 0.7799777643088848,
+      "fad_proxy": 0.8171095252037048
+    },
+    "folk_11::reverse::rev": {
+      "clap_htsat": 0.9427808523178101,
+      "clap_music": 0.9993817806243896,
+      "scs": 0.768804562684961,
+      "fad_proxy": 0.6764020919799805
+    },
+    "folk_11::displacement::disp_near": {
+      "clap_htsat": 0.9713341593742371,
+      "clap_music": 0.997863233089447,
+      "scs": 0.6987975007149253,
+      "fad_proxy": 0.747037947177887
+    },
+    "folk_11::displacement::disp_far": {
+      "clap_htsat": 0.9640107154846191,
+      "clap_music": 0.9982118606567383,
+      "scs": 0.6983733311813253,
+      "fad_proxy": 0.7249438762664795
+    },
+    "folk_12::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999992113491,
+      "fad_proxy": 1.0
+    },
+    "folk_12::shuffle::shuf_beat": {
+      "clap_htsat": 0.9612944722175598,
+      "clap_music": 0.9999048113822937,
+      "scs": 0.7322433955982941,
+      "fad_proxy": 0.7176306247711182
+    },
+    "folk_12::shuffle::shuf_bar": {
+      "clap_htsat": 0.9737939834594727,
+      "clap_music": 0.9998971223831177,
+      "scs": 0.704287016850452,
+      "fad_proxy": 0.7554208636283875
+    },
+    "folk_12::reverse::rev": {
+      "clap_htsat": 0.8485879898071289,
+      "clap_music": 0.999894917011261,
+      "scs": 0.8738279784686884,
+      "fad_proxy": 0.5623556971549988
+    },
+    "folk_12::displacement::disp_near": {
+      "clap_htsat": 0.9613735675811768,
+      "clap_music": 0.9986307621002197,
+      "scs": 0.8066368094503789,
+      "fad_proxy": 0.7178377509117126
+    },
+    "folk_12::displacement::disp_far": {
+      "clap_htsat": 0.9566069841384888,
+      "clap_music": 0.999481201171875,
+      "scs": 0.8487640293768963,
+      "fad_proxy": 0.7059057950973511
+    },
+    "folk_13::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989115234,
+      "fad_proxy": 1.0
+    },
+    "folk_13::shuffle::shuf_beat": {
+      "clap_htsat": 0.9249671697616577,
+      "clap_music": 0.9981850385665894,
+      "scs": 0.5894824772408781,
+      "fad_proxy": 0.6460605263710022
+    },
+    "folk_13::shuffle::shuf_bar": {
+      "clap_htsat": 0.9583348631858826,
+      "clap_music": 0.9983614087104797,
+      "scs": 0.5980716118100948,
+      "fad_proxy": 0.7101057767868042
+    },
+    "folk_13::reverse::rev": {
+      "clap_htsat": 0.9944424629211426,
+      "clap_music": 0.9981676936149597,
+      "scs": 0.6942226336425821,
+      "fad_proxy": 0.8702472448348999
+    },
+    "folk_13::displacement::disp_near": {
+      "clap_htsat": 0.9333012700080872,
+      "clap_music": 0.9905537962913513,
+      "scs": 0.7078580528892808,
+      "fad_proxy": 0.6594035029411316
+    },
+    "folk_13::displacement::disp_far": {
+      "clap_htsat": 0.9041297435760498,
+      "clap_music": 0.9843606948852539,
+      "scs": 0.709057911395893,
+      "fad_proxy": 0.6175665855407715
+    },
+    "folk_14::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990363599,
+      "fad_proxy": 1.0
+    },
+    "folk_14::shuffle::shuf_beat": {
+      "clap_htsat": 0.9905017614364624,
+      "clap_music": 0.9997866153717041,
+      "scs": 0.6975660043152279,
+      "fad_proxy": 0.8368776440620422
+    },
+    "folk_14::shuffle::shuf_bar": {
+      "clap_htsat": 0.9918630123138428,
+      "clap_music": 0.9996640682220459,
+      "scs": 0.6588034412701798,
+      "fad_proxy": 0.8471628427505493
+    },
+    "folk_14::reverse::rev": {
+      "clap_htsat": 0.9180243015289307,
+      "clap_music": 0.9997727274894714,
+      "scs": 0.7780417529449098,
+      "fad_proxy": 0.6358782649040222
+    },
+    "folk_14::displacement::disp_near": {
+      "clap_htsat": 0.9581218957901001,
+      "clap_music": 0.9980108141899109,
+      "scs": 0.6530975391804272,
+      "fad_proxy": 0.7095807790756226
+    },
+    "folk_14::displacement::disp_far": {
+      "clap_htsat": 0.9746313095092773,
+      "clap_music": 0.9980669021606445,
+      "scs": 0.6945286763858272,
+      "fad_proxy": 0.7584083080291748
+    },
+    "folk_15::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989675583,
+      "fad_proxy": 1.0
+    },
+    "folk_15::shuffle::shuf_beat": {
+      "clap_htsat": 0.986843466758728,
+      "clap_music": 0.9996766448020935,
+      "scs": 0.5836223715893241,
+      "fad_proxy": 0.8134021162986755
+    },
+    "folk_15::shuffle::shuf_bar": {
+      "clap_htsat": 0.994704008102417,
+      "clap_music": 0.9997682571411133,
+      "scs": 0.5956417863303098,
+      "fad_proxy": 0.8729445934295654
+    },
+    "folk_15::reverse::rev": {
+      "clap_htsat": 0.9242444634437561,
+      "clap_music": 0.9996397495269775,
+      "scs": 0.6199216962910781,
+      "fad_proxy": 0.644963800907135
+    },
+    "folk_15::displacement::disp_near": {
+      "clap_htsat": 0.9639775156974792,
+      "clap_music": 0.9976342916488647,
+      "scs": 0.657435043235264,
+      "fad_proxy": 0.7248520851135254
+    },
+    "folk_15::displacement::disp_far": {
+      "clap_htsat": 0.9533327221870422,
+      "clap_music": 0.9988553524017334,
+      "scs": 0.5718813453964654,
+      "fad_proxy": 0.698298454284668
+    },
+    "jazz_01::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999987512758,
+      "fad_proxy": 1.0
+    },
+    "jazz_01::shuffle::shuf_beat": {
+      "clap_htsat": 0.9886404871940613,
+      "clap_music": 0.9989871382713318,
+      "scs": 0.5294229635150823,
+      "fad_proxy": 0.824292004108429
+    },
+    "jazz_01::shuffle::shuf_bar": {
+      "clap_htsat": 0.9873117804527283,
+      "clap_music": 0.9985325336456299,
+      "scs": 0.49327752612079234,
+      "fad_proxy": 0.8161372542381287
+    },
+    "jazz_01::reverse::rev": {
+      "clap_htsat": 0.8205685615539551,
+      "clap_music": 0.998934268951416,
+      "scs": 0.5326318453218595,
+      "fad_proxy": 0.5413637161254883
+    },
+    "jazz_01::displacement::disp_near": {
+      "clap_htsat": 0.9856246709823608,
+      "clap_music": 0.9980610013008118,
+      "scs": 0.533769879522414,
+      "fad_proxy": 0.8065851330757141
+    },
+    "jazz_01::displacement::disp_far": {
+      "clap_htsat": 0.9854772686958313,
+      "clap_music": 0.9984304308891296,
+      "scs": 0.5397312948968386,
+      "fad_proxy": 0.8057882189750671
+    },
+    "jazz_02::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.999999998873025,
+      "fad_proxy": 1.0
+    },
+    "jazz_02::shuffle::shuf_beat": {
+      "clap_htsat": 0.9806331396102905,
+      "clap_music": 0.9995218515396118,
+      "scs": 0.5584346585919155,
+      "fad_proxy": 0.7822707891464233
+    },
+    "jazz_02::shuffle::shuf_bar": {
+      "clap_htsat": 0.9867967367172241,
+      "clap_music": 0.9994537830352783,
+      "scs": 0.5308765504359778,
+      "fad_proxy": 0.8131331205368042
+    },
+    "jazz_02::reverse::rev": {
+      "clap_htsat": 0.8385606408119202,
+      "clap_music": 0.9994471669197083,
+      "scs": 0.5291078434120647,
+      "fad_proxy": 0.5544496178627014
+    },
+    "jazz_02::displacement::disp_near": {
+      "clap_htsat": 0.9749158024787903,
+      "clap_music": 0.9979053735733032,
+      "scs": 0.5538089175153337,
+      "fad_proxy": 0.7594398260116577
+    },
+    "jazz_02::displacement::disp_far": {
+      "clap_htsat": 0.984663724899292,
+      "clap_music": 0.9980395436286926,
+      "scs": 0.5457826368073778,
+      "fad_proxy": 0.801487922668457
+    },
+    "jazz_03::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988496393,
+      "fad_proxy": 1.0
+    },
+    "jazz_03::shuffle::shuf_beat": {
+      "clap_htsat": 0.9908492565155029,
+      "clap_music": 0.9984926581382751,
+      "scs": 0.5901623297925038,
+      "fad_proxy": 0.8394056558609009
+    },
+    "jazz_03::shuffle::shuf_bar": {
+      "clap_htsat": 0.9869409799575806,
+      "clap_music": 0.9988340735435486,
+      "scs": 0.6051216845162234,
+      "fad_proxy": 0.8139657378196716
+    },
+    "jazz_03::reverse::rev": {
+      "clap_htsat": 0.8778505325317383,
+      "clap_music": 0.9988775253295898,
+      "scs": 0.6126325788896193,
+      "fad_proxy": 0.5885822772979736
+    },
+    "jazz_03::displacement::disp_near": {
+      "clap_htsat": 0.9251079559326172,
+      "clap_music": 0.9965300559997559,
+      "scs": 0.5906723358441076,
+      "fad_proxy": 0.6462752223014832
+    },
+    "jazz_03::displacement::disp_far": {
+      "clap_htsat": 0.936113715171814,
+      "clap_music": 0.9973210096359253,
+      "scs": 0.5586235113059715,
+      "fad_proxy": 0.6642246246337891
+    },
+    "jazz_04::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989508661,
+      "fad_proxy": 1.0
+    },
+    "jazz_04::shuffle::shuf_beat": {
+      "clap_htsat": 0.97812420129776,
+      "clap_music": 0.9991250038146973,
+      "scs": 0.59413446659551,
+      "fad_proxy": 0.7717185020446777
+    },
+    "jazz_04::shuffle::shuf_bar": {
+      "clap_htsat": 0.9827061295509338,
+      "clap_music": 0.9994744062423706,
+      "scs": 0.578869949839621,
+      "fad_proxy": 0.7917578816413879
+    },
+    "jazz_04::reverse::rev": {
+      "clap_htsat": 0.8756113648414612,
+      "clap_music": 0.9992607831954956,
+      "scs": 0.6529101930345746,
+      "fad_proxy": 0.5863811373710632
+    },
+    "jazz_04::displacement::disp_near": {
+      "clap_htsat": 0.8988955616950989,
+      "clap_music": 0.9969794750213623,
+      "scs": 0.6163741876616924,
+      "fad_proxy": 0.6112699508666992
+    },
+    "jazz_04::displacement::disp_far": {
+      "clap_htsat": 0.8079865574836731,
+      "clap_music": 0.989357590675354,
+      "scs": 0.613851938507892,
+      "fad_proxy": 0.5329391360282898
+    },
+    "jazz_05::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999992197953,
+      "fad_proxy": 1.0
+    },
+    "jazz_05::shuffle::shuf_beat": {
+      "clap_htsat": 0.9867724776268005,
+      "clap_music": 0.9998950362205505,
+      "scs": 0.5133819435763701,
+      "fad_proxy": 0.8129935264587402
+    },
+    "jazz_05::shuffle::shuf_bar": {
+      "clap_htsat": 0.979385495185852,
+      "clap_music": 0.9998024702072144,
+      "scs": 0.4998936588749762,
+      "fad_proxy": 0.7769072651863098
+    },
+    "jazz_05::reverse::rev": {
+      "clap_htsat": 0.823776125907898,
+      "clap_music": 0.9999304413795471,
+      "scs": 0.5396888700655837,
+      "fad_proxy": 0.5436021685600281
+    },
+    "jazz_05::displacement::disp_near": {
+      "clap_htsat": 0.9076565504074097,
+      "clap_music": 0.9972443580627441,
+      "scs": 0.5711119756062901,
+      "fad_proxy": 0.6219829320907593
+    },
+    "jazz_05::displacement::disp_far": {
+      "clap_htsat": 0.9226219654083252,
+      "clap_music": 0.9976555109024048,
+      "scs": 0.5328187229509611,
+      "fad_proxy": 0.6425338387489319
+    },
+    "jazz_06::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990807049,
+      "fad_proxy": 1.0
+    },
+    "jazz_06::shuffle::shuf_beat": {
+      "clap_htsat": 0.9856445789337158,
+      "clap_music": 0.9996520280838013,
+      "scs": 0.5524638448070246,
+      "fad_proxy": 0.8066934943199158
+    },
+    "jazz_06::shuffle::shuf_bar": {
+      "clap_htsat": 0.9912184476852417,
+      "clap_music": 0.9995927214622498,
+      "scs": 0.6826484301256264,
+      "fad_proxy": 0.8421614766120911
+    },
+    "jazz_06::reverse::rev": {
+      "clap_htsat": 0.7899373173713684,
+      "clap_music": 0.999688982963562,
+      "scs": 0.580112553703322,
+      "fad_proxy": 0.52174311876297
+    },
+    "jazz_06::displacement::disp_near": {
+      "clap_htsat": 0.9682648777961731,
+      "clap_music": 0.9995187520980835,
+      "scs": 0.7448509925628161,
+      "fad_proxy": 0.7373068928718567
+    },
+    "jazz_06::displacement::disp_far": {
+      "clap_htsat": 0.9506779909133911,
+      "clap_music": 0.9982423782348633,
+      "scs": 0.6606703429982632,
+      "fad_proxy": 0.6924386620521545
+    },
+    "jazz_07::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989008066,
+      "fad_proxy": 1.0
+    },
+    "jazz_07::shuffle::shuf_beat": {
+      "clap_htsat": 0.984588623046875,
+      "clap_music": 0.9989498853683472,
+      "scs": 0.5867270991332518,
+      "fad_proxy": 0.8010988235473633
+    },
+    "jazz_07::shuffle::shuf_bar": {
+      "clap_htsat": 0.9871402382850647,
+      "clap_music": 0.9985045194625854,
+      "scs": 0.580943859108333,
+      "fad_proxy": 0.8151276111602783
+    },
+    "jazz_07::reverse::rev": {
+      "clap_htsat": 0.9307477474212646,
+      "clap_music": 0.9991501569747925,
+      "scs": 0.664319198976401,
+      "fad_proxy": 0.6551720499992371
+    },
+    "jazz_07::displacement::disp_near": {
+      "clap_htsat": 0.9760388135910034,
+      "clap_music": 0.9965513944625854,
+      "scs": 0.6217168472746657,
+      "fad_proxy": 0.7635989189147949
+    },
+    "jazz_07::displacement::disp_far": {
+      "clap_htsat": 0.9524068832397461,
+      "clap_music": 0.9930177330970764,
+      "scs": 0.5683223584695888,
+      "fad_proxy": 0.6962250471115112
+    },
+    "jazz_08::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990500401,
+      "fad_proxy": 1.0
+    },
+    "jazz_08::shuffle::shuf_beat": {
+      "clap_htsat": 0.9941879510879517,
+      "clap_music": 0.9993090629577637,
+      "scs": 0.6067860211768411,
+      "fad_proxy": 0.8676989674568176
+    },
+    "jazz_08::shuffle::shuf_bar": {
+      "clap_htsat": 0.9962151050567627,
+      "clap_music": 0.9992669820785522,
+      "scs": 0.7300534818612207,
+      "fad_proxy": 0.8904382586479187
+    },
+    "jazz_08::reverse::rev": {
+      "clap_htsat": 0.829004168510437,
+      "clap_music": 0.9995430707931519,
+      "scs": 0.7434942699458689,
+      "fad_proxy": 0.5473355054855347
+    },
+    "jazz_08::displacement::disp_near": {
+      "clap_htsat": 0.928764283657074,
+      "clap_music": 0.9937219023704529,
+      "scs": 0.6339263016235064,
+      "fad_proxy": 0.6519752740859985
+    },
+    "jazz_08::displacement::disp_far": {
+      "clap_htsat": 0.9260499477386475,
+      "clap_music": 0.9965608716011047,
+      "scs": 0.6296465437997609,
+      "fad_proxy": 0.6477207541465759
+    },
+    "jazz_09::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999987970352,
+      "fad_proxy": 1.0
+    },
+    "jazz_09::shuffle::shuf_beat": {
+      "clap_htsat": 0.9781163930892944,
+      "clap_music": 0.9996796250343323,
+      "scs": 0.5026520836625047,
+      "fad_proxy": 0.7716867923736572
+    },
+    "jazz_09::shuffle::shuf_bar": {
+      "clap_htsat": 0.9836830496788025,
+      "clap_music": 0.9996485710144043,
+      "scs": 0.5216748800357477,
+      "fad_proxy": 0.7965106964111328
+    },
+    "jazz_09::reverse::rev": {
+      "clap_htsat": 0.9472002387046814,
+      "clap_music": 0.9996941089630127,
+      "scs": 0.512478676251268,
+      "fad_proxy": 0.6851361989974976
+    },
+    "jazz_09::displacement::disp_near": {
+      "clap_htsat": 0.9852281212806702,
+      "clap_music": 0.9994293451309204,
+      "scs": 0.522669623798775,
+      "fad_proxy": 0.8044536113739014
+    },
+    "jazz_09::displacement::disp_far": {
+      "clap_htsat": 0.9653829336166382,
+      "clap_music": 0.9992824792861938,
+      "scs": 0.5146461601855078,
+      "fad_proxy": 0.7288027405738831
+    },
+    "jazz_10::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988280109,
+      "fad_proxy": 1.0
+    },
+    "jazz_10::shuffle::shuf_beat": {
+      "clap_htsat": 0.9910741448402405,
+      "clap_music": 0.9985837936401367,
+      "scs": 0.5270489792339568,
+      "fad_proxy": 0.8410757184028625
+    },
+    "jazz_10::shuffle::shuf_bar": {
+      "clap_htsat": 0.9949318170547485,
+      "clap_music": 0.9984848499298096,
+      "scs": 0.5437789855781857,
+      "fad_proxy": 0.8753636479377747
+    },
+    "jazz_10::reverse::rev": {
+      "clap_htsat": 0.9291371703147888,
+      "clap_music": 0.9986168146133423,
+      "scs": 0.5862658710012157,
+      "fad_proxy": 0.6525705456733704
+    },
+    "jazz_10::displacement::disp_near": {
+      "clap_htsat": 0.9934861660003662,
+      "clap_music": 0.9980572462081909,
+      "scs": 0.5348804831390187,
+      "fad_proxy": 0.8610169887542725
+    },
+    "jazz_10::displacement::disp_far": {
+      "clap_htsat": 0.9869439005851746,
+      "clap_music": 0.9965486526489258,
+      "scs": 0.5715484887918205,
+      "fad_proxy": 0.8139829635620117
+    },
+    "jazz_11::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988751254,
+      "fad_proxy": 1.0
+    },
+    "jazz_11::shuffle::shuf_beat": {
+      "clap_htsat": 0.9898148775100708,
+      "clap_music": 0.9980835318565369,
+      "scs": 0.5051463604416774,
+      "fad_proxy": 0.8320555686950684
+    },
+    "jazz_11::shuffle::shuf_bar": {
+      "clap_htsat": 0.9881035685539246,
+      "clap_music": 0.9980241060256958,
+      "scs": 0.602557596452648,
+      "fad_proxy": 0.8209227919578552
+    },
+    "jazz_11::reverse::rev": {
+      "clap_htsat": 0.890795111656189,
+      "clap_music": 0.9980814456939697,
+      "scs": 0.5788888593378202,
+      "fad_proxy": 0.6020748019218445
+    },
+    "jazz_11::displacement::disp_near": {
+      "clap_htsat": 0.932944655418396,
+      "clap_music": 0.9938334226608276,
+      "scs": 0.5694477302239302,
+      "fad_proxy": 0.6588045954704285
+    },
+    "jazz_11::displacement::disp_far": {
+      "clap_htsat": 0.9403883218765259,
+      "clap_music": 0.9937489628791809,
+      "scs": 0.5431273474948154,
+      "fad_proxy": 0.6719030141830444
+    },
+    "jazz_12::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0000001192092896,
+      "scs": 0.9999999989943149,
+      "fad_proxy": 1.0
+    },
+    "jazz_12::shuffle::shuf_beat": {
+      "clap_htsat": 0.9785597920417786,
+      "clap_music": 0.999267578125,
+      "scs": 0.5499618188528795,
+      "fad_proxy": 0.7734851837158203
+    },
+    "jazz_12::shuffle::shuf_bar": {
+      "clap_htsat": 0.9855033159255981,
+      "clap_music": 0.9994992613792419,
+      "scs": 0.5353926963588572,
+      "fad_proxy": 0.8059287071228027
+    },
+    "jazz_12::reverse::rev": {
+      "clap_htsat": 0.8688760995864868,
+      "clap_music": 0.9989556074142456,
+      "scs": 0.6165154683931028,
+      "fad_proxy": 0.5799721479415894
+    },
+    "jazz_12::displacement::disp_near": {
+      "clap_htsat": 0.9652951955795288,
+      "clap_music": 0.9745854139328003,
+      "scs": 0.638085088073381,
+      "fad_proxy": 0.7285525798797607
+    },
+    "jazz_12::displacement::disp_far": {
+      "clap_htsat": 0.9592422842979431,
+      "clap_music": 0.982724666595459,
+      "scs": 0.6556202046710397,
+      "fad_proxy": 0.7123668789863586
+    },
+    "jazz_13::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.999999998834485,
+      "fad_proxy": 1.0
+    },
+    "jazz_13::shuffle::shuf_beat": {
+      "clap_htsat": 0.9941601753234863,
+      "clap_music": 0.9985121488571167,
+      "scs": 0.49900424390228343,
+      "fad_proxy": 0.8674249053001404
+    },
+    "jazz_13::shuffle::shuf_bar": {
+      "clap_htsat": 0.9967865943908691,
+      "clap_music": 0.9989247918128967,
+      "scs": 0.530035046140958,
+      "fad_proxy": 0.8981702327728271
+    },
+    "jazz_13::reverse::rev": {
+      "clap_htsat": 0.8548847436904907,
+      "clap_music": 0.9987561106681824,
+      "scs": 0.567694491881595,
+      "fad_proxy": 0.5675755739212036
+    },
+    "jazz_13::displacement::disp_near": {
+      "clap_htsat": 0.9462568163871765,
+      "clap_music": 0.9965590834617615,
+      "scs": 0.5331174647681476,
+      "fad_proxy": 0.6832226514816284
+    },
+    "jazz_13::displacement::disp_far": {
+      "clap_htsat": 0.9566274881362915,
+      "clap_music": 0.9974464178085327,
+      "scs": 0.5545042061241148,
+      "fad_proxy": 0.7059547901153564
+    },
+    "jazz_14::control::ctrl": {
+      "clap_htsat": 0.9999976754188538,
+      "clap_music": 1.0,
+      "scs": 0.9999999702991954,
+      "fad_proxy": 0.9969615340232849
+    },
+    "jazz_14::shuffle::shuf_beat": {
+      "clap_htsat": 0.9864805936813354,
+      "clap_music": 0.999236524105072,
+      "scs": 0.5533648737530369,
+      "fad_proxy": 0.8113285899162292
+    },
+    "jazz_14::shuffle::shuf_bar": {
+      "clap_htsat": 0.9908665418624878,
+      "clap_music": 0.9992279410362244,
+      "scs": 0.768230577704254,
+      "fad_proxy": 0.8395329117774963
+    },
+    "jazz_14::reverse::rev": {
+      "clap_htsat": 0.8628464341163635,
+      "clap_music": 0.999405026435852,
+      "scs": 0.6248429055654483,
+      "fad_proxy": 0.574486494064331
+    },
+    "jazz_14::displacement::disp_near": {
+      "clap_htsat": 0.9412546157836914,
+      "clap_music": 0.996648371219635,
+      "scs": 0.5381258715678923,
+      "fad_proxy": 0.6735145449638367
+    },
+    "jazz_14::displacement::disp_far": {
+      "clap_htsat": 0.9521360993385315,
+      "clap_music": 0.9960662126541138,
+      "scs": 0.5839170509266918,
+      "fad_proxy": 0.6956247687339783
+    },
+    "jazz_15::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0000001192092896,
+      "scs": 0.9999999990408595,
+      "fad_proxy": 1.0
+    },
+    "jazz_15::shuffle::shuf_beat": {
+      "clap_htsat": 0.9967689514160156,
+      "clap_music": 0.9993772506713867,
+      "scs": 0.5013480311139763,
+      "fad_proxy": 0.8979201316833496
+    },
+    "jazz_15::shuffle::shuf_bar": {
+      "clap_htsat": 0.9968903064727783,
+      "clap_music": 0.9996469616889954,
+      "scs": 0.5598887944791645,
+      "fad_proxy": 0.899660587310791
+    },
+    "jazz_15::reverse::rev": {
+      "clap_htsat": 0.8696977496147156,
+      "clap_music": 0.9992450475692749,
+      "scs": 0.6214270737006005,
+      "fad_proxy": 0.5807375907897949
+    },
+    "jazz_15::displacement::disp_near": {
+      "clap_htsat": 0.9894664287567139,
+      "clap_music": 0.9979736804962158,
+      "scs": 0.5433709451838887,
+      "fad_proxy": 0.8296918869018555
+    },
+    "jazz_15::displacement::disp_far": {
+      "clap_htsat": 0.989159107208252,
+      "clap_music": 0.9989514350891113,
+      "scs": 0.5652577399435172,
+      "fad_proxy": 0.827650249004364
+    },
+    "rock_01::control::ctrl": {
+      "clap_htsat": 0.9999991655349731,
+      "clap_music": 0.999998927116394,
+      "scs": 0.9999999896664902,
+      "fad_proxy": 0.9982252717018127
+    },
+    "rock_01::shuffle::shuf_beat": {
+      "clap_htsat": 0.986691951751709,
+      "clap_music": 0.9986039400100708,
+      "scs": 0.5683303521023558,
+      "fad_proxy": 0.8125319480895996
+    },
+    "rock_01::shuffle::shuf_bar": {
+      "clap_htsat": 0.9865584373474121,
+      "clap_music": 0.998173713684082,
+      "scs": 0.5559862371332276,
+      "fad_proxy": 0.8117705583572388
+    },
+    "rock_01::reverse::rev": {
+      "clap_htsat": 0.9353317022323608,
+      "clap_music": 0.9980473518371582,
+      "scs": 0.6206129504198342,
+      "fad_proxy": 0.662866473197937
+    },
+    "rock_01::displacement::disp_near": {
+      "clap_htsat": 0.9835327863693237,
+      "clap_music": 0.9932532906532288,
+      "scs": 0.6460626739658935,
+      "fad_proxy": 0.7957667112350464
+    },
+    "rock_01::displacement::disp_far": {
+      "clap_htsat": 0.9723955392837524,
+      "clap_music": 0.9938145875930786,
+      "scs": 0.6270512924136651,
+      "fad_proxy": 0.7505860328674316
+    },
+    "rock_02::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0000001192092896,
+      "scs": 0.9999999988228374,
+      "fad_proxy": 1.0
+    },
+    "rock_02::shuffle::shuf_beat": {
+      "clap_htsat": 0.9876553416252136,
+      "clap_music": 0.9958968162536621,
+      "scs": 0.5671481634326528,
+      "fad_proxy": 0.8181876540184021
+    },
+    "rock_02::shuffle::shuf_bar": {
+      "clap_htsat": 0.9903261661529541,
+      "clap_music": 0.9966899156570435,
+      "scs": 0.5635793742480332,
+      "fad_proxy": 0.8356228470802307
+    },
+    "rock_02::reverse::rev": {
+      "clap_htsat": 0.9745051860809326,
+      "clap_music": 0.9963884949684143,
+      "scs": 0.552541601388299,
+      "fad_proxy": 0.7579534649848938
+    },
+    "rock_02::displacement::disp_near": {
+      "clap_htsat": 0.9857448935508728,
+      "clap_music": 0.9923589825630188,
+      "scs": 0.6069260210131262,
+      "fad_proxy": 0.8072393536567688
+    },
+    "rock_02::displacement::disp_far": {
+      "clap_htsat": 0.9521934390068054,
+      "clap_music": 0.9893239736557007,
+      "scs": 0.5822777960252871,
+      "fad_proxy": 0.6957517266273499
+    },
+    "rock_03::control::ctrl": {
+      "clap_htsat": 0.9986976385116577,
+      "clap_music": 0.9860750436782837,
+      "scs": 0.9999820312675569,
+      "fad_proxy": 0.9326810240745544
+    },
+    "rock_03::shuffle::shuf_beat": {
+      "clap_htsat": 0.9757013916969299,
+      "clap_music": 0.9437296986579895,
+      "scs": 0.5364380887937832,
+      "fad_proxy": 0.7623343467712402
+    },
+    "rock_03::shuffle::shuf_bar": {
+      "clap_htsat": 0.9718647003173828,
+      "clap_music": 0.977386474609375,
+      "scs": 0.582461463432982,
+      "fad_proxy": 0.7487990856170654
+    },
+    "rock_03::reverse::rev": {
+      "clap_htsat": 0.906923770904541,
+      "clap_music": 0.9611351490020752,
+      "scs": 0.6202088152030913,
+      "fad_proxy": 0.6210532188415527
+    },
+    "rock_03::displacement::disp_near": {
+      "clap_htsat": 0.9547911286354065,
+      "clap_music": 0.9629434943199158,
+      "scs": 0.5273765215065408,
+      "fad_proxy": 0.7016323804855347
+    },
+    "rock_03::displacement::disp_far": {
+      "clap_htsat": 0.9650198221206665,
+      "clap_music": 0.9619845151901245,
+      "scs": 0.6030853163869829,
+      "fad_proxy": 0.7277703285217285
+    },
+    "rock_04::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988718276,
+      "fad_proxy": 1.0
+    },
+    "rock_04::shuffle::shuf_beat": {
+      "clap_htsat": 0.9773974418640137,
+      "clap_music": 0.9954185485839844,
+      "scs": 0.5193648725004667,
+      "fad_proxy": 0.7688264846801758
+    },
+    "rock_04::shuffle::shuf_bar": {
+      "clap_htsat": 0.9849517941474915,
+      "clap_music": 0.9958368539810181,
+      "scs": 0.5329695702256088,
+      "fad_proxy": 0.8029919266700745
+    },
+    "rock_04::reverse::rev": {
+      "clap_htsat": 0.9722597599029541,
+      "clap_music": 0.9961671829223633,
+      "scs": 0.5770288071425346,
+      "fad_proxy": 0.7501266598701477
+    },
+    "rock_04::displacement::disp_near": {
+      "clap_htsat": 0.991341233253479,
+      "clap_music": 0.9954887628555298,
+      "scs": 0.6028158334917286,
+      "fad_proxy": 0.8430954813957214
+    },
+    "rock_04::displacement::disp_far": {
+      "clap_htsat": 0.9856634140014648,
+      "clap_music": 0.9951916933059692,
+      "scs": 0.5364019867281843,
+      "fad_proxy": 0.8067956566810608
+    },
+    "rock_05::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990188521,
+      "fad_proxy": 1.0
+    },
+    "rock_05::shuffle::shuf_beat": {
+      "clap_htsat": 0.9920451641082764,
+      "clap_music": 0.9988644123077393,
+      "scs": 0.5210437317213737,
+      "fad_proxy": 0.8486228585243225
+    },
+    "rock_05::shuffle::shuf_bar": {
+      "clap_htsat": 0.9932758808135986,
+      "clap_music": 0.998833179473877,
+      "scs": 0.5516508476060803,
+      "fad_proxy": 0.8591052889823914
+    },
+    "rock_05::reverse::rev": {
+      "clap_htsat": 0.9293853640556335,
+      "clap_music": 0.9987403154373169,
+      "scs": 0.5221056701087329,
+      "fad_proxy": 0.6529681086540222
+    },
+    "rock_05::displacement::disp_near": {
+      "clap_htsat": 0.9653559923171997,
+      "clap_music": 0.9954062700271606,
+      "scs": 0.49876610749822187,
+      "fad_proxy": 0.7287258505821228
+    },
+    "rock_05::displacement::disp_far": {
+      "clap_htsat": 0.9340503215789795,
+      "clap_music": 0.9920206665992737,
+      "scs": 0.5264301946214329,
+      "fad_proxy": 0.6606705784797668
+    },
+    "rock_06::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990531789,
+      "fad_proxy": 1.0
+    },
+    "rock_06::shuffle::shuf_beat": {
+      "clap_htsat": 0.993677020072937,
+      "clap_music": 0.9989145994186401,
+      "scs": 0.5235446513803684,
+      "fad_proxy": 0.8627870082855225
+    },
+    "rock_06::shuffle::shuf_bar": {
+      "clap_htsat": 0.9934405088424683,
+      "clap_music": 0.998336911201477,
+      "scs": 0.4874846245279969,
+      "fad_proxy": 0.8605992197990417
+    },
+    "rock_06::reverse::rev": {
+      "clap_htsat": 0.9004508256912231,
+      "clap_music": 0.9989050626754761,
+      "scs": 0.5311831594481153,
+      "fad_proxy": 0.6131101250648499
+    },
+    "rock_06::displacement::disp_near": {
+      "clap_htsat": 0.9846625924110413,
+      "clap_music": 0.9976037740707397,
+      "scs": 0.57838462608237,
+      "fad_proxy": 0.8014820218086243
+    },
+    "rock_06::displacement::disp_far": {
+      "clap_htsat": 0.9841517210006714,
+      "clap_music": 0.9981943964958191,
+      "scs": 0.5103751421661002,
+      "fad_proxy": 0.7988624572753906
+    },
+    "rock_07::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990547103,
+      "fad_proxy": 1.0
+    },
+    "rock_07::shuffle::shuf_beat": {
+      "clap_htsat": 0.9703629612922668,
+      "clap_music": 0.9987689256668091,
+      "scs": 0.6196254028339718,
+      "fad_proxy": 0.7438769936561584
+    },
+    "rock_07::shuffle::shuf_bar": {
+      "clap_htsat": 0.9902797937393188,
+      "clap_music": 0.9993451833724976,
+      "scs": 0.6402670306532042,
+      "fad_proxy": 0.8352944254875183
+    },
+    "rock_07::reverse::rev": {
+      "clap_htsat": 0.9242044687271118,
+      "clap_music": 0.9988932013511658,
+      "scs": 0.7544884524467137,
+      "fad_proxy": 0.6449034214019775
+    },
+    "rock_07::displacement::disp_near": {
+      "clap_htsat": 0.8705416917800903,
+      "clap_music": 0.9911117553710938,
+      "scs": 0.7371820335690569,
+      "fad_proxy": 0.5815284252166748
+    },
+    "rock_07::displacement::disp_far": {
+      "clap_htsat": 0.8895907402038574,
+      "clap_music": 0.9868928790092468,
+      "scs": 0.6597639476171738,
+      "fad_proxy": 0.6007601022720337
+    },
+    "rock_08::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990144941,
+      "fad_proxy": 1.0
+    },
+    "rock_08::shuffle::shuf_beat": {
+      "clap_htsat": 0.9824197888374329,
+      "clap_music": 0.9938138723373413,
+      "scs": 0.5249232082256312,
+      "fad_proxy": 0.7904005646705627
+    },
+    "rock_08::shuffle::shuf_bar": {
+      "clap_htsat": 0.9864704608917236,
+      "clap_music": 0.9944846630096436,
+      "scs": 0.5044273411934712,
+      "fad_proxy": 0.8112710118293762
+    },
+    "rock_08::reverse::rev": {
+      "clap_htsat": 0.9787341356277466,
+      "clap_music": 0.9933348298072815,
+      "scs": 0.5832852654225996,
+      "fad_proxy": 0.774199366569519
+    },
+    "rock_08::displacement::disp_near": {
+      "clap_htsat": 0.989018976688385,
+      "clap_music": 0.9888547658920288,
+      "scs": 0.5579560368520274,
+      "fad_proxy": 0.8267324566841125
+    },
+    "rock_08::displacement::disp_far": {
+      "clap_htsat": 0.9933210611343384,
+      "clap_music": 0.9920210838317871,
+      "scs": 0.5498711095207808,
+      "fad_proxy": 0.8595128059387207
+    },
+    "rock_09::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999990707645,
+      "fad_proxy": 1.0
+    },
+    "rock_09::shuffle::shuf_beat": {
+      "clap_htsat": 0.9869529008865356,
+      "clap_music": 0.9995242357254028,
+      "scs": 0.5232879920680007,
+      "fad_proxy": 0.8140354156494141
+    },
+    "rock_09::shuffle::shuf_bar": {
+      "clap_htsat": 0.990760862827301,
+      "clap_music": 0.9995198249816895,
+      "scs": 0.5144225665147178,
+      "fad_proxy": 0.8387562036514282
+    },
+    "rock_09::reverse::rev": {
+      "clap_htsat": 0.9504173994064331,
+      "clap_music": 0.9993548393249512,
+      "scs": 0.5906075742471462,
+      "fad_proxy": 0.6918772459030151
+    },
+    "rock_09::displacement::disp_near": {
+      "clap_htsat": 0.917540967464447,
+      "clap_music": 0.9945287704467773,
+      "scs": 0.5240906422033559,
+      "fad_proxy": 0.6351973414421082
+    },
+    "rock_09::displacement::disp_far": {
+      "clap_htsat": 0.9214916229248047,
+      "clap_music": 0.9964165687561035,
+      "scs": 0.5757338548725551,
+      "fad_proxy": 0.6408666968345642
+    },
+    "rock_10::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999988950792,
+      "fad_proxy": 1.0
+    },
+    "rock_10::shuffle::shuf_beat": {
+      "clap_htsat": 0.9921641945838928,
+      "clap_music": 0.9985487461090088,
+      "scs": 0.5641617779436449,
+      "fad_proxy": 0.8495885729789734
+    },
+    "rock_10::shuffle::shuf_bar": {
+      "clap_htsat": 0.988795280456543,
+      "clap_music": 0.9984784126281738,
+      "scs": 0.6322217258395681,
+      "fad_proxy": 0.8252832293510437
+    },
+    "rock_10::reverse::rev": {
+      "clap_htsat": 0.9123934507369995,
+      "clap_music": 0.9983458518981934,
+      "scs": 0.5319468759420884,
+      "fad_proxy": 0.6281532049179077
+    },
+    "rock_10::displacement::disp_near": {
+      "clap_htsat": 0.9788881540298462,
+      "clap_music": 0.9972661137580872,
+      "scs": 0.5286403561559926,
+      "fad_proxy": 0.7748345136642456
+    },
+    "rock_10::displacement::disp_far": {
+      "clap_htsat": 0.9677746295928955,
+      "clap_music": 0.9965203404426575,
+      "scs": 0.505239825098931,
+      "fad_proxy": 0.7358196973800659
+    },
+    "rock_11::control::ctrl": {
+      "clap_htsat": 0.9998878836631775,
+      "clap_music": 0.9999066591262817,
+      "scs": 0.9999958456479671,
+      "fad_proxy": 0.9792612195014954
+    },
+    "rock_11::shuffle::shuf_beat": {
+      "clap_htsat": 0.99077969789505,
+      "clap_music": 0.9983168244361877,
+      "scs": 0.4818577154379308,
+      "fad_proxy": 0.838894248008728
+    },
+    "rock_11::shuffle::shuf_bar": {
+      "clap_htsat": 0.9917929172515869,
+      "clap_music": 0.99823397397995,
+      "scs": 0.5375129629474001,
+      "fad_proxy": 0.8466070890426636
+    },
+    "rock_11::reverse::rev": {
+      "clap_htsat": 0.8510251045227051,
+      "clap_music": 0.9982619285583496,
+      "scs": 0.520434557281579,
+      "fad_proxy": 0.564351499080658
+    },
+    "rock_11::displacement::disp_near": {
+      "clap_htsat": 0.9788647890090942,
+      "clap_music": 0.9975631237030029,
+      "scs": 0.5294535649325891,
+      "fad_proxy": 0.7747377753257751
+    },
+    "rock_11::displacement::disp_far": {
+      "clap_htsat": 0.9789136648178101,
+      "clap_music": 0.9980877637863159,
+      "scs": 0.5611725253169783,
+      "fad_proxy": 0.7749395966529846
+    },
+    "rock_12::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989113995,
+      "fad_proxy": 1.0
+    },
+    "rock_12::shuffle::shuf_beat": {
+      "clap_htsat": 0.9903421401977539,
+      "clap_music": 0.9975073933601379,
+      "scs": 0.5383794740151829,
+      "fad_proxy": 0.8357362151145935
+    },
+    "rock_12::shuffle::shuf_bar": {
+      "clap_htsat": 0.9852492809295654,
+      "clap_music": 0.9969265460968018,
+      "scs": 0.5555098288702661,
+      "fad_proxy": 0.8045663833618164
+    },
+    "rock_12::reverse::rev": {
+      "clap_htsat": 0.9438590407371521,
+      "clap_music": 0.9975398182868958,
+      "scs": 0.5255572124166726,
+      "fad_proxy": 0.6784804463386536
+    },
+    "rock_12::displacement::disp_near": {
+      "clap_htsat": 0.9668918251991272,
+      "clap_music": 0.9956289529800415,
+      "scs": 0.5728193228006861,
+      "fad_proxy": 0.7331843972206116
+    },
+    "rock_12::displacement::disp_far": {
+      "clap_htsat": 0.9132221341133118,
+      "clap_music": 0.993696928024292,
+      "scs": 0.5563233573308202,
+      "fad_proxy": 0.6292626261711121
+    },
+    "rock_13::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.9999999989626343,
+      "fad_proxy": 1.0
+    },
+    "rock_13::shuffle::shuf_beat": {
+      "clap_htsat": 0.9844702482223511,
+      "clap_music": 0.9981511831283569,
+      "scs": 0.5153450313668971,
+      "fad_proxy": 0.8004888296127319
+    },
+    "rock_13::shuffle::shuf_bar": {
+      "clap_htsat": 0.9936549663543701,
+      "clap_music": 0.9986453652381897,
+      "scs": 0.5423588880414896,
+      "fad_proxy": 0.8625808954238892
+    },
+    "rock_13::reverse::rev": {
+      "clap_htsat": 0.9209848046302795,
+      "clap_music": 0.9985736012458801,
+      "scs": 0.5300695553243578,
+      "fad_proxy": 0.6401258111000061
+    },
+    "rock_13::displacement::disp_near": {
+      "clap_htsat": 0.9756637215614319,
+      "clap_music": 0.9926881194114685,
+      "scs": 0.5628781332638703,
+      "fad_proxy": 0.7621941566467285
+    },
+    "rock_13::displacement::disp_far": {
+      "clap_htsat": 0.9562337398529053,
+      "clap_music": 0.9853370785713196,
+      "scs": 0.5327262390517004,
+      "fad_proxy": 0.7050158381462097
+    },
+    "rock_14::control::ctrl": {
+      "clap_htsat": 0.9999058246612549,
+      "clap_music": 0.9971417188644409,
+      "scs": 0.9999999432029372,
+      "fad_proxy": 0.98095703125
+    },
+    "rock_14::shuffle::shuf_beat": {
+      "clap_htsat": 0.9802013635635376,
+      "clap_music": 0.9885374903678894,
+      "scs": 0.6054528150420342,
+      "fad_proxy": 0.7803872227668762
+    },
+    "rock_14::shuffle::shuf_bar": {
+      "clap_htsat": 0.986016035079956,
+      "clap_music": 0.9890199303627014,
+      "scs": 0.6571288213926505,
+      "fad_proxy": 0.8087294101715088
+    },
+    "rock_14::reverse::rev": {
+      "clap_htsat": 0.9624748229980469,
+      "clap_music": 0.9905097484588623,
+      "scs": 0.7311744280064387,
+      "fad_proxy": 0.7207578420639038
+    },
+    "rock_14::displacement::disp_near": {
+      "clap_htsat": 0.9788060188293457,
+      "clap_music": 0.9668257832527161,
+      "scs": 0.6578059988009426,
+      "fad_proxy": 0.7744953632354736
+    },
+    "rock_14::displacement::disp_far": {
+      "clap_htsat": 0.9567710161209106,
+      "clap_music": 0.9407272338867188,
+      "scs": 0.6885885846147763,
+      "fad_proxy": 0.7062986493110657
+    },
+    "rock_15::control::ctrl": {
+      "clap_htsat": 1.0,
+      "clap_music": 1.0,
+      "scs": 0.999999998673786,
+      "fad_proxy": 1.0
+    },
+    "rock_15::shuffle::shuf_beat": {
+      "clap_htsat": 0.9806593656539917,
+      "clap_music": 0.9995965957641602,
+      "scs": 0.5697269191603473,
+      "fad_proxy": 0.7823861241340637
+    },
+    "rock_15::shuffle::shuf_bar": {
+      "clap_htsat": 0.9921004772186279,
+      "clap_music": 0.9996036887168884,
+      "scs": 0.556465053627073,
+      "fad_proxy": 0.8490700125694275
+    },
+    "rock_15::reverse::rev": {
+      "clap_htsat": 0.9030314683914185,
+      "clap_music": 0.9995840787887573,
+      "scs": 0.5559551649108271,
+      "fad_proxy": 0.6162205338478088
+    },
+    "rock_15::displacement::disp_near": {
+      "clap_htsat": 0.9916085004806519,
+      "clap_music": 0.9993635416030884,
+      "scs": 0.5662044381707145,
+      "fad_proxy": 0.8451577425003052
+    },
+    "rock_15::displacement::disp_far": {
+      "clap_htsat": 0.993882417678833,
+      "clap_music": 0.9989616870880127,
+      "scs": 0.6152232128345118,
+      "fad_proxy": 0.8647298812866211
+    }
+  }
+}

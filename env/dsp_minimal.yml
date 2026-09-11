@@ -1,0 +1,27 @@
+# Minimal DSP-env spec — the load-bearing packages only, versions VERIFIED on the
+# actual machine 2026-07-18 (importlib.metadata against ~/anaconda3/bin/python).
+# NB: the DSP env is the anaconda *base* env (full noisy export: dsp_environment.yml).
+# NB: earlier project notes listed higher versions (librosa 0.11,
+#     numpy 2.4, scipy 1.17, ...) — those were incorrect; these are the real ones.
+# The `rubberband` CLI binary (v4.0.0, at /usr/local/bin/rubberband) is REQUIRED in
+# addition to the pyrubberband pip wrapper (wrapper alone is a silent no-op).
+# conda pkg name for the binary is `rubberband-cli`, NOT `rubberband`.
+name: t2m-dsp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.9
+  - numpy=1.23.5
+  - scipy=1.10.0
+  - librosa=0.10.1
+  - pysoundfile=0.12.1
+  - matplotlib=3.7.0
+  - pandas=1.5.3
+  - scikit-learn=1.2.1
+  - rubberband-cli
+  - pip
+  - pip:
+      - pyrubberband==0.4.0
+# MF env (mfenv) lives on the remote AutoDL box — export it there with:
+#   conda env export -n mfenv > env/mf_environment.yml
+# (transformers + torch cu128 + nvidia/music-flamingo-2601-hf; see PROJECT_STATE §6)

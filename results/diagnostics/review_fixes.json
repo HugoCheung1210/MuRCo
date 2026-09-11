@@ -1,0 +1,312 @@
+{
+  "note": "Diagnosis block is protocol-stable and independent of MOS N; it was NOT re-run on 2026-08-27. The mos and ab_ties blocks WERE re-run at N=35 from result_7.csv. Numbers added by the 2026-08-23 reviewer pass. Diagnosis block: leave-one-track-out over 90 folds with the L2 strength chosen by a grouped inner split on the training fold only (nested), and a paired bootstrap over the 90 source tracks, 2000 resamples. This supersedes the sweep in clap_probe_sweep.json, which selected C on the folds it scored. Produced by scripts/analysis/review_fixes.py and doc/paper/_embed_rows.py.",
+  "diagnosis_nested": {
+    "clap768_diff": {
+      "dim": 768,
+      "acc": 0.8322,
+      "macro_f1": 0.7755
+    },
+    "clap768_full": {
+      "dim": 2304,
+      "acc": 0.8178,
+      "macro_f1": 0.7812
+    },
+    "HTRS": {
+      "dim": 4,
+      "acc": 0.86,
+      "macro_f1": 0.8416
+    },
+    "HTR": {
+      "dim": 3,
+      "acc": 0.85,
+      "macro_f1": 0.8275
+    },
+    "scs": {
+      "dim": 1,
+      "acc": 0.6678,
+      "macro_f1": 0.4561
+    },
+    "clap_cosine": {
+      "dim": 1,
+      "acc": 0.4994,
+      "macro_f1": 0.4709
+    },
+    "contrasts": {
+      "HTRS - HTR": {
+        "delta_acc": 0.0101,
+        "acc_ci95": [
+          -0.0011,
+          0.0206
+        ],
+        "delta_macro_f1": 0.0142,
+        "f1_ci95": [
+          -0.0004,
+          0.028
+        ],
+        "frac_le_zero_acc": 0.0415
+      },
+      "HTRS - clap768_diff": {
+        "delta_acc": 0.0279,
+        "acc_ci95": [
+          -0.0045,
+          0.0589
+        ],
+        "delta_macro_f1": 0.0664,
+        "f1_ci95": [
+          0.0327,
+          0.0998
+        ],
+        "frac_le_zero_acc": 0.044
+      },
+      "HTR - clap768_diff": {
+        "delta_acc": 0.0182,
+        "acc_ci95": [
+          -0.0133,
+          0.0489
+        ],
+        "delta_macro_f1": 0.0527,
+        "f1_ci95": [
+          0.0194,
+          0.0865
+        ],
+        "frac_le_zero_acc": 0.1215
+      },
+      "HTRS - scs": {
+        "delta_acc": 0.1925,
+        "acc_ci95": [
+          0.1622,
+          0.2233
+        ],
+        "delta_macro_f1": 0.3857,
+        "f1_ci95": [
+          0.3586,
+          0.4136
+        ],
+        "frac_le_zero_acc": 0.0
+      }
+    }
+  },
+  "mos": {
+    "n_pairs": 154,
+    "n_tracks": 59,
+    "ratings_per_pair": {
+      "min": 6,
+      "median": 8.0,
+      "max": 40,
+      "mean": 10.91
+    },
+    "pooled_r": {
+      "C": 0.7878,
+      "C_noS": 0.7483,
+      "clap": 0.6889,
+      "scs": 0.1668
+    },
+    "n_conditions": 20,
+    "within_condition_r": {
+      "C": 0.3436,
+      "C_noS": 0.3439,
+      "clap": 0.3232,
+      "scs": 0.3019
+    },
+    "within_condition_contrasts": {
+      "C - C_noS": {
+        "delta_r": 0.0005,
+        "ci95": [
+          -0.0595,
+          0.0598
+        ],
+        "excludes_zero": false
+      },
+      "C - clap": {
+        "delta_r": 0.015,
+        "ci95": [
+          -0.1509,
+          0.1781
+        ],
+        "excludes_zero": false
+      },
+      "C_noS - clap": {
+        "delta_r": 0.0145,
+        "ci95": [
+          -0.1671,
+          0.1875
+        ],
+        "excludes_zero": false
+      }
+    },
+    "noise_ceiling": {
+      "split_half_r": 0.8599,
+      "spearman_brown_full": 0.9247,
+      "n_splits": 500,
+      "note": "correlation between pair means from two disjoint halves of the rater pool, Spearman-Brown stepped up to the full pool"
+    },
+    "pair_mean_reliability": {
+      "icc_2_1_anchor": 0.829,
+      "k_median": 8.0,
+      "spearman_brown_icc_2_k": 0.9749
+    },
+    "clap_fitted_head": {
+      "n": 154,
+      "features": "clap768 pooled difference (e_B - e_A)",
+      "model": "ridge alpha=10, leave-one-track-out, grouped by source_id",
+      "held_out_r": 0.3029,
+      "note": "the fair upper bound for the cheap embedding: 768 fitted parameters against C's zero (uniform weights)"
+    }
+  },
+  "ab_ties_as_half": {
+    "note": "ties ('about the same') counted as half a win rather than dropped; cluster bootstrap over seeds, Holm correction across the five arms",
+    "arms": {
+      "C_noS": {
+        "n_trials_rated": 188,
+        "n_ties": 46,
+        "tie_fraction": 0.2447,
+        "win_rate_ties_half": 0.7021,
+        "ci95_cluster_by_seed": [
+          0.6379,
+          0.7663
+        ],
+        "p_boot_two_sided": 0.0005,
+        "p_holm": 0.0025,
+        "significant_holm_0.05": true
+      },
+      "clap_htsat": {
+        "n_trials_rated": 192,
+        "n_ties": 50,
+        "tie_fraction": 0.2604,
+        "win_rate_ties_half": 0.6458,
+        "ci95_cluster_by_seed": [
+          0.5529,
+          0.7308
+        ],
+        "p_boot_two_sided": 0.006,
+        "p_holm": 0.012,
+        "significant_holm_0.05": true
+      },
+      "clap_music": {
+        "n_trials_rated": 194,
+        "n_ties": 46,
+        "tie_fraction": 0.2371,
+        "win_rate_ties_half": 0.6237,
+        "ci95_cluster_by_seed": [
+          0.5278,
+          0.7135
+        ],
+        "p_boot_two_sided": 0.012,
+        "p_holm": 0.012,
+        "significant_holm_0.05": true
+      },
+      "cocola": {
+        "n_trials_rated": 237,
+        "n_ties": 56,
+        "tie_fraction": 0.2363,
+        "win_rate_ties_half": 0.7004,
+        "ci95_cluster_by_seed": [
+          0.6371,
+          0.7674
+        ],
+        "p_boot_two_sided": 0.0005,
+        "p_holm": 0.0025,
+        "significant_holm_0.05": true
+      },
+      "scs": {
+        "n_trials_rated": 219,
+        "n_ties": 62,
+        "tie_fraction": 0.2831,
+        "win_rate_ties_half": 0.6347,
+        "ci95_cluster_by_seed": [
+          0.5518,
+          0.7093
+        ],
+        "p_boot_two_sided": 0.0005,
+        "p_holm": 0.0025,
+        "significant_holm_0.05": true
+      }
+    }
+  },
+  "clap_fitted_head_mos": {
+    "clap768_fitted_r": 0.2825581835325669,
+    "clap512_fitted_r": 0.2121454942244806,
+    "C_uniform_r": 0.7772443701865167,
+    "alphas": [
+      0.1,
+      1,
+      10,
+      100,
+      1000,
+      10000.0,
+      100000.0
+    ],
+    "n": 154
+  },
+  "ab_ties": {
+    "note": "ties ('about the same') counted as half a win rather than dropped; cluster bootstrap over seeds, Holm correction across the five arms",
+    "arms": {
+      "C_noS": {
+        "n_trials_rated": 332,
+        "n_ties": 74,
+        "tie_fraction": 0.2229,
+        "win_rate_ties_half": 0.7018,
+        "ci95_cluster_by_seed": [
+          0.6426,
+          0.7627
+        ],
+        "p_boot_two_sided": 0.0005,
+        "p_holm": 0.0025,
+        "significant_holm_0.05": true
+      },
+      "clap_htsat": {
+        "n_trials_rated": 331,
+        "n_ties": 82,
+        "tie_fraction": 0.2477,
+        "win_rate_ties_half": 0.6435,
+        "ci95_cluster_by_seed": [
+          0.5432,
+          0.7292
+        ],
+        "p_boot_two_sided": 0.01,
+        "p_holm": 0.01,
+        "significant_holm_0.05": true
+      },
+      "clap_music": {
+        "n_trials_rated": 332,
+        "n_ties": 72,
+        "tie_fraction": 0.2169,
+        "win_rate_ties_half": 0.6446,
+        "ci95_cluster_by_seed": [
+          0.5482,
+          0.7298
+        ],
+        "p_boot_two_sided": 0.003,
+        "p_holm": 0.006,
+        "significant_holm_0.05": true
+      },
+      "cocola": {
+        "n_trials_rated": 408,
+        "n_ties": 93,
+        "tie_fraction": 0.2279,
+        "win_rate_ties_half": 0.7145,
+        "ci95_cluster_by_seed": [
+          0.6595,
+          0.7718
+        ],
+        "p_boot_two_sided": 0.0005,
+        "p_holm": 0.0025,
+        "significant_holm_0.05": true
+      },
+      "scs": {
+        "n_trials_rated": 378,
+        "n_ties": 93,
+        "tie_fraction": 0.246,
+        "win_rate_ties_half": 0.6521,
+        "ci95_cluster_by_seed": [
+          0.574,
+          0.7211
+        ],
+        "p_boot_two_sided": 0.0005,
+        "p_holm": 0.0025,
+        "significant_holm_0.05": true
+      }
+    }
+  },
+  "_note_N40": "mos and ab_ties recomputed at N=40 (2026-08-30, N40.csv); diagnosis_nested is MOS-independent and carried over from the previous run"
+}

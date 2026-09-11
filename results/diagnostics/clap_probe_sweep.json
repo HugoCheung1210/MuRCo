@@ -1,0 +1,153 @@
+{
+  "note": "R2 CLAP-embedding probe. Leave-one-track-out (90 folds, group=source_id), 1800 pairs, 5 perturbation families, identical protocol to diagnose_perturbation.py (verified: this harness reproduces its published HTRS 0.849/0.829, clap_htsat 0.498/0.465, scs 0.667/0.450). L2 strength C swept per feature set and the BEST taken for each, which favours the probe (no inner CV; C is chosen on the same folds it is scored on). max_iter=5000, converged. NB max_iter=400 raised 369/540 convergence warnings on the embedding sets, but they were benign: at max_iter=5000 the C=1 numbers are unchanged (clap768_diff 0.813/0.756 either way). The probe's gain to 0.834 comes from stronger L2, not from convergence.",
+  "logistic_regression_C_sweep": {
+    "HTRS": {
+      "0.05": [
+        0.82,
+        0.792
+      ],
+      "0.3": [
+        0.839,
+        0.817
+      ],
+      "1.0": [
+        0.849,
+        0.829
+      ],
+      "3.0": [
+        0.854,
+        0.834
+      ],
+      "10.0": [
+        0.86,
+        0.842
+      ]
+    },
+    "HTR": {
+      "0.05": [
+        0.792,
+        0.737
+      ],
+      "0.3": [
+        0.819,
+        0.784
+      ],
+      "1.0": [
+        0.83,
+        0.798
+      ],
+      "3.0": [
+        0.838,
+        0.81
+      ],
+      "10.0": [
+        0.85,
+        0.827
+      ]
+    },
+    "clap768_diff": {
+      "0.005": [
+        0.827,
+        0.765
+      ],
+      "0.01": [
+        0.832,
+        0.771
+      ],
+      "0.02": [
+        0.833,
+        0.773
+      ],
+      "0.05": [
+        0.834,
+        0.776
+      ],
+      "0.3": [
+        0.824,
+        0.767
+      ]
+    },
+    "clap768_full": {
+      "0.05": [
+        0.811,
+        0.778
+      ]
+    }
+  },
+  "best_of_sweep": {
+    "HTRS (4-d profile)": {
+      "acc": 0.86,
+      "macro_f1": 0.842,
+      "C": 10.0,
+      "dim": 4
+    },
+    "clap768_diff (embedding)": {
+      "acc": 0.834,
+      "macro_f1": 0.776,
+      "C": 0.05,
+      "dim": 768
+    },
+    "best published scalar": {
+      "acc": 0.667,
+      "macro_f1": 0.45,
+      "which": "scs",
+      "dim": 1
+    }
+  },
+  "margin_best_vs_best": {
+    "accuracy": 0.026,
+    "macro_f1": 0.064
+  },
+  "verdict": "The strong claim ('only a decomposition can identify the edit') does NOT survive: a raw 768-d CLAP embedding difference reaches 0.834/0.776, far above any single scalar (<=0.667/0.450). The 4-dim profile still wins, by +0.026 accuracy and +0.064 macro-F1, and the margin sits in macro-F1, i.e. on the minority families where the embedding collapses. Defensible claim: 4 interpretable dimensions (20 classifier parameters) beat 768 opaque ones (3840), and those 4 are what can be attributed, ablated, re-ranked and optimised against.",
+  "readout_fidelity": {
+    "note": "Embeddings extracted locally under transformers 4.40; the published clap_htsat cache came from the GPU box's older build. Cosine agreement: mean |delta| 7.6e-3, max 0.103.",
+    "control": "The locally recomputed cosine diagnoses at 0.496/0.471 against the published scalar's 0.498/0.465 -- the front-end version difference is irrelevant to this task."
+  },
+  "canonical_C1": {
+    "note": "C=1.0, max_iter=5000, the same setting as the published diagnosis table.",
+    "HTRS": [
+      0.849,
+      0.829
+    ],
+    "HTR": [
+      0.83,
+      0.798
+    ],
+    "clap768_diff": [
+      0.813,
+      0.756
+    ],
+    "clap768_full": [
+      0.798,
+      0.769
+    ],
+    "clap768_ab": [
+      0.689,
+      0.701
+    ],
+    "clap512_diff": [
+      0.738,
+      0.703
+    ],
+    "clap512_full": [
+      0.719,
+      0.702
+    ],
+    "clap512_ab": [
+      0.614,
+      0.634
+    ],
+    "scs_scalar": [
+      0.667,
+      0.45
+    ],
+    "cbase_scalar": [
+      0.646,
+      0.501
+    ],
+    "clap_htsat_scalar": [
+      0.498,
+      0.465
+    ]
+  }
+}

@@ -1,0 +1,207 @@
+{
+ "meta": {
+  "tau0": 6.0,
+  "n_pairs": 1890,
+  "taus": [
+   2.0,
+   3.0,
+   4.0,
+   6.0,
+   9.0,
+   12.0,
+   20.0
+  ],
+  "identity": "T_tau = T_tau0 ** (tau0 / tau); no audio rescored"
+ },
+ "by_tau": {
+  "2": {
+   "T_drops": {
+    "pitch_shift": 0.627715179994296,
+    "time_stretch": 0.32221754461670216,
+    "lowpass": 0.8167758739147334,
+    "distortion": 0.6790851386177088,
+    "style_swap": 0.9041082488710911
+   },
+   "C_drops": {
+    "pitch_shift": 0.270874423672113,
+    "time_stretch": 0.1541496902928096,
+    "lowpass": 0.3808618717421465,
+    "distortion": 0.2962227762327302,
+    "style_swap": 0.5209971358448632
+   },
+   "C_control": 0.9442941416111524,
+   "auc_C_broad": 0.975,
+   "auc_C_transpose": 0.9849,
+   "auc_T_broad": 0.9201,
+   "family_peak_dim": {
+    "pitch_shift": "T",
+    "time_stretch": "T",
+    "lowpass": "T",
+    "distortion": "T",
+    "style_swap": "T"
+   }
+  },
+  "3": {
+   "T_drops": {
+    "pitch_shift": 0.4962323238668629,
+    "time_stretch": 0.2311090413794963,
+    "lowpass": 0.7060989177442113,
+    "distortion": 0.5565625871168446,
+    "style_swap": 0.797450109928589
+   },
+   "C_drops": {
+    "pitch_shift": 0.2090171130429327,
+    "time_stretch": 0.12737915290510185,
+    "lowpass": 0.28250340075409613,
+    "distortion": 0.22391106721219786,
+    "style_swap": 0.4261597043477318
+   },
+   "C_control": 0.9447373875720582,
+   "auc_C_broad": 0.9821,
+   "auc_C_transpose": 0.9848,
+   "auc_T_broad": 0.9201,
+   "family_peak_dim": {
+    "pitch_shift": "T",
+    "time_stretch": "R",
+    "lowpass": "T",
+    "distortion": "T",
+    "style_swap": "T"
+   }
+  },
+  "4": {
+   "T_drops": {
+    "pitch_shift": 0.40838850799707316,
+    "time_stretch": 0.18000202379386215,
+    "lowpass": 0.6133270667324129,
+    "distortion": 0.4681884887917326,
+    "style_swap": 0.7009808136994037
+   },
+   "C_drops": {
+    "pitch_shift": 0.175440917767751,
+    "time_stretch": 0.1135823068917991,
+    "lowpass": 0.2258559155724963,
+    "distortion": 0.1837297515269546,
+    "style_swap": 0.37078078343558174
+   },
+   "C_control": 0.9449619820340545,
+   "auc_C_broad": 0.9845,
+   "auc_C_transpose": 0.9826,
+   "auc_T_broad": 0.9201,
+   "family_peak_dim": {
+    "pitch_shift": "T",
+    "time_stretch": "R",
+    "lowpass": "T",
+    "distortion": "T",
+    "style_swap": "T"
+   }
+  },
+  "6": {
+   "T_drops": {
+    "pitch_shift": 0.3004610888888889,
+    "time_stretch": 0.12472335555555555,
+    "lowpass": 0.47949795185185184,
+    "distortion": 0.35312861481481483,
+    "style_swap": 0.5553378333333334
+   },
+   "C_drops": {
+    "pitch_shift": 0.13994122476676257,
+    "time_stretch": 0.09950231497602155,
+    "lowpass": 0.16352825178160865,
+    "distortion": 0.14056050789103777,
+    "style_swap": 0.30929436513773256
+   },
+   "C_control": 0.9451885852767776,
+   "auc_C_broad": 0.9841,
+   "auc_C_transpose": 0.9762,
+   "auc_T_broad": 0.9201,
+   "family_peak_dim": {
+    "pitch_shift": "T",
+    "time_stretch": "R",
+    "lowpass": "T",
+    "distortion": "T",
+    "style_swap": "T"
+   }
+  },
+  "9": {
+   "T_drops": {
+    "pitch_shift": 0.21464456794157738,
+    "time_stretch": 0.0853568954372584,
+    "lowpass": 0.35810402394119456,
+    "distortion": 0.25693868094299194,
+    "style_swap": 0.41874179336002076
+   },
+   "C_drops": {
+    "pitch_shift": 0.11514222594136954,
+    "time_stretch": 0.08995500055211338,
+    "lowpass": 0.11852836863728654,
+    "distortion": 0.10999618598347342,
+    "style_swap": 0.2645742413400862
+   },
+   "C_control": 0.9453407805204164,
+   "auc_C_broad": 0.9803,
+   "auc_C_transpose": 0.9668,
+   "auc_T_broad": 0.9201,
+   "family_peak_dim": {
+    "pitch_shift": "T",
+    "time_stretch": "R",
+    "lowpass": "T",
+    "distortion": "T",
+    "style_swap": "T"
+   }
+  },
+  "12": {
+   "T_drops": {
+    "pitch_shift": 0.16682619790015368,
+    "time_stretch": 0.06487160953378898,
+    "lowpass": 0.284918258259381,
+    "distortion": 0.20164993847571944,
+    "style_swap": 0.3348417388065169
+   },
+   "C_drops": {
+    "pitch_shift": 0.1023877611525698,
+    "time_stretch": 0.08513237799925452,
+    "lowpass": 0.09492294793061327,
+    "distortion": 0.09414854991636266,
+    "style_swap": 0.24101341440503973
+   },
+   "C_control": 0.9454172184319318,
+   "auc_C_broad": 0.9762,
+   "auc_C_transpose": 0.9596,
+   "auc_T_broad": 0.9201,
+   "family_peak_dim": {
+    "pitch_shift": "T",
+    "time_stretch": "R",
+    "lowpass": "T",
+    "distortion": "T",
+    "style_swap": "T"
+   }
+  },
+  "20": {
+   "T_drops": {
+    "pitch_shift": 0.10457478399553158,
+    "time_stretch": 0.03955202455970367,
+    "lowpass": 0.1838843456743583,
+    "distortion": 0.1279526821981542,
+    "style_swap": 0.2174549159720386
+   },
+   "C_drops": {
+    "pitch_shift": 0.08676024044202109,
+    "time_stretch": 0.0793016595948578,
+    "lowpass": 0.06557708158834141,
+    "distortion": 0.07461425632167927,
+    "style_swap": 0.21162983948345326
+   },
+   "C_control": 0.9455092448472142,
+   "auc_C_broad": 0.9674,
+   "auc_C_transpose": 0.9475,
+   "auc_T_broad": 0.9201,
+   "family_peak_dim": {
+    "pitch_shift": "H",
+    "time_stretch": "R",
+    "lowpass": "T",
+    "distortion": "T",
+    "style_swap": "R"
+   }
+  }
+ }
+}

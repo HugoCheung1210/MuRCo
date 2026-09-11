@@ -1,0 +1,433 @@
+{
+ "scale_usage": {
+  "usage_fraction": {
+   "1": 0.063,
+   "2": 0.1545,
+   "3": 0.2745,
+   "4": 0.279,
+   "5": 0.229
+  },
+  "underused_points": [],
+  "collapsed": false,
+  "mean_by_condition": {
+   "ai_rerank_loser:0": 2.81,
+   "ai_rerank_winner:0": 3.3,
+   "control": 4.55,
+   "distortion:12": 3.38,
+   "distortion:32": 3.01,
+   "distortion:4": 4.25,
+   "lowpass:2000": 2.95,
+   "lowpass:4000": 3.8,
+   "lowpass:8000": 3.8,
+   "pitch_shift:-1": 4.05,
+   "pitch_shift:-2": 3.38,
+   "pitch_shift:-4": 2.54,
+   "pitch_shift:1": 3.53,
+   "pitch_shift:2": 3.77,
+   "pitch_shift:4": 3.03,
+   "style_swap:cross_genre": 1.91,
+   "time_stretch:-10": 3.28,
+   "time_stretch:-20": 3.56,
+   "time_stretch:-5": 3.94,
+   "time_stretch:10": 3.81,
+   "time_stretch:20": 3.73,
+   "time_stretch:5": 4.12
+  },
+  "note": "a point used <5% of the time means raters aren't resolving that level; if 4 is unused the question is being read as identity, not consistency"
+ },
+ "n_sessions": 40,
+ "n_kept": 40,
+ "dry_run_files": 40,
+ "attention_checks": {
+  "failed": [
+   "sim00",
+   "sim01",
+   "sim27",
+   "sim31",
+   "sim37"
+  ],
+  "thresholds": {
+   "control_mean_min": 4.0,
+   "swap_mean_max": 2.5
+  },
+  "per_rater": {
+   "sim00": {
+    "block": "block1",
+    "n_ratings": 50,
+    "control_mean": 2.4,
+    "swap_mean": 4.0,
+    "n_control_checks": 5,
+    "n_swap_checks": 3,
+    "passed": false
+   },
+   "sim01": {
+    "block": "block2",
+    "n_ratings": 50,
+    "control_mean": 3.5,
+    "swap_mean": 1.33,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": false
+   },
+   "sim02": {
+    "block": "block3",
+    "n_ratings": 50,
+    "control_mean": 4.5,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim03": {
+    "block": "block4",
+    "n_ratings": 50,
+    "control_mean": 4.5,
+    "swap_mean": 1.75,
+    "n_control_checks": 4,
+    "n_swap_checks": 4,
+    "passed": true
+   },
+   "sim04": {
+    "block": "block5",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 1.67,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim05": {
+    "block": "block1",
+    "n_ratings": 50,
+    "control_mean": 4.4,
+    "swap_mean": 1.67,
+    "n_control_checks": 5,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim06": {
+    "block": "block2",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim07": {
+    "block": "block3",
+    "n_ratings": 50,
+    "control_mean": 4.5,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim08": {
+    "block": "block4",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 1.75,
+    "n_control_checks": 4,
+    "n_swap_checks": 4,
+    "passed": true
+   },
+   "sim09": {
+    "block": "block5",
+    "n_ratings": 50,
+    "control_mean": 4.5,
+    "swap_mean": 2.33,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim10": {
+    "block": "block1",
+    "n_ratings": 50,
+    "control_mean": 4.4,
+    "swap_mean": 1.33,
+    "n_control_checks": 5,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim11": {
+    "block": "block2",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim12": {
+    "block": "block3",
+    "n_ratings": 50,
+    "control_mean": 4.5,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim13": {
+    "block": "block4",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 1.75,
+    "n_control_checks": 4,
+    "n_swap_checks": 4,
+    "passed": true
+   },
+   "sim14": {
+    "block": "block5",
+    "n_ratings": 50,
+    "control_mean": 4.25,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim15": {
+    "block": "block1",
+    "n_ratings": 50,
+    "control_mean": 5.0,
+    "swap_mean": 1.67,
+    "n_control_checks": 5,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim16": {
+    "block": "block2",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.33,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim17": {
+    "block": "block3",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim18": {
+    "block": "block4",
+    "n_ratings": 50,
+    "control_mean": 4.5,
+    "swap_mean": 2.25,
+    "n_control_checks": 4,
+    "n_swap_checks": 4,
+    "passed": true
+   },
+   "sim19": {
+    "block": "block5",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 1.67,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim20": {
+    "block": "block1",
+    "n_ratings": 50,
+    "control_mean": 4.6,
+    "swap_mean": 1.33,
+    "n_control_checks": 5,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim21": {
+    "block": "block2",
+    "n_ratings": 50,
+    "control_mean": 5.0,
+    "swap_mean": 1.67,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim22": {
+    "block": "block3",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 1.67,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim23": {
+    "block": "block4",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.25,
+    "n_control_checks": 4,
+    "n_swap_checks": 4,
+    "passed": true
+   },
+   "sim24": {
+    "block": "block5",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim25": {
+    "block": "block1",
+    "n_ratings": 50,
+    "control_mean": 5.0,
+    "swap_mean": 1.67,
+    "n_control_checks": 5,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim26": {
+    "block": "block2",
+    "n_ratings": 50,
+    "control_mean": 4.5,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim27": {
+    "block": "block3",
+    "n_ratings": 50,
+    "control_mean": 3.5,
+    "swap_mean": 1.33,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": false
+   },
+   "sim28": {
+    "block": "block4",
+    "n_ratings": 50,
+    "control_mean": 4.5,
+    "swap_mean": 1.25,
+    "n_control_checks": 4,
+    "n_swap_checks": 4,
+    "passed": true
+   },
+   "sim29": {
+    "block": "block5",
+    "n_ratings": 50,
+    "control_mean": 4.25,
+    "swap_mean": 1.67,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim30": {
+    "block": "block1",
+    "n_ratings": 50,
+    "control_mean": 4.8,
+    "swap_mean": 1.33,
+    "n_control_checks": 5,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim31": {
+    "block": "block2",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.67,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": false
+   },
+   "sim32": {
+    "block": "block3",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 1.67,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim33": {
+    "block": "block4",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.25,
+    "n_control_checks": 4,
+    "n_swap_checks": 4,
+    "passed": true
+   },
+   "sim34": {
+    "block": "block5",
+    "n_ratings": 50,
+    "control_mean": 5.0,
+    "swap_mean": 1.67,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim35": {
+    "block": "block1",
+    "n_ratings": 50,
+    "control_mean": 4.8,
+    "swap_mean": 2.33,
+    "n_control_checks": 5,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim36": {
+    "block": "block2",
+    "n_ratings": 50,
+    "control_mean": 4.5,
+    "swap_mean": 1.67,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   },
+   "sim37": {
+    "block": "block3",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.67,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": false
+   },
+   "sim38": {
+    "block": "block4",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 4,
+    "passed": true
+   },
+   "sim39": {
+    "block": "block5",
+    "n_ratings": 50,
+    "control_mean": 4.75,
+    "swap_mean": 2.0,
+    "n_control_checks": 4,
+    "n_swap_checks": 3,
+    "passed": true
+   }
+  }
+ },
+ "pairs_with_ratings": 190,
+ "ratings_per_pair": {
+  "min": 8,
+  "median": 8.0,
+  "max": 40
+ },
+ "anchor_icc": {
+  "n_anchor_complete": 15,
+  "n_raters": 40,
+  "icc_2_1": 0.662,
+  "icc_2_k": 0.987
+ },
+ "unknown_stimulus_ids": [],
+ "outputs": {
+  "mos": "results/mos_sim.csv",
+  "detail": "results/mos_sim_detail.csv"
+ }
+}

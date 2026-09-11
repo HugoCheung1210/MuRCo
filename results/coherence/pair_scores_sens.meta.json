@@ -1,0 +1,8 @@
+{
+  "variant": "ensemble",
+  "source_scores": "results/pair_scores.csv",
+  "s_cache": "results/s_scores.json",
+  "s_cache_2": "results/s_scores_omni.json",
+  "n_rows": 1890,
+  "note": "S_ens = mean(rank_MF, rank_Omni) rescaled to [0,1]; a RANK score -- absolute values are not comparable to raw S, only orderings/AUCs are."
+}

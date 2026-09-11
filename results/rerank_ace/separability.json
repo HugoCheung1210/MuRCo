@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "experiment": "E-D best-of-N rerank",
+    "regime": "ace inpaint",
+    "backend": "ace",
+    "region": [
+      4.0,
+      6.0
+    ],
+    "mask_s": [
+      5.0,
+      8.0
+    ],
+    "gap_s": 1.0,
+    "sr": 48000,
+    "seconds": 6.0,
+    "n_candidates": 8,
+    "n_seeds": 40,
+    "pilot": false,
+    "seed_stride": 100,
+    "note": "standard pairs manifest; A=seed region window (shared), B=candidate region window; score with the existing scorers"
+  },
+  "rows": [
+    {
+      "dimension": "H",
+      "n_control_sources": 0,
+      "per_family": [],
+      "per_magnitude": []
+    },
+    {
+      "dimension": "T",
+      "n_control_sources": 0,
+      "per_family": [],
+      "per_magnitude": []
+    },
+    {
+      "dimension": "R",
+      "n_control_sources": 0,
+      "per_family": [],
+      "per_magnitude": []
+    },
+    {
+      "dimension": "S",
+      "n_control_sources": 0,
+      "per_family": [],
+      "per_magnitude": []
+    }
+  ]
+}

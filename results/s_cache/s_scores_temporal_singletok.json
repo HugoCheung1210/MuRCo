@@ -1,0 +1,3860 @@
+{
+  "meta": {
+    "sr": 48000,
+    "seconds": 8.0,
+    "offset": 6.0,
+    "families": [
+      "O"
+    ],
+    "seed": 42,
+    "dsp_backend": "rubberband",
+    "formant_preserving": true,
+    "n_sources": 90,
+    "n_pairs": 540,
+    "pitch_steps": [
+      -4,
+      -2,
+      -1,
+      1,
+      2,
+      4
+    ],
+    "time_stretch_percent": [
+      -20,
+      -10,
+      -5,
+      5,
+      10,
+      20
+    ],
+    "lowpass_cutoffs_hz": [
+      8000,
+      4000,
+      2000
+    ],
+    "distortion_drives": [
+      4.0,
+      12.0,
+      32.0
+    ],
+    "s_backend": "music_flamingo",
+    "scorer": "coherence",
+    "secs": 8.0,
+    "gap_s": 1.0,
+    "n_samples": 1,
+    "model_id": "nvidia/music-flamingo-2601-hf",
+    "templates": [
+      "Does segment B cohere naturally with segment A as the same continuous piece?",
+      "Do both segments share the same instrumentation and timbral character?",
+      "Does B preserve the musical identity (same instruments, same style) of A?",
+      "Would a listener say these two segments belong to the same track?"
+    ],
+    "per_template_order": [
+      "Does segment B cohere naturally with segment A as the same continuous piece?",
+      "Do both segments share the same instrumentation and timbral character?",
+      "Does B preserve the musical identity (same instruments, same style) of A?",
+      "Would a listener say these two segments belong to the same track?"
+    ],
+    "token_agg": "single",
+    "preamble": "default",
+    "preamble_text": "This audio contains two consecutive segments, A then B.",
+    "peak_safe_concat": true,
+    "precision_requested": "all_bf16",
+    "precision_actual": {
+      "precision": "all_bf16",
+      "loaded": true,
+      "model_dtype": "torch.bfloat16",
+      "audio_encoder_module": null,
+      "audio_encoder_dtype": null,
+      "param_dtypes": {
+        "torch.bfloat16": 517
+      },
+      "torch": "2.10.0+cu128"
+    },
+    "subset": null
+  },
+  "scores": {
+    "classical_01::control::ctrl": 0.8824537098407745,
+    "classical_01::shuffle::shuf_beat": 0.8983396887779236,
+    "classical_01::shuffle::shuf_bar": 0.8961085379123688,
+    "classical_01::reverse::rev": 0.8421117514371872,
+    "classical_01::displacement::disp_near": 0.8591674119234085,
+    "classical_01::displacement::disp_far": 0.8969154953956604,
+    "classical_02::control::ctrl": 0.7992127239704132,
+    "classical_02::shuffle::shuf_beat": 0.7849594950675964,
+    "classical_02::shuffle::shuf_bar": 0.8100098073482513,
+    "classical_02::reverse::rev": 0.7940002381801605,
+    "classical_02::displacement::disp_near": 0.7685319036245346,
+    "classical_02::displacement::disp_far": 0.8081474453210831,
+    "classical_03::control::ctrl": 0.8122152537107468,
+    "classical_03::shuffle::shuf_beat": 0.7854084223508835,
+    "classical_03::shuffle::shuf_bar": 0.796379804611206,
+    "classical_03::reverse::rev": 0.8069460988044739,
+    "classical_03::displacement::disp_near": 0.652581661939621,
+    "classical_03::displacement::disp_far": 0.6357597261667252,
+    "classical_04::control::ctrl": 0.8400561064481735,
+    "classical_04::shuffle::shuf_beat": 0.7917313277721405,
+    "classical_04::shuffle::shuf_bar": 0.8162926584482193,
+    "classical_04::reverse::rev": 0.7486822009086609,
+    "classical_04::displacement::disp_near": 0.7993975132703781,
+    "classical_04::displacement::disp_far": 0.8002315014600754,
+    "classical_05::control::ctrl": 0.8426588624715805,
+    "classical_05::shuffle::shuf_beat": 0.8603329062461853,
+    "classical_05::shuffle::shuf_bar": 0.8486403375864029,
+    "classical_05::reverse::rev": 0.8047098219394684,
+    "classical_05::displacement::disp_near": 0.8234220743179321,
+    "classical_05::displacement::disp_far": 0.7527541369199753,
+    "classical_06::control::ctrl": 0.6738084107637405,
+    "classical_06::shuffle::shuf_beat": 0.6953077763319016,
+    "classical_06::shuffle::shuf_bar": 0.6732577383518219,
+    "classical_06::reverse::rev": 0.6180475875735283,
+    "classical_06::displacement::disp_near": 0.5829573571681976,
+    "classical_06::displacement::disp_far": 0.5969243720173836,
+    "classical_07::control::ctrl": 0.7370936125516891,
+    "classical_07::shuffle::shuf_beat": 0.8254429847002029,
+    "classical_07::shuffle::shuf_bar": 0.8134622275829315,
+    "classical_07::reverse::rev": 0.8130192756652832,
+    "classical_07::displacement::disp_near": 0.7243024855852127,
+    "classical_07::displacement::disp_far": 0.7099834680557251,
+    "classical_08::control::ctrl": 0.8523242026567459,
+    "classical_08::shuffle::shuf_beat": 0.861112505197525,
+    "classical_08::shuffle::shuf_bar": 0.8475163727998734,
+    "classical_08::reverse::rev": 0.8467263281345367,
+    "classical_08::displacement::disp_near": 0.7940002381801605,
+    "classical_08::displacement::disp_far": 0.7754196375608444,
+    "classical_09::control::ctrl": 0.758699506521225,
+    "classical_09::shuffle::shuf_beat": 0.7600869238376617,
+    "classical_09::shuffle::shuf_bar": 0.7291480600833893,
+    "classical_09::reverse::rev": 0.726118192076683,
+    "classical_09::displacement::disp_near": 0.6597718894481659,
+    "classical_09::displacement::disp_far": 0.6338674575090408,
+    "classical_10::control::ctrl": 0.8057505339384079,
+    "classical_10::shuffle::shuf_beat": 0.8190404921770096,
+    "classical_10::shuffle::shuf_bar": 0.8294511139392853,
+    "classical_10::reverse::rev": 0.7499282211065292,
+    "classical_10::displacement::disp_near": 0.7034046351909637,
+    "classical_10::displacement::disp_far": 0.7614963203668594,
+    "classical_11::control::ctrl": 0.8339968174695969,
+    "classical_11::shuffle::shuf_beat": 0.802161231637001,
+    "classical_11::shuffle::shuf_bar": 0.7800649702548981,
+    "classical_11::reverse::rev": 0.7469887733459473,
+    "classical_11::displacement::disp_near": 0.6368115246295929,
+    "classical_11::displacement::disp_far": 0.7313659489154816,
+    "classical_12::control::ctrl": 0.8637973368167877,
+    "classical_12::shuffle::shuf_beat": 0.8704303652048111,
+    "classical_12::shuffle::shuf_bar": 0.8948265612125397,
+    "classical_12::reverse::rev": 0.8367053866386414,
+    "classical_12::displacement::disp_near": 0.8126306533813477,
+    "classical_12::displacement::disp_far": 0.8034108579158783,
+    "classical_13::control::ctrl": 0.7376035004854202,
+    "classical_13::shuffle::shuf_beat": 0.7584415972232819,
+    "classical_13::shuffle::shuf_bar": 0.7507554590702057,
+    "classical_13::reverse::rev": 0.6840333193540573,
+    "classical_13::displacement::disp_near": 0.7183165699243546,
+    "classical_13::displacement::disp_far": 0.6893430799245834,
+    "classical_14::control::ctrl": 0.8255254626274109,
+    "classical_14::shuffle::shuf_beat": 0.8787012845277786,
+    "classical_14::shuffle::shuf_bar": 0.8281974047422409,
+    "classical_14::reverse::rev": 0.7855135351419449,
+    "classical_14::displacement::disp_near": 0.853032112121582,
+    "classical_14::displacement::disp_far": 0.809495136141777,
+    "classical_15::control::ctrl": 0.791923776268959,
+    "classical_15::shuffle::shuf_beat": 0.7475344985723495,
+    "classical_15::shuffle::shuf_bar": 0.7592486888170242,
+    "classical_15::reverse::rev": 0.6834645122289658,
+    "classical_15::displacement::disp_near": 0.6195984184741974,
+    "classical_15::displacement::disp_far": 0.5732683837413788,
+    "ambient_01::control::ctrl": 0.6819607615470886,
+    "ambient_01::shuffle::shuf_beat": 0.7066906839609146,
+    "ambient_01::shuffle::shuf_bar": 0.701389953494072,
+    "ambient_01::reverse::rev": 0.6362280696630478,
+    "ambient_01::displacement::disp_near": 0.7483980804681778,
+    "ambient_01::displacement::disp_far": 0.6278731375932693,
+    "ambient_02::control::ctrl": 0.6170619651675224,
+    "ambient_02::shuffle::shuf_beat": 0.6674768850207329,
+    "ambient_02::shuffle::shuf_bar": 0.6598507314920425,
+    "ambient_02::reverse::rev": 0.5807143747806549,
+    "ambient_02::displacement::disp_near": 0.5383566319942474,
+    "ambient_02::displacement::disp_far": 0.5193738415837288,
+    "ambient_03::control::ctrl": 0.8440914899110794,
+    "ambient_03::shuffle::shuf_beat": 0.8535654544830322,
+    "ambient_03::shuffle::shuf_bar": 0.8603109121322632,
+    "ambient_03::reverse::rev": 0.7898608595132828,
+    "ambient_03::displacement::disp_near": 0.8367484211921692,
+    "ambient_03::displacement::disp_far": 0.8128019273281097,
+    "ambient_04::control::ctrl": 0.7947223335504532,
+    "ambient_04::shuffle::shuf_beat": 0.7999016791582108,
+    "ambient_04::shuffle::shuf_bar": 0.8075706213712692,
+    "ambient_04::reverse::rev": 0.7925773561000824,
+    "ambient_04::displacement::disp_near": 0.746221661567688,
+    "ambient_04::displacement::disp_far": 0.7301129251718521,
+    "ambient_05::control::ctrl": 0.784430131316185,
+    "ambient_05::shuffle::shuf_beat": 0.7672752141952515,
+    "ambient_05::shuffle::shuf_bar": 0.781118243932724,
+    "ambient_05::reverse::rev": 0.7639081180095673,
+    "ambient_05::displacement::disp_near": 0.8133488148450851,
+    "ambient_05::displacement::disp_far": 0.7522135823965073,
+    "ambient_06::control::ctrl": 0.8738224655389786,
+    "ambient_06::shuffle::shuf_beat": 0.8680678457021713,
+    "ambient_06::shuffle::shuf_bar": 0.9042696058750153,
+    "ambient_06::reverse::rev": 0.836899071931839,
+    "ambient_06::displacement::disp_near": 0.8145017027854919,
+    "ambient_06::displacement::disp_far": 0.8044679015874863,
+    "ambient_07::control::ctrl": 0.8705434501171112,
+    "ambient_07::shuffle::shuf_beat": 0.8777490556240082,
+    "ambient_07::shuffle::shuf_bar": 0.8990281522274017,
+    "ambient_07::reverse::rev": 0.8535488843917847,
+    "ambient_07::displacement::disp_near": 0.8302476853132248,
+    "ambient_07::displacement::disp_far": 0.8145728707313538,
+    "ambient_08::control::ctrl": 0.8588458448648453,
+    "ambient_08::shuffle::shuf_beat": 0.8426430225372314,
+    "ambient_08::shuffle::shuf_bar": 0.8748579919338226,
+    "ambient_08::reverse::rev": 0.8666046112775803,
+    "ambient_08::displacement::disp_near": 0.7252181172370911,
+    "ambient_08::displacement::disp_far": 0.6583744138479233,
+    "ambient_09::control::ctrl": 0.8269199877977371,
+    "ambient_09::shuffle::shuf_beat": 0.814878448843956,
+    "ambient_09::shuffle::shuf_bar": 0.8150642216205597,
+    "ambient_09::reverse::rev": 0.8340384513139725,
+    "ambient_09::displacement::disp_near": 0.7411440759897232,
+    "ambient_09::displacement::disp_far": 0.7302330434322357,
+    "ambient_10::control::ctrl": 0.7223938703536987,
+    "ambient_10::shuffle::shuf_beat": 0.684133768081665,
+    "ambient_10::shuffle::shuf_bar": 0.6744223386049271,
+    "ambient_10::reverse::rev": 0.7211898118257523,
+    "ambient_10::displacement::disp_near": 0.6798308938741684,
+    "ambient_10::displacement::disp_far": 0.7021914124488831,
+    "ambient_11::control::ctrl": 0.8308694958686829,
+    "ambient_11::shuffle::shuf_beat": 0.8749446421861649,
+    "ambient_11::shuffle::shuf_bar": 0.8748142123222351,
+    "ambient_11::reverse::rev": 0.7956650406122208,
+    "ambient_11::displacement::disp_near": 0.6909525096416473,
+    "ambient_11::displacement::disp_far": 0.6755335330963135,
+    "ambient_12::control::ctrl": 0.5769982635974884,
+    "ambient_12::shuffle::shuf_beat": 0.5039427727460861,
+    "ambient_12::shuffle::shuf_bar": 0.5194491073489189,
+    "ambient_12::reverse::rev": 0.51953936368227,
+    "ambient_12::displacement::disp_near": 0.5195167735219002,
+    "ambient_12::displacement::disp_far": 0.46573470532894135,
+    "ambient_13::control::ctrl": 0.8612104058265686,
+    "ambient_13::shuffle::shuf_beat": 0.8640622645616531,
+    "ambient_13::shuffle::shuf_bar": 0.8793915212154388,
+    "ambient_13::reverse::rev": 0.8618771880865097,
+    "ambient_13::displacement::disp_near": 0.7727814614772797,
+    "ambient_13::displacement::disp_far": 0.7848260551691055,
+    "ambient_14::control::ctrl": 0.8234530091285706,
+    "ambient_14::shuffle::shuf_beat": 0.828812763094902,
+    "ambient_14::shuffle::shuf_bar": 0.8395366072654724,
+    "ambient_14::reverse::rev": 0.8378790318965912,
+    "ambient_14::displacement::disp_near": 0.809386357665062,
+    "ambient_14::displacement::disp_far": 0.7961280196905136,
+    "ambient_15::control::ctrl": 0.7681380361318588,
+    "ambient_15::shuffle::shuf_beat": 0.7872028797864914,
+    "ambient_15::shuffle::shuf_bar": 0.8070156872272491,
+    "ambient_15::reverse::rev": 0.770301103591919,
+    "ambient_15::displacement::disp_near": 0.7584978342056274,
+    "ambient_15::displacement::disp_far": 0.7751017659902573,
+    "electronic_01::control::ctrl": 0.5886344835162163,
+    "electronic_01::shuffle::shuf_beat": 0.6495954245328903,
+    "electronic_01::shuffle::shuf_bar": 0.6354240700602531,
+    "electronic_01::reverse::rev": 0.5911595970392227,
+    "electronic_01::displacement::disp_near": 0.5656265914440155,
+    "electronic_01::displacement::disp_far": 0.530820794403553,
+    "electronic_02::control::ctrl": 0.9149477928876877,
+    "electronic_02::shuffle::shuf_beat": 0.9218729138374329,
+    "electronic_02::shuffle::shuf_bar": 0.9348572194576263,
+    "electronic_02::reverse::rev": 0.8957517743110657,
+    "electronic_02::displacement::disp_near": 0.896855503320694,
+    "electronic_02::displacement::disp_far": 0.8664555847644806,
+    "electronic_03::control::ctrl": 0.819494903087616,
+    "electronic_03::shuffle::shuf_beat": 0.8685580343008041,
+    "electronic_03::shuffle::shuf_bar": 0.8683128654956818,
+    "electronic_03::reverse::rev": 0.8378662317991257,
+    "electronic_03::displacement::disp_near": 0.7500804513692856,
+    "electronic_03::displacement::disp_far": 0.7345403432846069,
+    "electronic_04::control::ctrl": 0.7917511761188507,
+    "electronic_04::shuffle::shuf_beat": 0.7783330827951431,
+    "electronic_04::shuffle::shuf_bar": 0.797877699136734,
+    "electronic_04::reverse::rev": 0.7467516362667084,
+    "electronic_04::displacement::disp_near": 0.7860621213912964,
+    "electronic_04::displacement::disp_far": 0.7898059487342834,
+    "electronic_05::control::ctrl": 0.902538999915123,
+    "electronic_05::shuffle::shuf_beat": 0.9267634451389313,
+    "electronic_05::shuffle::shuf_bar": 0.933167353272438,
+    "electronic_05::reverse::rev": 0.9020222425460815,
+    "electronic_05::displacement::disp_near": 0.8645286560058594,
+    "electronic_05::displacement::disp_far": 0.8591116368770599,
+    "electronic_06::control::ctrl": 0.8196577876806259,
+    "electronic_06::shuffle::shuf_beat": 0.8335006684064865,
+    "electronic_06::shuffle::shuf_bar": 0.8459238111972809,
+    "electronic_06::reverse::rev": 0.8273903876543045,
+    "electronic_06::displacement::disp_near": 0.7113679796457291,
+    "electronic_06::displacement::disp_far": 0.7383345663547516,
+    "electronic_07::control::ctrl": 0.7498439997434616,
+    "electronic_07::shuffle::shuf_beat": 0.8055876642465591,
+    "electronic_07::shuffle::shuf_bar": 0.8037769496440887,
+    "electronic_07::reverse::rev": 0.7227111160755157,
+    "electronic_07::displacement::disp_near": 0.7039857059717178,
+    "electronic_07::displacement::disp_far": 0.7314926087856293,
+    "electronic_08::control::ctrl": 0.8909740298986435,
+    "electronic_08::shuffle::shuf_beat": 0.8869149386882782,
+    "electronic_08::shuffle::shuf_bar": 0.8984567672014236,
+    "electronic_08::reverse::rev": 0.8611759841442108,
+    "electronic_08::displacement::disp_near": 0.8065821379423141,
+    "electronic_08::displacement::disp_far": 0.7828521430492401,
+    "electronic_09::control::ctrl": 0.8163966089487076,
+    "electronic_09::shuffle::shuf_beat": 0.8559288680553436,
+    "electronic_09::shuffle::shuf_bar": 0.8364031612873077,
+    "electronic_09::reverse::rev": 0.7234935611486435,
+    "electronic_09::displacement::disp_near": 0.7249846309423447,
+    "electronic_09::displacement::disp_far": 0.7755127102136612,
+    "electronic_10::control::ctrl": 0.806904211640358,
+    "electronic_10::shuffle::shuf_beat": 0.8159036785364151,
+    "electronic_10::shuffle::shuf_bar": 0.8402879387140274,
+    "electronic_10::reverse::rev": 0.7731514871120453,
+    "electronic_10::displacement::disp_near": 0.7526634931564331,
+    "electronic_10::displacement::disp_far": 0.7614918053150177,
+    "electronic_11::control::ctrl": 0.8422451913356781,
+    "electronic_11::shuffle::shuf_beat": 0.8095695078372955,
+    "electronic_11::shuffle::shuf_bar": 0.8169901221990585,
+    "electronic_11::reverse::rev": 0.7415791749954224,
+    "electronic_11::displacement::disp_near": 0.7698401659727097,
+    "electronic_11::displacement::disp_far": 0.5840582698583603,
+    "electronic_12::control::ctrl": 0.8151498883962631,
+    "electronic_12::shuffle::shuf_beat": 0.8483542650938034,
+    "electronic_12::shuffle::shuf_bar": 0.8554053157567978,
+    "electronic_12::reverse::rev": 0.846567377448082,
+    "electronic_12::displacement::disp_near": 0.8376553654670715,
+    "electronic_12::displacement::disp_far": 0.7934380620718002,
+    "electronic_13::control::ctrl": 0.8734088987112045,
+    "electronic_13::shuffle::shuf_beat": 0.8794965147972107,
+    "electronic_13::shuffle::shuf_bar": 0.8954556584358215,
+    "electronic_13::reverse::rev": 0.8404300063848495,
+    "electronic_13::displacement::disp_near": 0.8137733489274979,
+    "electronic_13::displacement::disp_far": 0.7553419321775436,
+    "electronic_14::control::ctrl": 0.7608596980571747,
+    "electronic_14::shuffle::shuf_beat": 0.755465105175972,
+    "electronic_14::shuffle::shuf_bar": 0.7740255296230316,
+    "electronic_14::reverse::rev": 0.7752527147531509,
+    "electronic_14::displacement::disp_near": 0.681197002530098,
+    "electronic_14::displacement::disp_far": 0.7113218903541565,
+    "electronic_15::control::ctrl": 0.8054195791482925,
+    "electronic_15::shuffle::shuf_beat": 0.8017440736293793,
+    "electronic_15::shuffle::shuf_bar": 0.8110698461532593,
+    "electronic_15::reverse::rev": 0.7719893008470535,
+    "electronic_15::displacement::disp_near": 0.7738366276025772,
+    "electronic_15::displacement::disp_far": 0.7505846917629242,
+    "folk_01::control::ctrl": 0.8262519389390945,
+    "folk_01::shuffle::shuf_beat": 0.8334732055664062,
+    "folk_01::shuffle::shuf_bar": 0.8258927762508392,
+    "folk_01::reverse::rev": 0.7685943245887756,
+    "folk_01::displacement::disp_near": 0.8147392272949219,
+    "folk_01::displacement::disp_far": 0.8085219413042068,
+    "folk_02::control::ctrl": 0.7552521377801895,
+    "folk_02::shuffle::shuf_beat": 0.7593818604946136,
+    "folk_02::shuffle::shuf_bar": 0.8472377508878708,
+    "folk_02::reverse::rev": 0.7759799808263779,
+    "folk_02::displacement::disp_near": 0.7143910527229309,
+    "folk_02::displacement::disp_far": 0.71673384308815,
+    "folk_03::control::ctrl": 0.9075364917516708,
+    "folk_03::shuffle::shuf_beat": 0.8898914158344269,
+    "folk_03::shuffle::shuf_bar": 0.8921109437942505,
+    "folk_03::reverse::rev": 0.8355850875377655,
+    "folk_03::displacement::disp_near": 0.746311292052269,
+    "folk_03::displacement::disp_far": 0.8587751984596252,
+    "folk_04::control::ctrl": 0.8147265762090683,
+    "folk_04::shuffle::shuf_beat": 0.7544636130332947,
+    "folk_04::shuffle::shuf_bar": 0.7389390766620636,
+    "folk_04::reverse::rev": 0.7192795276641846,
+    "folk_04::displacement::disp_near": 0.7485135644674301,
+    "folk_04::displacement::disp_far": 0.696479856967926,
+    "folk_05::control::ctrl": 0.8233108073472977,
+    "folk_05::shuffle::shuf_beat": 0.8480712920427322,
+    "folk_05::shuffle::shuf_bar": 0.8461741358041763,
+    "folk_05::reverse::rev": 0.8321587592363358,
+    "folk_05::displacement::disp_near": 0.7478044331073761,
+    "folk_05::displacement::disp_far": 0.6394049748778343,
+    "folk_06::control::ctrl": 0.8215630650520325,
+    "folk_06::shuffle::shuf_beat": 0.8363747745752335,
+    "folk_06::shuffle::shuf_bar": 0.8150052428245544,
+    "folk_06::reverse::rev": 0.7770679295063019,
+    "folk_06::displacement::disp_near": 0.729399174451828,
+    "folk_06::displacement::disp_far": 0.7172339707612991,
+    "folk_07::control::ctrl": 0.8424828052520752,
+    "folk_07::shuffle::shuf_beat": 0.8735362887382507,
+    "folk_07::shuffle::shuf_bar": 0.8935252279043198,
+    "folk_07::reverse::rev": 0.7719149142503738,
+    "folk_07::displacement::disp_near": 0.7503125220537186,
+    "folk_07::displacement::disp_far": 0.6842136383056641,
+    "folk_08::control::ctrl": 0.850422665476799,
+    "folk_08::shuffle::shuf_beat": 0.7780167907476425,
+    "folk_08::shuffle::shuf_bar": 0.8734510391950607,
+    "folk_08::reverse::rev": 0.7777554243803024,
+    "folk_08::displacement::disp_near": 0.8157433420419693,
+    "folk_08::displacement::disp_far": 0.7757344841957092,
+    "folk_09::control::ctrl": 0.8422301113605499,
+    "folk_09::shuffle::shuf_beat": 0.8177080452442169,
+    "folk_09::shuffle::shuf_bar": 0.8370668143033981,
+    "folk_09::reverse::rev": 0.8102380335330963,
+    "folk_09::displacement::disp_near": 0.8254462033510208,
+    "folk_09::displacement::disp_far": 0.8310382813215256,
+    "folk_10::control::ctrl": 0.8444586843252182,
+    "folk_10::shuffle::shuf_beat": 0.8044881671667099,
+    "folk_10::shuffle::shuf_bar": 0.7689234614372253,
+    "folk_10::reverse::rev": 0.6908886432647705,
+    "folk_10::displacement::disp_near": 0.7351764142513275,
+    "folk_10::displacement::disp_far": 0.7401239275932312,
+    "folk_11::control::ctrl": 0.7525822669267654,
+    "folk_11::shuffle::shuf_beat": 0.7376864552497864,
+    "folk_11::shuffle::shuf_bar": 0.766695573925972,
+    "folk_11::reverse::rev": 0.7060468047857285,
+    "folk_11::displacement::disp_near": 0.7592474073171616,
+    "folk_11::displacement::disp_far": 0.7555277049541473,
+    "folk_12::control::ctrl": 0.7043519467115402,
+    "folk_12::shuffle::shuf_beat": 0.7467118352651596,
+    "folk_12::shuffle::shuf_bar": 0.7015072852373123,
+    "folk_12::reverse::rev": 0.6056086421012878,
+    "folk_12::displacement::disp_near": 0.7062121629714966,
+    "folk_12::displacement::disp_far": 0.7377729117870331,
+    "folk_13::control::ctrl": 0.7563502192497253,
+    "folk_13::shuffle::shuf_beat": 0.79958376288414,
+    "folk_13::shuffle::shuf_bar": 0.7993043512105942,
+    "folk_13::reverse::rev": 0.7623520195484161,
+    "folk_13::displacement::disp_near": 0.7109620720148087,
+    "folk_13::displacement::disp_far": 0.7565895766019821,
+    "folk_14::control::ctrl": 0.8224440515041351,
+    "folk_14::shuffle::shuf_beat": 0.7648142427206039,
+    "folk_14::shuffle::shuf_bar": 0.8077569454908371,
+    "folk_14::reverse::rev": 0.6853434443473816,
+    "folk_14::displacement::disp_near": 0.807841032743454,
+    "folk_14::displacement::disp_far": 0.8096735179424286,
+    "folk_15::control::ctrl": 0.6842057257890701,
+    "folk_15::shuffle::shuf_beat": 0.5978917330503464,
+    "folk_15::shuffle::shuf_bar": 0.6771107763051987,
+    "folk_15::reverse::rev": 0.557424359023571,
+    "folk_15::displacement::disp_near": 0.6917153745889664,
+    "folk_15::displacement::disp_far": 0.6462319791316986,
+    "jazz_01::control::ctrl": 0.785700112581253,
+    "jazz_01::shuffle::shuf_beat": 0.8070019781589508,
+    "jazz_01::shuffle::shuf_bar": 0.7966936379671097,
+    "jazz_01::reverse::rev": 0.6808534115552902,
+    "jazz_01::displacement::disp_near": 0.7652858346700668,
+    "jazz_01::displacement::disp_far": 0.7827114015817642,
+    "jazz_02::control::ctrl": 0.8225096315145493,
+    "jazz_02::shuffle::shuf_beat": 0.8092323392629623,
+    "jazz_02::shuffle::shuf_bar": 0.804310753941536,
+    "jazz_02::reverse::rev": 0.7681933790445328,
+    "jazz_02::displacement::disp_near": 0.8092360943555832,
+    "jazz_02::displacement::disp_far": 0.8296279311180115,
+    "jazz_03::control::ctrl": 0.7998291254043579,
+    "jazz_03::shuffle::shuf_beat": 0.8048257827758789,
+    "jazz_03::shuffle::shuf_bar": 0.7981511652469635,
+    "jazz_03::reverse::rev": 0.7520398050546646,
+    "jazz_03::displacement::disp_near": 0.8510863482952118,
+    "jazz_03::displacement::disp_far": 0.8259706795215607,
+    "jazz_04::control::ctrl": 0.8520354926586151,
+    "jazz_04::shuffle::shuf_beat": 0.8734916895627975,
+    "jazz_04::shuffle::shuf_bar": 0.8634733259677887,
+    "jazz_04::reverse::rev": 0.8560787886381149,
+    "jazz_04::displacement::disp_near": 0.757708728313446,
+    "jazz_04::displacement::disp_far": 0.565067395567894,
+    "jazz_05::control::ctrl": 0.731061577796936,
+    "jazz_05::shuffle::shuf_beat": 0.7456724494695663,
+    "jazz_05::shuffle::shuf_bar": 0.7774772942066193,
+    "jazz_05::reverse::rev": 0.7150448858737946,
+    "jazz_05::displacement::disp_near": 0.6292351931333542,
+    "jazz_05::displacement::disp_far": 0.6889355629682541,
+    "jazz_06::control::ctrl": 0.8044348061084747,
+    "jazz_06::shuffle::shuf_beat": 0.8352793306112289,
+    "jazz_06::shuffle::shuf_bar": 0.8449356108903885,
+    "jazz_06::reverse::rev": 0.6601690873503685,
+    "jazz_06::displacement::disp_near": 0.7739748656749725,
+    "jazz_06::displacement::disp_far": 0.8050461411476135,
+    "jazz_07::control::ctrl": 0.9021813273429871,
+    "jazz_07::shuffle::shuf_beat": 0.8884729146957397,
+    "jazz_07::shuffle::shuf_bar": 0.8898188322782516,
+    "jazz_07::reverse::rev": 0.8363797813653946,
+    "jazz_07::displacement::disp_near": 0.8516667187213898,
+    "jazz_07::displacement::disp_far": 0.8352114111185074,
+    "jazz_08::control::ctrl": 0.7892975807189941,
+    "jazz_08::shuffle::shuf_beat": 0.72698675096035,
+    "jazz_08::shuffle::shuf_bar": 0.7954153418540955,
+    "jazz_08::reverse::rev": 0.7346591204404831,
+    "jazz_08::displacement::disp_near": 0.7367452830076218,
+    "jazz_08::displacement::disp_far": 0.7601907700300217,
+    "jazz_09::control::ctrl": 0.7813014388084412,
+    "jazz_09::shuffle::shuf_beat": 0.6960211098194122,
+    "jazz_09::shuffle::shuf_bar": 0.7685082256793976,
+    "jazz_09::reverse::rev": 0.7090619951486588,
+    "jazz_09::displacement::disp_near": 0.6958615034818649,
+    "jazz_09::displacement::disp_far": 0.7063631117343903,
+    "jazz_10::control::ctrl": 0.8360524326562881,
+    "jazz_10::shuffle::shuf_beat": 0.8611755520105362,
+    "jazz_10::shuffle::shuf_bar": 0.8782328218221664,
+    "jazz_10::reverse::rev": 0.7656305283308029,
+    "jazz_10::displacement::disp_near": 0.8596968948841095,
+    "jazz_10::displacement::disp_far": 0.8525166213512421,
+    "jazz_11::control::ctrl": 0.8683466613292694,
+    "jazz_11::shuffle::shuf_beat": 0.8384028524160385,
+    "jazz_11::shuffle::shuf_bar": 0.8507708311080933,
+    "jazz_11::reverse::rev": 0.7832795083522797,
+    "jazz_11::displacement::disp_near": 0.8232065439224243,
+    "jazz_11::displacement::disp_far": 0.7747491002082825,
+    "jazz_12::control::ctrl": 0.8451289683580399,
+    "jazz_12::shuffle::shuf_beat": 0.8581901341676712,
+    "jazz_12::shuffle::shuf_bar": 0.8700728416442871,
+    "jazz_12::reverse::rev": 0.765094205737114,
+    "jazz_12::displacement::disp_near": 0.7259411811828613,
+    "jazz_12::displacement::disp_far": 0.7646193951368332,
+    "jazz_13::control::ctrl": 0.9163295030593872,
+    "jazz_13::shuffle::shuf_beat": 0.9331520199775696,
+    "jazz_13::shuffle::shuf_bar": 0.925091490149498,
+    "jazz_13::reverse::rev": 0.8229334056377411,
+    "jazz_13::displacement::disp_near": 0.9104374647140503,
+    "jazz_13::displacement::disp_far": 0.9147042334079742,
+    "jazz_14::control::ctrl": 0.8205078989267349,
+    "jazz_14::shuffle::shuf_beat": 0.8121701180934906,
+    "jazz_14::shuffle::shuf_bar": 0.834454134106636,
+    "jazz_14::reverse::rev": 0.697156623005867,
+    "jazz_14::displacement::disp_near": 0.8330639004707336,
+    "jazz_14::displacement::disp_far": 0.8458294868469238,
+    "jazz_15::control::ctrl": 0.7655381560325623,
+    "jazz_15::shuffle::shuf_beat": 0.7454391419887543,
+    "jazz_15::shuffle::shuf_bar": 0.7316179275512695,
+    "jazz_15::reverse::rev": 0.7299630343914032,
+    "jazz_15::displacement::disp_near": 0.7000932097434998,
+    "jazz_15::displacement::disp_far": 0.6793435215950012,
+    "rock_01::control::ctrl": 0.8012695014476776,
+    "rock_01::shuffle::shuf_beat": 0.8763270974159241,
+    "rock_01::shuffle::shuf_bar": 0.8264837265014648,
+    "rock_01::reverse::rev": 0.8155563771724701,
+    "rock_01::displacement::disp_near": 0.7644554227590561,
+    "rock_01::displacement::disp_far": 0.7421038001775742,
+    "rock_02::control::ctrl": 0.8010789752006531,
+    "rock_02::shuffle::shuf_beat": 0.7903983741998672,
+    "rock_02::shuffle::shuf_bar": 0.8435259014368057,
+    "rock_02::reverse::rev": 0.7584641128778458,
+    "rock_02::displacement::disp_near": 0.7430171072483063,
+    "rock_02::displacement::disp_far": 0.6774879693984985,
+    "rock_03::control::ctrl": 0.7228043377399445,
+    "rock_03::shuffle::shuf_beat": 0.8114342093467712,
+    "rock_03::shuffle::shuf_bar": 0.8175788819789886,
+    "rock_03::reverse::rev": 0.8077522069215775,
+    "rock_03::displacement::disp_near": 0.8257014006376266,
+    "rock_03::displacement::disp_far": 0.7279381155967712,
+    "rock_04::control::ctrl": 0.8951827585697174,
+    "rock_04::shuffle::shuf_beat": 0.8898709565401077,
+    "rock_04::shuffle::shuf_bar": 0.8917645364999771,
+    "rock_04::reverse::rev": 0.8956833928823471,
+    "rock_04::displacement::disp_near": 0.8270446211099625,
+    "rock_04::displacement::disp_far": 0.8860613703727722,
+    "rock_05::control::ctrl": 0.7834120243787766,
+    "rock_05::shuffle::shuf_beat": 0.7928250879049301,
+    "rock_05::shuffle::shuf_bar": 0.8093229979276657,
+    "rock_05::reverse::rev": 0.7213016748428345,
+    "rock_05::displacement::disp_near": 0.7425954788923264,
+    "rock_05::displacement::disp_far": 0.7012049406766891,
+    "rock_06::control::ctrl": 0.8459771871566772,
+    "rock_06::shuffle::shuf_beat": 0.8342525810003281,
+    "rock_06::shuffle::shuf_bar": 0.859366774559021,
+    "rock_06::reverse::rev": 0.8051103949546814,
+    "rock_06::displacement::disp_near": 0.8290769159793854,
+    "rock_06::displacement::disp_far": 0.8297379910945892,
+    "rock_07::control::ctrl": 0.766628697514534,
+    "rock_07::shuffle::shuf_beat": 0.8338678926229477,
+    "rock_07::shuffle::shuf_bar": 0.8346506655216217,
+    "rock_07::reverse::rev": 0.7942100763320923,
+    "rock_07::displacement::disp_near": 0.6488489657640457,
+    "rock_07::displacement::disp_far": 0.6428813636302948,
+    "rock_08::control::ctrl": 0.8379698544740677,
+    "rock_08::shuffle::shuf_beat": 0.8206973522901535,
+    "rock_08::shuffle::shuf_bar": 0.8470310717821121,
+    "rock_08::reverse::rev": 0.8056430965662003,
+    "rock_08::displacement::disp_near": 0.8370800763368607,
+    "rock_08::displacement::disp_far": 0.8020131587982178,
+    "rock_09::control::ctrl": 0.8931084424257278,
+    "rock_09::shuffle::shuf_beat": 0.8968309015035629,
+    "rock_09::shuffle::shuf_bar": 0.8906619101762772,
+    "rock_09::reverse::rev": 0.8592952489852905,
+    "rock_09::displacement::disp_near": 0.7429842501878738,
+    "rock_09::displacement::disp_far": 0.7893367558717728,
+    "rock_10::control::ctrl": 0.7707402408123016,
+    "rock_10::shuffle::shuf_beat": 0.7804217338562012,
+    "rock_10::shuffle::shuf_bar": 0.8414718061685562,
+    "rock_10::reverse::rev": 0.5384172052145004,
+    "rock_10::displacement::disp_near": 0.8139214068651199,
+    "rock_10::displacement::disp_far": 0.7564367055892944,
+    "rock_11::control::ctrl": 0.7869965434074402,
+    "rock_11::shuffle::shuf_beat": 0.8207570463418961,
+    "rock_11::shuffle::shuf_bar": 0.8366650491952896,
+    "rock_11::reverse::rev": 0.7321207225322723,
+    "rock_11::displacement::disp_near": 0.7748752981424332,
+    "rock_11::displacement::disp_far": 0.6920992434024811,
+    "rock_12::control::ctrl": 0.7758781015872955,
+    "rock_12::shuffle::shuf_beat": 0.7886470556259155,
+    "rock_12::shuffle::shuf_bar": 0.8082889169454575,
+    "rock_12::reverse::rev": 0.6599429622292519,
+    "rock_12::displacement::disp_near": 0.7699842900037766,
+    "rock_12::displacement::disp_far": 0.7527575343847275,
+    "rock_13::control::ctrl": 0.8645265996456146,
+    "rock_13::shuffle::shuf_beat": 0.8735657185316086,
+    "rock_13::shuffle::shuf_bar": 0.8940262943506241,
+    "rock_13::reverse::rev": 0.7931075394153595,
+    "rock_13::displacement::disp_near": 0.7835627347230911,
+    "rock_13::displacement::disp_far": 0.7486822009086609,
+    "rock_14::control::ctrl": 0.7937125116586685,
+    "rock_14::shuffle::shuf_beat": 0.7846576124429703,
+    "rock_14::shuffle::shuf_bar": 0.8158068358898163,
+    "rock_14::reverse::rev": 0.7306411117315292,
+    "rock_14::displacement::disp_near": 0.7590812891721725,
+    "rock_14::displacement::disp_far": 0.7239412516355515,
+    "rock_15::control::ctrl": 0.801341325044632,
+    "rock_15::shuffle::shuf_beat": 0.7436229586601257,
+    "rock_15::shuffle::shuf_bar": 0.7730193436145782,
+    "rock_15::reverse::rev": 0.6996553242206573,
+    "rock_15::displacement::disp_near": 0.7318349778652191,
+    "rock_15::displacement::disp_far": 0.7123252302408218
+  },
+  "per_template": {
+    "classical_01::control::ctrl": [
+      0.8991213440895081,
+      0.9099069833755493,
+      0.9381240010261536,
+      0.7826625108718872
+    ],
+    "classical_01::shuffle::shuf_beat": [
+      0.9149009585380554,
+      0.9241418242454529,
+      0.9511421918869019,
+      0.8031737804412842
+    ],
+    "classical_01::shuffle::shuf_bar": [
+      0.9124361872673035,
+      0.9241418242454529,
+      0.949669361114502,
+      0.7981867790222168
+    ],
+    "classical_01::reverse::rev": [
+      0.8175744414329529,
+      0.9099069833755493,
+      0.9099069833755493,
+      0.7310585975646973
+    ],
+    "classical_01::displacement::disp_near": [
+      0.8519527316093445,
+      0.9149009585380554,
+      0.9149009585380554,
+      0.7549149990081787
+    ],
+    "classical_01::displacement::disp_far": [
+      0.9149009585380554,
+      0.9284088015556335,
+      0.9362850189208984,
+      0.8080672025680542
+    ],
+    "classical_02::control::ctrl": [
+      0.6791787147521973,
+      0.8933094143867493,
+      0.8872045874595642,
+      0.7371581792831421
+    ],
+    "classical_02::shuffle::shuf_beat": [
+      0.7057850360870361,
+      0.8807970285415649,
+      0.8740772008895874,
+      0.6791787147521973
+    ],
+    "classical_02::shuffle::shuf_bar": [
+      0.7310585975646973,
+      0.9149009585380554,
+      0.9149009585380554,
+      0.6791787147521973
+    ],
+    "classical_02::reverse::rev": [
+      0.7310585975646973,
+      0.8519527316093445,
+      0.8872045874595642,
+      0.7057850360870361
+    ],
+    "classical_02::displacement::disp_near": [
+      0.6370307803153992,
+      0.8670357465744019,
+      0.9046505093574524,
+      0.665410578250885
+    ],
+    "classical_02::displacement::disp_far": [
+      0.7057850360870361,
+      0.8933094143867493,
+      0.9149009585380554,
+      0.7185943722724915
+    ],
+    "classical_03::control::ctrl": [
+      0.7431679368019104,
+      0.8670357465744019,
+      0.8354835510253906,
+      0.8031737804412842
+    ],
+    "classical_03::shuffle::shuf_beat": [
+      0.7431679368019104,
+      0.8354835510253906,
+      0.8080672025680542,
+      0.7549149990081787
+    ],
+    "classical_03::shuffle::shuf_bar": [
+      0.7431679368019104,
+      0.8354835510253906,
+      0.8519527316093445,
+      0.7549149990081787
+    ],
+    "classical_03::reverse::rev": [
+      0.7662936449050903,
+      0.8267117738723755,
+      0.8267117738723755,
+      0.8080672025680542
+    ],
+    "classical_03::displacement::disp_near": [
+      0.562176525592804,
+      0.7549149990081787,
+      0.7310585975646973,
+      0.562176525592804
+    ],
+    "classical_03::displacement::disp_far": [
+      0.531209409236908,
+      0.7185943722724915,
+      0.7310585975646973,
+      0.562176525592804
+    ],
+    "classical_04::control::ctrl": [
+      0.7879312038421631,
+      0.8807970285415649,
+      0.8933094143867493,
+      0.7981867790222168
+    ],
+    "classical_04::shuffle::shuf_beat": [
+      0.7431679368019104,
+      0.8438951373100281,
+      0.8740772008895874,
+      0.7057850360870361
+    ],
+    "classical_04::shuffle::shuf_bar": [
+      0.7431679368019104,
+      0.8670357465744019,
+      0.8670357465744019,
+      0.7879312038421631
+    ],
+    "classical_04::reverse::rev": [
+      0.665410578250885,
+      0.7981867790222168,
+      0.8519527316093445,
+      0.6791787147521973
+    ],
+    "classical_04::displacement::disp_near": [
+      0.7310585975646973,
+      0.8519527316093445,
+      0.859663724899292,
+      0.7549149990081787
+    ],
+    "classical_04::displacement::disp_far": [
+      0.7431679368019104,
+      0.859663724899292,
+      0.8670357465744019,
+      0.7310585975646973
+    ],
+    "classical_05::control::ctrl": [
+      0.7981867790222168,
+      0.8740772008895874,
+      0.8807970285415649,
+      0.8175744414329529
+    ],
+    "classical_05::shuffle::shuf_beat": [
+      0.8267117738723755,
+      0.8933094143867493,
+      0.8991213440895081,
+      0.8221890926361084
+    ],
+    "classical_05::shuffle::shuf_bar": [
+      0.8267117738723755,
+      0.8807970285415649,
+      0.8991213440895081,
+      0.7879312038421631
+    ],
+    "classical_05::reverse::rev": [
+      0.7431679368019104,
+      0.8175744414329529,
+      0.8807970285415649,
+      0.7772998809814453
+    ],
+    "classical_05::displacement::disp_near": [
+      0.7662936449050903,
+      0.859663724899292,
+      0.859663724899292,
+      0.8080672025680542
+    ],
+    "classical_05::displacement::disp_far": [
+      0.6370307803153992,
+      0.8267117738723755,
+      0.7981867790222168,
+      0.7490872144699097
+    ],
+    "classical_06::control::ctrl": [
+      0.665410578250885,
+      0.7057850360870361,
+      0.7772998809814453,
+      0.5467381477355957
+    ],
+    "classical_06::shuffle::shuf_beat": [
+      0.6926419734954834,
+      0.6370307803153992,
+      0.8438951373100281,
+      0.6076632142066956
+    ],
+    "classical_06::shuffle::shuf_bar": [
+      0.6791787147521973,
+      0.7057850360870361,
+      0.8080672025680542,
+      0.5
+    ],
+    "classical_06::reverse::rev": [
+      0.622459352016449,
+      0.665410578250885,
+      0.7310585975646973,
+      0.4532618224620819
+    ],
+    "classical_06::displacement::disp_near": [
+      0.5156199336051941,
+      0.6370307803153992,
+      0.6791787147521973,
+      0.5
+    ],
+    "classical_06::displacement::disp_far": [
+      0.5774953365325928,
+      0.622459352016449,
+      0.7879312038421631,
+      0.39981159567832947
+    ],
+    "classical_07::control::ctrl": [
+      0.6791787147521973,
+      0.7662936449050903,
+      0.7310585975646973,
+      0.7718434929847717
+    ],
+    "classical_07::shuffle::shuf_beat": [
+      0.8175744414329529,
+      0.7879312038421631,
+      0.8740772008895874,
+      0.8221890926361084
+    ],
+    "classical_07::shuffle::shuf_bar": [
+      0.7879312038421631,
+      0.8080672025680542,
+      0.859663724899292,
+      0.7981867790222168
+    ],
+    "classical_07::reverse::rev": [
+      0.8175744414329529,
+      0.7431679368019104,
+      0.8354835510253906,
+      0.8558511734008789
+    ],
+    "classical_07::displacement::disp_near": [
+      0.6926419734954834,
+      0.7549149990081787,
+      0.7185943722724915,
+      0.7310585975646973
+    ],
+    "classical_07::displacement::disp_far": [
+      0.665410578250885,
+      0.7310585975646973,
+      0.7185943722724915,
+      0.7248703241348267
+    ],
+    "classical_08::control::ctrl": [
+      0.7981867790222168,
+      0.8991213440895081,
+      0.8991213440895081,
+      0.8128673434257507
+    ],
+    "classical_08::shuffle::shuf_beat": [
+      0.8267117738723755,
+      0.9046505093574524,
+      0.9149009585380554,
+      0.7981867790222168
+    ],
+    "classical_08::shuffle::shuf_bar": [
+      0.7879312038421631,
+      0.9099069833755493,
+      0.8991213440895081,
+      0.793105959892273
+    ],
+    "classical_08::reverse::rev": [
+      0.8175744414329529,
+      0.8670357465744019,
+      0.8991213440895081,
+      0.8031737804412842
+    ],
+    "classical_08::displacement::disp_near": [
+      0.7310585975646973,
+      0.8519527316093445,
+      0.8872045874595642,
+      0.7057850360870361
+    ],
+    "classical_08::displacement::disp_far": [
+      0.7185943722724915,
+      0.8519527316093445,
+      0.8519527316093445,
+      0.6791787147521973
+    ],
+    "classical_09::control::ctrl": [
+      0.6926419734954834,
+      0.7879312038421631,
+      0.7879312038421631,
+      0.7662936449050903
+    ],
+    "classical_09::shuffle::shuf_beat": [
+      0.6791787147521973,
+      0.8080672025680542,
+      0.7981867790222168,
+      0.7549149990081787
+    ],
+    "classical_09::shuffle::shuf_bar": [
+      0.665410578250885,
+      0.7662936449050903,
+      0.7662936449050903,
+      0.7185943722724915
+    ],
+    "classical_09::reverse::rev": [
+      0.665410578250885,
+      0.7431679368019104,
+      0.7772998809814453,
+      0.7185943722724915
+    ],
+    "classical_09::displacement::disp_near": [
+      0.6513549089431763,
+      0.7310585975646973,
+      0.6791787147521973,
+      0.5774953365325928
+    ],
+    "classical_09::displacement::disp_far": [
+      0.5774953365325928,
+      0.7185943722724915,
+      0.6926419734954834,
+      0.5467381477355957
+    ],
+    "classical_10::control::ctrl": [
+      0.7549149990081787,
+      0.8519527316093445,
+      0.8080672025680542,
+      0.8080672025680542
+    ],
+    "classical_10::shuffle::shuf_beat": [
+      0.7879312038421631,
+      0.8670357465744019,
+      0.8438951373100281,
+      0.7772998809814453
+    ],
+    "classical_10::shuffle::shuf_bar": [
+      0.7879312038421631,
+      0.8670357465744019,
+      0.859663724899292,
+      0.8031737804412842
+    ],
+    "classical_10::reverse::rev": [
+      0.7431679368019104,
+      0.7185943722724915,
+      0.7772998809814453,
+      0.7606506943702698
+    ],
+    "classical_10::displacement::disp_near": [
+      0.6513549089431763,
+      0.7772998809814453,
+      0.6791787147521973,
+      0.7057850360870361
+    ],
+    "classical_10::displacement::disp_far": [
+      0.7310585975646973,
+      0.8175744414329529,
+      0.7662936449050903,
+      0.7310585975646973
+    ],
+    "classical_11::control::ctrl": [
+      0.7772998809814453,
+      0.8740772008895874,
+      0.8670357465744019,
+      0.8175744414329529
+    ],
+    "classical_11::shuffle::shuf_beat": [
+      0.7549149990081787,
+      0.8354835510253906,
+      0.8519527316093445,
+      0.7662936449050903
+    ],
+    "classical_11::shuffle::shuf_bar": [
+      0.7310585975646973,
+      0.8267117738723755,
+      0.8438951373100281,
+      0.7185943722724915
+    ],
+    "classical_11::reverse::rev": [
+      0.6926419734954834,
+      0.8080672025680542,
+      0.8080672025680542,
+      0.6791787147521973
+    ],
+    "classical_11::displacement::disp_near": [
+      0.5467381477355957,
+      0.7662936449050903,
+      0.7185943722724915,
+      0.5156199336051941
+    ],
+    "classical_11::displacement::disp_far": [
+      0.6513549089431763,
+      0.8354835510253906,
+      0.7662936449050903,
+      0.672331690788269
+    ],
+    "classical_12::control::ctrl": [
+      0.8175744414329529,
+      0.8740772008895874,
+      0.9196425676345825,
+      0.8438951373100281
+    ],
+    "classical_12::shuffle::shuf_beat": [
+      0.859663724899292,
+      0.8740772008895874,
+      0.9399133324623108,
+      0.8080672025680542
+    ],
+    "classical_12::shuffle::shuf_bar": [
+      0.8902942538261414,
+      0.8872045874595642,
+      0.957912266254425,
+      0.8438951373100281
+    ],
+    "classical_12::reverse::rev": [
+      0.7981867790222168,
+      0.8740772008895874,
+      0.9196425676345825,
+      0.7549149990081787
+    ],
+    "classical_12::displacement::disp_near": [
+      0.7431679368019104,
+      0.8438951373100281,
+      0.8807970285415649,
+      0.7826625108718872
+    ],
+    "classical_12::displacement::disp_far": [
+      0.7185943722724915,
+      0.8354835510253906,
+      0.9046505093574524,
+      0.7549149990081787
+    ],
+    "classical_13::control::ctrl": [
+      0.7057850360870361,
+      0.8080672025680542,
+      0.8438951373100281,
+      0.5926666259765625
+    ],
+    "classical_13::shuffle::shuf_beat": [
+      0.7185943722724915,
+      0.8267117738723755,
+      0.8807970285415649,
+      0.6076632142066956
+    ],
+    "classical_13::shuffle::shuf_bar": [
+      0.6926419734954834,
+      0.8080672025680542,
+      0.8438951373100281,
+      0.6584175229072571
+    ],
+    "classical_13::reverse::rev": [
+      0.6926419734954834,
+      0.6791787147521973,
+      0.8175744414329529,
+      0.5467381477355957
+    ],
+    "classical_13::displacement::disp_near": [
+      0.7772998809814453,
+      0.6926419734954834,
+      0.7662936449050903,
+      0.6370307803153992
+    ],
+    "classical_13::displacement::disp_far": [
+      0.6370307803153992,
+      0.7549149990081787,
+      0.7879312038421631,
+      0.5774953365325928
+    ],
+    "classical_14::control::ctrl": [
+      0.8080672025680542,
+      0.8438951373100281,
+      0.8519527316093445,
+      0.7981867790222168
+    ],
+    "classical_14::shuffle::shuf_beat": [
+      0.859663724899292,
+      0.8872045874595642,
+      0.9324532747268677,
+      0.8354835510253906
+    ],
+    "classical_14::shuffle::shuf_bar": [
+      0.8080672025680542,
+      0.8519527316093445,
+      0.859663724899292,
+      0.793105959892273
+    ],
+    "classical_14::reverse::rev": [
+      0.7772998809814453,
+      0.7879312038421631,
+      0.8519527316093445,
+      0.7248703241348267
+    ],
+    "classical_14::displacement::disp_near": [
+      0.8354835510253906,
+      0.8807970285415649,
+      0.8519527316093445,
+      0.8438951373100281
+    ],
+    "classical_14::displacement::disp_far": [
+      0.8175744414329529,
+      0.8175744414329529,
+      0.859663724899292,
+      0.7431679368019104
+    ],
+    "classical_15::control::ctrl": [
+      0.7772998809814453,
+      0.8670357465744019,
+      0.8175744414329529,
+      0.7057850360870361
+    ],
+    "classical_15::shuffle::shuf_beat": [
+      0.7662936449050903,
+      0.8175744414329529,
+      0.7549149990081787,
+      0.6513549089431763
+    ],
+    "classical_15::shuffle::shuf_bar": [
+      0.7662936449050903,
+      0.8354835510253906,
+      0.7981867790222168,
+      0.6370307803153992
+    ],
+    "classical_15::reverse::rev": [
+      0.6513549089431763,
+      0.7662936449050903,
+      0.6791787147521973,
+      0.6370307803153992
+    ],
+    "classical_15::displacement::disp_near": [
+      0.6076632142066956,
+      0.5774953365325928,
+      0.7310585975646973,
+      0.562176525592804
+    ],
+    "classical_15::displacement::disp_far": [
+      0.531209409236908,
+      0.5467381477355957,
+      0.622459352016449,
+      0.5926666259765625
+    ],
+    "ambient_01::control::ctrl": [
+      0.6076632142066956,
+      0.7431679368019104,
+      0.7185943722724915,
+      0.6584175229072571
+    ],
+    "ambient_01::shuffle::shuf_beat": [
+      0.6076632142066956,
+      0.7772998809814453,
+      0.8267117738723755,
+      0.6150878667831421
+    ],
+    "ambient_01::shuffle::shuf_bar": [
+      0.5926666259765625,
+      0.7879312038421631,
+      0.7879312038421631,
+      0.6370307803153992
+    ],
+    "ambient_01::reverse::rev": [
+      0.531209409236908,
+      0.7431679368019104,
+      0.7549149990081787,
+      0.5156199336051941
+    ],
+    "ambient_01::displacement::disp_near": [
+      0.6791787147521973,
+      0.7981867790222168,
+      0.8438951373100281,
+      0.672331690788269
+    ],
+    "ambient_01::displacement::disp_far": [
+      0.562176525592804,
+      0.6926419734954834,
+      0.6791787147521973,
+      0.5774953365325928
+    ],
+    "ambient_02::control::ctrl": [
+      0.6076632142066956,
+      0.665410578250885,
+      0.7185943722724915,
+      0.4765796959400177
+    ],
+    "ambient_02::shuffle::shuf_beat": [
+      0.665410578250885,
+      0.7431679368019104,
+      0.8080672025680542,
+      0.4532618224620819
+    ],
+    "ambient_02::shuffle::shuf_bar": [
+      0.665410578250885,
+      0.7185943722724915,
+      0.8175744414329529,
+      0.4378235340118408
+    ],
+    "ambient_02::reverse::rev": [
+      0.562176525592804,
+      0.6791787147521973,
+      0.6513549089431763,
+      0.43014734983444214
+    ],
+    "ambient_02::displacement::disp_near": [
+      0.5,
+      0.562176525592804,
+      0.622459352016449,
+      0.4687906503677368
+    ],
+    "ambient_02::displacement::disp_far": [
+      0.4843800961971283,
+      0.5774953365325928,
+      0.5156199336051941,
+      0.5
+    ],
+    "ambient_03::control::ctrl": [
+      0.859663724899292,
+      0.7549149990081787,
+      0.9263036847114563,
+      0.8354835510253906
+    ],
+    "ambient_03::shuffle::shuf_beat": [
+      0.859663724899292,
+      0.7662936449050903,
+      0.9324532747268677,
+      0.8558511734008789
+    ],
+    "ambient_03::shuffle::shuf_bar": [
+      0.8705973029136658,
+      0.7549149990081787,
+      0.9416541457176208,
+      0.8740772008895874
+    ],
+    "ambient_03::reverse::rev": [
+      0.8175744414329529,
+      0.622459352016449,
+      0.9263036847114563,
+      0.793105959892273
+    ],
+    "ambient_03::displacement::disp_near": [
+      0.847967803478241,
+      0.7549149990081787,
+      0.9219217896461487,
+      0.8221890926361084
+    ],
+    "ambient_03::displacement::disp_far": [
+      0.7981867790222168,
+      0.7431679368019104,
+      0.9219217896461487,
+      0.7879312038421631
+    ],
+    "ambient_04::control::ctrl": [
+      0.7310585975646973,
+      0.8175744414329529,
+      0.8080672025680542,
+      0.8221890926361084
+    ],
+    "ambient_04::shuffle::shuf_beat": [
+      0.7662936449050903,
+      0.8175744414329529,
+      0.8438951373100281,
+      0.7718434929847717
+    ],
+    "ambient_04::shuffle::shuf_bar": [
+      0.7879312038421631,
+      0.8354835510253906,
+      0.8519527316093445,
+      0.7549149990081787
+    ],
+    "ambient_04::reverse::rev": [
+      0.7431679368019104,
+      0.8080672025680542,
+      0.7879312038421631,
+      0.8311430811882019
+    ],
+    "ambient_04::displacement::disp_near": [
+      0.6513549089431763,
+      0.7981867790222168,
+      0.7981867790222168,
+      0.7371581792831421
+    ],
+    "ambient_04::displacement::disp_far": [
+      0.665410578250885,
+      0.7879312038421631,
+      0.7879312038421631,
+      0.6791787147521973
+    ],
+    "ambient_05::control::ctrl": [
+      0.7549149990081787,
+      0.7879312038421631,
+      0.8175744414329529,
+      0.7772998809814453
+    ],
+    "ambient_05::shuffle::shuf_beat": [
+      0.7310585975646973,
+      0.7772998809814453,
+      0.8175744414329529,
+      0.7431679368019104
+    ],
+    "ambient_05::shuffle::shuf_bar": [
+      0.7549149990081787,
+      0.7879312038421631,
+      0.8267117738723755,
+      0.7549149990081787
+    ],
+    "ambient_05::reverse::rev": [
+      0.7310585975646973,
+      0.7772998809814453,
+      0.7981867790222168,
+      0.7490872144699097
+    ],
+    "ambient_05::displacement::disp_near": [
+      0.7662936449050903,
+      0.8175744414329529,
+      0.8519527316093445,
+      0.8175744414329529
+    ],
+    "ambient_05::displacement::disp_far": [
+      0.7185943722724915,
+      0.7549149990081787,
+      0.7981867790222168,
+      0.7371581792831421
+    ],
+    "ambient_06::control::ctrl": [
+      0.8933094143867493,
+      0.8175744414329529,
+      0.9324532747268677,
+      0.8519527316093445
+    ],
+    "ambient_06::shuffle::shuf_beat": [
+      0.8705973029136658,
+      0.8080672025680542,
+      0.9416541457176208,
+      0.8519527316093445
+    ],
+    "ambient_06::shuffle::shuf_bar": [
+      0.9219217896461487,
+      0.8267117738723755,
+      0.9511421918869019,
+      0.917302668094635
+    ],
+    "ambient_06::reverse::rev": [
+      0.847967803478241,
+      0.7772998809814453,
+      0.9241418242454529,
+      0.7981867790222168
+    ],
+    "ambient_06::displacement::disp_near": [
+      0.7879312038421631,
+      0.8080672025680542,
+      0.8740772008895874,
+      0.7879312038421631
+    ],
+    "ambient_06::displacement::disp_far": [
+      0.7772998809814453,
+      0.7879312038421631,
+      0.8807970285415649,
+      0.7718434929847717
+    ],
+    "ambient_07::control::ctrl": [
+      0.8519527316093445,
+      0.8872045874595642,
+      0.8991213440895081,
+      0.8438951373100281
+    ],
+    "ambient_07::shuffle::shuf_beat": [
+      0.8670357465744019,
+      0.8807970285415649,
+      0.907312273979187,
+      0.8558511734008789
+    ],
+    "ambient_07::shuffle::shuf_bar": [
+      0.8991213440895081,
+      0.8933094143867493,
+      0.9196425676345825,
+      0.8840392827987671
+    ],
+    "ambient_07::reverse::rev": [
+      0.8519527316093445,
+      0.8438951373100281,
+      0.8872045874595642,
+      0.8311430811882019
+    ],
+    "ambient_07::displacement::disp_near": [
+      0.8267117738723755,
+      0.8519527316093445,
+      0.859663724899292,
+      0.7826625108718872
+    ],
+    "ambient_07::displacement::disp_far": [
+      0.8175744414329529,
+      0.8438951373100281,
+      0.859663724899292,
+      0.7371581792831421
+    ],
+    "ambient_08::control::ctrl": [
+      0.8438951373100281,
+      0.8670357465744019,
+      0.8933094143867493,
+      0.8311430811882019
+    ],
+    "ambient_08::shuffle::shuf_beat": [
+      0.8267117738723755,
+      0.8438951373100281,
+      0.917302668094635,
+      0.7826625108718872
+    ],
+    "ambient_08::shuffle::shuf_bar": [
+      0.863391637802124,
+      0.859663724899292,
+      0.9284088015556335,
+      0.847967803478241
+    ],
+    "ambient_08::reverse::rev": [
+      0.863391637802124,
+      0.8519527316093445,
+      0.8991213440895081,
+      0.8519527316093445
+    ],
+    "ambient_08::displacement::disp_near": [
+      0.6791787147521973,
+      0.7431679368019104,
+      0.7662936449050903,
+      0.7122321724891663
+    ],
+    "ambient_08::displacement::disp_far": [
+      0.5926666259765625,
+      0.6513549089431763,
+      0.7310585975646973,
+      0.6584175229072571
+    ],
+    "ambient_09::control::ctrl": [
+      0.8175744414329529,
+      0.8175744414329529,
+      0.859663724899292,
+      0.8128673434257507
+    ],
+    "ambient_09::shuffle::shuf_beat": [
+      0.7981867790222168,
+      0.8267117738723755,
+      0.8519527316093445,
+      0.7826625108718872
+    ],
+    "ambient_09::shuffle::shuf_bar": [
+      0.8080672025680542,
+      0.8175744414329529,
+      0.8519527316093445,
+      0.7826625108718872
+    ],
+    "ambient_09::reverse::rev": [
+      0.8175744414329529,
+      0.8354835510253906,
+      0.8519527316093445,
+      0.8311430811882019
+    ],
+    "ambient_09::displacement::disp_near": [
+      0.7310585975646973,
+      0.7662936449050903,
+      0.8670357465744019,
+      0.6001883149147034
+    ],
+    "ambient_09::displacement::disp_far": [
+      0.6791787147521973,
+      0.7549149990081787,
+      0.8354835510253906,
+      0.6513549089431763
+    ],
+    "ambient_10::control::ctrl": [
+      0.6513549089431763,
+      0.7981867790222168,
+      0.8175744414329529,
+      0.622459352016449
+    ],
+    "ambient_10::shuffle::shuf_beat": [
+      0.6076632142066956,
+      0.7662936449050903,
+      0.7549149990081787,
+      0.6076632142066956
+    ],
+    "ambient_10::shuffle::shuf_bar": [
+      0.5926666259765625,
+      0.7879312038421631,
+      0.7549149990081787,
+      0.562176525592804
+    ],
+    "ambient_10::reverse::rev": [
+      0.6513549089431763,
+      0.7981867790222168,
+      0.7981867790222168,
+      0.6370307803153992
+    ],
+    "ambient_10::displacement::disp_near": [
+      0.562176525592804,
+      0.7981867790222168,
+      0.7662936449050903,
+      0.5926666259765625
+    ],
+    "ambient_10::displacement::disp_far": [
+      0.622459352016449,
+      0.7879312038421631,
+      0.7981867790222168,
+      0.6001883149147034
+    ],
+    "ambient_11::control::ctrl": [
+      0.7879312038421631,
+      0.8438951373100281,
+      0.8740772008895874,
+      0.8175744414329529
+    ],
+    "ambient_11::shuffle::shuf_beat": [
+      0.8740772008895874,
+      0.859663724899292,
+      0.9263036847114563,
+      0.8397339582443237
+    ],
+    "ambient_11::shuffle::shuf_bar": [
+      0.8807970285415649,
+      0.859663724899292,
+      0.9149009585380554,
+      0.8438951373100281
+    ],
+    "ambient_11::reverse::rev": [
+      0.7662936449050903,
+      0.7981867790222168,
+      0.8933094143867493,
+      0.7248703241348267
+    ],
+    "ambient_11::displacement::disp_near": [
+      0.5774953365325928,
+      0.7431679368019104,
+      0.8354835510253906,
+      0.6076632142066956
+    ],
+    "ambient_11::displacement::disp_far": [
+      0.531209409236908,
+      0.7185943722724915,
+      0.859663724899292,
+      0.5926666259765625
+    ],
+    "ambient_12::control::ctrl": [
+      0.6076632142066956,
+      0.5926666259765625,
+      0.5,
+      0.6076632142066956
+    ],
+    "ambient_12::shuffle::shuf_beat": [
+      0.5,
+      0.5467381477355957,
+      0.531209409236908,
+      0.4378235340118408
+    ],
+    "ambient_12::shuffle::shuf_bar": [
+      0.5467381477355957,
+      0.562176525592804,
+      0.4532618224620819,
+      0.5156199336051941
+    ],
+    "ambient_12::reverse::rev": [
+      0.562176525592804,
+      0.5467381477355957,
+      0.42250463366508484,
+      0.5467381477355957
+    ],
+    "ambient_12::displacement::disp_near": [
+      0.562176525592804,
+      0.562176525592804,
+      0.42250463366508484,
+      0.531209409236908
+    ],
+    "ambient_12::displacement::disp_far": [
+      0.4843800961971283,
+      0.531209409236908,
+      0.36296921968460083,
+      0.4843800961971283
+    ],
+    "ambient_13::control::ctrl": [
+      0.8354835510253906,
+      0.8354835510253906,
+      0.9219217896461487,
+      0.8519527316093445
+    ],
+    "ambient_13::shuffle::shuf_beat": [
+      0.8438951373100281,
+      0.8175744414329529,
+      0.917302668094635,
+      0.8774768114089966
+    ],
+    "ambient_13::shuffle::shuf_bar": [
+      0.8519527316093445,
+      0.8438951373100281,
+      0.9284088015556335,
+      0.8933094143867493
+    ],
+    "ambient_13::reverse::rev": [
+      0.8267117738723755,
+      0.8354835510253906,
+      0.9219217896461487,
+      0.863391637802124
+    ],
+    "ambient_13::displacement::disp_near": [
+      0.7431679368019104,
+      0.7879312038421631,
+      0.8740772008895874,
+      0.6859495043754578
+    ],
+    "ambient_13::displacement::disp_far": [
+      0.7310585975646973,
+      0.7879312038421631,
+      0.859663724899292,
+      0.7606506943702698
+    ],
+    "ambient_14::control::ctrl": [
+      0.8354835510253906,
+      0.7981867790222168,
+      0.8670357465744019,
+      0.793105959892273
+    ],
+    "ambient_14::shuffle::shuf_beat": [
+      0.8267117738723755,
+      0.8175744414329529,
+      0.8991213440895081,
+      0.7718434929847717
+    ],
+    "ambient_14::shuffle::shuf_bar": [
+      0.8519527316093445,
+      0.7981867790222168,
+      0.9149009585380554,
+      0.793105959892273
+    ],
+    "ambient_14::reverse::rev": [
+      0.8519527316093445,
+      0.7981867790222168,
+      0.8933094143867493,
+      0.8080672025680542
+    ],
+    "ambient_14::displacement::disp_near": [
+      0.8175744414329529,
+      0.8080672025680542,
+      0.8933094143867493,
+      0.7185943722724915
+    ],
+    "ambient_14::displacement::disp_far": [
+      0.8080672025680542,
+      0.7981867790222168,
+      0.859663724899292,
+      0.7185943722724915
+    ],
+    "ambient_15::control::ctrl": [
+      0.6791787147521973,
+      0.8175744414329529,
+      0.8267117738723755,
+      0.7490872144699097
+    ],
+    "ambient_15::shuffle::shuf_beat": [
+      0.7057850360870361,
+      0.8354835510253906,
+      0.9149009585380554,
+      0.6926419734954834
+    ],
+    "ambient_15::shuffle::shuf_bar": [
+      0.7549149990081787,
+      0.8438951373100281,
+      0.8519527316093445,
+      0.7772998809814453
+    ],
+    "ambient_15::reverse::rev": [
+      0.6791787147521973,
+      0.8354835510253906,
+      0.8354835510253906,
+      0.7310585975646973
+    ],
+    "ambient_15::displacement::disp_near": [
+      0.6926419734954834,
+      0.8080672025680542,
+      0.896251380443573,
+      0.6370307803153992
+    ],
+    "ambient_15::displacement::disp_far": [
+      0.6926419734954834,
+      0.8267117738723755,
+      0.8438951373100281,
+      0.7371581792831421
+    ],
+    "electronic_01::control::ctrl": [
+      0.4843800961971283,
+      0.6926419734954834,
+      0.6076632142066956,
+      0.5698526501655579
+    ],
+    "electronic_01::shuffle::shuf_beat": [
+      0.622459352016449,
+      0.7057850360870361,
+      0.6926419734954834,
+      0.5774953365325928
+    ],
+    "electronic_01::shuffle::shuf_bar": [
+      0.6076632142066956,
+      0.7185943722724915,
+      0.7310585975646973,
+      0.4843800961971283
+    ],
+    "electronic_01::reverse::rev": [
+      0.5156199336051941,
+      0.6791787147521973,
+      0.6076632142066956,
+      0.562176525592804
+    ],
+    "electronic_01::displacement::disp_near": [
+      0.562176525592804,
+      0.6076632142066956,
+      0.5926666259765625,
+      0.5
+    ],
+    "electronic_01::displacement::disp_far": [
+      0.5156199336051941,
+      0.6076632142066956,
+      0.4843800961971283,
+      0.5156199336051941
+    ],
+    "electronic_02::control::ctrl": [
+      0.917302668094635,
+      0.9046505093574524,
+      0.9603611826896667,
+      0.8774768114089966
+    ],
+    "electronic_02::shuffle::shuf_beat": [
+      0.9196425676345825,
+      0.9196425676345825,
+      0.957912266254425,
+      0.8902942538261414
+    ],
+    "electronic_02::shuffle::shuf_bar": [
+      0.9399133324623108,
+      0.9263036847114563,
+      0.9658995866775513,
+      0.907312273979187
+    ],
+    "electronic_02::reverse::rev": [
+      0.8872045874595642,
+      0.8807970285415649,
+      0.9591543078422546,
+      0.8558511734008789
+    ],
+    "electronic_02::displacement::disp_near": [
+      0.8933094143867493,
+      0.896251380443573,
+      0.9539660811424255,
+      0.8438951373100281
+    ],
+    "electronic_02::displacement::disp_far": [
+      0.859663724899292,
+      0.8872045874595642,
+      0.9416541457176208,
+      0.7772998809814453
+    ],
+    "electronic_03::control::ctrl": [
+      0.7879312038421631,
+      0.7772998809814453,
+      0.9196425676345825,
+      0.793105959892273
+    ],
+    "electronic_03::shuffle::shuf_beat": [
+      0.8670357465744019,
+      0.8175744414329529,
+      0.9416541457176208,
+      0.847967803478241
+    ],
+    "electronic_03::shuffle::shuf_bar": [
+      0.859663724899292,
+      0.8080672025680542,
+      0.949669361114502,
+      0.8558511734008789
+    ],
+    "electronic_03::reverse::rev": [
+      0.8438951373100281,
+      0.7662936449050903,
+      0.9284088015556335,
+      0.8128673434257507
+    ],
+    "electronic_03::displacement::disp_near": [
+      0.7185943722724915,
+      0.7431679368019104,
+      0.8872045874595642,
+      0.6513549089431763
+    ],
+    "electronic_03::displacement::disp_far": [
+      0.7185943722724915,
+      0.7185943722724915,
+      0.8933094143867493,
+      0.6076632142066956
+    ],
+    "electronic_04::control::ctrl": [
+      0.6926419734954834,
+      0.8438951373100281,
+      0.8933094143867493,
+      0.7371581792831421
+    ],
+    "electronic_04::shuffle::shuf_beat": [
+      0.6791787147521973,
+      0.8519527316093445,
+      0.896251380443573,
+      0.6859495043754578
+    ],
+    "electronic_04::shuffle::shuf_bar": [
+      0.7310585975646973,
+      0.8438951373100281,
+      0.917302668094635,
+      0.6992543935775757
+    ],
+    "electronic_04::reverse::rev": [
+      0.6926419734954834,
+      0.7981867790222168,
+      0.8519527316093445,
+      0.6442250609397888
+    ],
+    "electronic_04::displacement::disp_near": [
+      0.6926419734954834,
+      0.8354835510253906,
+      0.8670357465744019,
+      0.7490872144699097
+    ],
+    "electronic_04::displacement::disp_far": [
+      0.7057850360870361,
+      0.8354835510253906,
+      0.8807970285415649,
+      0.7371581792831421
+    ],
+    "electronic_05::control::ctrl": [
+      0.8840392827987671,
+      0.9124361872673035,
+      0.9697853922843933,
+      0.8438951373100281
+    ],
+    "electronic_05::shuffle::shuf_beat": [
+      0.9046505093574524,
+      0.9343951344490051,
+      0.9777138829231262,
+      0.8902942538261414
+    ],
+    "electronic_05::shuffle::shuf_bar": [
+      0.9196425676345825,
+      0.9362850189208984,
+      0.974821150302887,
+      0.9019206762313843
+    ],
+    "electronic_05::reverse::rev": [
+      0.9099069833755493,
+      0.8807970285415649,
+      0.961533784866333,
+      0.8558511734008789
+    ],
+    "electronic_05::displacement::disp_near": [
+      0.8267117738723755,
+      0.9196425676345825,
+      0.9626730680465698,
+      0.7490872144699097
+    ],
+    "electronic_05::displacement::disp_far": [
+      0.8354835510253906,
+      0.9046505093574524,
+      0.9591543078422546,
+      0.7371581792831421
+    ],
+    "electronic_06::control::ctrl": [
+      0.8175744414329529,
+      0.7185943722724915,
+      0.9343951344490051,
+      0.8080672025680542
+    ],
+    "electronic_06::shuffle::shuf_beat": [
+      0.8519527316093445,
+      0.7310585975646973,
+      0.9381240010261536,
+      0.8128673434257507
+    ],
+    "electronic_06::shuffle::shuf_bar": [
+      0.847967803478241,
+      0.7549149990081787,
+      0.949669361114502,
+      0.8311430811882019
+    ],
+    "electronic_06::reverse::rev": [
+      0.8438951373100281,
+      0.7185943722724915,
+      0.9539660811424255,
+      0.793105959892273
+    ],
+    "electronic_06::displacement::disp_near": [
+      0.6791787147521973,
+      0.7310585975646973,
+      0.896251380443573,
+      0.5389832258224487
+    ],
+    "electronic_06::displacement::disp_far": [
+      0.6926419734954834,
+      0.7185943722724915,
+      0.9196425676345825,
+      0.622459352016449
+    ],
+    "electronic_07::control::ctrl": [
+      0.6513549089431763,
+      0.8670357465744019,
+      0.8807970285415649,
+      0.6001883149147034
+    ],
+    "electronic_07::shuffle::shuf_beat": [
+      0.7431679368019104,
+      0.8807970285415649,
+      0.9124361872673035,
+      0.6859495043754578
+    ],
+    "electronic_07::shuffle::shuf_bar": [
+      0.7310585975646973,
+      0.8807970285415649,
+      0.917302668094635,
+      0.6859495043754578
+    ],
+    "electronic_07::reverse::rev": [
+      0.6513549089431763,
+      0.7879312038421631,
+      0.8438951373100281,
+      0.6076632142066956
+    ],
+    "electronic_07::displacement::disp_near": [
+      0.5926666259765625,
+      0.8267117738723755,
+      0.8267117738723755,
+      0.5698526501655579
+    ],
+    "electronic_07::displacement::disp_far": [
+      0.622459352016449,
+      0.8438951373100281,
+      0.8519527316093445,
+      0.6076632142066956
+    ],
+    "electronic_08::control::ctrl": [
+      0.8991213440895081,
+      0.8354835510253906,
+      0.9658995866775513,
+      0.863391637802124
+    ],
+    "electronic_08::shuffle::shuf_beat": [
+      0.8933094143867493,
+      0.8354835510253906,
+      0.9669140577316284,
+      0.8519527316093445
+    ],
+    "electronic_08::shuffle::shuf_bar": [
+      0.9099069833755493,
+      0.8267117738723755,
+      0.9669140577316284,
+      0.8902942538261414
+    ],
+    "electronic_08::reverse::rev": [
+      0.8670357465744019,
+      0.8080672025680542,
+      0.961533784866333,
+      0.8080672025680542
+    ],
+    "electronic_08::displacement::disp_near": [
+      0.7879312038421631,
+      0.7549149990081787,
+      0.9343951344490051,
+      0.7490872144699097
+    ],
+    "electronic_08::displacement::disp_far": [
+      0.7662936449050903,
+      0.7662936449050903,
+      0.9196425676345825,
+      0.6791787147521973
+    ],
+    "electronic_09::control::ctrl": [
+      0.8221890926361084,
+      0.7431679368019104,
+      0.9511421918869019,
+      0.7490872144699097
+    ],
+    "electronic_09::shuffle::shuf_beat": [
+      0.8670357465744019,
+      0.7981867790222168,
+      0.9553191661834717,
+      0.8031737804412842
+    ],
+    "electronic_09::shuffle::shuf_bar": [
+      0.8438951373100281,
+      0.7772998809814453,
+      0.9525741338729858,
+      0.7718434929847717
+    ],
+    "electronic_09::reverse::rev": [
+      0.7185943722724915,
+      0.665410578250885,
+      0.917302668094635,
+      0.5926666259765625
+    ],
+    "electronic_09::displacement::disp_near": [
+      0.7549149990081787,
+      0.622459352016449,
+      0.9149009585380554,
+      0.6076632142066956
+    ],
+    "electronic_09::displacement::disp_far": [
+      0.8128673434257507,
+      0.6926419734954834,
+      0.9381240010261536,
+      0.6584175229072571
+    ],
+    "electronic_10::control::ctrl": [
+      0.7310585975646973,
+      0.8175744414329529,
+      0.8807970285415649,
+      0.7981867790222168
+    ],
+    "electronic_10::shuffle::shuf_beat": [
+      0.7662936449050903,
+      0.8267117738723755,
+      0.8933094143867493,
+      0.7772998809814453
+    ],
+    "electronic_10::shuffle::shuf_bar": [
+      0.7981867790222168,
+      0.8354835510253906,
+      0.9099069833755493,
+      0.8175744414329529
+    ],
+    "electronic_10::reverse::rev": [
+      0.6926419734954834,
+      0.7981867790222168,
+      0.8354835510253906,
+      0.7662936449050903
+    ],
+    "electronic_10::displacement::disp_near": [
+      0.6513549089431763,
+      0.7662936449050903,
+      0.8267117738723755,
+      0.7662936449050903
+    ],
+    "electronic_10::displacement::disp_far": [
+      0.665410578250885,
+      0.8080672025680542,
+      0.8175744414329529,
+      0.7549149990081787
+    ],
+    "electronic_11::control::ctrl": [
+      0.7772998809814453,
+      0.8933094143867493,
+      0.8807970285415649,
+      0.8175744414329529
+    ],
+    "electronic_11::shuffle::shuf_beat": [
+      0.7185943722724915,
+      0.859663724899292,
+      0.8519527316093445,
+      0.8080672025680542
+    ],
+    "electronic_11::shuffle::shuf_bar": [
+      0.7310585975646973,
+      0.859663724899292,
+      0.859663724899292,
+      0.8175744414329529
+    ],
+    "electronic_11::reverse::rev": [
+      0.6370307803153992,
+      0.7981867790222168,
+      0.7879312038421631,
+      0.7431679368019104
+    ],
+    "electronic_11::displacement::disp_near": [
+      0.6926419734954834,
+      0.8080672025680542,
+      0.8354835510253906,
+      0.7431679368019104
+    ],
+    "electronic_11::displacement::disp_far": [
+      0.531209409236908,
+      0.622459352016449,
+      0.6513549089431763,
+      0.531209409236908
+    ],
+    "electronic_12::control::ctrl": [
+      0.7662936449050903,
+      0.8267117738723755,
+      0.8902942538261414,
+      0.7772998809814453
+    ],
+    "electronic_12::shuffle::shuf_beat": [
+      0.847967803478241,
+      0.7981867790222168,
+      0.9343951344490051,
+      0.8128673434257507
+    ],
+    "electronic_12::shuffle::shuf_bar": [
+      0.8519527316093445,
+      0.8080672025680542,
+      0.9304582476615906,
+      0.8311430811882019
+    ],
+    "electronic_12::reverse::rev": [
+      0.863391637802124,
+      0.7662936449050903,
+      0.9343951344490051,
+      0.8221890926361084
+    ],
+    "electronic_12::displacement::disp_near": [
+      0.8175744414329529,
+      0.8354835510253906,
+      0.9149009585380554,
+      0.7826625108718872
+    ],
+    "electronic_12::displacement::disp_far": [
+      0.7662936449050903,
+      0.8080672025680542,
+      0.8807970285415649,
+      0.7185943722724915
+    ],
+    "electronic_13::control::ctrl": [
+      0.859663724899292,
+      0.8519527316093445,
+      0.9381240010261536,
+      0.8438951373100281
+    ],
+    "electronic_13::shuffle::shuf_beat": [
+      0.8740772008895874,
+      0.8354835510253906,
+      0.9525741338729858,
+      0.8558511734008789
+    ],
+    "electronic_13::shuffle::shuf_bar": [
+      0.9046505093574524,
+      0.8519527316093445,
+      0.9511421918869019,
+      0.8740772008895874
+    ],
+    "electronic_13::reverse::rev": [
+      0.8740772008895874,
+      0.7310585975646973,
+      0.9343951344490051,
+      0.8221890926361084
+    ],
+    "electronic_13::displacement::disp_near": [
+      0.8080672025680542,
+      0.8267117738723755,
+      0.859663724899292,
+      0.7606506943702698
+    ],
+    "electronic_13::displacement::disp_far": [
+      0.7310585975646973,
+      0.7981867790222168,
+      0.8267117738723755,
+      0.665410578250885
+    ],
+    "electronic_14::control::ctrl": [
+      0.7057850360870361,
+      0.7772998809814453,
+      0.8354835510253906,
+      0.7248703241348267
+    ],
+    "electronic_14::shuffle::shuf_beat": [
+      0.7185943722724915,
+      0.7772998809814453,
+      0.8267117738723755,
+      0.6992543935775757
+    ],
+    "electronic_14::shuffle::shuf_bar": [
+      0.7549149990081787,
+      0.7879312038421631,
+      0.8740772008895874,
+      0.6791787147521973
+    ],
+    "electronic_14::reverse::rev": [
+      0.7718434929847717,
+      0.7549149990081787,
+      0.9019206762313843,
+      0.672331690788269
+    ],
+    "electronic_14::displacement::disp_near": [
+      0.6076632142066956,
+      0.7431679368019104,
+      0.7662936449050903,
+      0.6076632142066956
+    ],
+    "electronic_14::displacement::disp_far": [
+      0.6370307803153992,
+      0.7549149990081787,
+      0.7879312038421631,
+      0.665410578250885
+    ],
+    "electronic_15::control::ctrl": [
+      0.7431679368019104,
+      0.8519527316093445,
+      0.8438951373100281,
+      0.7826625108718872
+    ],
+    "electronic_15::shuffle::shuf_beat": [
+      0.7310585975646973,
+      0.8519527316093445,
+      0.8807970285415649,
+      0.7431679368019104
+    ],
+    "electronic_15::shuffle::shuf_bar": [
+      0.7431679368019104,
+      0.859663724899292,
+      0.8807970285415649,
+      0.7606506943702698
+    ],
+    "electronic_15::reverse::rev": [
+      0.665410578250885,
+      0.8354835510253906,
+      0.8438951373100281,
+      0.7431679368019104
+    ],
+    "electronic_15::displacement::disp_near": [
+      0.7057850360870361,
+      0.8354835510253906,
+      0.8354835510253906,
+      0.7185943722724915
+    ],
+    "electronic_15::displacement::disp_far": [
+      0.6926419734954834,
+      0.8267117738723755,
+      0.8175744414329529,
+      0.665410578250885
+    ],
+    "folk_01::control::ctrl": [
+      0.7879312038421631,
+      0.8807970285415649,
+      0.8991213440895081,
+      0.7371581792831421
+    ],
+    "folk_01::shuffle::shuf_beat": [
+      0.7981867790222168,
+      0.8933094143867493,
+      0.8933094143867493,
+      0.7490872144699097
+    ],
+    "folk_01::shuffle::shuf_bar": [
+      0.7981867790222168,
+      0.8872045874595642,
+      0.8933094143867493,
+      0.7248703241348267
+    ],
+    "folk_01::reverse::rev": [
+      0.7185943722724915,
+      0.8080672025680542,
+      0.8354835510253906,
+      0.7122321724891663
+    ],
+    "folk_01::displacement::disp_near": [
+      0.7549149990081787,
+      0.8807970285415649,
+      0.9046505093574524,
+      0.7185943722724915
+    ],
+    "folk_01::displacement::disp_far": [
+      0.7549149990081787,
+      0.8807970285415649,
+      0.8991213440895081,
+      0.6992543935775757
+    ],
+    "folk_02::control::ctrl": [
+      0.6926419734954834,
+      0.8080672025680542,
+      0.8080672025680542,
+      0.7122321724891663
+    ],
+    "folk_02::shuffle::shuf_beat": [
+      0.7662936449050903,
+      0.7057850360870361,
+      0.859663724899292,
+      0.7057850360870361
+    ],
+    "folk_02::shuffle::shuf_bar": [
+      0.8438951373100281,
+      0.8175744414329529,
+      0.9099069833755493,
+      0.8175744414329529
+    ],
+    "folk_02::reverse::rev": [
+      0.7431679368019104,
+      0.7879312038421631,
+      0.8670357465744019,
+      0.7057850360870361
+    ],
+    "folk_02::displacement::disp_near": [
+      0.6791787147521973,
+      0.7431679368019104,
+      0.7981867790222168,
+      0.6370307803153992
+    ],
+    "folk_02::displacement::disp_far": [
+      0.6926419734954834,
+      0.7549149990081787,
+      0.8267117738723755,
+      0.5926666259765625
+    ],
+    "folk_03::control::ctrl": [
+      0.8933094143867493,
+      0.9196425676345825,
+      0.9465966820716858,
+      0.8705973029136658
+    ],
+    "folk_03::shuffle::shuf_beat": [
+      0.8807970285415649,
+      0.8991213440895081,
+      0.9399133324623108,
+      0.8397339582443237
+    ],
+    "folk_03::shuffle::shuf_bar": [
+      0.8807970285415649,
+      0.9099069833755493,
+      0.9465966820716858,
+      0.8311430811882019
+    ],
+    "folk_03::reverse::rev": [
+      0.7981867790222168,
+      0.8519527316093445,
+      0.9149009585380554,
+      0.7772998809814453
+    ],
+    "folk_03::displacement::disp_near": [
+      0.7310585975646973,
+      0.7431679368019104,
+      0.859663724899292,
+      0.6513549089431763
+    ],
+    "folk_03::displacement::disp_far": [
+      0.8438951373100281,
+      0.8807970285415649,
+      0.917302668094635,
+      0.793105959892273
+    ],
+    "folk_04::control::ctrl": [
+      0.7662936449050903,
+      0.8175744414329529,
+      0.8438951373100281,
+      0.8311430811882019
+    ],
+    "folk_04::shuffle::shuf_beat": [
+      0.7490872144699097,
+      0.7057850360870361,
+      0.8080672025680542,
+      0.7549149990081787
+    ],
+    "folk_04::shuffle::shuf_bar": [
+      0.6791787147521973,
+      0.7310585975646973,
+      0.8397339582443237,
+      0.7057850360870361
+    ],
+    "folk_04::reverse::rev": [
+      0.7057850360870361,
+      0.7057850360870361,
+      0.7662936449050903,
+      0.6992543935775757
+    ],
+    "folk_04::displacement::disp_near": [
+      0.6791787147521973,
+      0.7662936449050903,
+      0.7879312038421631,
+      0.7606506943702698
+    ],
+    "folk_04::displacement::disp_far": [
+      0.5774953365325928,
+      0.7310585975646973,
+      0.7981867790222168,
+      0.6791787147521973
+    ],
+    "folk_05::control::ctrl": [
+      0.7549149990081787,
+      0.859663724899292,
+      0.8519527316093445,
+      0.8267117738723755
+    ],
+    "folk_05::shuffle::shuf_beat": [
+      0.7981867790222168,
+      0.8740772008895874,
+      0.8933094143867493,
+      0.8267117738723755
+    ],
+    "folk_05::shuffle::shuf_bar": [
+      0.7879312038421631,
+      0.8740772008895874,
+      0.8872045874595642,
+      0.8354835510253906
+    ],
+    "folk_05::reverse::rev": [
+      0.7879312038421631,
+      0.8354835510253906,
+      0.8740772008895874,
+      0.8311430811882019
+    ],
+    "folk_05::displacement::disp_near": [
+      0.7057850360870361,
+      0.7981867790222168,
+      0.8080672025680542,
+      0.6791787147521973
+    ],
+    "folk_05::displacement::disp_far": [
+      0.6926419734954834,
+      0.5926666259765625,
+      0.7879312038421631,
+      0.4843800961971283
+    ],
+    "folk_06::control::ctrl": [
+      0.7879312038421631,
+      0.8354835510253906,
+      0.859663724899292,
+      0.8031737804412842
+    ],
+    "folk_06::shuffle::shuf_beat": [
+      0.8519527316093445,
+      0.8175744414329529,
+      0.8933094143867493,
+      0.7826625108718872
+    ],
+    "folk_06::shuffle::shuf_bar": [
+      0.7879312038421631,
+      0.7981867790222168,
+      0.8807970285415649,
+      0.793105959892273
+    ],
+    "folk_06::reverse::rev": [
+      0.7549149990081787,
+      0.7662936449050903,
+      0.8438951373100281,
+      0.7431679368019104
+    ],
+    "folk_06::displacement::disp_near": [
+      0.6791787147521973,
+      0.7431679368019104,
+      0.8438951373100281,
+      0.6513549089431763
+    ],
+    "folk_06::displacement::disp_far": [
+      0.6370307803153992,
+      0.7772998809814453,
+      0.8175744414329529,
+      0.6370307803153992
+    ],
+    "folk_07::control::ctrl": [
+      0.8558511734008789,
+      0.7549149990081787,
+      0.9324532747268677,
+      0.8267117738723755
+    ],
+    "folk_07::shuffle::shuf_beat": [
+      0.8933094143867493,
+      0.7549149990081787,
+      0.949669361114502,
+      0.896251380443573
+    ],
+    "folk_07::shuffle::shuf_bar": [
+      0.9149009585380554,
+      0.7879312038421631,
+      0.9539660811424255,
+      0.917302668094635
+    ],
+    "folk_07::reverse::rev": [
+      0.8354835510253906,
+      0.6076632142066956,
+      0.9196425676345825,
+      0.7248703241348267
+    ],
+    "folk_07::displacement::disp_near": [
+      0.7431679368019104,
+      0.7185943722724915,
+      0.8740772008895874,
+      0.665410578250885
+    ],
+    "folk_07::displacement::disp_far": [
+      0.6513549089431763,
+      0.7431679368019104,
+      0.8267117738723755,
+      0.5156199336051941
+    ],
+    "folk_08::control::ctrl": [
+      0.8175744414329529,
+      0.859663724899292,
+      0.8933094143867493,
+      0.8311430811882019
+    ],
+    "folk_08::shuffle::shuf_beat": [
+      0.7185943722724915,
+      0.7879312038421631,
+      0.8933094143867493,
+      0.7122321724891663
+    ],
+    "folk_08::shuffle::shuf_bar": [
+      0.8397339582443237,
+      0.8740772008895874,
+      0.9241418242454529,
+      0.8558511734008789
+    ],
+    "folk_08::reverse::rev": [
+      0.7310585975646973,
+      0.8080672025680542,
+      0.859663724899292,
+      0.7122321724891663
+    ],
+    "folk_08::displacement::disp_near": [
+      0.7431679368019104,
+      0.859663724899292,
+      0.8670357465744019,
+      0.793105959892273
+    ],
+    "folk_08::displacement::disp_far": [
+      0.7057850360870361,
+      0.8080672025680542,
+      0.9099069833755493,
+      0.6791787147521973
+    ],
+    "folk_09::control::ctrl": [
+      0.847967803478241,
+      0.7549149990081787,
+      0.9263036847114563,
+      0.8397339582443237
+    ],
+    "folk_09::shuffle::shuf_beat": [
+      0.8031737804412842,
+      0.7431679368019104,
+      0.9263036847114563,
+      0.7981867790222168
+    ],
+    "folk_09::shuffle::shuf_bar": [
+      0.8311430811882019,
+      0.7490872144699097,
+      0.9241418242454529,
+      0.8438951373100281
+    ],
+    "folk_09::reverse::rev": [
+      0.7879312038421631,
+      0.7431679368019104,
+      0.9219217896461487,
+      0.7879312038421631
+    ],
+    "folk_09::displacement::disp_near": [
+      0.8267117738723755,
+      0.7310585975646973,
+      0.917302668094635,
+      0.8267117738723755
+    ],
+    "folk_09::displacement::disp_far": [
+      0.8221890926361084,
+      0.7431679368019104,
+      0.9149009585380554,
+      0.8438951373100281
+    ],
+    "folk_10::control::ctrl": [
+      0.8080672025680542,
+      0.8267117738723755,
+      0.8872045874595642,
+      0.8558511734008789
+    ],
+    "folk_10::shuffle::shuf_beat": [
+      0.7185943722724915,
+      0.8175744414329529,
+      0.8991213440895081,
+      0.7826625108718872
+    ],
+    "folk_10::shuffle::shuf_bar": [
+      0.6926419734954834,
+      0.7879312038421631,
+      0.8519527316093445,
+      0.7431679368019104
+    ],
+    "folk_10::reverse::rev": [
+      0.6076632142066956,
+      0.6926419734954834,
+      0.7772998809814453,
+      0.6859495043754578
+    ],
+    "folk_10::displacement::disp_near": [
+      0.6513549089431763,
+      0.7981867790222168,
+      0.7662936449050903,
+      0.7248703241348267
+    ],
+    "folk_10::displacement::disp_far": [
+      0.6370307803153992,
+      0.8175744414329529,
+      0.8267117738723755,
+      0.6791787147521973
+    ],
+    "folk_11::control::ctrl": [
+      0.6370307803153992,
+      0.7879312038421631,
+      0.8080672025680542,
+      0.7772998809814453
+    ],
+    "folk_11::shuffle::shuf_beat": [
+      0.6370307803153992,
+      0.7431679368019104,
+      0.8519527316093445,
+      0.7185943722724915
+    ],
+    "folk_11::shuffle::shuf_bar": [
+      0.6513549089431763,
+      0.7772998809814453,
+      0.8774768114089966,
+      0.7606506943702698
+    ],
+    "folk_11::reverse::rev": [
+      0.5774953365325928,
+      0.7431679368019104,
+      0.8175744414329529,
+      0.6859495043754578
+    ],
+    "folk_11::displacement::disp_near": [
+      0.6791787147521973,
+      0.7879312038421631,
+      0.8267117738723755,
+      0.7431679368019104
+    ],
+    "folk_11::displacement::disp_far": [
+      0.665410578250885,
+      0.8175744414329529,
+      0.8080672025680542,
+      0.7310585975646973
+    ],
+    "folk_12::control::ctrl": [
+      0.6513549089431763,
+      0.7772998809814453,
+      0.7662936449050903,
+      0.622459352016449
+    ],
+    "folk_12::shuffle::shuf_beat": [
+      0.7310585975646973,
+      0.7662936449050903,
+      0.8670357465744019,
+      0.622459352016449
+    ],
+    "folk_12::shuffle::shuf_bar": [
+      0.6513549089431763,
+      0.7772998809814453,
+      0.7549149990081787,
+      0.622459352016449
+    ],
+    "folk_12::reverse::rev": [
+      0.622459352016449,
+      0.622459352016449,
+      0.6076632142066956,
+      0.5698526501655579
+    ],
+    "folk_12::displacement::disp_near": [
+      0.6513549089431763,
+      0.8080672025680542,
+      0.7879312038421631,
+      0.5774953365325928
+    ],
+    "folk_12::displacement::disp_far": [
+      0.6926419734954834,
+      0.7981867790222168,
+      0.7879312038421631,
+      0.672331690788269
+    ],
+    "folk_13::control::ctrl": [
+      0.622459352016449,
+      0.8080672025680542,
+      0.8175744414329529,
+      0.7772998809814453
+    ],
+    "folk_13::shuffle::shuf_beat": [
+      0.6926419734954834,
+      0.8354835510253906,
+      0.8670357465744019,
+      0.8031737804412842
+    ],
+    "folk_13::shuffle::shuf_bar": [
+      0.7185943722724915,
+      0.8438951373100281,
+      0.8740772008895874,
+      0.7606506943702698
+    ],
+    "folk_13::reverse::rev": [
+      0.622459352016449,
+      0.8267117738723755,
+      0.8175744414329529,
+      0.7826625108718872
+    ],
+    "folk_13::displacement::disp_near": [
+      0.5926666259765625,
+      0.7662936449050903,
+      0.7662936449050903,
+      0.7185943722724915
+    ],
+    "folk_13::displacement::disp_far": [
+      0.6791787147521973,
+      0.7772998809814453,
+      0.8267117738723755,
+      0.7431679368019104
+    ],
+    "folk_14::control::ctrl": [
+      0.7431679368019104,
+      0.859663724899292,
+      0.8740772008895874,
+      0.8128673434257507
+    ],
+    "folk_14::shuffle::shuf_beat": [
+      0.6791787147521973,
+      0.8354835510253906,
+      0.8519527316093445,
+      0.6926419734954834
+    ],
+    "folk_14::shuffle::shuf_bar": [
+      0.7185943722724915,
+      0.859663724899292,
+      0.859663724899292,
+      0.793105959892273
+    ],
+    "folk_14::reverse::rev": [
+      0.6513549089431763,
+      0.7310585975646973,
+      0.7662936449050903,
+      0.5926666259765625
+    ],
+    "folk_14::displacement::disp_near": [
+      0.7310585975646973,
+      0.8354835510253906,
+      0.9099069833755493,
+      0.7549149990081787
+    ],
+    "folk_14::displacement::disp_far": [
+      0.7549149990081787,
+      0.8438951373100281,
+      0.8519527316093445,
+      0.7879312038421631
+    ],
+    "folk_15::control::ctrl": [
+      0.622459352016449,
+      0.7431679368019104,
+      0.665410578250885,
+      0.7057850360870361
+    ],
+    "folk_15::shuffle::shuf_beat": [
+      0.5156199336051941,
+      0.7057850360870361,
+      0.5774953365325928,
+      0.5926666259765625
+    ],
+    "folk_15::shuffle::shuf_bar": [
+      0.622459352016449,
+      0.7431679368019104,
+      0.7057850360870361,
+      0.6370307803153992
+    ],
+    "folk_15::reverse::rev": [
+      0.5156199336051941,
+      0.6370307803153992,
+      0.5926666259765625,
+      0.4843800961971283
+    ],
+    "folk_15::displacement::disp_near": [
+      0.6370307803153992,
+      0.7185943722724915,
+      0.7185943722724915,
+      0.6926419734954834
+    ],
+    "folk_15::displacement::disp_far": [
+      0.6076632142066956,
+      0.622459352016449,
+      0.8080672025680542,
+      0.5467381477355957
+    ],
+    "jazz_01::control::ctrl": [
+      0.7549149990081787,
+      0.7879312038421631,
+      0.907312273979187,
+      0.6926419734954834
+    ],
+    "jazz_01::shuffle::shuf_beat": [
+      0.7879312038421631,
+      0.7879312038421631,
+      0.9399133324623108,
+      0.7122321724891663
+    ],
+    "jazz_01::shuffle::shuf_bar": [
+      0.7431679368019104,
+      0.8080672025680542,
+      0.9362850189208984,
+      0.6992543935775757
+    ],
+    "jazz_01::reverse::rev": [
+      0.6370307803153992,
+      0.7057850360870361,
+      0.7879312038421631,
+      0.5926666259765625
+    ],
+    "jazz_01::displacement::disp_near": [
+      0.7310585975646973,
+      0.7662936449050903,
+      0.9124361872673035,
+      0.6513549089431763
+    ],
+    "jazz_01::displacement::disp_far": [
+      0.7662936449050903,
+      0.7549149990081787,
+      0.9304582476615906,
+      0.6791787147521973
+    ],
+    "jazz_02::control::ctrl": [
+      0.7772998809814453,
+      0.859663724899292,
+      0.9099069833755493,
+      0.7431679368019104
+    ],
+    "jazz_02::shuffle::shuf_beat": [
+      0.7431679368019104,
+      0.8519527316093445,
+      0.9046505093574524,
+      0.7371581792831421
+    ],
+    "jazz_02::shuffle::shuf_bar": [
+      0.7431679368019104,
+      0.8438951373100281,
+      0.8991213440895081,
+      0.7310585975646973
+    ],
+    "jazz_02::reverse::rev": [
+      0.7431679368019104,
+      0.7772998809814453,
+      0.859663724899292,
+      0.6926419734954834
+    ],
+    "jazz_02::displacement::disp_near": [
+      0.7772998809814453,
+      0.8175744414329529,
+      0.9362850189208984,
+      0.7057850360870361
+    ],
+    "jazz_02::displacement::disp_far": [
+      0.8175744414329529,
+      0.8354835510253906,
+      0.9343951344490051,
+      0.7310585975646973
+    ],
+    "jazz_03::control::ctrl": [
+      0.7310585975646973,
+      0.8438951373100281,
+      0.8872045874595642,
+      0.7371581792831421
+    ],
+    "jazz_03::shuffle::shuf_beat": [
+      0.7310585975646973,
+      0.8519527316093445,
+      0.8872045874595642,
+      0.7490872144699097
+    ],
+    "jazz_03::shuffle::shuf_bar": [
+      0.7431679368019104,
+      0.8438951373100281,
+      0.8933094143867493,
+      0.7122321724891663
+    ],
+    "jazz_03::reverse::rev": [
+      0.665410578250885,
+      0.7772998809814453,
+      0.859663724899292,
+      0.7057850360870361
+    ],
+    "jazz_03::displacement::disp_near": [
+      0.7981867790222168,
+      0.8872045874595642,
+      0.9416541457176208,
+      0.7772998809814453
+    ],
+    "jazz_03::displacement::disp_far": [
+      0.7662936449050903,
+      0.8740772008895874,
+      0.9324532747268677,
+      0.7310585975646973
+    ],
+    "jazz_04::control::ctrl": [
+      0.8519527316093445,
+      0.8267117738723755,
+      0.9263036847114563,
+      0.8031737804412842
+    ],
+    "jazz_04::shuffle::shuf_beat": [
+      0.8740772008895874,
+      0.8519527316093445,
+      0.9324532747268677,
+      0.8354835510253906
+    ],
+    "jazz_04::shuffle::shuf_bar": [
+      0.8705973029136658,
+      0.8267117738723755,
+      0.9343951344490051,
+      0.8221890926361084
+    ],
+    "jazz_04::reverse::rev": [
+      0.859663724899292,
+      0.8080672025680542,
+      0.9343951344490051,
+      0.8221890926361084
+    ],
+    "jazz_04::displacement::disp_near": [
+      0.7981867790222168,
+      0.7662936449050903,
+      0.8438951373100281,
+      0.622459352016449
+    ],
+    "jazz_04::displacement::disp_far": [
+      0.562176525592804,
+      0.6513549089431763,
+      0.5467381477355957,
+      0.5
+    ],
+    "jazz_05::control::ctrl": [
+      0.6513549089431763,
+      0.8438951373100281,
+      0.8438951373100281,
+      0.5851011276245117
+    ],
+    "jazz_05::shuffle::shuf_beat": [
+      0.6791787147521973,
+      0.8519527316093445,
+      0.8438951373100281,
+      0.6076632142066956
+    ],
+    "jazz_05::shuffle::shuf_bar": [
+      0.7549149990081787,
+      0.8872045874595642,
+      0.8902942538261414,
+      0.5774953365325928
+    ],
+    "jazz_05::reverse::rev": [
+      0.6370307803153992,
+      0.7879312038421631,
+      0.7981867790222168,
+      0.6370307803153992
+    ],
+    "jazz_05::displacement::disp_near": [
+      0.562176525592804,
+      0.7310585975646973,
+      0.7549149990081787,
+      0.4687906503677368
+    ],
+    "jazz_05::displacement::disp_far": [
+      0.665410578250885,
+      0.7772998809814453,
+      0.7662936449050903,
+      0.5467381477355957
+    ],
+    "jazz_06::control::ctrl": [
+      0.7310585975646973,
+      0.8519527316093445,
+      0.8740772008895874,
+      0.7606506943702698
+    ],
+    "jazz_06::shuffle::shuf_beat": [
+      0.8311430811882019,
+      0.8740772008895874,
+      0.917302668094635,
+      0.7185943722724915
+    ],
+    "jazz_06::shuffle::shuf_bar": [
+      0.8354835510253906,
+      0.8807970285415649,
+      0.9263036847114563,
+      0.7371581792831421
+    ],
+    "jazz_06::reverse::rev": [
+      0.6076632142066956,
+      0.7310585975646973,
+      0.8175744414329529,
+      0.4843800961971283
+    ],
+    "jazz_06::displacement::disp_near": [
+      0.7431679368019104,
+      0.8080672025680542,
+      0.8933094143867493,
+      0.6513549089431763
+    ],
+    "jazz_06::displacement::disp_far": [
+      0.7879312038421631,
+      0.8267117738723755,
+      0.8933094143867493,
+      0.7122321724891663
+    ],
+    "jazz_07::control::ctrl": [
+      0.907312273979187,
+      0.8705973029136658,
+      0.9637799859046936,
+      0.8670357465744019
+    ],
+    "jazz_07::shuffle::shuf_beat": [
+      0.8807970285415649,
+      0.8840392827987671,
+      0.957912266254425,
+      0.8311430811882019
+    ],
+    "jazz_07::shuffle::shuf_bar": [
+      0.8902942538261414,
+      0.8774768114089966,
+      0.9603611826896667,
+      0.8311430811882019
+    ],
+    "jazz_07::reverse::rev": [
+      0.8354835510253906,
+      0.8267117738723755,
+      0.9284088015556335,
+      0.7549149990081787
+    ],
+    "jazz_07::displacement::disp_near": [
+      0.863391637802124,
+      0.8519527316093445,
+      0.9481545686721802,
+      0.7431679368019104
+    ],
+    "jazz_07::displacement::disp_far": [
+      0.8354835510253906,
+      0.859663724899292,
+      0.9399133324623108,
+      0.7057850360870361
+    ],
+    "jazz_08::control::ctrl": [
+      0.7662936449050903,
+      0.8080672025680542,
+      0.8705973029136658,
+      0.7122321724891663
+    ],
+    "jazz_08::shuffle::shuf_beat": [
+      0.665410578250885,
+      0.7879312038421631,
+      0.8175744414329529,
+      0.6370307803153992
+    ],
+    "jazz_08::shuffle::shuf_bar": [
+      0.7879312038421631,
+      0.7879312038421631,
+      0.8872045874595642,
+      0.7185943722724915
+    ],
+    "jazz_08::reverse::rev": [
+      0.7310585975646973,
+      0.7185943722724915,
+      0.8519527316093445,
+      0.6370307803153992
+    ],
+    "jazz_08::displacement::disp_near": [
+      0.6791787147521973,
+      0.7879312038421631,
+      0.8872045874595642,
+      0.5926666259765625
+    ],
+    "jazz_08::displacement::disp_far": [
+      0.7431679368019104,
+      0.7879312038421631,
+      0.8872045874595642,
+      0.622459352016449
+    ],
+    "jazz_09::control::ctrl": [
+      0.7057850360870361,
+      0.8080672025680542,
+      0.8991213440895081,
+      0.7122321724891663
+    ],
+    "jazz_09::shuffle::shuf_beat": [
+      0.6076632142066956,
+      0.7772998809814453,
+      0.8991213440895081,
+      0.5
+    ],
+    "jazz_09::shuffle::shuf_bar": [
+      0.7057850360870361,
+      0.7981867790222168,
+      0.9046505093574524,
+      0.665410578250885
+    ],
+    "jazz_09::reverse::rev": [
+      0.6076632142066956,
+      0.7549149990081787,
+      0.8438951373100281,
+      0.6297746300697327
+    ],
+    "jazz_09::displacement::disp_near": [
+      0.562176525592804,
+      0.7549149990081787,
+      0.8438951373100281,
+      0.622459352016449
+    ],
+    "jazz_09::displacement::disp_far": [
+      0.5926666259765625,
+      0.7772998809814453,
+      0.8933094143867493,
+      0.562176525592804
+    ],
+    "jazz_10::control::ctrl": [
+      0.7549149990081787,
+      0.8933094143867493,
+      0.9241418242454529,
+      0.7718434929847717
+    ],
+    "jazz_10::shuffle::shuf_beat": [
+      0.8080672025680542,
+      0.8933094143867493,
+      0.9304582476615906,
+      0.8128673434257507
+    ],
+    "jazz_10::shuffle::shuf_bar": [
+      0.8354835510253906,
+      0.9046505093574524,
+      0.9416541457176208,
+      0.8311430811882019
+    ],
+    "jazz_10::reverse::rev": [
+      0.6926419734954834,
+      0.8175744414329529,
+      0.859663724899292,
+      0.6926419734954834
+    ],
+    "jazz_10::displacement::disp_near": [
+      0.8267117738723755,
+      0.8807970285415649,
+      0.9433475732803345,
+      0.7879312038421631
+    ],
+    "jazz_10::displacement::disp_far": [
+      0.8175744414329529,
+      0.8807970285415649,
+      0.9343951344490051,
+      0.7772998809814453
+    ],
+    "jazz_11::control::ctrl": [
+      0.859663724899292,
+      0.8807970285415649,
+      0.9449946880340576,
+      0.7879312038421631
+    ],
+    "jazz_11::shuffle::shuf_beat": [
+      0.8080672025680542,
+      0.8740772008895874,
+      0.9465966820716858,
+      0.7248703241348267
+    ],
+    "jazz_11::shuffle::shuf_bar": [
+      0.8354835510253906,
+      0.8670357465744019,
+      0.9399133324623108,
+      0.7606506943702698
+    ],
+    "jazz_11::reverse::rev": [
+      0.7431679368019104,
+      0.7981867790222168,
+      0.8991213440895081,
+      0.6926419734954834
+    ],
+    "jazz_11::displacement::disp_near": [
+      0.8080672025680542,
+      0.859663724899292,
+      0.9324532747268677,
+      0.6926419734954834
+    ],
+    "jazz_11::displacement::disp_far": [
+      0.7549149990081787,
+      0.8080672025680542,
+      0.9433475732803345,
+      0.5926666259765625
+    ],
+    "jazz_12::control::ctrl": [
+      0.8080672025680542,
+      0.8740772008895874,
+      0.8807970285415649,
+      0.8175744414329529
+    ],
+    "jazz_12::shuffle::shuf_beat": [
+      0.8558511734008789,
+      0.8740772008895874,
+      0.9149009585380554,
+      0.7879312038421631
+    ],
+    "jazz_12::shuffle::shuf_bar": [
+      0.8774768114089966,
+      0.8872045874595642,
+      0.9124361872673035,
+      0.8031737804412842
+    ],
+    "jazz_12::reverse::rev": [
+      0.7310585975646973,
+      0.7981867790222168,
+      0.8519527316093445,
+      0.6791787147521973
+    ],
+    "jazz_12::displacement::disp_near": [
+      0.6791787147521973,
+      0.7662936449050903,
+      0.8807970285415649,
+      0.5774953365325928
+    ],
+    "jazz_12::displacement::disp_far": [
+      0.7310585975646973,
+      0.7879312038421631,
+      0.8740772008895874,
+      0.665410578250885
+    ],
+    "jazz_13::control::ctrl": [
+      0.9343951344490051,
+      0.9362850189208984,
+      0.9591543078422546,
+      0.8354835510253906
+    ],
+    "jazz_13::shuffle::shuf_beat": [
+      0.9525741338729858,
+      0.9433475732803345,
+      0.977022647857666,
+      0.859663724899292
+    ],
+    "jazz_13::shuffle::shuf_bar": [
+      0.9465966820716858,
+      0.9433475732803345,
+      0.970687747001648,
+      0.8397339582443237
+    ],
+    "jazz_13::reverse::rev": [
+      0.8080672025680542,
+      0.8438951373100281,
+      0.9149009585380554,
+      0.7248703241348267
+    ],
+    "jazz_13::displacement::disp_near": [
+      0.9241418242454529,
+      0.9149009585380554,
+      0.971563994884491,
+      0.8311430811882019
+    ],
+    "jazz_13::displacement::disp_far": [
+      0.9196425676345825,
+      0.9196425676345825,
+      0.971563994884491,
+      0.847967803478241
+    ],
+    "jazz_14::control::ctrl": [
+      0.7981867790222168,
+      0.8354835510253906,
+      0.917302668094635,
+      0.7310585975646973
+    ],
+    "jazz_14::shuffle::shuf_beat": [
+      0.7772998809814453,
+      0.8354835510253906,
+      0.917302668094635,
+      0.7185943722724915
+    ],
+    "jazz_14::shuffle::shuf_bar": [
+      0.8267117738723755,
+      0.8354835510253906,
+      0.9324532747268677,
+      0.7431679368019104
+    ],
+    "jazz_14::reverse::rev": [
+      0.6791787147521973,
+      0.7185943722724915,
+      0.7981867790222168,
+      0.5926666259765625
+    ],
+    "jazz_14::displacement::disp_near": [
+      0.8080672025680542,
+      0.8438951373100281,
+      0.9196425676345825,
+      0.7606506943702698
+    ],
+    "jazz_14::displacement::disp_far": [
+      0.8267117738723755,
+      0.859663724899292,
+      0.9196425676345825,
+      0.7772998809814453
+    ],
+    "jazz_15::control::ctrl": [
+      0.665410578250885,
+      0.8267117738723755,
+      0.7981867790222168,
+      0.7718434929847717
+    ],
+    "jazz_15::shuffle::shuf_beat": [
+      0.6513549089431763,
+      0.7981867790222168,
+      0.7772998809814453,
+      0.7549149990081787
+    ],
+    "jazz_15::shuffle::shuf_bar": [
+      0.6513549089431763,
+      0.7879312038421631,
+      0.7879312038421631,
+      0.6992543935775757
+    ],
+    "jazz_15::reverse::rev": [
+      0.622459352016449,
+      0.7662936449050903,
+      0.7879312038421631,
+      0.7431679368019104
+    ],
+    "jazz_15::displacement::disp_near": [
+      0.6076632142066956,
+      0.7981867790222168,
+      0.7431679368019104,
+      0.6513549089431763
+    ],
+    "jazz_15::displacement::disp_far": [
+      0.5774953365325928,
+      0.7549149990081787,
+      0.7057850360870361,
+      0.6791787147521973
+    ],
+    "rock_01::control::ctrl": [
+      0.7431679368019104,
+      0.8175744414329529,
+      0.8670357465744019,
+      0.7772998809814453
+    ],
+    "rock_01::shuffle::shuf_beat": [
+      0.8872045874595642,
+      0.8175744414329529,
+      0.9566342234611511,
+      0.8438951373100281
+    ],
+    "rock_01::shuffle::shuf_bar": [
+      0.8175744414329529,
+      0.8080672025680542,
+      0.9196425676345825,
+      0.7606506943702698
+    ],
+    "rock_01::reverse::rev": [
+      0.8175744414329529,
+      0.7772998809814453,
+      0.9124361872673035,
+      0.7549149990081787
+    ],
+    "rock_01::displacement::disp_near": [
+      0.7549149990081787,
+      0.7879312038421631,
+      0.907312273979187,
+      0.6076632142066956
+    ],
+    "rock_01::displacement::disp_far": [
+      0.7057850360870361,
+      0.7879312038421631,
+      0.8670357465744019,
+      0.6076632142066956
+    ],
+    "rock_02::control::ctrl": [
+      0.8128673434257507,
+      0.7981867790222168,
+      0.907312273979187,
+      0.6859495043754578
+    ],
+    "rock_02::shuffle::shuf_beat": [
+      0.8080672025680542,
+      0.7662936449050903,
+      0.9149009585380554,
+      0.672331690788269
+    ],
+    "rock_02::shuffle::shuf_bar": [
+      0.8670357465744019,
+      0.7981867790222168,
+      0.9539660811424255,
+      0.7549149990081787
+    ],
+    "rock_02::reverse::rev": [
+      0.7879312038421631,
+      0.6791787147521973,
+      0.8807970285415649,
+      0.6859495043754578
+    ],
+    "rock_02::displacement::disp_near": [
+      0.7057850360870361,
+      0.7772998809814453,
+      0.8519527316093445,
+      0.6370307803153992
+    ],
+    "rock_02::displacement::disp_far": [
+      0.5926666259765625,
+      0.7185943722724915,
+      0.8519527316093445,
+      0.5467381477355957
+    ],
+    "rock_03::control::ctrl": [
+      0.6370307803153992,
+      0.7431679368019104,
+      0.859663724899292,
+      0.6513549089431763
+    ],
+    "rock_03::shuffle::shuf_beat": [
+      0.7879312038421631,
+      0.7772998809814453,
+      0.9433475732803345,
+      0.7371581792831421
+    ],
+    "rock_03::shuffle::shuf_bar": [
+      0.793105959892273,
+      0.7772998809814453,
+      0.9449946880340576,
+      0.7549149990081787
+    ],
+    "rock_03::reverse::rev": [
+      0.7879312038421631,
+      0.7431679368019104,
+      0.9449946880340576,
+      0.7549149990081787
+    ],
+    "rock_03::displacement::disp_near": [
+      0.7879312038421631,
+      0.8267117738723755,
+      0.9449946880340576,
+      0.7431679368019104
+    ],
+    "rock_03::displacement::disp_far": [
+      0.6513549089431763,
+      0.8080672025680542,
+      0.859663724899292,
+      0.5926666259765625
+    ],
+    "rock_04::control::ctrl": [
+      0.9241418242454529,
+      0.8872045874595642,
+      0.9814534187316895,
+      0.7879312038421631
+    ],
+    "rock_04::shuffle::shuf_beat": [
+      0.9263036847114563,
+      0.896251380443573,
+      0.9820137619972229,
+      0.7549149990081787
+    ],
+    "rock_04::shuffle::shuf_bar": [
+      0.9324532747268677,
+      0.9019206762313843,
+      0.9835969805717468,
+      0.7490872144699097
+    ],
+    "rock_04::reverse::rev": [
+      0.907312273979187,
+      0.8872045874595642,
+      0.985042929649353,
+      0.8031737804412842
+    ],
+    "rock_04::displacement::disp_near": [
+      0.8175744414329529,
+      0.8519527316093445,
+      0.9732407331466675,
+      0.665410578250885
+    ],
+    "rock_04::displacement::disp_far": [
+      0.9219217896461487,
+      0.8807970285415649,
+      0.9808759689331055,
+      0.7606506943702698
+    ],
+    "rock_05::control::ctrl": [
+      0.7431679368019104,
+      0.7879312038421631,
+      0.9099069833755493,
+      0.6926419734954834
+    ],
+    "rock_05::shuffle::shuf_beat": [
+      0.7772998809814453,
+      0.7662936449050903,
+      0.9219217896461487,
+      0.7057850360870361
+    ],
+    "rock_05::shuffle::shuf_bar": [
+      0.7879312038421631,
+      0.7981867790222168,
+      0.9263036847114563,
+      0.7248703241348267
+    ],
+    "rock_05::reverse::rev": [
+      0.7057850360870361,
+      0.7431679368019104,
+      0.8740772008895874,
+      0.562176525592804
+    ],
+    "rock_05::displacement::disp_near": [
+      0.665410578250885,
+      0.7981867790222168,
+      0.8991213440895081,
+      0.6076632142066956
+    ],
+    "rock_05::displacement::disp_far": [
+      0.5926666259765625,
+      0.7662936449050903,
+      0.8991213440895081,
+      0.5467381477355957
+    ],
+    "rock_06::control::ctrl": [
+      0.8175744414329529,
+      0.8933094143867493,
+      0.9481545686721802,
+      0.7248703241348267
+    ],
+    "rock_06::shuffle::shuf_beat": [
+      0.8354835510253906,
+      0.8807970285415649,
+      0.9553191661834717,
+      0.665410578250885
+    ],
+    "rock_06::shuffle::shuf_bar": [
+      0.859663724899292,
+      0.8933094143867493,
+      0.9658995866775513,
+      0.7185943722724915
+    ],
+    "rock_06::reverse::rev": [
+      0.7549149990081787,
+      0.8519527316093445,
+      0.9343951344490051,
+      0.6791787147521973
+    ],
+    "rock_06::displacement::disp_near": [
+      0.7772998809814453,
+      0.8933094143867493,
+      0.9399133324623108,
+      0.7057850360870361
+    ],
+    "rock_06::displacement::disp_far": [
+      0.7662936449050903,
+      0.8872045874595642,
+      0.9343951344490051,
+      0.7310585975646973
+    ],
+    "rock_07::control::ctrl": [
+      0.7549149990081787,
+      0.7662936449050903,
+      0.8267117738723755,
+      0.7185943722724915
+    ],
+    "rock_07::shuffle::shuf_beat": [
+      0.8354835510253906,
+      0.7772998809814453,
+      0.8872045874595642,
+      0.8354835510253906
+    ],
+    "rock_07::shuffle::shuf_bar": [
+      0.8354835510253906,
+      0.7549149990081787,
+      0.896251380443573,
+      0.8519527316093445
+    ],
+    "rock_07::reverse::rev": [
+      0.7981867790222168,
+      0.7310585975646973,
+      0.859663724899292,
+      0.7879312038421631
+    ],
+    "rock_07::displacement::disp_near": [
+      0.6076632142066956,
+      0.6791787147521973,
+      0.7310585975646973,
+      0.5774953365325928
+    ],
+    "rock_07::displacement::disp_far": [
+      0.6076632142066956,
+      0.665410578250885,
+      0.7057850360870361,
+      0.5926666259765625
+    ],
+    "rock_08::control::ctrl": [
+      0.8175744414329529,
+      0.859663724899292,
+      0.9688562154769897,
+      0.7057850360870361
+    ],
+    "rock_08::shuffle::shuf_beat": [
+      0.8080672025680542,
+      0.8354835510253906,
+      0.9465966820716858,
+      0.6926419734954834
+    ],
+    "rock_08::shuffle::shuf_bar": [
+      0.8558511734008789,
+      0.8080672025680542,
+      0.957912266254425,
+      0.7662936449050903
+    ],
+    "rock_08::reverse::rev": [
+      0.7662936449050903,
+      0.8438951373100281,
+      0.9539660811424255,
+      0.6584175229072571
+    ],
+    "rock_08::displacement::disp_near": [
+      0.8519527316093445,
+      0.8080672025680542,
+      0.9511421918869019,
+      0.7371581792831421
+    ],
+    "rock_08::displacement::disp_far": [
+      0.7662936449050903,
+      0.8438951373100281,
+      0.9324532747268677,
+      0.665410578250885
+    ],
+    "rock_09::control::ctrl": [
+      0.8933094143867493,
+      0.8519527316093445,
+      0.9637799859046936,
+      0.863391637802124
+    ],
+    "rock_09::shuffle::shuf_beat": [
+      0.907312273979187,
+      0.8438951373100281,
+      0.9553191661834717,
+      0.8807970285415649
+    ],
+    "rock_09::shuffle::shuf_bar": [
+      0.8991213440895081,
+      0.8438951373100281,
+      0.9637799859046936,
+      0.8558511734008789
+    ],
+    "rock_09::reverse::rev": [
+      0.863391637802124,
+      0.8175744414329529,
+      0.9433475732803345,
+      0.8128673434257507
+    ],
+    "rock_09::displacement::disp_near": [
+      0.7549149990081787,
+      0.6926419734954834,
+      0.9019206762313843,
+      0.622459352016449
+    ],
+    "rock_09::displacement::disp_far": [
+      0.8080672025680542,
+      0.7310585975646973,
+      0.9124361872673035,
+      0.7057850360870361
+    ],
+    "rock_10::control::ctrl": [
+      0.7772998809814453,
+      0.7662936449050903,
+      0.8670357465744019,
+      0.672331690788269
+    ],
+    "rock_10::shuffle::shuf_beat": [
+      0.7826625108718872,
+      0.7431679368019104,
+      0.9099069833755493,
+      0.6859495043754578
+    ],
+    "rock_10::shuffle::shuf_bar": [
+      0.8438951373100281,
+      0.8175744414329529,
+      0.9381240010261536,
+      0.7662936449050903
+    ],
+    "rock_10::reverse::rev": [
+      0.4687906503677368,
+      0.622459352016449,
+      0.531209409236908,
+      0.531209409236908
+    ],
+    "rock_10::displacement::disp_near": [
+      0.8031737804412842,
+      0.8438951373100281,
+      0.9362850189208984,
+      0.672331690788269
+    ],
+    "rock_10::displacement::disp_far": [
+      0.7606506943702698,
+      0.7879312038421631,
+      0.907312273979187,
+      0.5698526501655579
+    ],
+    "rock_11::control::ctrl": [
+      0.7549149990081787,
+      0.8175744414329529,
+      0.9241418242454529,
+      0.6513549089431763
+    ],
+    "rock_11::shuffle::shuf_beat": [
+      0.8267117738723755,
+      0.8354835510253906,
+      0.9416541457176208,
+      0.6791787147521973
+    ],
+    "rock_11::shuffle::shuf_bar": [
+      0.8438951373100281,
+      0.8267117738723755,
+      0.9449946880340576,
+      0.7310585975646973
+    ],
+    "rock_11::reverse::rev": [
+      0.6926419734954834,
+      0.7549149990081787,
+      0.8438951373100281,
+      0.6370307803153992
+    ],
+    "rock_11::displacement::disp_near": [
+      0.7310585975646973,
+      0.8175744414329529,
+      0.9284088015556335,
+      0.622459352016449
+    ],
+    "rock_11::displacement::disp_far": [
+      0.5926666259765625,
+      0.7549149990081787,
+      0.8740772008895874,
+      0.5467381477355957
+    ],
+    "rock_12::control::ctrl": [
+      0.7431679368019104,
+      0.8438951373100281,
+      0.9465966820716858,
+      0.5698526501655579
+    ],
+    "rock_12::shuffle::shuf_beat": [
+      0.793105959892273,
+      0.8267117738723755,
+      0.949669361114502,
+      0.5851011276245117
+    ],
+    "rock_12::shuffle::shuf_bar": [
+      0.8354835510253906,
+      0.8080672025680542,
+      0.9525741338729858,
+      0.6370307803153992
+    ],
+    "rock_12::reverse::rev": [
+      0.6513549089431763,
+      0.665410578250885,
+      0.8774768114089966,
+      0.4455295503139496
+    ],
+    "rock_12::displacement::disp_near": [
+      0.7185943722724915,
+      0.8080672025680542,
+      0.9019206762313843,
+      0.6513549089431763
+    ],
+    "rock_12::displacement::disp_far": [
+      0.7057850360870361,
+      0.7662936449050903,
+      0.9019206762313843,
+      0.6370307803153992
+    ],
+    "rock_13::control::ctrl": [
+      0.8354835510253906,
+      0.8740772008895874,
+      0.9046505093574524,
+      0.8438951373100281
+    ],
+    "rock_13::shuffle::shuf_beat": [
+      0.859663724899292,
+      0.8807970285415649,
+      0.9099069833755493,
+      0.8438951373100281
+    ],
+    "rock_13::shuffle::shuf_bar": [
+      0.9019206762313843,
+      0.8740772008895874,
+      0.9481545686721802,
+      0.8519527316093445
+    ],
+    "rock_13::reverse::rev": [
+      0.7431679368019104,
+      0.8080672025680542,
+      0.8438951373100281,
+      0.7772998809814453
+    ],
+    "rock_13::displacement::disp_near": [
+      0.7057850360870361,
+      0.8354835510253906,
+      0.8438951373100281,
+      0.7490872144699097
+    ],
+    "rock_13::displacement::disp_far": [
+      0.665410578250885,
+      0.7981867790222168,
+      0.8519527316093445,
+      0.6791787147521973
+    ],
+    "rock_14::control::ctrl": [
+      0.7185943722724915,
+      0.7981867790222168,
+      0.9149009585380554,
+      0.7431679368019104
+    ],
+    "rock_14::shuffle::shuf_beat": [
+      0.7185943722724915,
+      0.7772998809814453,
+      0.9241418242454529,
+      0.7185943722724915
+    ],
+    "rock_14::shuffle::shuf_bar": [
+      0.7662936449050903,
+      0.7981867790222168,
+      0.9324532747268677,
+      0.7662936449050903
+    ],
+    "rock_14::reverse::rev": [
+      0.665410578250885,
+      0.7185943722724915,
+      0.8872045874595642,
+      0.6513549089431763
+    ],
+    "rock_14::displacement::disp_near": [
+      0.6926419734954834,
+      0.7772998809814453,
+      0.8872045874595642,
+      0.6791787147521973
+    ],
+    "rock_14::displacement::disp_far": [
+      0.6513549089431763,
+      0.7549149990081787,
+      0.8670357465744019,
+      0.622459352016449
+    ],
+    "rock_15::control::ctrl": [
+      0.7310585975646973,
+      0.859663724899292,
+      0.8267117738723755,
+      0.7879312038421631
+    ],
+    "rock_15::shuffle::shuf_beat": [
+      0.6791787147521973,
+      0.8080672025680542,
+      0.8080672025680542,
+      0.6791787147521973
+    ],
+    "rock_15::shuffle::shuf_bar": [
+      0.7057850360870361,
+      0.8175744414329529,
+      0.8080672025680542,
+      0.7606506943702698
+    ],
+    "rock_15::reverse::rev": [
+      0.5926666259765625,
+      0.7772998809814453,
+      0.7772998809814453,
+      0.6513549089431763
+    ],
+    "rock_15::displacement::disp_near": [
+      0.665410578250885,
+      0.7981867790222168,
+      0.8267117738723755,
+      0.6370307803153992
+    ],
+    "rock_15::displacement::disp_far": [
+      0.622459352016449,
+      0.7981867790222168,
+      0.7772998809814453,
+      0.6513549089431763
+    ]
+  }
+}

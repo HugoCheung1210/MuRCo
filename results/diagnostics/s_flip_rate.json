@@ -1,0 +1,20 @@
+{
+  "note": "Pool-argmax flip rate for S over the re-ranking candidate pools. Independent of the Part 2 trial builder, which used opposed-ordering pairs rather than argmaxes.",
+  "n_seeds": 40,
+  "pool_size": 8,
+  "n_flips": 23,
+  "flip_rate": 0.575,
+  "flip_rate_ci95": [
+    0.425,
+    0.725
+  ],
+  "gap_when_flipped": {
+    "median": 0.0102,
+    "min": 0.0005,
+    "max": 0.0782
+  },
+  "audibility_floor": 0.025,
+  "n_audible_flips": 5,
+  "share_of_flips_audible": 0.2174,
+  "share_of_seeds_with_audible_flip": 0.125
+}

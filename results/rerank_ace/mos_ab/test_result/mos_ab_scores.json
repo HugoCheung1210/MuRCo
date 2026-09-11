@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "n_raters": 2,
+    "raters": [
+      "R01",
+      "R02"
+    ],
+    "n_trials_in_key": 20,
+    "skipped_unmatched": 0,
+    "note": "win = rater picked C's winner over C's loser; ties excluded from rate; c_pref = mean signed 5-pt score in [-2,+2], + = toward C's winner (1=A/5=B clearly, 3=same); CI is the headline (Conventions), binom_p secondary"
+  },
+  "overall": {
+    "winner": 33,
+    "loser": 4,
+    "tie": 3,
+    "decided": 37,
+    "win_rate": 0.8918918918918919,
+    "ci95": [
+      0.7529115358483284,
+      0.9571487947949373
+    ],
+    "binom_p": 1.0843941709026694e-06,
+    "c_pref": {
+      "n": 40,
+      "mean": 1.05,
+      "ci95": [
+        0.7444984787481748,
+        1.3555015212518253
+      ]
+    }
+  },
+  "per_rater": {
+    "R01": {
+      "winner": 20,
+      "loser": 0,
+      "tie": 0,
+      "decided": 20,
+      "win_rate": 1.0,
+      "ci95": [
+        0.8388698745050667,
+        0.9999999999999998
+      ],
+      "binom_p": 1.9073486328125e-06,
+      "c_pref": {
+        "n": 20,
+        "mean": 1.35,
+        "ci95": [
+          1.1355283112782533,
+          1.564471688721747
+        ]
+      }
+    },
+    "R02": {
+      "winner": 13,
+      "loser": 4,
+      "tie": 3,
+      "decided": 17,
+      "win_rate": 0.7647058823529411,
+      "ci95": [
+        0.5273775411082839,
+        0.9044511092832406
+      ],
+      "binom_p": 0.049041748046875,
+      "c_pref": {
+        "n": 20,
+        "mean": 0.75,
+        "ci95": [
+          0.2015869785414799,
+          1.2984130214585201
+        ]
+      }
+    }
+  },
+  "per_seed": {
+    "s01": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s02": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s03": {
+      "winner": 1,
+      "loser": 0,
+      "tie": 1,
+      "decided": 1,
+      "win_rate": 1.0,
+      "ci95": [
+        0.20654329147389294,
+        1.0
+      ],
+      "binom_p": 1.0
+    },
+    "s04": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s05": {
+      "winner": 1,
+      "loser": 1,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 0.5,
+      "ci95": [
+        0.09452865480086611,
+        0.905471345199134
+      ],
+      "binom_p": 1.0
+    },
+    "s06": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s07": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s08": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s09": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s10": {
+      "winner": 1,
+      "loser": 1,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 0.5,
+      "ci95": [
+        0.09452865480086611,
+        0.905471345199134
+      ],
+      "binom_p": 1.0
+    },
+    "s11": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s12": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s13": {
+      "winner": 1,
+      "loser": 1,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 0.5,
+      "ci95": [
+        0.09452865480086611,
+        0.905471345199134
+      ],
+      "binom_p": 1.0
+    },
+    "s14": {
+      "winner": 1,
+      "loser": 1,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 0.5,
+      "ci95": [
+        0.09452865480086611,
+        0.905471345199134
+      ],
+      "binom_p": 1.0
+    },
+    "s15": {
+      "winner": 1,
+      "loser": 0,
+      "tie": 1,
+      "decided": 1,
+      "win_rate": 1.0,
+      "ci95": [
+        0.20654329147389294,
+        1.0
+      ],
+      "binom_p": 1.0
+    },
+    "s16": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s17": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s18": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    },
+    "s19": {
+      "winner": 1,
+      "loser": 0,
+      "tie": 1,
+      "decided": 1,
+      "win_rate": 1.0,
+      "ci95": [
+        0.20654329147389294,
+        1.0
+      ],
+      "binom_p": 1.0
+    },
+    "s20": {
+      "winner": 2,
+      "loser": 0,
+      "tie": 0,
+      "decided": 2,
+      "win_rate": 1.0,
+      "ci95": [
+        0.3423719528896193,
+        1.0
+      ],
+      "binom_p": 0.5
+    }
+  },
+  "c_margin_split": {
+    "gap_median": 0.07140000000000002,
+    "small_gap": {
+      "n": 20,
+      "win_rate": 0.95,
+      "ci95": [
+        0.7638641064874331,
+        0.9911187805671267
+      ]
+    },
+    "large_gap": {
+      "n": 17,
+      "win_rate": 0.8235294117647058,
+      "ci95": [
+        0.5897007098262422,
+        0.9380898628745102
+      ]
+    }
+  },
+  "inter_rater_agreement": {
+    "n_trials_multi_rated": 20,
+    "mean_pairwise_agreement": 0.65,
+    "fleiss_kappa": -0.15226337448559635
+  }
+}

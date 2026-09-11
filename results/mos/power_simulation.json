@@ -1,0 +1,101 @@
+{
+ "meta": {
+  "n_sim": 200,
+  "icc_levels": [
+   0.3,
+   0.5,
+   0.7
+  ],
+  "construct_r2": 0.7,
+  "seed": 20260718,
+  "design": {
+   "n_pairs": 154,
+   "n_anchor": 15,
+   "ratings_per_anchor_pair": 40,
+   "ratings_per_block_pair": 8,
+   "n_participants": 40,
+   "n_planned": 190,
+   "kept_sets": "matrix",
+   "n_withdrawn_sources": 4
+  },
+  "interpretation": {
+   "p_delta_pos under uniform_wS": "power to detect S (want high)",
+   "p_delta_pos under no_S": "false-positive rate (want ~0.5 or below; delta centred on 0)",
+   "caveat": "truth generated from the dims; C-vs-clap row is a sensitivity check, not real-world evidence"
+  }
+ },
+ "results": {
+  "uniform_wS|icc=0.3": {
+   "mean_rho_HTRS": 0.6658,
+   "mean_rho_HTR": 0.6563,
+   "mean_rho_clap": 0.4503,
+   "mean_delta_rho_S": 0.0096,
+   "ci95_delta_rho_S": [
+    -0.0286,
+    0.0591
+   ],
+   "p_delta_pos": 0.655,
+   "p_C_beats_clap": 1.0
+  },
+  "uniform_wS|icc=0.5": {
+   "mean_rho_HTRS": 0.7297,
+   "mean_rho_HTR": 0.7143,
+   "mean_rho_clap": 0.4843,
+   "mean_delta_rho_S": 0.0154,
+   "ci95_delta_rho_S": [
+    -0.0165,
+    0.0521
+   ],
+   "p_delta_pos": 0.83,
+   "p_C_beats_clap": 1.0
+  },
+  "uniform_wS|icc=0.7": {
+   "mean_rho_HTRS": 0.7609,
+   "mean_rho_HTR": 0.7418,
+   "mean_rho_clap": 0.5072,
+   "mean_delta_rho_S": 0.0191,
+   "ci95_delta_rho_S": [
+    -0.0092,
+    0.0479
+   ],
+   "p_delta_pos": 0.91,
+   "p_C_beats_clap": 1.0
+  },
+  "no_S|icc=0.3": {
+   "mean_rho_HTRS": 0.6645,
+   "mean_rho_HTR": 0.69,
+   "mean_rho_clap": 0.4273,
+   "mean_delta_rho_S": -0.0255,
+   "ci95_delta_rho_S": [
+    -0.0599,
+    0.0042
+   ],
+   "p_delta_pos": 0.07,
+   "p_C_beats_clap": 1.0
+  },
+  "no_S|icc=0.5": {
+   "mean_rho_HTRS": 0.727,
+   "mean_rho_HTR": 0.7457,
+   "mean_rho_clap": 0.4642,
+   "mean_delta_rho_S": -0.0186,
+   "ci95_delta_rho_S": [
+    -0.0515,
+    0.0031
+   ],
+   "p_delta_pos": 0.07,
+   "p_C_beats_clap": 1.0
+  },
+  "no_S|icc=0.7": {
+   "mean_rho_HTRS": 0.751,
+   "mean_rho_HTR": 0.7671,
+   "mean_rho_clap": 0.4758,
+   "mean_delta_rho_S": -0.0162,
+   "ci95_delta_rho_S": [
+    -0.0451,
+    0.0055
+   ],
+   "p_delta_pos": 0.07,
+   "p_C_beats_clap": 1.0
+  }
+ }
+}

@@ -1,0 +1,12 @@
+\begin{tabular}{lrrl}
+\toprule
+Dimension & share of CPU cost & approx. & Dominant cost \\
+\midrule
+$H$ & $75\%$ & 230\,ms & constant-$Q$ chroma \\
+$T$ & $9\%$ & 30\,ms & MFCC and two covariances \\
+$R$ & $16\%$ & 50\,ms & onset envelope, tempo, autocorrelation \\
+\midrule
+$H,T,R$ & $100\%$ & 310\,ms & CPU, one core \\
+$S$ & --- & 500\,ms & GPU, $16$\,GB resident \\
+\bottomrule
+\end{tabular}

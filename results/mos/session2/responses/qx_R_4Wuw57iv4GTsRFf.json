@@ -1,0 +1,106 @@
+{
+ "session_code": "R_4Wuw57iv4GTsRFf",
+ "generated": "2026-08-30T13:52:46.468527+00:00",
+ "source": "N40.csv",
+ "qualtrics_status": "IP Address",
+ "ab_block": "block7",
+ "n_skipped": 0,
+ "responses": [
+  {
+   "trial_id": "t015",
+   "preference": 5
+  },
+  {
+   "trial_id": "t032",
+   "preference": 3
+  },
+  {
+   "trial_id": "t009",
+   "preference": 1
+  },
+  {
+   "trial_id": "t002",
+   "preference": 2
+  },
+  {
+   "trial_id": "t003",
+   "preference": 2
+  },
+  {
+   "trial_id": "t012",
+   "preference": 2
+  },
+  {
+   "trial_id": "t050",
+   "preference": 3
+  },
+  {
+   "trial_id": "t071",
+   "preference": 4
+  },
+  {
+   "trial_id": "t019",
+   "preference": 4
+  },
+  {
+   "trial_id": "t028",
+   "preference": 1
+  },
+  {
+   "trial_id": "t036",
+   "preference": 3
+  },
+  {
+   "trial_id": "t038",
+   "preference": 2
+  },
+  {
+   "trial_id": "t014",
+   "preference": 1
+  },
+  {
+   "trial_id": "t064",
+   "preference": 4
+  },
+  {
+   "trial_id": "t010",
+   "preference": 3
+  },
+  {
+   "trial_id": "t039",
+   "preference": 3
+  },
+  {
+   "trial_id": "t027",
+   "preference": 2
+  },
+  {
+   "trial_id": "t049",
+   "preference": 3
+  },
+  {
+   "trial_id": "t006",
+   "preference": 3
+  },
+  {
+   "trial_id": "t052",
+   "preference": 3
+  },
+  {
+   "trial_id": "t063",
+   "preference": 2
+  },
+  {
+   "trial_id": "t042",
+   "preference": 2
+  },
+  {
+   "trial_id": "t080",
+   "preference": 4
+  },
+  {
+   "trial_id": "t004",
+   "preference": 2
+  }
+ ]
+}

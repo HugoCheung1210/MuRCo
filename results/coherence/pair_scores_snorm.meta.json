@@ -1,0 +1,8 @@
+{
+  "variant": "control_norm",
+  "source_scores": "results/pair_scores.csv",
+  "s_cache": null,
+  "s_cache_2": null,
+  "n_rows": 1890,
+  "note": "S_norm = S - S(control of same source); range [-1,1], NOT [0,1]. Use for S-vs-baseline comparisons only -- the composite C must keep raw S."
+}

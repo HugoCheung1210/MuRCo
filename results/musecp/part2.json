@@ -1,0 +1,452 @@
+{
+ "meta": {
+  "n_trials": 80,
+  "n_sessions": 40,
+  "n_ratings": 959,
+  "post_hoc": "The 80 trials were selected where C and a rival disagreed by at least 0.03 in C, so this is not a neutral candidate pool. MuseCPEval was never proposed by its authors as a selector and defines no aggregate; mean12/mean10 are our equal-weight composites.",
+  "tie_rule": "midpoint of the five-point scale, excluded from the win rate",
+  "sources": {
+   "key": "results/mos/session2/key.csv",
+   "musecp": "results/musecp/rerank_ace/musecp_metrics.csv",
+   "scores": "results/rerank_ace/pair_scores.csv"
+  }
+ },
+ "reproduced_contrasts": {
+  "C_noS": {
+   "n_decisions": 258,
+   "n_ties": 74,
+   "win_rate": 0.7597,
+   "ci95_cluster_by_seed": [
+    0.6867,
+    0.8315
+   ]
+  },
+  "clap_htsat": {
+   "n_decisions": 249,
+   "n_ties": 82,
+   "win_rate": 0.6908,
+   "ci95_cluster_by_seed": [
+    0.5617,
+    0.805
+   ]
+  },
+  "clap_music": {
+   "n_decisions": 260,
+   "n_ties": 72,
+   "win_rate": 0.6846,
+   "ci95_cluster_by_seed": [
+    0.5709,
+    0.7907
+   ]
+  },
+  "cocola": {
+   "n_decisions": 315,
+   "n_ties": 93,
+   "win_rate": 0.7778,
+   "ci95_cluster_by_seed": [
+    0.7083,
+    0.8454
+   ]
+  },
+  "scs": {
+   "n_decisions": 285,
+   "n_ties": 93,
+   "win_rate": 0.7018,
+   "ci95_cluster_by_seed": [
+    0.5993,
+    0.7909
+   ]
+  }
+ },
+ "selectors": {
+  "C": {
+   "label": "C",
+   "n_decided": 736,
+   "n_ties": 223,
+   "n_skipped_metric_tied": 0,
+   "win_rate": 0.75,
+   "ci95_cluster_by_seed": [
+    0.6806,
+    0.8127
+   ],
+   "n_seeds": 36
+  },
+  "S": {
+   "label": "S",
+   "n_decided": 736,
+   "n_ties": 223,
+   "n_skipped_metric_tied": 0,
+   "win_rate": 0.7595,
+   "ci95_cluster_by_seed": [
+    0.7047,
+    0.8111
+   ],
+   "n_seeds": 36
+  },
+  "musecp_key": {
+   "label": "musecp_key",
+   "n_decided": 287,
+   "n_ties": 86,
+   "n_skipped_metric_tied": 586,
+   "win_rate": 0.5261,
+   "ci95_cluster_by_seed": [
+    0.3982,
+    0.6769
+   ],
+   "n_seeds": 22
+  },
+  "musecp_chroma_mean": {
+   "label": "musecp_chroma_mean",
+   "n_decided": 736,
+   "n_ties": 223,
+   "n_skipped_metric_tied": 0,
+   "win_rate": 0.5584,
+   "ci95_cluster_by_seed": [
+    0.4766,
+    0.6396
+   ],
+   "n_seeds": 36
+  },
+  "musecp_chroma_dtw": {
+   "label": "musecp_chroma_dtw",
+   "n_decided": 736,
+   "n_ties": 223,
+   "n_skipped_metric_tied": 0,
+   "win_rate": 0.5938,
+   "ci95_cluster_by_seed": [
+    0.5157,
+    0.668
+   ],
+   "n_seeds": 36
+  },
+  "musecp_bpm": {
+   "label": "musecp_bpm",
+   "n_decided": 258,
+   "n_ties": 84,
+   "n_skipped_metric_tied": 617,
+   "win_rate": 0.5814,
+   "ci95_cluster_by_seed": [
+    0.4752,
+    0.7069
+   ],
+   "n_seeds": 17
+  },
+  "musecp_beat_f": {
+   "label": "musecp_beat_f",
+   "n_decided": 133,
+   "n_ties": 36,
+   "n_skipped_metric_tied": 790,
+   "win_rate": 0.4361,
+   "ci95_cluster_by_seed": [
+    0.2785,
+    0.6187
+   ],
+   "n_seeds": 11
+  },
+  "musecp_beat_ig": {
+   "label": "musecp_beat_ig",
+   "n_decided": 76,
+   "n_ties": 20,
+   "n_skipped_metric_tied": 863,
+   "win_rate": 0.4474,
+   "ci95_cluster_by_seed": [
+    0.3286,
+    0.6061
+   ],
+   "n_seeds": 6
+  },
+  "musecp_struct_f": {
+   "label": "musecp_struct_f",
+   "n_decided": 304,
+   "n_ties": 93,
+   "n_skipped_metric_tied": 562,
+   "win_rate": 0.4836,
+   "ci95_cluster_by_seed": [
+    0.3689,
+    0.6201
+   ],
+   "n_seeds": 22
+  },
+  "musecp_ari": {
+   "label": "musecp_ari",
+   "n_decided": 304,
+   "n_ties": 93,
+   "n_skipped_metric_tied": 562,
+   "win_rate": 0.4836,
+   "ci95_cluster_by_seed": [
+    0.3689,
+    0.6201
+   ],
+   "n_seeds": 22
+  },
+  "musecp_contour": {
+   "label": "musecp_contour",
+   "n_decided": 736,
+   "n_ties": 223,
+   "n_skipped_metric_tied": 0,
+   "win_rate": 0.6128,
+   "ci95_cluster_by_seed": [
+    0.5329,
+    0.6933
+   ],
+   "n_seeds": 36
+  },
+  "musecp_motif": {
+   "label": "musecp_motif",
+   "n_decided": 405,
+   "n_ties": 116,
+   "n_skipped_metric_tied": 438,
+   "win_rate": 0.4667,
+   "ci95_cluster_by_seed": [
+    0.3555,
+    0.5793
+   ],
+   "n_seeds": 23
+  },
+  "musecp_mfcc_skl": {
+   "label": "musecp_mfcc_skl",
+   "n_decided": 736,
+   "n_ties": 223,
+   "n_skipped_metric_tied": 0,
+   "win_rate": 0.6386,
+   "ci95_cluster_by_seed": [
+    0.5688,
+    0.7086
+   ],
+   "n_seeds": 36
+  },
+  "musecp_mfcc_cos": {
+   "label": "musecp_mfcc_cos",
+   "n_decided": 736,
+   "n_ties": 223,
+   "n_skipped_metric_tied": 0,
+   "win_rate": 0.6223,
+   "ci95_cluster_by_seed": [
+    0.5483,
+    0.6951
+   ],
+   "n_seeds": 36
+  },
+  "musecp_mean12": {
+   "label": "musecp_mean12",
+   "n_decided": 736,
+   "n_ties": 223,
+   "n_skipped_metric_tied": 0,
+   "win_rate": 0.5421,
+   "ci95_cluster_by_seed": [
+    0.461,
+    0.6235
+   ],
+   "n_seeds": 36
+  },
+  "musecp_mean10": {
+   "label": "musecp_mean10",
+   "n_decided": 736,
+   "n_ties": 223,
+   "n_skipped_metric_tied": 0,
+   "win_rate": 0.5245,
+   "ci95_cluster_by_seed": [
+    0.4473,
+    0.6034
+   ],
+   "n_seeds": 36
+  }
+ },
+ "agreement_with_C": {
+  "musecp_mean12": {
+   "trials_agreeing_with_C": 47,
+   "trials_agreeing_with_rival": 33,
+   "trials_tied_or_unscored": 0,
+   "on_disagreeing_trials": {
+    "n_trials": 33,
+    "n_decided": 301,
+    "listener_share_choosing_musecp_pick": 0.2458
+   },
+   "as_table_row": {
+    "note": "C against MuseCPEval on the trials where MuseCPEval prefers the rival candidate; post hoc, since no trial was built to settle it",
+    "n_ratings": 392,
+    "n_trials": 33,
+    "share_C": 0.5791,
+    "share_tie": 0.2321,
+    "share_rival": 0.1888,
+    "win_rate_decided": 0.7542,
+    "ci95_decided_cluster_by_seed": [
+     0.6736,
+     0.8291
+    ],
+    "margin": 0.3903,
+    "ci95_margin_cluster_by_seed": [
+     0.2672,
+     0.5034
+    ],
+    "n_seeds": 26
+   }
+  },
+  "musecp_mean10": {
+   "trials_agreeing_with_C": 46,
+   "trials_agreeing_with_rival": 34,
+   "trials_tied_or_unscored": 0,
+   "on_disagreeing_trials": {
+    "n_trials": 34,
+    "n_decided": 310,
+    "listener_share_choosing_musecp_pick": 0.2323
+   },
+   "as_table_row": {
+    "note": "C against MuseCPEval on the trials where MuseCPEval prefers the rival candidate; post hoc, since no trial was built to settle it",
+    "n_ratings": 402,
+    "n_trials": 34,
+    "share_C": 0.592,
+    "share_tie": 0.2289,
+    "share_rival": 0.1791,
+    "win_rate_decided": 0.7677,
+    "ci95_decided_cluster_by_seed": [
+     0.6851,
+     0.8467
+    ],
+    "margin": 0.4129,
+    "ci95_margin_cluster_by_seed": [
+     0.2898,
+     0.529
+    ],
+    "n_seeds": 27
+   }
+  }
+ },
+ "matched_margin_sweep": {
+  "rule": "keep trials where MuseCPEval's own |margin| >= threshold; 0.03 is the floor the trial builder applied to C, so that row is the matched one",
+  "sweep": {
+   "0.00": {
+    "musecp_mean12": {
+     "n_trials": 80,
+     "n_decided": 736,
+     "win_rate": 0.5421,
+     "ci95_cluster_by_seed": [
+      0.461,
+      0.6235
+     ]
+    },
+    "C": {
+     "n_trials": 80,
+     "n_decided": 736,
+     "win_rate": 0.75,
+     "ci95_cluster_by_seed": [
+      0.6806,
+      0.8127
+     ]
+    }
+   },
+   "0.01": {
+    "musecp_mean12": {
+     "n_trials": 72,
+     "n_decided": 655,
+     "win_rate": 0.5634,
+     "ci95_cluster_by_seed": [
+      0.4741,
+      0.6514
+     ]
+    },
+    "C": {
+     "n_trials": 72,
+     "n_decided": 655,
+     "win_rate": 0.7481,
+     "ci95_cluster_by_seed": [
+      0.6756,
+      0.8157
+     ]
+    }
+   },
+   "0.02": {
+    "musecp_mean12": {
+     "n_trials": 70,
+     "n_decided": 638,
+     "win_rate": 0.5643,
+     "ci95_cluster_by_seed": [
+      0.469,
+      0.6567
+     ]
+    },
+    "C": {
+     "n_trials": 70,
+     "n_decided": 638,
+     "win_rate": 0.7414,
+     "ci95_cluster_by_seed": [
+      0.6701,
+      0.8088
+     ]
+    }
+   },
+   "0.03": {
+    "musecp_mean12": {
+     "n_trials": 60,
+     "n_decided": 561,
+     "win_rate": 0.5651,
+     "ci95_cluster_by_seed": [
+      0.4644,
+      0.6647
+     ]
+    },
+    "C": {
+     "n_trials": 60,
+     "n_decided": 561,
+     "win_rate": 0.7344,
+     "ci95_cluster_by_seed": [
+      0.6594,
+      0.8054
+     ]
+    }
+   },
+   "0.05": {
+    "musecp_mean12": {
+     "n_trials": 49,
+     "n_decided": 455,
+     "win_rate": 0.5363,
+     "ci95_cluster_by_seed": [
+      0.4314,
+      0.6424
+     ]
+    },
+    "C": {
+     "n_trials": 49,
+     "n_decided": 455,
+     "win_rate": 0.7363,
+     "ci95_cluster_by_seed": [
+      0.657,
+      0.8102
+     ]
+    }
+   },
+   "0.08": {
+    "musecp_mean12": {
+     "n_trials": 34,
+     "n_decided": 317,
+     "win_rate": 0.6057,
+     "ci95_cluster_by_seed": [
+      0.4725,
+      0.7343
+     ]
+    },
+    "C": {
+     "n_trials": 34,
+     "n_decided": 317,
+     "win_rate": 0.7445,
+     "ci95_cluster_by_seed": [
+      0.6465,
+      0.8302
+     ]
+    }
+   }
+  }
+ },
+ "full_pool_ordering": {
+  "n_seeds": 40,
+  "spearman_musecp_vs_C": {
+   "mean": 0.2905,
+   "sd": 0.3177
+  },
+  "spearman_musecp_vs_S": {
+   "mean": 0.1323,
+   "sd": 0.3583
+  },
+  "note": "descriptive: all 8 candidates per seed, not just the two presented"
+ }
+}

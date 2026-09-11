@@ -1,0 +1,575 @@
+{
+  "meta": {
+    "n_boot": 10000,
+    "seed": 20260717,
+    "delta": "score(iter1) - score(iter8), per seed; + = accumulates",
+    "sel": "mean delta(SAO) - mean delta(ACE); two-sample bootstrap",
+    "caveat": "n=10/regime -> effect size + CI, never 'significant'; SAO vs ACE is the fair contrast (both roundtrip @ (4,6)/13s)"
+  },
+  "selectivity": {
+    "C": {
+      "delta_sao": 0.0394406903936919,
+      "n_sao": 10,
+      "delta_ace": 0.012098769950793542,
+      "n_ace": 10,
+      "sel": 0.027341920442898356,
+      "ci95": [
+        -0.01021111250290764,
+        0.06427427728403635
+      ]
+    },
+    "H": {
+      "delta_sao": 0.0010984957218170166,
+      "n_sao": 10,
+      "delta_ace": -0.021323573589324952,
+      "n_ace": 10,
+      "sel": 0.02242206931114197,
+      "ci95": [
+        -0.027101567834615703,
+        0.06586391642689705
+      ]
+    },
+    "R": {
+      "delta_sao": 0.0013472425734740168,
+      "n_sao": 10,
+      "delta_ace": -0.008321320458859716,
+      "n_ace": 10,
+      "sel": 0.009668563032333733,
+      "ci95": [
+        -0.04336930362737786,
+        0.05713068599094306
+      ]
+    },
+    "S": {
+      "delta_sao": 0.07760537825524808,
+      "n_sao": 10,
+      "delta_ace": 0.03759283386170864,
+      "n_ace": 10,
+      "sel": 0.040012544393539434,
+      "ci95": [
+        -0.023550498019903894,
+        0.10462048274464901
+      ]
+    },
+    "T": {
+      "delta_sao": 0.03390072006116818,
+      "n_sao": 10,
+      "delta_ace": 0.005437157845656654,
+      "n_ace": 10,
+      "sel": 0.028463562215511523,
+      "ci95": [
+        -0.012435780975999584,
+        0.06817947213452855
+      ]
+    },
+    "cbase": {
+      "delta_sao": 0.055906466370816955,
+      "n_sao": 10,
+      "delta_ace": 0.023519792265612627,
+      "n_ace": 10,
+      "sel": 0.03238667410520433,
+      "ci95": [
+        -0.014757597467983184,
+        0.07572582406528204
+      ]
+    },
+    "clap_htsat": {
+      "delta_sao": 0.08759201765060425,
+      "n_sao": 10,
+      "delta_ace": 0.04437553286552429,
+      "n_ace": 10,
+      "sel": 0.04321648478507995,
+      "ci95": [
+        -0.020899307429790494,
+        0.10520323976874352
+      ]
+    },
+    "clap_music": {
+      "delta_sao": -0.00030789971351623534,
+      "n_sao": 10,
+      "delta_ace": 0.00021824240684509277,
+      "n_ace": 10,
+      "sel": -0.0005261421203613282,
+      "ci95": [
+        -0.0016878430545330047,
+        0.0006203956902027124
+      ]
+    },
+    "scs": {
+      "delta_sao": 0.02907796154088277,
+      "n_sao": 10,
+      "delta_ace": 0.006525503342073857,
+      "n_ace": 10,
+      "sel": 0.02255245819880891,
+      "ci95": [
+        -0.03520639768158855,
+        0.07492511498941738
+      ]
+    }
+  },
+  "rank_stats": {
+    "sao": {
+      "C": {
+        "mean_rho": -0.6199999999999999,
+        "rho_ci95": [
+          -0.76,
+          -0.4600000000000001
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.75,
+        "ordering_acc_ci95": [
+          0.6666666666666667,
+          0.8333333333333334
+        ]
+      },
+      "H": {
+        "mean_rho": -0.08,
+        "rho_ci95": [
+          -0.33999999999999997,
+          0.18
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.5166666666666666,
+        "ordering_acc_ci95": [
+          0.41666666666666663,
+          0.6333333333333332
+        ]
+      },
+      "R": {
+        "mean_rho": -0.18,
+        "rho_ci95": [
+          -0.5,
+          0.15999999999999998
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.5666666666666667,
+        "ordering_acc_ci95": [
+          0.41666666666666663,
+          0.7166666666666666
+        ]
+      },
+      "S": {
+        "mean_rho": -0.62,
+        "rho_ci95": [
+          -0.82,
+          -0.39999999999999997
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.7666666666666667,
+        "ordering_acc_ci95": [
+          0.6500000000000001,
+          0.8666666666666668
+        ]
+      },
+      "T": {
+        "mean_rho": -0.52,
+        "rho_ci95": [
+          -0.7,
+          -0.27999999999999997
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.7,
+        "ordering_acc_ci95": [
+          0.6,
+          0.7833333333333333
+        ]
+      },
+      "cbase": {
+        "mean_rho": -0.52,
+        "rho_ci95": [
+          -0.78,
+          -0.23950000000000726
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.7333333333333333,
+        "ordering_acc_ci95": [
+          0.6,
+          0.8666666666666666
+        ]
+      },
+      "clap_htsat": {
+        "mean_rho": -0.44000000000000006,
+        "rho_ci95": [
+          -0.8,
+          -0.03999999999999995
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.7,
+        "ordering_acc_ci95": [
+          0.5329166666666669,
+          0.8666666666666666
+        ]
+      },
+      "clap_music": {
+        "mean_rho": -0.15999999999999998,
+        "rho_ci95": [
+          -0.5599999999999999,
+          0.25999999999999995
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.5833333333333333,
+        "ordering_acc_ci95": [
+          0.4,
+          0.7500000000000001
+        ]
+      },
+      "scs": {
+        "mean_rho": -0.33999999999999997,
+        "rho_ci95": [
+          -0.6599999999999999,
+          -2.7755575615628914e-17
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.65,
+        "ordering_acc_ci95": [
+          0.4999999999999999,
+          0.8
+        ]
+      },
+      "rho_diff_S_minus_clap_htsat": {
+        "mean": -0.17999999999999997,
+        "ci95": [
+          -0.6,
+          0.20000000000000004
+        ],
+        "n": 10
+      }
+    },
+    "ace": {
+      "C": {
+        "mean_rho": 0.06000000000000001,
+        "rho_ci95": [
+          -0.36,
+          0.5
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.4666666666666667,
+        "ordering_acc_ci95": [
+          0.2833333333333333,
+          0.65
+        ]
+      },
+      "H": {
+        "mean_rho": 0.25999999999999995,
+        "rho_ci95": [
+          -0.08,
+          0.56
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.4,
+        "ordering_acc_ci95": [
+          0.25,
+          0.55
+        ]
+      },
+      "R": {
+        "mean_rho": -0.04000000000000003,
+        "rho_ci95": [
+          -0.43999999999999995,
+          0.33999999999999997
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.5166666666666666,
+        "ordering_acc_ci95": [
+          0.35,
+          0.6833333333333333
+        ]
+      },
+      "S": {
+        "mean_rho": -0.09999999999999995,
+        "rho_ci95": [
+          -0.4600000000000001,
+          0.30000000000000004
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.5333333333333334,
+        "ordering_acc_ci95": [
+          0.3666666666666666,
+          0.6833333333333333
+        ]
+      },
+      "T": {
+        "mean_rho": 0.040000000000000015,
+        "rho_ci95": [
+          -0.38,
+          0.44000000000000006
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.5,
+        "ordering_acc_ci95": [
+          0.3333333333333333,
+          0.6833333333333333
+        ]
+      },
+      "cbase": {
+        "mean_rho": -0.1,
+        "rho_ci95": [
+          -0.48,
+          0.27999999999999997
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.5499999999999999,
+        "ordering_acc_ci95": [
+          0.3833333333333333,
+          0.7333333333333332
+        ]
+      },
+      "clap_htsat": {
+        "mean_rho": -0.18,
+        "rho_ci95": [
+          -0.5199999999999999,
+          0.2
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.5499999999999999,
+        "ordering_acc_ci95": [
+          0.3833333333333333,
+          0.7
+        ]
+      },
+      "clap_music": {
+        "mean_rho": -0.23999999999999994,
+        "rho_ci95": [
+          -0.5599999999999999,
+          0.09999999999999998
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.5833333333333334,
+        "ordering_acc_ci95": [
+          0.45,
+          0.7166666666666666
+        ]
+      },
+      "scs": {
+        "mean_rho": 0.01999999999999999,
+        "rho_ci95": [
+          -0.39999999999999997,
+          0.4
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.5,
+        "ordering_acc_ci95": [
+          0.3333333333333333,
+          0.6833333333333333
+        ]
+      },
+      "rho_diff_S_minus_clap_htsat": {
+        "mean": 0.08,
+        "ci95": [
+          -0.31999999999999995,
+          0.4800000000000001
+        ],
+        "n": 10
+      }
+    },
+    "musicgen": {
+      "C": {
+        "mean_rho": -0.9148683298050514,
+        "rho_ci95": [
+          -0.9897366596101028,
+          -0.8200000000000001
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.9166666666666667,
+        "ordering_acc_ci95": [
+          0.85,
+          0.9833333333333334
+        ]
+      },
+      "H": {
+        "mean_rho": -0.9148683298050514,
+        "rho_ci95": [
+          -0.9748683298050513,
+          -0.8548683298050512
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.9166666666666667,
+        "ordering_acc_ci95": [
+          0.8666666666666666,
+          0.9666666666666668
+        ]
+      },
+      "R": {
+        "mean_rho": -0.41852516262582373,
+        "rho_ci95": [
+          -0.7509041633982687,
+          -0.02106549570167532
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.6166666666666667,
+        "ordering_acc_ci95": [
+          0.48291666666666694,
+          0.75
+        ]
+      },
+      "S": {
+        "mean_rho": -0.8148683298050514,
+        "rho_ci95": [
+          -0.8948683298050513,
+          -0.7348683298050513
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.8333333333333334,
+        "ordering_acc_ci95": [
+          0.7666666666666667,
+          0.9
+        ]
+      },
+      "T": {
+        "mean_rho": -0.9148683298050514,
+        "rho_ci95": [
+          -0.9897366596101028,
+          -0.8200000000000001
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.9166666666666667,
+        "ordering_acc_ci95": [
+          0.85,
+          0.9833333333333334
+        ]
+      },
+      "cbase": {
+        "mean_rho": -0.8748683298050512,
+        "rho_ci95": [
+          -0.9697366596101027,
+          -0.7497366596101028
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.9,
+        "ordering_acc_ci95": [
+          0.8333333333333333,
+          0.9666666666666668
+        ]
+      },
+      "clap_htsat": {
+        "mean_rho": -0.9148683298050514,
+        "rho_ci95": [
+          -1.0,
+          -0.7897366596101028
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.9333333333333333,
+        "ordering_acc_ci95": [
+          0.85,
+          1.0
+        ]
+      },
+      "clap_music": {
+        "mean_rho": -0.7948683298050515,
+        "rho_ci95": [
+          -0.9098517843454816,
+          -0.6748683298050514
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.8333333333333333,
+        "ordering_acc_ci95": [
+          0.75,
+          0.9166666666666666
+        ]
+      },
+      "scs": {
+        "mean_rho": 0.04513167019494859,
+        "rho_ci95": [
+          -0.3897366596101028,
+          0.48
+        ],
+        "n_seeds": 10,
+        "mean_ordering_acc": 0.4666666666666666,
+        "ordering_acc_ci95": [
+          0.2833333333333333,
+          0.6666666666666666
+        ]
+      },
+      "rho_diff_S_minus_clap_htsat": {
+        "mean": 0.1,
+        "ci95": [
+          -0.03999999999999999,
+          0.23999999999999994
+        ],
+        "n": 10
+      }
+    }
+  },
+  "selectivity_difference": {
+    "metrics": [
+      "S",
+      "clap_htsat"
+    ],
+    "point": -0.0032039403915405176,
+    "ci95": [
+      -0.060286711547523734,
+      0.058740275017917135
+    ],
+    "n_shared_seeds": {
+      "sao": 10,
+      "ace": 10
+    },
+    "reading": "sel(S) - sel(clap_htsat); >0 = S is the more regime-selective accumulation detector. CI excluding 0 = the case for S over clap_htsat; CI spanning 0 = not decisive at this n, report honestly."
+  },
+  "selectivity_differences": {
+    "S_minus_clap_htsat": {
+      "metrics": [
+        "S",
+        "clap_htsat"
+      ],
+      "point": -0.0032039403915405176,
+      "ci95": [
+        -0.060286711547523734,
+        0.058740275017917135
+      ],
+      "n_shared_seeds": {
+        "sao": 10,
+        "ace": 10
+      },
+      "reading": "sel(S) - sel(clap_htsat); >0 = S is the more regime-selective accumulation detector. CI excluding 0 = the case for S over clap_htsat; CI spanning 0 = not decisive at this n, report honestly."
+    },
+    "C_minus_clap_htsat": {
+      "metrics": [
+        "C",
+        "clap_htsat"
+      ],
+      "point": -0.015874564342181596,
+      "ci95": [
+        -0.06525760033394556,
+        0.03532708284913153
+      ],
+      "n_shared_seeds": {
+        "sao": 10,
+        "ace": 10
+      },
+      "reading": "sel(C) - sel(clap_htsat); >0 = C is the more regime-selective accumulation detector. CI excluding 0 = the case for C over clap_htsat; CI spanning 0 = not decisive at this n, report honestly."
+    },
+    "C_minus_scs": {
+      "metrics": [
+        "C",
+        "scs"
+      ],
+      "point": 0.004789462244089446,
+      "ci95": [
+        -0.03854626493088248,
+        0.050458023681944186
+      ],
+      "n_shared_seeds": {
+        "sao": 10,
+        "ace": 10
+      },
+      "reading": "sel(C) - sel(scs); >0 = C is the more regime-selective accumulation detector. CI excluding 0 = the case for C over scs; CI spanning 0 = not decisive at this n, report honestly."
+    },
+    "C_minus_cbase": {
+      "metrics": [
+        "C",
+        "cbase"
+      ],
+      "point": -0.005044753662305971,
+      "ci95": [
+        -0.033347204573726134,
+        0.02375067655061065
+      ],
+      "n_shared_seeds": {
+        "sao": 10,
+        "ace": 10
+      },
+      "reading": "sel(C) - sel(cbase); >0 = C is the more regime-selective accumulation detector. CI excluding 0 = the case for C over cbase; CI spanning 0 = not decisive at this n, report honestly."
+    }
+  }
+}

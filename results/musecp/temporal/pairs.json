@@ -1,0 +1,5402 @@
+[
+ {
+  "id": "classical_01::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_01__A.wav",
+  "est": "perturbations_temporal/audio/classical_01__control__ctrl.wav",
+  "source_id": "classical_01",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_01::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_01__A.wav",
+  "est": "perturbations_temporal/audio/classical_01__shuffle__shuf_beat.wav",
+  "source_id": "classical_01",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_01::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_01__A.wav",
+  "est": "perturbations_temporal/audio/classical_01__shuffle__shuf_bar.wav",
+  "source_id": "classical_01",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_01::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_01__A.wav",
+  "est": "perturbations_temporal/audio/classical_01__reverse__rev.wav",
+  "source_id": "classical_01",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_01::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_01__A.wav",
+  "est": "perturbations_temporal/audio/classical_01__displacement__disp_near.wav",
+  "source_id": "classical_01",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_01::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_01__A.wav",
+  "est": "perturbations_temporal/audio/classical_01__displacement__disp_far.wav",
+  "source_id": "classical_01",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_02::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_02__A.wav",
+  "est": "perturbations_temporal/audio/classical_02__control__ctrl.wav",
+  "source_id": "classical_02",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_02::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_02__A.wav",
+  "est": "perturbations_temporal/audio/classical_02__shuffle__shuf_beat.wav",
+  "source_id": "classical_02",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_02::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_02__A.wav",
+  "est": "perturbations_temporal/audio/classical_02__shuffle__shuf_bar.wav",
+  "source_id": "classical_02",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_02::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_02__A.wav",
+  "est": "perturbations_temporal/audio/classical_02__reverse__rev.wav",
+  "source_id": "classical_02",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_02::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_02__A.wav",
+  "est": "perturbations_temporal/audio/classical_02__displacement__disp_near.wav",
+  "source_id": "classical_02",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_02::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_02__A.wav",
+  "est": "perturbations_temporal/audio/classical_02__displacement__disp_far.wav",
+  "source_id": "classical_02",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_03::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_03__A.wav",
+  "est": "perturbations_temporal/audio/classical_03__control__ctrl.wav",
+  "source_id": "classical_03",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_03::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_03__A.wav",
+  "est": "perturbations_temporal/audio/classical_03__shuffle__shuf_beat.wav",
+  "source_id": "classical_03",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_03::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_03__A.wav",
+  "est": "perturbations_temporal/audio/classical_03__shuffle__shuf_bar.wav",
+  "source_id": "classical_03",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_03::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_03__A.wav",
+  "est": "perturbations_temporal/audio/classical_03__reverse__rev.wav",
+  "source_id": "classical_03",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_03::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_03__A.wav",
+  "est": "perturbations_temporal/audio/classical_03__displacement__disp_near.wav",
+  "source_id": "classical_03",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_03::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_03__A.wav",
+  "est": "perturbations_temporal/audio/classical_03__displacement__disp_far.wav",
+  "source_id": "classical_03",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_04::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_04__A.wav",
+  "est": "perturbations_temporal/audio/classical_04__control__ctrl.wav",
+  "source_id": "classical_04",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_04::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_04__A.wav",
+  "est": "perturbations_temporal/audio/classical_04__shuffle__shuf_beat.wav",
+  "source_id": "classical_04",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_04::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_04__A.wav",
+  "est": "perturbations_temporal/audio/classical_04__shuffle__shuf_bar.wav",
+  "source_id": "classical_04",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_04::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_04__A.wav",
+  "est": "perturbations_temporal/audio/classical_04__reverse__rev.wav",
+  "source_id": "classical_04",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_04::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_04__A.wav",
+  "est": "perturbations_temporal/audio/classical_04__displacement__disp_near.wav",
+  "source_id": "classical_04",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_04::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_04__A.wav",
+  "est": "perturbations_temporal/audio/classical_04__displacement__disp_far.wav",
+  "source_id": "classical_04",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_05::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_05__A.wav",
+  "est": "perturbations_temporal/audio/classical_05__control__ctrl.wav",
+  "source_id": "classical_05",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_05::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_05__A.wav",
+  "est": "perturbations_temporal/audio/classical_05__shuffle__shuf_beat.wav",
+  "source_id": "classical_05",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_05::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_05__A.wav",
+  "est": "perturbations_temporal/audio/classical_05__shuffle__shuf_bar.wav",
+  "source_id": "classical_05",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_05::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_05__A.wav",
+  "est": "perturbations_temporal/audio/classical_05__reverse__rev.wav",
+  "source_id": "classical_05",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_05::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_05__A.wav",
+  "est": "perturbations_temporal/audio/classical_05__displacement__disp_near.wav",
+  "source_id": "classical_05",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_05::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_05__A.wav",
+  "est": "perturbations_temporal/audio/classical_05__displacement__disp_far.wav",
+  "source_id": "classical_05",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_06::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_06__A.wav",
+  "est": "perturbations_temporal/audio/classical_06__control__ctrl.wav",
+  "source_id": "classical_06",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_06::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_06__A.wav",
+  "est": "perturbations_temporal/audio/classical_06__shuffle__shuf_beat.wav",
+  "source_id": "classical_06",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_06::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_06__A.wav",
+  "est": "perturbations_temporal/audio/classical_06__shuffle__shuf_bar.wav",
+  "source_id": "classical_06",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_06::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_06__A.wav",
+  "est": "perturbations_temporal/audio/classical_06__reverse__rev.wav",
+  "source_id": "classical_06",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_06::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_06__A.wav",
+  "est": "perturbations_temporal/audio/classical_06__displacement__disp_near.wav",
+  "source_id": "classical_06",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_06::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_06__A.wav",
+  "est": "perturbations_temporal/audio/classical_06__displacement__disp_far.wav",
+  "source_id": "classical_06",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_07::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_07__A.wav",
+  "est": "perturbations_temporal/audio/classical_07__control__ctrl.wav",
+  "source_id": "classical_07",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_07::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_07__A.wav",
+  "est": "perturbations_temporal/audio/classical_07__shuffle__shuf_beat.wav",
+  "source_id": "classical_07",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_07::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_07__A.wav",
+  "est": "perturbations_temporal/audio/classical_07__shuffle__shuf_bar.wav",
+  "source_id": "classical_07",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_07::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_07__A.wav",
+  "est": "perturbations_temporal/audio/classical_07__reverse__rev.wav",
+  "source_id": "classical_07",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_07::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_07__A.wav",
+  "est": "perturbations_temporal/audio/classical_07__displacement__disp_near.wav",
+  "source_id": "classical_07",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_07::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_07__A.wav",
+  "est": "perturbations_temporal/audio/classical_07__displacement__disp_far.wav",
+  "source_id": "classical_07",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_08::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_08__A.wav",
+  "est": "perturbations_temporal/audio/classical_08__control__ctrl.wav",
+  "source_id": "classical_08",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_08::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_08__A.wav",
+  "est": "perturbations_temporal/audio/classical_08__shuffle__shuf_beat.wav",
+  "source_id": "classical_08",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_08::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_08__A.wav",
+  "est": "perturbations_temporal/audio/classical_08__shuffle__shuf_bar.wav",
+  "source_id": "classical_08",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_08::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_08__A.wav",
+  "est": "perturbations_temporal/audio/classical_08__reverse__rev.wav",
+  "source_id": "classical_08",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_08::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_08__A.wav",
+  "est": "perturbations_temporal/audio/classical_08__displacement__disp_near.wav",
+  "source_id": "classical_08",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_08::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_08__A.wav",
+  "est": "perturbations_temporal/audio/classical_08__displacement__disp_far.wav",
+  "source_id": "classical_08",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_09::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_09__A.wav",
+  "est": "perturbations_temporal/audio/classical_09__control__ctrl.wav",
+  "source_id": "classical_09",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_09::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_09__A.wav",
+  "est": "perturbations_temporal/audio/classical_09__shuffle__shuf_beat.wav",
+  "source_id": "classical_09",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_09::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_09__A.wav",
+  "est": "perturbations_temporal/audio/classical_09__shuffle__shuf_bar.wav",
+  "source_id": "classical_09",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_09::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_09__A.wav",
+  "est": "perturbations_temporal/audio/classical_09__reverse__rev.wav",
+  "source_id": "classical_09",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_09::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_09__A.wav",
+  "est": "perturbations_temporal/audio/classical_09__displacement__disp_near.wav",
+  "source_id": "classical_09",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_09::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_09__A.wav",
+  "est": "perturbations_temporal/audio/classical_09__displacement__disp_far.wav",
+  "source_id": "classical_09",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_10::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_10__A.wav",
+  "est": "perturbations_temporal/audio/classical_10__control__ctrl.wav",
+  "source_id": "classical_10",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_10::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_10__A.wav",
+  "est": "perturbations_temporal/audio/classical_10__shuffle__shuf_beat.wav",
+  "source_id": "classical_10",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_10::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_10__A.wav",
+  "est": "perturbations_temporal/audio/classical_10__shuffle__shuf_bar.wav",
+  "source_id": "classical_10",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_10::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_10__A.wav",
+  "est": "perturbations_temporal/audio/classical_10__reverse__rev.wav",
+  "source_id": "classical_10",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_10::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_10__A.wav",
+  "est": "perturbations_temporal/audio/classical_10__displacement__disp_near.wav",
+  "source_id": "classical_10",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_10::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_10__A.wav",
+  "est": "perturbations_temporal/audio/classical_10__displacement__disp_far.wav",
+  "source_id": "classical_10",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_11::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_11__A.wav",
+  "est": "perturbations_temporal/audio/classical_11__control__ctrl.wav",
+  "source_id": "classical_11",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_11::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_11__A.wav",
+  "est": "perturbations_temporal/audio/classical_11__shuffle__shuf_beat.wav",
+  "source_id": "classical_11",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_11::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_11__A.wav",
+  "est": "perturbations_temporal/audio/classical_11__shuffle__shuf_bar.wav",
+  "source_id": "classical_11",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_11::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_11__A.wav",
+  "est": "perturbations_temporal/audio/classical_11__reverse__rev.wav",
+  "source_id": "classical_11",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_11::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_11__A.wav",
+  "est": "perturbations_temporal/audio/classical_11__displacement__disp_near.wav",
+  "source_id": "classical_11",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_11::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_11__A.wav",
+  "est": "perturbations_temporal/audio/classical_11__displacement__disp_far.wav",
+  "source_id": "classical_11",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_12::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_12__A.wav",
+  "est": "perturbations_temporal/audio/classical_12__control__ctrl.wav",
+  "source_id": "classical_12",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_12::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_12__A.wav",
+  "est": "perturbations_temporal/audio/classical_12__shuffle__shuf_beat.wav",
+  "source_id": "classical_12",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_12::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_12__A.wav",
+  "est": "perturbations_temporal/audio/classical_12__shuffle__shuf_bar.wav",
+  "source_id": "classical_12",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_12::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_12__A.wav",
+  "est": "perturbations_temporal/audio/classical_12__reverse__rev.wav",
+  "source_id": "classical_12",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_12::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_12__A.wav",
+  "est": "perturbations_temporal/audio/classical_12__displacement__disp_near.wav",
+  "source_id": "classical_12",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_12::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_12__A.wav",
+  "est": "perturbations_temporal/audio/classical_12__displacement__disp_far.wav",
+  "source_id": "classical_12",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_13::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_13__A.wav",
+  "est": "perturbations_temporal/audio/classical_13__control__ctrl.wav",
+  "source_id": "classical_13",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_13::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_13__A.wav",
+  "est": "perturbations_temporal/audio/classical_13__shuffle__shuf_beat.wav",
+  "source_id": "classical_13",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_13::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_13__A.wav",
+  "est": "perturbations_temporal/audio/classical_13__shuffle__shuf_bar.wav",
+  "source_id": "classical_13",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_13::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_13__A.wav",
+  "est": "perturbations_temporal/audio/classical_13__reverse__rev.wav",
+  "source_id": "classical_13",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_13::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_13__A.wav",
+  "est": "perturbations_temporal/audio/classical_13__displacement__disp_near.wav",
+  "source_id": "classical_13",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_13::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_13__A.wav",
+  "est": "perturbations_temporal/audio/classical_13__displacement__disp_far.wav",
+  "source_id": "classical_13",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_14::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_14__A.wav",
+  "est": "perturbations_temporal/audio/classical_14__control__ctrl.wav",
+  "source_id": "classical_14",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_14::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_14__A.wav",
+  "est": "perturbations_temporal/audio/classical_14__shuffle__shuf_beat.wav",
+  "source_id": "classical_14",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_14::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_14__A.wav",
+  "est": "perturbations_temporal/audio/classical_14__shuffle__shuf_bar.wav",
+  "source_id": "classical_14",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_14::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_14__A.wav",
+  "est": "perturbations_temporal/audio/classical_14__reverse__rev.wav",
+  "source_id": "classical_14",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_14::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_14__A.wav",
+  "est": "perturbations_temporal/audio/classical_14__displacement__disp_near.wav",
+  "source_id": "classical_14",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_14::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_14__A.wav",
+  "est": "perturbations_temporal/audio/classical_14__displacement__disp_far.wav",
+  "source_id": "classical_14",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "classical_15::control::ctrl",
+  "ref": "perturbations_temporal/audio/classical_15__A.wav",
+  "est": "perturbations_temporal/audio/classical_15__control__ctrl.wav",
+  "source_id": "classical_15",
+  "genre": "classical",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "classical_15::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/classical_15__A.wav",
+  "est": "perturbations_temporal/audio/classical_15__shuffle__shuf_beat.wav",
+  "source_id": "classical_15",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_15::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/classical_15__A.wav",
+  "est": "perturbations_temporal/audio/classical_15__shuffle__shuf_bar.wav",
+  "source_id": "classical_15",
+  "genre": "classical",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_15::reverse::rev",
+  "ref": "perturbations_temporal/audio/classical_15__A.wav",
+  "est": "perturbations_temporal/audio/classical_15__reverse__rev.wav",
+  "source_id": "classical_15",
+  "genre": "classical",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "classical_15::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/classical_15__A.wav",
+  "est": "perturbations_temporal/audio/classical_15__displacement__disp_near.wav",
+  "source_id": "classical_15",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "classical_15::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/classical_15__A.wav",
+  "est": "perturbations_temporal/audio/classical_15__displacement__disp_far.wav",
+  "source_id": "classical_15",
+  "genre": "classical",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_01::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_01__A.wav",
+  "est": "perturbations_temporal/audio/ambient_01__control__ctrl.wav",
+  "source_id": "ambient_01",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_01::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_01__A.wav",
+  "est": "perturbations_temporal/audio/ambient_01__shuffle__shuf_beat.wav",
+  "source_id": "ambient_01",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_01::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_01__A.wav",
+  "est": "perturbations_temporal/audio/ambient_01__shuffle__shuf_bar.wav",
+  "source_id": "ambient_01",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_01::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_01__A.wav",
+  "est": "perturbations_temporal/audio/ambient_01__reverse__rev.wav",
+  "source_id": "ambient_01",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_01::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_01__A.wav",
+  "est": "perturbations_temporal/audio/ambient_01__displacement__disp_near.wav",
+  "source_id": "ambient_01",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_01::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_01__A.wav",
+  "est": "perturbations_temporal/audio/ambient_01__displacement__disp_far.wav",
+  "source_id": "ambient_01",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_02::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_02__A.wav",
+  "est": "perturbations_temporal/audio/ambient_02__control__ctrl.wav",
+  "source_id": "ambient_02",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_02::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_02__A.wav",
+  "est": "perturbations_temporal/audio/ambient_02__shuffle__shuf_beat.wav",
+  "source_id": "ambient_02",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_02::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_02__A.wav",
+  "est": "perturbations_temporal/audio/ambient_02__shuffle__shuf_bar.wav",
+  "source_id": "ambient_02",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_02::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_02__A.wav",
+  "est": "perturbations_temporal/audio/ambient_02__reverse__rev.wav",
+  "source_id": "ambient_02",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_02::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_02__A.wav",
+  "est": "perturbations_temporal/audio/ambient_02__displacement__disp_near.wav",
+  "source_id": "ambient_02",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_02::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_02__A.wav",
+  "est": "perturbations_temporal/audio/ambient_02__displacement__disp_far.wav",
+  "source_id": "ambient_02",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_03::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_03__A.wav",
+  "est": "perturbations_temporal/audio/ambient_03__control__ctrl.wav",
+  "source_id": "ambient_03",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_03::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_03__A.wav",
+  "est": "perturbations_temporal/audio/ambient_03__shuffle__shuf_beat.wav",
+  "source_id": "ambient_03",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_03::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_03__A.wav",
+  "est": "perturbations_temporal/audio/ambient_03__shuffle__shuf_bar.wav",
+  "source_id": "ambient_03",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_03::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_03__A.wav",
+  "est": "perturbations_temporal/audio/ambient_03__reverse__rev.wav",
+  "source_id": "ambient_03",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_03::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_03__A.wav",
+  "est": "perturbations_temporal/audio/ambient_03__displacement__disp_near.wav",
+  "source_id": "ambient_03",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_03::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_03__A.wav",
+  "est": "perturbations_temporal/audio/ambient_03__displacement__disp_far.wav",
+  "source_id": "ambient_03",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_04::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_04__A.wav",
+  "est": "perturbations_temporal/audio/ambient_04__control__ctrl.wav",
+  "source_id": "ambient_04",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_04::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_04__A.wav",
+  "est": "perturbations_temporal/audio/ambient_04__shuffle__shuf_beat.wav",
+  "source_id": "ambient_04",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_04::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_04__A.wav",
+  "est": "perturbations_temporal/audio/ambient_04__shuffle__shuf_bar.wav",
+  "source_id": "ambient_04",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_04::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_04__A.wav",
+  "est": "perturbations_temporal/audio/ambient_04__reverse__rev.wav",
+  "source_id": "ambient_04",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_04::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_04__A.wav",
+  "est": "perturbations_temporal/audio/ambient_04__displacement__disp_near.wav",
+  "source_id": "ambient_04",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_04::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_04__A.wav",
+  "est": "perturbations_temporal/audio/ambient_04__displacement__disp_far.wav",
+  "source_id": "ambient_04",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_05::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_05__A.wav",
+  "est": "perturbations_temporal/audio/ambient_05__control__ctrl.wav",
+  "source_id": "ambient_05",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_05::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_05__A.wav",
+  "est": "perturbations_temporal/audio/ambient_05__shuffle__shuf_beat.wav",
+  "source_id": "ambient_05",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_05::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_05__A.wav",
+  "est": "perturbations_temporal/audio/ambient_05__shuffle__shuf_bar.wav",
+  "source_id": "ambient_05",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_05::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_05__A.wav",
+  "est": "perturbations_temporal/audio/ambient_05__reverse__rev.wav",
+  "source_id": "ambient_05",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_05::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_05__A.wav",
+  "est": "perturbations_temporal/audio/ambient_05__displacement__disp_near.wav",
+  "source_id": "ambient_05",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_05::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_05__A.wav",
+  "est": "perturbations_temporal/audio/ambient_05__displacement__disp_far.wav",
+  "source_id": "ambient_05",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_06::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_06__A.wav",
+  "est": "perturbations_temporal/audio/ambient_06__control__ctrl.wav",
+  "source_id": "ambient_06",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_06::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_06__A.wav",
+  "est": "perturbations_temporal/audio/ambient_06__shuffle__shuf_beat.wav",
+  "source_id": "ambient_06",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_06::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_06__A.wav",
+  "est": "perturbations_temporal/audio/ambient_06__shuffle__shuf_bar.wav",
+  "source_id": "ambient_06",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_06::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_06__A.wav",
+  "est": "perturbations_temporal/audio/ambient_06__reverse__rev.wav",
+  "source_id": "ambient_06",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_06::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_06__A.wav",
+  "est": "perturbations_temporal/audio/ambient_06__displacement__disp_near.wav",
+  "source_id": "ambient_06",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_06::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_06__A.wav",
+  "est": "perturbations_temporal/audio/ambient_06__displacement__disp_far.wav",
+  "source_id": "ambient_06",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_07::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_07__A.wav",
+  "est": "perturbations_temporal/audio/ambient_07__control__ctrl.wav",
+  "source_id": "ambient_07",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_07::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_07__A.wav",
+  "est": "perturbations_temporal/audio/ambient_07__shuffle__shuf_beat.wav",
+  "source_id": "ambient_07",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_07::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_07__A.wav",
+  "est": "perturbations_temporal/audio/ambient_07__shuffle__shuf_bar.wav",
+  "source_id": "ambient_07",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_07::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_07__A.wav",
+  "est": "perturbations_temporal/audio/ambient_07__reverse__rev.wav",
+  "source_id": "ambient_07",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_07::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_07__A.wav",
+  "est": "perturbations_temporal/audio/ambient_07__displacement__disp_near.wav",
+  "source_id": "ambient_07",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_07::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_07__A.wav",
+  "est": "perturbations_temporal/audio/ambient_07__displacement__disp_far.wav",
+  "source_id": "ambient_07",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_08::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_08__A.wav",
+  "est": "perturbations_temporal/audio/ambient_08__control__ctrl.wav",
+  "source_id": "ambient_08",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_08::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_08__A.wav",
+  "est": "perturbations_temporal/audio/ambient_08__shuffle__shuf_beat.wav",
+  "source_id": "ambient_08",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_08::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_08__A.wav",
+  "est": "perturbations_temporal/audio/ambient_08__shuffle__shuf_bar.wav",
+  "source_id": "ambient_08",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_08::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_08__A.wav",
+  "est": "perturbations_temporal/audio/ambient_08__reverse__rev.wav",
+  "source_id": "ambient_08",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_08::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_08__A.wav",
+  "est": "perturbations_temporal/audio/ambient_08__displacement__disp_near.wav",
+  "source_id": "ambient_08",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_08::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_08__A.wav",
+  "est": "perturbations_temporal/audio/ambient_08__displacement__disp_far.wav",
+  "source_id": "ambient_08",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_09::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_09__A.wav",
+  "est": "perturbations_temporal/audio/ambient_09__control__ctrl.wav",
+  "source_id": "ambient_09",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_09::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_09__A.wav",
+  "est": "perturbations_temporal/audio/ambient_09__shuffle__shuf_beat.wav",
+  "source_id": "ambient_09",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_09::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_09__A.wav",
+  "est": "perturbations_temporal/audio/ambient_09__shuffle__shuf_bar.wav",
+  "source_id": "ambient_09",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_09::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_09__A.wav",
+  "est": "perturbations_temporal/audio/ambient_09__reverse__rev.wav",
+  "source_id": "ambient_09",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_09::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_09__A.wav",
+  "est": "perturbations_temporal/audio/ambient_09__displacement__disp_near.wav",
+  "source_id": "ambient_09",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_09::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_09__A.wav",
+  "est": "perturbations_temporal/audio/ambient_09__displacement__disp_far.wav",
+  "source_id": "ambient_09",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_10::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_10__A.wav",
+  "est": "perturbations_temporal/audio/ambient_10__control__ctrl.wav",
+  "source_id": "ambient_10",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_10::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_10__A.wav",
+  "est": "perturbations_temporal/audio/ambient_10__shuffle__shuf_beat.wav",
+  "source_id": "ambient_10",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_10::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_10__A.wav",
+  "est": "perturbations_temporal/audio/ambient_10__shuffle__shuf_bar.wav",
+  "source_id": "ambient_10",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_10::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_10__A.wav",
+  "est": "perturbations_temporal/audio/ambient_10__reverse__rev.wav",
+  "source_id": "ambient_10",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_10::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_10__A.wav",
+  "est": "perturbations_temporal/audio/ambient_10__displacement__disp_near.wav",
+  "source_id": "ambient_10",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_10::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_10__A.wav",
+  "est": "perturbations_temporal/audio/ambient_10__displacement__disp_far.wav",
+  "source_id": "ambient_10",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_11::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_11__A.wav",
+  "est": "perturbations_temporal/audio/ambient_11__control__ctrl.wav",
+  "source_id": "ambient_11",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_11::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_11__A.wav",
+  "est": "perturbations_temporal/audio/ambient_11__shuffle__shuf_beat.wav",
+  "source_id": "ambient_11",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_11::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_11__A.wav",
+  "est": "perturbations_temporal/audio/ambient_11__shuffle__shuf_bar.wav",
+  "source_id": "ambient_11",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_11::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_11__A.wav",
+  "est": "perturbations_temporal/audio/ambient_11__reverse__rev.wav",
+  "source_id": "ambient_11",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_11::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_11__A.wav",
+  "est": "perturbations_temporal/audio/ambient_11__displacement__disp_near.wav",
+  "source_id": "ambient_11",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_11::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_11__A.wav",
+  "est": "perturbations_temporal/audio/ambient_11__displacement__disp_far.wav",
+  "source_id": "ambient_11",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_12::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_12__A.wav",
+  "est": "perturbations_temporal/audio/ambient_12__control__ctrl.wav",
+  "source_id": "ambient_12",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_12::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_12__A.wav",
+  "est": "perturbations_temporal/audio/ambient_12__shuffle__shuf_beat.wav",
+  "source_id": "ambient_12",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_12::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_12__A.wav",
+  "est": "perturbations_temporal/audio/ambient_12__shuffle__shuf_bar.wav",
+  "source_id": "ambient_12",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_12::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_12__A.wav",
+  "est": "perturbations_temporal/audio/ambient_12__reverse__rev.wav",
+  "source_id": "ambient_12",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_12::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_12__A.wav",
+  "est": "perturbations_temporal/audio/ambient_12__displacement__disp_near.wav",
+  "source_id": "ambient_12",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_12::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_12__A.wav",
+  "est": "perturbations_temporal/audio/ambient_12__displacement__disp_far.wav",
+  "source_id": "ambient_12",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_13::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_13__A.wav",
+  "est": "perturbations_temporal/audio/ambient_13__control__ctrl.wav",
+  "source_id": "ambient_13",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_13::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_13__A.wav",
+  "est": "perturbations_temporal/audio/ambient_13__shuffle__shuf_beat.wav",
+  "source_id": "ambient_13",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_13::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_13__A.wav",
+  "est": "perturbations_temporal/audio/ambient_13__shuffle__shuf_bar.wav",
+  "source_id": "ambient_13",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_13::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_13__A.wav",
+  "est": "perturbations_temporal/audio/ambient_13__reverse__rev.wav",
+  "source_id": "ambient_13",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_13::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_13__A.wav",
+  "est": "perturbations_temporal/audio/ambient_13__displacement__disp_near.wav",
+  "source_id": "ambient_13",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_13::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_13__A.wav",
+  "est": "perturbations_temporal/audio/ambient_13__displacement__disp_far.wav",
+  "source_id": "ambient_13",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_14::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_14__A.wav",
+  "est": "perturbations_temporal/audio/ambient_14__control__ctrl.wav",
+  "source_id": "ambient_14",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_14::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_14__A.wav",
+  "est": "perturbations_temporal/audio/ambient_14__shuffle__shuf_beat.wav",
+  "source_id": "ambient_14",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_14::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_14__A.wav",
+  "est": "perturbations_temporal/audio/ambient_14__shuffle__shuf_bar.wav",
+  "source_id": "ambient_14",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_14::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_14__A.wav",
+  "est": "perturbations_temporal/audio/ambient_14__reverse__rev.wav",
+  "source_id": "ambient_14",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_14::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_14__A.wav",
+  "est": "perturbations_temporal/audio/ambient_14__displacement__disp_near.wav",
+  "source_id": "ambient_14",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_14::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_14__A.wav",
+  "est": "perturbations_temporal/audio/ambient_14__displacement__disp_far.wav",
+  "source_id": "ambient_14",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "ambient_15::control::ctrl",
+  "ref": "perturbations_temporal/audio/ambient_15__A.wav",
+  "est": "perturbations_temporal/audio/ambient_15__control__ctrl.wav",
+  "source_id": "ambient_15",
+  "genre": "ambient",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "ambient_15::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/ambient_15__A.wav",
+  "est": "perturbations_temporal/audio/ambient_15__shuffle__shuf_beat.wav",
+  "source_id": "ambient_15",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_15::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/ambient_15__A.wav",
+  "est": "perturbations_temporal/audio/ambient_15__shuffle__shuf_bar.wav",
+  "source_id": "ambient_15",
+  "genre": "ambient",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_15::reverse::rev",
+  "ref": "perturbations_temporal/audio/ambient_15__A.wav",
+  "est": "perturbations_temporal/audio/ambient_15__reverse__rev.wav",
+  "source_id": "ambient_15",
+  "genre": "ambient",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "ambient_15::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/ambient_15__A.wav",
+  "est": "perturbations_temporal/audio/ambient_15__displacement__disp_near.wav",
+  "source_id": "ambient_15",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "ambient_15::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/ambient_15__A.wav",
+  "est": "perturbations_temporal/audio/ambient_15__displacement__disp_far.wav",
+  "source_id": "ambient_15",
+  "genre": "ambient",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_01::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_01__A.wav",
+  "est": "perturbations_temporal/audio/electronic_01__control__ctrl.wav",
+  "source_id": "electronic_01",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_01::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_01__A.wav",
+  "est": "perturbations_temporal/audio/electronic_01__shuffle__shuf_beat.wav",
+  "source_id": "electronic_01",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_01::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_01__A.wav",
+  "est": "perturbations_temporal/audio/electronic_01__shuffle__shuf_bar.wav",
+  "source_id": "electronic_01",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_01::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_01__A.wav",
+  "est": "perturbations_temporal/audio/electronic_01__reverse__rev.wav",
+  "source_id": "electronic_01",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_01::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_01__A.wav",
+  "est": "perturbations_temporal/audio/electronic_01__displacement__disp_near.wav",
+  "source_id": "electronic_01",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_01::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_01__A.wav",
+  "est": "perturbations_temporal/audio/electronic_01__displacement__disp_far.wav",
+  "source_id": "electronic_01",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_02::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_02__A.wav",
+  "est": "perturbations_temporal/audio/electronic_02__control__ctrl.wav",
+  "source_id": "electronic_02",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_02::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_02__A.wav",
+  "est": "perturbations_temporal/audio/electronic_02__shuffle__shuf_beat.wav",
+  "source_id": "electronic_02",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_02::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_02__A.wav",
+  "est": "perturbations_temporal/audio/electronic_02__shuffle__shuf_bar.wav",
+  "source_id": "electronic_02",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_02::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_02__A.wav",
+  "est": "perturbations_temporal/audio/electronic_02__reverse__rev.wav",
+  "source_id": "electronic_02",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_02::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_02__A.wav",
+  "est": "perturbations_temporal/audio/electronic_02__displacement__disp_near.wav",
+  "source_id": "electronic_02",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_02::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_02__A.wav",
+  "est": "perturbations_temporal/audio/electronic_02__displacement__disp_far.wav",
+  "source_id": "electronic_02",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_03::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_03__A.wav",
+  "est": "perturbations_temporal/audio/electronic_03__control__ctrl.wav",
+  "source_id": "electronic_03",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_03::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_03__A.wav",
+  "est": "perturbations_temporal/audio/electronic_03__shuffle__shuf_beat.wav",
+  "source_id": "electronic_03",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_03::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_03__A.wav",
+  "est": "perturbations_temporal/audio/electronic_03__shuffle__shuf_bar.wav",
+  "source_id": "electronic_03",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_03::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_03__A.wav",
+  "est": "perturbations_temporal/audio/electronic_03__reverse__rev.wav",
+  "source_id": "electronic_03",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_03::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_03__A.wav",
+  "est": "perturbations_temporal/audio/electronic_03__displacement__disp_near.wav",
+  "source_id": "electronic_03",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_03::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_03__A.wav",
+  "est": "perturbations_temporal/audio/electronic_03__displacement__disp_far.wav",
+  "source_id": "electronic_03",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_04::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_04__A.wav",
+  "est": "perturbations_temporal/audio/electronic_04__control__ctrl.wav",
+  "source_id": "electronic_04",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_04::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_04__A.wav",
+  "est": "perturbations_temporal/audio/electronic_04__shuffle__shuf_beat.wav",
+  "source_id": "electronic_04",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_04::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_04__A.wav",
+  "est": "perturbations_temporal/audio/electronic_04__shuffle__shuf_bar.wav",
+  "source_id": "electronic_04",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_04::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_04__A.wav",
+  "est": "perturbations_temporal/audio/electronic_04__reverse__rev.wav",
+  "source_id": "electronic_04",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_04::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_04__A.wav",
+  "est": "perturbations_temporal/audio/electronic_04__displacement__disp_near.wav",
+  "source_id": "electronic_04",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_04::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_04__A.wav",
+  "est": "perturbations_temporal/audio/electronic_04__displacement__disp_far.wav",
+  "source_id": "electronic_04",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_05::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_05__A.wav",
+  "est": "perturbations_temporal/audio/electronic_05__control__ctrl.wav",
+  "source_id": "electronic_05",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_05::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_05__A.wav",
+  "est": "perturbations_temporal/audio/electronic_05__shuffle__shuf_beat.wav",
+  "source_id": "electronic_05",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_05::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_05__A.wav",
+  "est": "perturbations_temporal/audio/electronic_05__shuffle__shuf_bar.wav",
+  "source_id": "electronic_05",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_05::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_05__A.wav",
+  "est": "perturbations_temporal/audio/electronic_05__reverse__rev.wav",
+  "source_id": "electronic_05",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_05::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_05__A.wav",
+  "est": "perturbations_temporal/audio/electronic_05__displacement__disp_near.wav",
+  "source_id": "electronic_05",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_05::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_05__A.wav",
+  "est": "perturbations_temporal/audio/electronic_05__displacement__disp_far.wav",
+  "source_id": "electronic_05",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_06::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_06__A.wav",
+  "est": "perturbations_temporal/audio/electronic_06__control__ctrl.wav",
+  "source_id": "electronic_06",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_06::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_06__A.wav",
+  "est": "perturbations_temporal/audio/electronic_06__shuffle__shuf_beat.wav",
+  "source_id": "electronic_06",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_06::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_06__A.wav",
+  "est": "perturbations_temporal/audio/electronic_06__shuffle__shuf_bar.wav",
+  "source_id": "electronic_06",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_06::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_06__A.wav",
+  "est": "perturbations_temporal/audio/electronic_06__reverse__rev.wav",
+  "source_id": "electronic_06",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_06::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_06__A.wav",
+  "est": "perturbations_temporal/audio/electronic_06__displacement__disp_near.wav",
+  "source_id": "electronic_06",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_06::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_06__A.wav",
+  "est": "perturbations_temporal/audio/electronic_06__displacement__disp_far.wav",
+  "source_id": "electronic_06",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_07::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_07__A.wav",
+  "est": "perturbations_temporal/audio/electronic_07__control__ctrl.wav",
+  "source_id": "electronic_07",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_07::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_07__A.wav",
+  "est": "perturbations_temporal/audio/electronic_07__shuffle__shuf_beat.wav",
+  "source_id": "electronic_07",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_07::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_07__A.wav",
+  "est": "perturbations_temporal/audio/electronic_07__shuffle__shuf_bar.wav",
+  "source_id": "electronic_07",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_07::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_07__A.wav",
+  "est": "perturbations_temporal/audio/electronic_07__reverse__rev.wav",
+  "source_id": "electronic_07",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_07::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_07__A.wav",
+  "est": "perturbations_temporal/audio/electronic_07__displacement__disp_near.wav",
+  "source_id": "electronic_07",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_07::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_07__A.wav",
+  "est": "perturbations_temporal/audio/electronic_07__displacement__disp_far.wav",
+  "source_id": "electronic_07",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_08::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_08__A.wav",
+  "est": "perturbations_temporal/audio/electronic_08__control__ctrl.wav",
+  "source_id": "electronic_08",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_08::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_08__A.wav",
+  "est": "perturbations_temporal/audio/electronic_08__shuffle__shuf_beat.wav",
+  "source_id": "electronic_08",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_08::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_08__A.wav",
+  "est": "perturbations_temporal/audio/electronic_08__shuffle__shuf_bar.wav",
+  "source_id": "electronic_08",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_08::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_08__A.wav",
+  "est": "perturbations_temporal/audio/electronic_08__reverse__rev.wav",
+  "source_id": "electronic_08",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_08::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_08__A.wav",
+  "est": "perturbations_temporal/audio/electronic_08__displacement__disp_near.wav",
+  "source_id": "electronic_08",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_08::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_08__A.wav",
+  "est": "perturbations_temporal/audio/electronic_08__displacement__disp_far.wav",
+  "source_id": "electronic_08",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_09::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_09__A.wav",
+  "est": "perturbations_temporal/audio/electronic_09__control__ctrl.wav",
+  "source_id": "electronic_09",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_09::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_09__A.wav",
+  "est": "perturbations_temporal/audio/electronic_09__shuffle__shuf_beat.wav",
+  "source_id": "electronic_09",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_09::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_09__A.wav",
+  "est": "perturbations_temporal/audio/electronic_09__shuffle__shuf_bar.wav",
+  "source_id": "electronic_09",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_09::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_09__A.wav",
+  "est": "perturbations_temporal/audio/electronic_09__reverse__rev.wav",
+  "source_id": "electronic_09",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_09::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_09__A.wav",
+  "est": "perturbations_temporal/audio/electronic_09__displacement__disp_near.wav",
+  "source_id": "electronic_09",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_09::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_09__A.wav",
+  "est": "perturbations_temporal/audio/electronic_09__displacement__disp_far.wav",
+  "source_id": "electronic_09",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_10::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_10__A.wav",
+  "est": "perturbations_temporal/audio/electronic_10__control__ctrl.wav",
+  "source_id": "electronic_10",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_10::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_10__A.wav",
+  "est": "perturbations_temporal/audio/electronic_10__shuffle__shuf_beat.wav",
+  "source_id": "electronic_10",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_10::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_10__A.wav",
+  "est": "perturbations_temporal/audio/electronic_10__shuffle__shuf_bar.wav",
+  "source_id": "electronic_10",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_10::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_10__A.wav",
+  "est": "perturbations_temporal/audio/electronic_10__reverse__rev.wav",
+  "source_id": "electronic_10",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_10::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_10__A.wav",
+  "est": "perturbations_temporal/audio/electronic_10__displacement__disp_near.wav",
+  "source_id": "electronic_10",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_10::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_10__A.wav",
+  "est": "perturbations_temporal/audio/electronic_10__displacement__disp_far.wav",
+  "source_id": "electronic_10",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_11::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_11__A.wav",
+  "est": "perturbations_temporal/audio/electronic_11__control__ctrl.wav",
+  "source_id": "electronic_11",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_11::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_11__A.wav",
+  "est": "perturbations_temporal/audio/electronic_11__shuffle__shuf_beat.wav",
+  "source_id": "electronic_11",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_11::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_11__A.wav",
+  "est": "perturbations_temporal/audio/electronic_11__shuffle__shuf_bar.wav",
+  "source_id": "electronic_11",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_11::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_11__A.wav",
+  "est": "perturbations_temporal/audio/electronic_11__reverse__rev.wav",
+  "source_id": "electronic_11",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_11::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_11__A.wav",
+  "est": "perturbations_temporal/audio/electronic_11__displacement__disp_near.wav",
+  "source_id": "electronic_11",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_11::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_11__A.wav",
+  "est": "perturbations_temporal/audio/electronic_11__displacement__disp_far.wav",
+  "source_id": "electronic_11",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_12::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_12__A.wav",
+  "est": "perturbations_temporal/audio/electronic_12__control__ctrl.wav",
+  "source_id": "electronic_12",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_12::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_12__A.wav",
+  "est": "perturbations_temporal/audio/electronic_12__shuffle__shuf_beat.wav",
+  "source_id": "electronic_12",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_12::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_12__A.wav",
+  "est": "perturbations_temporal/audio/electronic_12__shuffle__shuf_bar.wav",
+  "source_id": "electronic_12",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_12::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_12__A.wav",
+  "est": "perturbations_temporal/audio/electronic_12__reverse__rev.wav",
+  "source_id": "electronic_12",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_12::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_12__A.wav",
+  "est": "perturbations_temporal/audio/electronic_12__displacement__disp_near.wav",
+  "source_id": "electronic_12",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_12::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_12__A.wav",
+  "est": "perturbations_temporal/audio/electronic_12__displacement__disp_far.wav",
+  "source_id": "electronic_12",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_13::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_13__A.wav",
+  "est": "perturbations_temporal/audio/electronic_13__control__ctrl.wav",
+  "source_id": "electronic_13",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_13::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_13__A.wav",
+  "est": "perturbations_temporal/audio/electronic_13__shuffle__shuf_beat.wav",
+  "source_id": "electronic_13",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_13::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_13__A.wav",
+  "est": "perturbations_temporal/audio/electronic_13__shuffle__shuf_bar.wav",
+  "source_id": "electronic_13",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_13::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_13__A.wav",
+  "est": "perturbations_temporal/audio/electronic_13__reverse__rev.wav",
+  "source_id": "electronic_13",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_13::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_13__A.wav",
+  "est": "perturbations_temporal/audio/electronic_13__displacement__disp_near.wav",
+  "source_id": "electronic_13",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_13::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_13__A.wav",
+  "est": "perturbations_temporal/audio/electronic_13__displacement__disp_far.wav",
+  "source_id": "electronic_13",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_14::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_14__A.wav",
+  "est": "perturbations_temporal/audio/electronic_14__control__ctrl.wav",
+  "source_id": "electronic_14",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_14::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_14__A.wav",
+  "est": "perturbations_temporal/audio/electronic_14__shuffle__shuf_beat.wav",
+  "source_id": "electronic_14",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_14::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_14__A.wav",
+  "est": "perturbations_temporal/audio/electronic_14__shuffle__shuf_bar.wav",
+  "source_id": "electronic_14",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_14::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_14__A.wav",
+  "est": "perturbations_temporal/audio/electronic_14__reverse__rev.wav",
+  "source_id": "electronic_14",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_14::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_14__A.wav",
+  "est": "perturbations_temporal/audio/electronic_14__displacement__disp_near.wav",
+  "source_id": "electronic_14",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_14::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_14__A.wav",
+  "est": "perturbations_temporal/audio/electronic_14__displacement__disp_far.wav",
+  "source_id": "electronic_14",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "electronic_15::control::ctrl",
+  "ref": "perturbations_temporal/audio/electronic_15__A.wav",
+  "est": "perturbations_temporal/audio/electronic_15__control__ctrl.wav",
+  "source_id": "electronic_15",
+  "genre": "electronic",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "electronic_15::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/electronic_15__A.wav",
+  "est": "perturbations_temporal/audio/electronic_15__shuffle__shuf_beat.wav",
+  "source_id": "electronic_15",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_15::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/electronic_15__A.wav",
+  "est": "perturbations_temporal/audio/electronic_15__shuffle__shuf_bar.wav",
+  "source_id": "electronic_15",
+  "genre": "electronic",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_15::reverse::rev",
+  "ref": "perturbations_temporal/audio/electronic_15__A.wav",
+  "est": "perturbations_temporal/audio/electronic_15__reverse__rev.wav",
+  "source_id": "electronic_15",
+  "genre": "electronic",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "electronic_15::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/electronic_15__A.wav",
+  "est": "perturbations_temporal/audio/electronic_15__displacement__disp_near.wav",
+  "source_id": "electronic_15",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "electronic_15::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/electronic_15__A.wav",
+  "est": "perturbations_temporal/audio/electronic_15__displacement__disp_far.wav",
+  "source_id": "electronic_15",
+  "genre": "electronic",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_01::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_01__A.wav",
+  "est": "perturbations_temporal/audio/folk_01__control__ctrl.wav",
+  "source_id": "folk_01",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_01::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_01__A.wav",
+  "est": "perturbations_temporal/audio/folk_01__shuffle__shuf_beat.wav",
+  "source_id": "folk_01",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_01::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_01__A.wav",
+  "est": "perturbations_temporal/audio/folk_01__shuffle__shuf_bar.wav",
+  "source_id": "folk_01",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_01::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_01__A.wav",
+  "est": "perturbations_temporal/audio/folk_01__reverse__rev.wav",
+  "source_id": "folk_01",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_01::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_01__A.wav",
+  "est": "perturbations_temporal/audio/folk_01__displacement__disp_near.wav",
+  "source_id": "folk_01",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_01::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_01__A.wav",
+  "est": "perturbations_temporal/audio/folk_01__displacement__disp_far.wav",
+  "source_id": "folk_01",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_02::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_02__A.wav",
+  "est": "perturbations_temporal/audio/folk_02__control__ctrl.wav",
+  "source_id": "folk_02",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_02::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_02__A.wav",
+  "est": "perturbations_temporal/audio/folk_02__shuffle__shuf_beat.wav",
+  "source_id": "folk_02",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_02::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_02__A.wav",
+  "est": "perturbations_temporal/audio/folk_02__shuffle__shuf_bar.wav",
+  "source_id": "folk_02",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_02::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_02__A.wav",
+  "est": "perturbations_temporal/audio/folk_02__reverse__rev.wav",
+  "source_id": "folk_02",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_02::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_02__A.wav",
+  "est": "perturbations_temporal/audio/folk_02__displacement__disp_near.wav",
+  "source_id": "folk_02",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_02::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_02__A.wav",
+  "est": "perturbations_temporal/audio/folk_02__displacement__disp_far.wav",
+  "source_id": "folk_02",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_03::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_03__A.wav",
+  "est": "perturbations_temporal/audio/folk_03__control__ctrl.wav",
+  "source_id": "folk_03",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_03::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_03__A.wav",
+  "est": "perturbations_temporal/audio/folk_03__shuffle__shuf_beat.wav",
+  "source_id": "folk_03",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_03::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_03__A.wav",
+  "est": "perturbations_temporal/audio/folk_03__shuffle__shuf_bar.wav",
+  "source_id": "folk_03",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_03::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_03__A.wav",
+  "est": "perturbations_temporal/audio/folk_03__reverse__rev.wav",
+  "source_id": "folk_03",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_03::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_03__A.wav",
+  "est": "perturbations_temporal/audio/folk_03__displacement__disp_near.wav",
+  "source_id": "folk_03",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_03::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_03__A.wav",
+  "est": "perturbations_temporal/audio/folk_03__displacement__disp_far.wav",
+  "source_id": "folk_03",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_04::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_04__A.wav",
+  "est": "perturbations_temporal/audio/folk_04__control__ctrl.wav",
+  "source_id": "folk_04",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_04::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_04__A.wav",
+  "est": "perturbations_temporal/audio/folk_04__shuffle__shuf_beat.wav",
+  "source_id": "folk_04",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_04::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_04__A.wav",
+  "est": "perturbations_temporal/audio/folk_04__shuffle__shuf_bar.wav",
+  "source_id": "folk_04",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_04::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_04__A.wav",
+  "est": "perturbations_temporal/audio/folk_04__reverse__rev.wav",
+  "source_id": "folk_04",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_04::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_04__A.wav",
+  "est": "perturbations_temporal/audio/folk_04__displacement__disp_near.wav",
+  "source_id": "folk_04",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_04::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_04__A.wav",
+  "est": "perturbations_temporal/audio/folk_04__displacement__disp_far.wav",
+  "source_id": "folk_04",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_05::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_05__A.wav",
+  "est": "perturbations_temporal/audio/folk_05__control__ctrl.wav",
+  "source_id": "folk_05",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_05::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_05__A.wav",
+  "est": "perturbations_temporal/audio/folk_05__shuffle__shuf_beat.wav",
+  "source_id": "folk_05",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_05::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_05__A.wav",
+  "est": "perturbations_temporal/audio/folk_05__shuffle__shuf_bar.wav",
+  "source_id": "folk_05",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_05::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_05__A.wav",
+  "est": "perturbations_temporal/audio/folk_05__reverse__rev.wav",
+  "source_id": "folk_05",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_05::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_05__A.wav",
+  "est": "perturbations_temporal/audio/folk_05__displacement__disp_near.wav",
+  "source_id": "folk_05",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_05::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_05__A.wav",
+  "est": "perturbations_temporal/audio/folk_05__displacement__disp_far.wav",
+  "source_id": "folk_05",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_06::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_06__A.wav",
+  "est": "perturbations_temporal/audio/folk_06__control__ctrl.wav",
+  "source_id": "folk_06",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_06::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_06__A.wav",
+  "est": "perturbations_temporal/audio/folk_06__shuffle__shuf_beat.wav",
+  "source_id": "folk_06",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_06::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_06__A.wav",
+  "est": "perturbations_temporal/audio/folk_06__shuffle__shuf_bar.wav",
+  "source_id": "folk_06",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_06::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_06__A.wav",
+  "est": "perturbations_temporal/audio/folk_06__reverse__rev.wav",
+  "source_id": "folk_06",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_06::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_06__A.wav",
+  "est": "perturbations_temporal/audio/folk_06__displacement__disp_near.wav",
+  "source_id": "folk_06",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_06::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_06__A.wav",
+  "est": "perturbations_temporal/audio/folk_06__displacement__disp_far.wav",
+  "source_id": "folk_06",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_07::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_07__A.wav",
+  "est": "perturbations_temporal/audio/folk_07__control__ctrl.wav",
+  "source_id": "folk_07",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_07::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_07__A.wav",
+  "est": "perturbations_temporal/audio/folk_07__shuffle__shuf_beat.wav",
+  "source_id": "folk_07",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_07::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_07__A.wav",
+  "est": "perturbations_temporal/audio/folk_07__shuffle__shuf_bar.wav",
+  "source_id": "folk_07",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_07::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_07__A.wav",
+  "est": "perturbations_temporal/audio/folk_07__reverse__rev.wav",
+  "source_id": "folk_07",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_07::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_07__A.wav",
+  "est": "perturbations_temporal/audio/folk_07__displacement__disp_near.wav",
+  "source_id": "folk_07",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_07::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_07__A.wav",
+  "est": "perturbations_temporal/audio/folk_07__displacement__disp_far.wav",
+  "source_id": "folk_07",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_08::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_08__A.wav",
+  "est": "perturbations_temporal/audio/folk_08__control__ctrl.wav",
+  "source_id": "folk_08",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_08::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_08__A.wav",
+  "est": "perturbations_temporal/audio/folk_08__shuffle__shuf_beat.wav",
+  "source_id": "folk_08",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_08::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_08__A.wav",
+  "est": "perturbations_temporal/audio/folk_08__shuffle__shuf_bar.wav",
+  "source_id": "folk_08",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_08::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_08__A.wav",
+  "est": "perturbations_temporal/audio/folk_08__reverse__rev.wav",
+  "source_id": "folk_08",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_08::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_08__A.wav",
+  "est": "perturbations_temporal/audio/folk_08__displacement__disp_near.wav",
+  "source_id": "folk_08",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_08::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_08__A.wav",
+  "est": "perturbations_temporal/audio/folk_08__displacement__disp_far.wav",
+  "source_id": "folk_08",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_09::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_09__A.wav",
+  "est": "perturbations_temporal/audio/folk_09__control__ctrl.wav",
+  "source_id": "folk_09",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_09::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_09__A.wav",
+  "est": "perturbations_temporal/audio/folk_09__shuffle__shuf_beat.wav",
+  "source_id": "folk_09",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_09::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_09__A.wav",
+  "est": "perturbations_temporal/audio/folk_09__shuffle__shuf_bar.wav",
+  "source_id": "folk_09",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_09::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_09__A.wav",
+  "est": "perturbations_temporal/audio/folk_09__reverse__rev.wav",
+  "source_id": "folk_09",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_09::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_09__A.wav",
+  "est": "perturbations_temporal/audio/folk_09__displacement__disp_near.wav",
+  "source_id": "folk_09",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_09::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_09__A.wav",
+  "est": "perturbations_temporal/audio/folk_09__displacement__disp_far.wav",
+  "source_id": "folk_09",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_10::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_10__A.wav",
+  "est": "perturbations_temporal/audio/folk_10__control__ctrl.wav",
+  "source_id": "folk_10",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_10::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_10__A.wav",
+  "est": "perturbations_temporal/audio/folk_10__shuffle__shuf_beat.wav",
+  "source_id": "folk_10",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_10::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_10__A.wav",
+  "est": "perturbations_temporal/audio/folk_10__shuffle__shuf_bar.wav",
+  "source_id": "folk_10",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_10::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_10__A.wav",
+  "est": "perturbations_temporal/audio/folk_10__reverse__rev.wav",
+  "source_id": "folk_10",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_10::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_10__A.wav",
+  "est": "perturbations_temporal/audio/folk_10__displacement__disp_near.wav",
+  "source_id": "folk_10",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_10::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_10__A.wav",
+  "est": "perturbations_temporal/audio/folk_10__displacement__disp_far.wav",
+  "source_id": "folk_10",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_11::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_11__A.wav",
+  "est": "perturbations_temporal/audio/folk_11__control__ctrl.wav",
+  "source_id": "folk_11",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_11::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_11__A.wav",
+  "est": "perturbations_temporal/audio/folk_11__shuffle__shuf_beat.wav",
+  "source_id": "folk_11",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_11::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_11__A.wav",
+  "est": "perturbations_temporal/audio/folk_11__shuffle__shuf_bar.wav",
+  "source_id": "folk_11",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_11::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_11__A.wav",
+  "est": "perturbations_temporal/audio/folk_11__reverse__rev.wav",
+  "source_id": "folk_11",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_11::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_11__A.wav",
+  "est": "perturbations_temporal/audio/folk_11__displacement__disp_near.wav",
+  "source_id": "folk_11",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_11::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_11__A.wav",
+  "est": "perturbations_temporal/audio/folk_11__displacement__disp_far.wav",
+  "source_id": "folk_11",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_12::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_12__A.wav",
+  "est": "perturbations_temporal/audio/folk_12__control__ctrl.wav",
+  "source_id": "folk_12",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_12::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_12__A.wav",
+  "est": "perturbations_temporal/audio/folk_12__shuffle__shuf_beat.wav",
+  "source_id": "folk_12",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_12::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_12__A.wav",
+  "est": "perturbations_temporal/audio/folk_12__shuffle__shuf_bar.wav",
+  "source_id": "folk_12",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_12::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_12__A.wav",
+  "est": "perturbations_temporal/audio/folk_12__reverse__rev.wav",
+  "source_id": "folk_12",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_12::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_12__A.wav",
+  "est": "perturbations_temporal/audio/folk_12__displacement__disp_near.wav",
+  "source_id": "folk_12",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_12::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_12__A.wav",
+  "est": "perturbations_temporal/audio/folk_12__displacement__disp_far.wav",
+  "source_id": "folk_12",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_13::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_13__A.wav",
+  "est": "perturbations_temporal/audio/folk_13__control__ctrl.wav",
+  "source_id": "folk_13",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_13::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_13__A.wav",
+  "est": "perturbations_temporal/audio/folk_13__shuffle__shuf_beat.wav",
+  "source_id": "folk_13",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_13::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_13__A.wav",
+  "est": "perturbations_temporal/audio/folk_13__shuffle__shuf_bar.wav",
+  "source_id": "folk_13",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_13::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_13__A.wav",
+  "est": "perturbations_temporal/audio/folk_13__reverse__rev.wav",
+  "source_id": "folk_13",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_13::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_13__A.wav",
+  "est": "perturbations_temporal/audio/folk_13__displacement__disp_near.wav",
+  "source_id": "folk_13",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_13::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_13__A.wav",
+  "est": "perturbations_temporal/audio/folk_13__displacement__disp_far.wav",
+  "source_id": "folk_13",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_14::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_14__A.wav",
+  "est": "perturbations_temporal/audio/folk_14__control__ctrl.wav",
+  "source_id": "folk_14",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_14::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_14__A.wav",
+  "est": "perturbations_temporal/audio/folk_14__shuffle__shuf_beat.wav",
+  "source_id": "folk_14",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_14::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_14__A.wav",
+  "est": "perturbations_temporal/audio/folk_14__shuffle__shuf_bar.wav",
+  "source_id": "folk_14",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_14::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_14__A.wav",
+  "est": "perturbations_temporal/audio/folk_14__reverse__rev.wav",
+  "source_id": "folk_14",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_14::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_14__A.wav",
+  "est": "perturbations_temporal/audio/folk_14__displacement__disp_near.wav",
+  "source_id": "folk_14",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_14::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_14__A.wav",
+  "est": "perturbations_temporal/audio/folk_14__displacement__disp_far.wav",
+  "source_id": "folk_14",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "folk_15::control::ctrl",
+  "ref": "perturbations_temporal/audio/folk_15__A.wav",
+  "est": "perturbations_temporal/audio/folk_15__control__ctrl.wav",
+  "source_id": "folk_15",
+  "genre": "folk",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "folk_15::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/folk_15__A.wav",
+  "est": "perturbations_temporal/audio/folk_15__shuffle__shuf_beat.wav",
+  "source_id": "folk_15",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_15::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/folk_15__A.wav",
+  "est": "perturbations_temporal/audio/folk_15__shuffle__shuf_bar.wav",
+  "source_id": "folk_15",
+  "genre": "folk",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_15::reverse::rev",
+  "ref": "perturbations_temporal/audio/folk_15__A.wav",
+  "est": "perturbations_temporal/audio/folk_15__reverse__rev.wav",
+  "source_id": "folk_15",
+  "genre": "folk",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "folk_15::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/folk_15__A.wav",
+  "est": "perturbations_temporal/audio/folk_15__displacement__disp_near.wav",
+  "source_id": "folk_15",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "folk_15::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/folk_15__A.wav",
+  "est": "perturbations_temporal/audio/folk_15__displacement__disp_far.wav",
+  "source_id": "folk_15",
+  "genre": "folk",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_01::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_01__A.wav",
+  "est": "perturbations_temporal/audio/jazz_01__control__ctrl.wav",
+  "source_id": "jazz_01",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_01::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_01__A.wav",
+  "est": "perturbations_temporal/audio/jazz_01__shuffle__shuf_beat.wav",
+  "source_id": "jazz_01",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_01::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_01__A.wav",
+  "est": "perturbations_temporal/audio/jazz_01__shuffle__shuf_bar.wav",
+  "source_id": "jazz_01",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_01::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_01__A.wav",
+  "est": "perturbations_temporal/audio/jazz_01__reverse__rev.wav",
+  "source_id": "jazz_01",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_01::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_01__A.wav",
+  "est": "perturbations_temporal/audio/jazz_01__displacement__disp_near.wav",
+  "source_id": "jazz_01",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_01::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_01__A.wav",
+  "est": "perturbations_temporal/audio/jazz_01__displacement__disp_far.wav",
+  "source_id": "jazz_01",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_02::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_02__A.wav",
+  "est": "perturbations_temporal/audio/jazz_02__control__ctrl.wav",
+  "source_id": "jazz_02",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_02::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_02__A.wav",
+  "est": "perturbations_temporal/audio/jazz_02__shuffle__shuf_beat.wav",
+  "source_id": "jazz_02",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_02::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_02__A.wav",
+  "est": "perturbations_temporal/audio/jazz_02__shuffle__shuf_bar.wav",
+  "source_id": "jazz_02",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_02::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_02__A.wav",
+  "est": "perturbations_temporal/audio/jazz_02__reverse__rev.wav",
+  "source_id": "jazz_02",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_02::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_02__A.wav",
+  "est": "perturbations_temporal/audio/jazz_02__displacement__disp_near.wav",
+  "source_id": "jazz_02",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_02::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_02__A.wav",
+  "est": "perturbations_temporal/audio/jazz_02__displacement__disp_far.wav",
+  "source_id": "jazz_02",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_03::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_03__A.wav",
+  "est": "perturbations_temporal/audio/jazz_03__control__ctrl.wav",
+  "source_id": "jazz_03",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_03::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_03__A.wav",
+  "est": "perturbations_temporal/audio/jazz_03__shuffle__shuf_beat.wav",
+  "source_id": "jazz_03",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_03::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_03__A.wav",
+  "est": "perturbations_temporal/audio/jazz_03__shuffle__shuf_bar.wav",
+  "source_id": "jazz_03",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_03::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_03__A.wav",
+  "est": "perturbations_temporal/audio/jazz_03__reverse__rev.wav",
+  "source_id": "jazz_03",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_03::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_03__A.wav",
+  "est": "perturbations_temporal/audio/jazz_03__displacement__disp_near.wav",
+  "source_id": "jazz_03",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_03::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_03__A.wav",
+  "est": "perturbations_temporal/audio/jazz_03__displacement__disp_far.wav",
+  "source_id": "jazz_03",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_04::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_04__A.wav",
+  "est": "perturbations_temporal/audio/jazz_04__control__ctrl.wav",
+  "source_id": "jazz_04",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_04::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_04__A.wav",
+  "est": "perturbations_temporal/audio/jazz_04__shuffle__shuf_beat.wav",
+  "source_id": "jazz_04",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_04::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_04__A.wav",
+  "est": "perturbations_temporal/audio/jazz_04__shuffle__shuf_bar.wav",
+  "source_id": "jazz_04",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_04::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_04__A.wav",
+  "est": "perturbations_temporal/audio/jazz_04__reverse__rev.wav",
+  "source_id": "jazz_04",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_04::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_04__A.wav",
+  "est": "perturbations_temporal/audio/jazz_04__displacement__disp_near.wav",
+  "source_id": "jazz_04",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_04::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_04__A.wav",
+  "est": "perturbations_temporal/audio/jazz_04__displacement__disp_far.wav",
+  "source_id": "jazz_04",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_05::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_05__A.wav",
+  "est": "perturbations_temporal/audio/jazz_05__control__ctrl.wav",
+  "source_id": "jazz_05",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_05::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_05__A.wav",
+  "est": "perturbations_temporal/audio/jazz_05__shuffle__shuf_beat.wav",
+  "source_id": "jazz_05",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_05::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_05__A.wav",
+  "est": "perturbations_temporal/audio/jazz_05__shuffle__shuf_bar.wav",
+  "source_id": "jazz_05",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_05::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_05__A.wav",
+  "est": "perturbations_temporal/audio/jazz_05__reverse__rev.wav",
+  "source_id": "jazz_05",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_05::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_05__A.wav",
+  "est": "perturbations_temporal/audio/jazz_05__displacement__disp_near.wav",
+  "source_id": "jazz_05",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_05::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_05__A.wav",
+  "est": "perturbations_temporal/audio/jazz_05__displacement__disp_far.wav",
+  "source_id": "jazz_05",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_06::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_06__A.wav",
+  "est": "perturbations_temporal/audio/jazz_06__control__ctrl.wav",
+  "source_id": "jazz_06",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_06::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_06__A.wav",
+  "est": "perturbations_temporal/audio/jazz_06__shuffle__shuf_beat.wav",
+  "source_id": "jazz_06",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_06::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_06__A.wav",
+  "est": "perturbations_temporal/audio/jazz_06__shuffle__shuf_bar.wav",
+  "source_id": "jazz_06",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_06::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_06__A.wav",
+  "est": "perturbations_temporal/audio/jazz_06__reverse__rev.wav",
+  "source_id": "jazz_06",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_06::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_06__A.wav",
+  "est": "perturbations_temporal/audio/jazz_06__displacement__disp_near.wav",
+  "source_id": "jazz_06",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_06::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_06__A.wav",
+  "est": "perturbations_temporal/audio/jazz_06__displacement__disp_far.wav",
+  "source_id": "jazz_06",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_07::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_07__A.wav",
+  "est": "perturbations_temporal/audio/jazz_07__control__ctrl.wav",
+  "source_id": "jazz_07",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_07::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_07__A.wav",
+  "est": "perturbations_temporal/audio/jazz_07__shuffle__shuf_beat.wav",
+  "source_id": "jazz_07",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_07::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_07__A.wav",
+  "est": "perturbations_temporal/audio/jazz_07__shuffle__shuf_bar.wav",
+  "source_id": "jazz_07",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_07::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_07__A.wav",
+  "est": "perturbations_temporal/audio/jazz_07__reverse__rev.wav",
+  "source_id": "jazz_07",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_07::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_07__A.wav",
+  "est": "perturbations_temporal/audio/jazz_07__displacement__disp_near.wav",
+  "source_id": "jazz_07",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_07::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_07__A.wav",
+  "est": "perturbations_temporal/audio/jazz_07__displacement__disp_far.wav",
+  "source_id": "jazz_07",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_08::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_08__A.wav",
+  "est": "perturbations_temporal/audio/jazz_08__control__ctrl.wav",
+  "source_id": "jazz_08",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_08::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_08__A.wav",
+  "est": "perturbations_temporal/audio/jazz_08__shuffle__shuf_beat.wav",
+  "source_id": "jazz_08",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_08::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_08__A.wav",
+  "est": "perturbations_temporal/audio/jazz_08__shuffle__shuf_bar.wav",
+  "source_id": "jazz_08",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_08::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_08__A.wav",
+  "est": "perturbations_temporal/audio/jazz_08__reverse__rev.wav",
+  "source_id": "jazz_08",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_08::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_08__A.wav",
+  "est": "perturbations_temporal/audio/jazz_08__displacement__disp_near.wav",
+  "source_id": "jazz_08",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_08::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_08__A.wav",
+  "est": "perturbations_temporal/audio/jazz_08__displacement__disp_far.wav",
+  "source_id": "jazz_08",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_09::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_09__A.wav",
+  "est": "perturbations_temporal/audio/jazz_09__control__ctrl.wav",
+  "source_id": "jazz_09",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_09::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_09__A.wav",
+  "est": "perturbations_temporal/audio/jazz_09__shuffle__shuf_beat.wav",
+  "source_id": "jazz_09",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_09::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_09__A.wav",
+  "est": "perturbations_temporal/audio/jazz_09__shuffle__shuf_bar.wav",
+  "source_id": "jazz_09",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_09::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_09__A.wav",
+  "est": "perturbations_temporal/audio/jazz_09__reverse__rev.wav",
+  "source_id": "jazz_09",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_09::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_09__A.wav",
+  "est": "perturbations_temporal/audio/jazz_09__displacement__disp_near.wav",
+  "source_id": "jazz_09",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_09::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_09__A.wav",
+  "est": "perturbations_temporal/audio/jazz_09__displacement__disp_far.wav",
+  "source_id": "jazz_09",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_10::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_10__A.wav",
+  "est": "perturbations_temporal/audio/jazz_10__control__ctrl.wav",
+  "source_id": "jazz_10",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_10::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_10__A.wav",
+  "est": "perturbations_temporal/audio/jazz_10__shuffle__shuf_beat.wav",
+  "source_id": "jazz_10",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_10::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_10__A.wav",
+  "est": "perturbations_temporal/audio/jazz_10__shuffle__shuf_bar.wav",
+  "source_id": "jazz_10",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_10::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_10__A.wav",
+  "est": "perturbations_temporal/audio/jazz_10__reverse__rev.wav",
+  "source_id": "jazz_10",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_10::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_10__A.wav",
+  "est": "perturbations_temporal/audio/jazz_10__displacement__disp_near.wav",
+  "source_id": "jazz_10",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_10::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_10__A.wav",
+  "est": "perturbations_temporal/audio/jazz_10__displacement__disp_far.wav",
+  "source_id": "jazz_10",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_11::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_11__A.wav",
+  "est": "perturbations_temporal/audio/jazz_11__control__ctrl.wav",
+  "source_id": "jazz_11",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_11::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_11__A.wav",
+  "est": "perturbations_temporal/audio/jazz_11__shuffle__shuf_beat.wav",
+  "source_id": "jazz_11",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_11::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_11__A.wav",
+  "est": "perturbations_temporal/audio/jazz_11__shuffle__shuf_bar.wav",
+  "source_id": "jazz_11",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_11::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_11__A.wav",
+  "est": "perturbations_temporal/audio/jazz_11__reverse__rev.wav",
+  "source_id": "jazz_11",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_11::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_11__A.wav",
+  "est": "perturbations_temporal/audio/jazz_11__displacement__disp_near.wav",
+  "source_id": "jazz_11",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_11::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_11__A.wav",
+  "est": "perturbations_temporal/audio/jazz_11__displacement__disp_far.wav",
+  "source_id": "jazz_11",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_12::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_12__A.wav",
+  "est": "perturbations_temporal/audio/jazz_12__control__ctrl.wav",
+  "source_id": "jazz_12",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_12::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_12__A.wav",
+  "est": "perturbations_temporal/audio/jazz_12__shuffle__shuf_beat.wav",
+  "source_id": "jazz_12",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_12::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_12__A.wav",
+  "est": "perturbations_temporal/audio/jazz_12__shuffle__shuf_bar.wav",
+  "source_id": "jazz_12",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_12::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_12__A.wav",
+  "est": "perturbations_temporal/audio/jazz_12__reverse__rev.wav",
+  "source_id": "jazz_12",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_12::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_12__A.wav",
+  "est": "perturbations_temporal/audio/jazz_12__displacement__disp_near.wav",
+  "source_id": "jazz_12",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_12::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_12__A.wav",
+  "est": "perturbations_temporal/audio/jazz_12__displacement__disp_far.wav",
+  "source_id": "jazz_12",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_13::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_13__A.wav",
+  "est": "perturbations_temporal/audio/jazz_13__control__ctrl.wav",
+  "source_id": "jazz_13",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_13::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_13__A.wav",
+  "est": "perturbations_temporal/audio/jazz_13__shuffle__shuf_beat.wav",
+  "source_id": "jazz_13",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_13::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_13__A.wav",
+  "est": "perturbations_temporal/audio/jazz_13__shuffle__shuf_bar.wav",
+  "source_id": "jazz_13",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_13::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_13__A.wav",
+  "est": "perturbations_temporal/audio/jazz_13__reverse__rev.wav",
+  "source_id": "jazz_13",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_13::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_13__A.wav",
+  "est": "perturbations_temporal/audio/jazz_13__displacement__disp_near.wav",
+  "source_id": "jazz_13",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_13::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_13__A.wav",
+  "est": "perturbations_temporal/audio/jazz_13__displacement__disp_far.wav",
+  "source_id": "jazz_13",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_14::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_14__A.wav",
+  "est": "perturbations_temporal/audio/jazz_14__control__ctrl.wav",
+  "source_id": "jazz_14",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_14::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_14__A.wav",
+  "est": "perturbations_temporal/audio/jazz_14__shuffle__shuf_beat.wav",
+  "source_id": "jazz_14",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_14::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_14__A.wav",
+  "est": "perturbations_temporal/audio/jazz_14__shuffle__shuf_bar.wav",
+  "source_id": "jazz_14",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_14::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_14__A.wav",
+  "est": "perturbations_temporal/audio/jazz_14__reverse__rev.wav",
+  "source_id": "jazz_14",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_14::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_14__A.wav",
+  "est": "perturbations_temporal/audio/jazz_14__displacement__disp_near.wav",
+  "source_id": "jazz_14",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_14::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_14__A.wav",
+  "est": "perturbations_temporal/audio/jazz_14__displacement__disp_far.wav",
+  "source_id": "jazz_14",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "jazz_15::control::ctrl",
+  "ref": "perturbations_temporal/audio/jazz_15__A.wav",
+  "est": "perturbations_temporal/audio/jazz_15__control__ctrl.wav",
+  "source_id": "jazz_15",
+  "genre": "jazz",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "jazz_15::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/jazz_15__A.wav",
+  "est": "perturbations_temporal/audio/jazz_15__shuffle__shuf_beat.wav",
+  "source_id": "jazz_15",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_15::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/jazz_15__A.wav",
+  "est": "perturbations_temporal/audio/jazz_15__shuffle__shuf_bar.wav",
+  "source_id": "jazz_15",
+  "genre": "jazz",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_15::reverse::rev",
+  "ref": "perturbations_temporal/audio/jazz_15__A.wav",
+  "est": "perturbations_temporal/audio/jazz_15__reverse__rev.wav",
+  "source_id": "jazz_15",
+  "genre": "jazz",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "jazz_15::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/jazz_15__A.wav",
+  "est": "perturbations_temporal/audio/jazz_15__displacement__disp_near.wav",
+  "source_id": "jazz_15",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "jazz_15::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/jazz_15__A.wav",
+  "est": "perturbations_temporal/audio/jazz_15__displacement__disp_far.wav",
+  "source_id": "jazz_15",
+  "genre": "jazz",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_01::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_01__A.wav",
+  "est": "perturbations_temporal/audio/rock_01__control__ctrl.wav",
+  "source_id": "rock_01",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_01::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_01__A.wav",
+  "est": "perturbations_temporal/audio/rock_01__shuffle__shuf_beat.wav",
+  "source_id": "rock_01",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_01::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_01__A.wav",
+  "est": "perturbations_temporal/audio/rock_01__shuffle__shuf_bar.wav",
+  "source_id": "rock_01",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_01::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_01__A.wav",
+  "est": "perturbations_temporal/audio/rock_01__reverse__rev.wav",
+  "source_id": "rock_01",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_01::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_01__A.wav",
+  "est": "perturbations_temporal/audio/rock_01__displacement__disp_near.wav",
+  "source_id": "rock_01",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_01::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_01__A.wav",
+  "est": "perturbations_temporal/audio/rock_01__displacement__disp_far.wav",
+  "source_id": "rock_01",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_02::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_02__A.wav",
+  "est": "perturbations_temporal/audio/rock_02__control__ctrl.wav",
+  "source_id": "rock_02",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_02::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_02__A.wav",
+  "est": "perturbations_temporal/audio/rock_02__shuffle__shuf_beat.wav",
+  "source_id": "rock_02",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_02::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_02__A.wav",
+  "est": "perturbations_temporal/audio/rock_02__shuffle__shuf_bar.wav",
+  "source_id": "rock_02",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_02::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_02__A.wav",
+  "est": "perturbations_temporal/audio/rock_02__reverse__rev.wav",
+  "source_id": "rock_02",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_02::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_02__A.wav",
+  "est": "perturbations_temporal/audio/rock_02__displacement__disp_near.wav",
+  "source_id": "rock_02",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_02::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_02__A.wav",
+  "est": "perturbations_temporal/audio/rock_02__displacement__disp_far.wav",
+  "source_id": "rock_02",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_03::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_03__A.wav",
+  "est": "perturbations_temporal/audio/rock_03__control__ctrl.wav",
+  "source_id": "rock_03",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_03::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_03__A.wav",
+  "est": "perturbations_temporal/audio/rock_03__shuffle__shuf_beat.wav",
+  "source_id": "rock_03",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_03::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_03__A.wav",
+  "est": "perturbations_temporal/audio/rock_03__shuffle__shuf_bar.wav",
+  "source_id": "rock_03",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_03::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_03__A.wav",
+  "est": "perturbations_temporal/audio/rock_03__reverse__rev.wav",
+  "source_id": "rock_03",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_03::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_03__A.wav",
+  "est": "perturbations_temporal/audio/rock_03__displacement__disp_near.wav",
+  "source_id": "rock_03",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_03::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_03__A.wav",
+  "est": "perturbations_temporal/audio/rock_03__displacement__disp_far.wav",
+  "source_id": "rock_03",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_04::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_04__A.wav",
+  "est": "perturbations_temporal/audio/rock_04__control__ctrl.wav",
+  "source_id": "rock_04",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_04::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_04__A.wav",
+  "est": "perturbations_temporal/audio/rock_04__shuffle__shuf_beat.wav",
+  "source_id": "rock_04",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_04::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_04__A.wav",
+  "est": "perturbations_temporal/audio/rock_04__shuffle__shuf_bar.wav",
+  "source_id": "rock_04",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_04::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_04__A.wav",
+  "est": "perturbations_temporal/audio/rock_04__reverse__rev.wav",
+  "source_id": "rock_04",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_04::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_04__A.wav",
+  "est": "perturbations_temporal/audio/rock_04__displacement__disp_near.wav",
+  "source_id": "rock_04",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_04::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_04__A.wav",
+  "est": "perturbations_temporal/audio/rock_04__displacement__disp_far.wav",
+  "source_id": "rock_04",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_05::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_05__A.wav",
+  "est": "perturbations_temporal/audio/rock_05__control__ctrl.wav",
+  "source_id": "rock_05",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_05::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_05__A.wav",
+  "est": "perturbations_temporal/audio/rock_05__shuffle__shuf_beat.wav",
+  "source_id": "rock_05",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_05::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_05__A.wav",
+  "est": "perturbations_temporal/audio/rock_05__shuffle__shuf_bar.wav",
+  "source_id": "rock_05",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_05::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_05__A.wav",
+  "est": "perturbations_temporal/audio/rock_05__reverse__rev.wav",
+  "source_id": "rock_05",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_05::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_05__A.wav",
+  "est": "perturbations_temporal/audio/rock_05__displacement__disp_near.wav",
+  "source_id": "rock_05",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_05::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_05__A.wav",
+  "est": "perturbations_temporal/audio/rock_05__displacement__disp_far.wav",
+  "source_id": "rock_05",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_06::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_06__A.wav",
+  "est": "perturbations_temporal/audio/rock_06__control__ctrl.wav",
+  "source_id": "rock_06",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_06::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_06__A.wav",
+  "est": "perturbations_temporal/audio/rock_06__shuffle__shuf_beat.wav",
+  "source_id": "rock_06",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_06::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_06__A.wav",
+  "est": "perturbations_temporal/audio/rock_06__shuffle__shuf_bar.wav",
+  "source_id": "rock_06",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_06::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_06__A.wav",
+  "est": "perturbations_temporal/audio/rock_06__reverse__rev.wav",
+  "source_id": "rock_06",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_06::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_06__A.wav",
+  "est": "perturbations_temporal/audio/rock_06__displacement__disp_near.wav",
+  "source_id": "rock_06",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_06::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_06__A.wav",
+  "est": "perturbations_temporal/audio/rock_06__displacement__disp_far.wav",
+  "source_id": "rock_06",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_07::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_07__A.wav",
+  "est": "perturbations_temporal/audio/rock_07__control__ctrl.wav",
+  "source_id": "rock_07",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_07::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_07__A.wav",
+  "est": "perturbations_temporal/audio/rock_07__shuffle__shuf_beat.wav",
+  "source_id": "rock_07",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_07::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_07__A.wav",
+  "est": "perturbations_temporal/audio/rock_07__shuffle__shuf_bar.wav",
+  "source_id": "rock_07",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_07::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_07__A.wav",
+  "est": "perturbations_temporal/audio/rock_07__reverse__rev.wav",
+  "source_id": "rock_07",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_07::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_07__A.wav",
+  "est": "perturbations_temporal/audio/rock_07__displacement__disp_near.wav",
+  "source_id": "rock_07",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_07::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_07__A.wav",
+  "est": "perturbations_temporal/audio/rock_07__displacement__disp_far.wav",
+  "source_id": "rock_07",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_08::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_08__A.wav",
+  "est": "perturbations_temporal/audio/rock_08__control__ctrl.wav",
+  "source_id": "rock_08",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_08::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_08__A.wav",
+  "est": "perturbations_temporal/audio/rock_08__shuffle__shuf_beat.wav",
+  "source_id": "rock_08",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_08::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_08__A.wav",
+  "est": "perturbations_temporal/audio/rock_08__shuffle__shuf_bar.wav",
+  "source_id": "rock_08",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_08::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_08__A.wav",
+  "est": "perturbations_temporal/audio/rock_08__reverse__rev.wav",
+  "source_id": "rock_08",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_08::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_08__A.wav",
+  "est": "perturbations_temporal/audio/rock_08__displacement__disp_near.wav",
+  "source_id": "rock_08",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_08::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_08__A.wav",
+  "est": "perturbations_temporal/audio/rock_08__displacement__disp_far.wav",
+  "source_id": "rock_08",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_09::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_09__A.wav",
+  "est": "perturbations_temporal/audio/rock_09__control__ctrl.wav",
+  "source_id": "rock_09",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_09::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_09__A.wav",
+  "est": "perturbations_temporal/audio/rock_09__shuffle__shuf_beat.wav",
+  "source_id": "rock_09",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_09::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_09__A.wav",
+  "est": "perturbations_temporal/audio/rock_09__shuffle__shuf_bar.wav",
+  "source_id": "rock_09",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_09::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_09__A.wav",
+  "est": "perturbations_temporal/audio/rock_09__reverse__rev.wav",
+  "source_id": "rock_09",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_09::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_09__A.wav",
+  "est": "perturbations_temporal/audio/rock_09__displacement__disp_near.wav",
+  "source_id": "rock_09",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_09::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_09__A.wav",
+  "est": "perturbations_temporal/audio/rock_09__displacement__disp_far.wav",
+  "source_id": "rock_09",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_10::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_10__A.wav",
+  "est": "perturbations_temporal/audio/rock_10__control__ctrl.wav",
+  "source_id": "rock_10",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_10::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_10__A.wav",
+  "est": "perturbations_temporal/audio/rock_10__shuffle__shuf_beat.wav",
+  "source_id": "rock_10",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_10::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_10__A.wav",
+  "est": "perturbations_temporal/audio/rock_10__shuffle__shuf_bar.wav",
+  "source_id": "rock_10",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_10::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_10__A.wav",
+  "est": "perturbations_temporal/audio/rock_10__reverse__rev.wav",
+  "source_id": "rock_10",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_10::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_10__A.wav",
+  "est": "perturbations_temporal/audio/rock_10__displacement__disp_near.wav",
+  "source_id": "rock_10",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_10::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_10__A.wav",
+  "est": "perturbations_temporal/audio/rock_10__displacement__disp_far.wav",
+  "source_id": "rock_10",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_11::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_11__A.wav",
+  "est": "perturbations_temporal/audio/rock_11__control__ctrl.wav",
+  "source_id": "rock_11",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_11::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_11__A.wav",
+  "est": "perturbations_temporal/audio/rock_11__shuffle__shuf_beat.wav",
+  "source_id": "rock_11",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_11::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_11__A.wav",
+  "est": "perturbations_temporal/audio/rock_11__shuffle__shuf_bar.wav",
+  "source_id": "rock_11",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_11::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_11__A.wav",
+  "est": "perturbations_temporal/audio/rock_11__reverse__rev.wav",
+  "source_id": "rock_11",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_11::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_11__A.wav",
+  "est": "perturbations_temporal/audio/rock_11__displacement__disp_near.wav",
+  "source_id": "rock_11",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_11::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_11__A.wav",
+  "est": "perturbations_temporal/audio/rock_11__displacement__disp_far.wav",
+  "source_id": "rock_11",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_12::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_12__A.wav",
+  "est": "perturbations_temporal/audio/rock_12__control__ctrl.wav",
+  "source_id": "rock_12",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_12::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_12__A.wav",
+  "est": "perturbations_temporal/audio/rock_12__shuffle__shuf_beat.wav",
+  "source_id": "rock_12",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_12::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_12__A.wav",
+  "est": "perturbations_temporal/audio/rock_12__shuffle__shuf_bar.wav",
+  "source_id": "rock_12",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_12::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_12__A.wav",
+  "est": "perturbations_temporal/audio/rock_12__reverse__rev.wav",
+  "source_id": "rock_12",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_12::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_12__A.wav",
+  "est": "perturbations_temporal/audio/rock_12__displacement__disp_near.wav",
+  "source_id": "rock_12",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_12::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_12__A.wav",
+  "est": "perturbations_temporal/audio/rock_12__displacement__disp_far.wav",
+  "source_id": "rock_12",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_13::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_13__A.wav",
+  "est": "perturbations_temporal/audio/rock_13__control__ctrl.wav",
+  "source_id": "rock_13",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_13::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_13__A.wav",
+  "est": "perturbations_temporal/audio/rock_13__shuffle__shuf_beat.wav",
+  "source_id": "rock_13",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_13::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_13__A.wav",
+  "est": "perturbations_temporal/audio/rock_13__shuffle__shuf_bar.wav",
+  "source_id": "rock_13",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_13::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_13__A.wav",
+  "est": "perturbations_temporal/audio/rock_13__reverse__rev.wav",
+  "source_id": "rock_13",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_13::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_13__A.wav",
+  "est": "perturbations_temporal/audio/rock_13__displacement__disp_near.wav",
+  "source_id": "rock_13",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_13::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_13__A.wav",
+  "est": "perturbations_temporal/audio/rock_13__displacement__disp_far.wav",
+  "source_id": "rock_13",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_14::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_14__A.wav",
+  "est": "perturbations_temporal/audio/rock_14__control__ctrl.wav",
+  "source_id": "rock_14",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_14::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_14__A.wav",
+  "est": "perturbations_temporal/audio/rock_14__shuffle__shuf_beat.wav",
+  "source_id": "rock_14",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_14::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_14__A.wav",
+  "est": "perturbations_temporal/audio/rock_14__shuffle__shuf_bar.wav",
+  "source_id": "rock_14",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_14::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_14__A.wav",
+  "est": "perturbations_temporal/audio/rock_14__reverse__rev.wav",
+  "source_id": "rock_14",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_14::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_14__A.wav",
+  "est": "perturbations_temporal/audio/rock_14__displacement__disp_near.wav",
+  "source_id": "rock_14",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_14::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_14__A.wav",
+  "est": "perturbations_temporal/audio/rock_14__displacement__disp_far.wav",
+  "source_id": "rock_14",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ },
+ {
+  "id": "rock_15::control::ctrl",
+  "ref": "perturbations_temporal/audio/rock_15__A.wav",
+  "est": "perturbations_temporal/audio/rock_15__control__ctrl.wav",
+  "source_id": "rock_15",
+  "genre": "rock",
+  "perturbation": "control",
+  "dim_target": "control",
+  "magnitude": 0.0
+ },
+ {
+  "id": "rock_15::shuffle::shuf_beat",
+  "ref": "perturbations_temporal/audio/rock_15__A.wav",
+  "est": "perturbations_temporal/audio/rock_15__shuffle__shuf_beat.wav",
+  "source_id": "rock_15",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_15::shuffle::shuf_bar",
+  "ref": "perturbations_temporal/audio/rock_15__A.wav",
+  "est": "perturbations_temporal/audio/rock_15__shuffle__shuf_bar.wav",
+  "source_id": "rock_15",
+  "genre": "rock",
+  "perturbation": "shuffle",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_15::reverse::rev",
+  "ref": "perturbations_temporal/audio/rock_15__A.wav",
+  "est": "perturbations_temporal/audio/rock_15__reverse__rev.wav",
+  "source_id": "rock_15",
+  "genre": "rock",
+  "perturbation": "reverse",
+  "dim_target": "S",
+  "magnitude": NaN
+ },
+ {
+  "id": "rock_15::displacement::disp_near",
+  "ref": "perturbations_temporal/audio/rock_15__A.wav",
+  "est": "perturbations_temporal/audio/rock_15__displacement__disp_near.wav",
+  "source_id": "rock_15",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 2.0
+ },
+ {
+  "id": "rock_15::displacement::disp_far",
+  "ref": "perturbations_temporal/audio/rock_15__A.wav",
+  "est": "perturbations_temporal/audio/rock_15__displacement__disp_far.wav",
+  "source_id": "rock_15",
+  "genre": "rock",
+  "perturbation": "displacement",
+  "dim_target": "S",
+  "magnitude": 7.5
+ }
+]

@@ -1,0 +1,2178 @@
+1890 pair(s) total, 1890 to run, 8 worker(s)
+metrics: harmony, rhythm, structure, melody, timbre
+output:  results/musecp/setup1
+[1/1890] classical_01::pitch_shift::-4st
+[2/1890] classical_01::pitch_shift::-1st
+[3/1890] classical_01::pitch_shift::+1st
+[4/1890] classical_01::pitch_shift::-2st
+[5/1890] classical_01::pitch_shift::+4st
+[6/1890] classical_01::control::ctrl
+[7/1890] classical_01::pitch_shift::+2st
+[8/1890] classical_01::time_stretch::-5pct
+[9/1890] classical_01::time_stretch::-10pct
+[10/1890] classical_01::time_stretch::+5pct
+[11/1890] classical_01::time_stretch::+10pct
+[12/1890] classical_01::lowpass::lp4000
+[13/1890] classical_01::lowpass::lp8000
+[14/1890] classical_01::time_stretch::+20pct
+[15/1890] classical_01::time_stretch::-20pct
+[16/1890] classical_01::lowpass::lp2000
+[17/1890] classical_01::distortion::drv4
+[18/1890] classical_01::distortion::drv12
+[19/1890] classical_01::distortion::drv32
+[20/1890] classical_02::control::ctrl
+[21/1890] classical_01::style_swap::swap_cross
+[22/1890] classical_01::style_swap::swap_same  ~ degraded: structural_form
+[23/1890] classical_02::pitch_shift::-4st
+[24/1890] classical_02::pitch_shift::+1st
+[25/1890] classical_02::pitch_shift::+2st
+[26/1890] classical_02::pitch_shift::+4st
+[27/1890] classical_02::time_stretch::-20pct
+[28/1890] classical_02::time_stretch::-10pct
+[29/1890] classical_02::pitch_shift::-2st
+[30/1890] classical_02::pitch_shift::-1st
+[31/1890] classical_02::time_stretch::-5pct
+[32/1890] classical_02::time_stretch::+20pct
+[33/1890] classical_02::lowpass::lp8000
+[34/1890] classical_02::lowpass::lp2000
+[35/1890] classical_02::lowpass::lp4000
+[36/1890] classical_02::time_stretch::+5pct
+[37/1890] classical_02::distortion::drv4
+[38/1890] classical_02::time_stretch::+10pct
+[39/1890] classical_02::distortion::drv12
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[40/1890] classical_02::style_swap::swap_cross
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[41/1890] classical_02::style_swap::swap_same
+[42/1890] classical_02::distortion::drv32
+[43/1890] classical_03::control::ctrl
+[44/1890] classical_03::pitch_shift::-4st
+[45/1890] classical_03::pitch_shift::-1st
+[46/1890] classical_03::pitch_shift::-2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[47/1890] classical_03::pitch_shift::+1st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[48/1890] classical_03::pitch_shift::+2st
+[49/1890] classical_03::pitch_shift::+4st
+[50/1890] classical_03::time_stretch::-20pct
+[51/1890] classical_03::time_stretch::-10pct
+[52/1890] classical_03::time_stretch::-5pct
+[53/1890] classical_03::time_stretch::+5pct
+[54/1890] classical_03::time_stretch::+10pct
+[55/1890] classical_03::time_stretch::+20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[56/1890] classical_03::lowpass::lp8000
+[57/1890] classical_03::lowpass::lp4000
+[58/1890] classical_03::distortion::drv12
+[59/1890] classical_03::lowpass::lp2000
+[60/1890] classical_03::distortion::drv4
+[61/1890] classical_03::distortion::drv32
+[62/1890] classical_03::style_swap::swap_cross
+[63/1890] classical_03::style_swap::swap_same
+[64/1890] classical_04::control::ctrl
+[65/1890] classical_04::pitch_shift::-1st
+[66/1890] classical_04::pitch_shift::+2st
+[67/1890] classical_04::pitch_shift::-2st  ~ degraded: structural_form
+[68/1890] classical_04::pitch_shift::-4st
+[69/1890] classical_04::pitch_shift::+1st
+[70/1890] classical_04::pitch_shift::+4st
+[71/1890] classical_04::time_stretch::-20pct
+[72/1890] classical_04::time_stretch::-10pct
+[73/1890] classical_04::time_stretch::-5pct
+[74/1890] classical_04::time_stretch::+20pct
+[75/1890] classical_04::lowpass::lp8000
+[76/1890] classical_04::lowpass::lp4000
+[77/1890] classical_04::lowpass::lp2000
+[78/1890] classical_04::time_stretch::+5pct
+[79/1890] classical_04::time_stretch::+10pct
+[80/1890] classical_04::distortion::drv4
+[81/1890] classical_04::distortion::drv12
+[82/1890] classical_04::style_swap::swap_cross
+[83/1890] classical_04::style_swap::swap_same
+[84/1890] classical_05::control::ctrl
+[85/1890] classical_05::pitch_shift::-4st
+[86/1890] classical_05::pitch_shift::-2st
+[87/1890] classical_04::distortion::drv32
+[88/1890] classical_05::pitch_shift::-1st
+[89/1890] classical_05::pitch_shift::+1st
+[90/1890] classical_05::pitch_shift::+2st
+[91/1890] classical_05::pitch_shift::+4st
+[92/1890] classical_05::time_stretch::-10pct
+[93/1890] classical_05::time_stretch::-5pct
+[94/1890] classical_05::time_stretch::-20pct
+[95/1890] classical_05::time_stretch::+5pct
+[96/1890] classical_05::time_stretch::+10pct
+[97/1890] classical_05::time_stretch::+20pct
+[98/1890] classical_05::lowpass::lp4000
+[99/1890] classical_05::lowpass::lp8000
+[100/1890] classical_05::distortion::drv4
+[101/1890] classical_05::lowpass::lp2000
+[102/1890] classical_05::distortion::drv12
+[103/1890] classical_05::distortion::drv32
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[104/1890] classical_05::style_swap::swap_cross
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[105/1890] classical_05::style_swap::swap_same
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[106/1890] classical_06::control::ctrl
+[107/1890] classical_06::pitch_shift::-4st
+[108/1890] classical_06::pitch_shift::-2st
+[109/1890] classical_06::pitch_shift::+1st
+[110/1890] classical_06::pitch_shift::-1st
+[111/1890] classical_06::pitch_shift::+2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[112/1890] classical_06::pitch_shift::+4st
+[113/1890] classical_06::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[114/1890] classical_06::time_stretch::-10pct
+[115/1890] classical_06::time_stretch::-5pct
+[116/1890] classical_06::time_stretch::+5pct
+[117/1890] classical_06::time_stretch::+20pct
+[118/1890] classical_06::time_stretch::+10pct
+[119/1890] classical_06::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[120/1890] classical_06::lowpass::lp4000
+[121/1890] classical_06::lowpass::lp2000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[122/1890] classical_06::distortion::drv12
+[123/1890] classical_06::distortion::drv4
+[124/1890] classical_07::control::ctrl
+[125/1890] classical_06::distortion::drv32
+[126/1890] classical_06::style_swap::swap_cross
+[127/1890] classical_06::style_swap::swap_same
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[128/1890] classical_07::pitch_shift::-4st
+[129/1890] classical_07::pitch_shift::-2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[130/1890] classical_07::pitch_shift::-1st
+[131/1890] classical_07::pitch_shift::+1st
+[132/1890] classical_07::pitch_shift::+2st
+[133/1890] classical_07::pitch_shift::+4st
+[134/1890] classical_07::time_stretch::-20pct
+[135/1890] classical_07::time_stretch::-10pct
+[136/1890] classical_07::time_stretch::-5pct
+[137/1890] classical_07::time_stretch::+5pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[138/1890] classical_07::time_stretch::+10pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[139/1890] classical_07::time_stretch::+20pct
+[140/1890] classical_07::lowpass::lp8000
+[141/1890] classical_07::lowpass::lp4000
+[142/1890] classical_07::distortion::drv4
+[143/1890] classical_07::lowpass::lp2000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[144/1890] classical_07::distortion::drv12
+[145/1890] classical_07::distortion::drv32
+[146/1890] classical_07::style_swap::swap_cross
+[147/1890] classical_07::style_swap::swap_same
+[148/1890] classical_08::control::ctrl
+[149/1890] classical_08::pitch_shift::-4st
+[150/1890] classical_08::pitch_shift::-2st
+[151/1890] classical_08::pitch_shift::-1st
+[152/1890] classical_08::pitch_shift::+1st
+[153/1890] classical_08::pitch_shift::+2st
+[154/1890] classical_08::pitch_shift::+4st
+[155/1890] classical_08::time_stretch::-20pct
+[156/1890] classical_08::time_stretch::-10pct
+[157/1890] classical_08::time_stretch::-5pct
+[158/1890] classical_08::time_stretch::+5pct
+[159/1890] classical_08::time_stretch::+10pct
+[160/1890] classical_08::time_stretch::+20pct
+[161/1890] classical_08::lowpass::lp8000
+[162/1890] classical_08::lowpass::lp4000
+[163/1890] classical_08::lowpass::lp2000
+[164/1890] classical_08::distortion::drv4
+[165/1890] classical_08::distortion::drv12
+[166/1890] classical_08::distortion::drv32
+[167/1890] classical_08::style_swap::swap_cross
+[168/1890] classical_08::style_swap::swap_same
+[169/1890] classical_09::control::ctrl
+[170/1890] classical_09::pitch_shift::-4st
+[171/1890] classical_09::pitch_shift::-2st
+[172/1890] classical_09::pitch_shift::-1st
+[173/1890] classical_09::pitch_shift::+1st
+[174/1890] classical_09::pitch_shift::+2st
+[175/1890] classical_09::pitch_shift::+4st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[176/1890] classical_09::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[177/1890] classical_09::time_stretch::-10pct
+[178/1890] classical_09::time_stretch::-5pct
+[179/1890] classical_09::time_stretch::+5pct
+[180/1890] classical_09::time_stretch::+10pct
+[181/1890] classical_09::time_stretch::+20pct
+[182/1890] classical_09::lowpass::lp8000
+[183/1890] classical_09::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[184/1890] classical_09::lowpass::lp2000
+[185/1890] classical_09::distortion::drv4
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[186/1890] classical_09::distortion::drv12
+[187/1890] classical_09::style_swap::swap_cross
+[188/1890] classical_09::distortion::drv32
+[189/1890] classical_09::style_swap::swap_same
+[190/1890] classical_10::control::ctrl
+[191/1890] classical_10::pitch_shift::-4st
+[192/1890] classical_10::pitch_shift::-2st
+[193/1890] classical_10::pitch_shift::-1st
+[194/1890] classical_10::time_stretch::-20pct
+[195/1890] classical_10::pitch_shift::+1st
+[196/1890] classical_10::pitch_shift::+2st
+[197/1890] classical_10::pitch_shift::+4st
+[198/1890] classical_10::time_stretch::-10pct
+[199/1890] classical_10::time_stretch::-5pct
+[200/1890] classical_10::time_stretch::+10pct
+[201/1890] classical_10::time_stretch::+5pct
+[202/1890] classical_10::lowpass::lp4000
+[203/1890] classical_10::lowpass::lp2000
+[204/1890] classical_10::time_stretch::+20pct
+[205/1890] classical_10::lowpass::lp8000
+[206/1890] classical_10::distortion::drv12
+[207/1890] classical_10::distortion::drv4
+[208/1890] classical_10::distortion::drv32
+[209/1890] classical_11::control::ctrl
+[210/1890] classical_10::style_swap::swap_cross
+[211/1890] classical_11::pitch_shift::-4st
+[212/1890] classical_11::pitch_shift::-2st
+[213/1890] classical_10::style_swap::swap_same
+[214/1890] classical_11::pitch_shift::-1st
+[215/1890] classical_11::pitch_shift::+1st
+[216/1890] classical_11::pitch_shift::+2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[217/1890] classical_11::pitch_shift::+4st
+[218/1890] classical_11::time_stretch::-10pct
+[219/1890] classical_11::time_stretch::-5pct
+[220/1890] classical_11::time_stretch::-20pct
+[221/1890] classical_11::time_stretch::+5pct
+[222/1890] classical_11::time_stretch::+10pct
+[223/1890] classical_11::time_stretch::+20pct
+[224/1890] classical_11::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[225/1890] classical_11::lowpass::lp4000
+[226/1890] classical_11::distortion::drv4
+[227/1890] classical_11::lowpass::lp2000
+[228/1890] classical_11::distortion::drv12
+[229/1890] classical_11::distortion::drv32
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[230/1890] classical_11::style_swap::swap_cross
+[231/1890] classical_11::style_swap::swap_same
+[232/1890] classical_12::control::ctrl
+[233/1890] classical_12::pitch_shift::-4st
+[234/1890] classical_12::pitch_shift::-2st
+[235/1890] classical_12::pitch_shift::+1st
+[236/1890] classical_12::pitch_shift::-1st
+[237/1890] classical_12::pitch_shift::+2st
+[238/1890] classical_12::pitch_shift::+4st
+[239/1890] classical_12::time_stretch::-20pct
+[240/1890] classical_12::time_stretch::-10pct
+[241/1890] classical_12::time_stretch::-5pct
+[242/1890] classical_12::time_stretch::+5pct
+[243/1890] classical_12::time_stretch::+10pct
+[244/1890] classical_12::time_stretch::+20pct
+[245/1890] classical_12::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[246/1890] classical_12::lowpass::lp4000
+[247/1890] classical_12::lowpass::lp2000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[248/1890] classical_12::distortion::drv4
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[249/1890] classical_12::distortion::drv12
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[250/1890] classical_12::distortion::drv32
+[251/1890] classical_12::style_swap::swap_same
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[252/1890] classical_13::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[253/1890] classical_12::style_swap::swap_cross
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[254/1890] classical_13::pitch_shift::-4st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[255/1890] classical_13::pitch_shift::-2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[256/1890] classical_13::pitch_shift::-1st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[257/1890] classical_13::pitch_shift::+1st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[258/1890] classical_13::pitch_shift::+2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[259/1890] classical_13::pitch_shift::+4st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[260/1890] classical_13::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[261/1890] classical_13::time_stretch::-10pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[262/1890] classical_13::time_stretch::-5pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[263/1890] classical_13::time_stretch::+5pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[264/1890] classical_13::time_stretch::+10pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[265/1890] classical_13::time_stretch::+20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[266/1890] classical_13::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[267/1890] classical_13::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[268/1890] classical_13::lowpass::lp2000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[269/1890] classical_13::distortion::drv4
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[270/1890] classical_13::distortion::drv12
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[271/1890] classical_13::distortion::drv32
+[272/1890] classical_13::style_swap::swap_cross
+[273/1890] classical_13::style_swap::swap_same
+[274/1890] classical_14::control::ctrl
+[275/1890] classical_14::pitch_shift::-4st
+[276/1890] classical_14::pitch_shift::-2st
+[277/1890] classical_14::pitch_shift::-1st
+[278/1890] classical_14::pitch_shift::+1st
+[279/1890] classical_14::pitch_shift::+2st
+[280/1890] classical_14::pitch_shift::+4st
+[281/1890] classical_14::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[282/1890] classical_14::time_stretch::-10pct
+[283/1890] classical_14::time_stretch::-5pct
+[284/1890] classical_14::time_stretch::+10pct
+[285/1890] classical_14::time_stretch::+20pct
+[286/1890] classical_14::time_stretch::+5pct
+[287/1890] classical_14::lowpass::lp8000
+[288/1890] classical_14::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[289/1890] classical_14::lowpass::lp2000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[290/1890] classical_14::distortion::drv32
+[291/1890] classical_14::distortion::drv4
+[292/1890] classical_14::distortion::drv12
+[293/1890] classical_14::style_swap::swap_cross
+[294/1890] classical_14::style_swap::swap_same
+[295/1890] classical_15::control::ctrl
+[296/1890] classical_15::pitch_shift::-4st
+[297/1890] classical_15::pitch_shift::-2st
+[298/1890] classical_15::pitch_shift::-1st
+[299/1890] classical_15::pitch_shift::+1st
+[300/1890] classical_15::pitch_shift::+2st
+[301/1890] classical_15::pitch_shift::+4st
+[302/1890] classical_15::time_stretch::-20pct
+[303/1890] classical_15::time_stretch::-10pct
+[304/1890] classical_15::time_stretch::-5pct
+[305/1890] classical_15::time_stretch::+5pct
+[306/1890] classical_15::time_stretch::+10pct
+[307/1890] classical_15::time_stretch::+20pct
+[308/1890] classical_15::lowpass::lp8000
+[309/1890] classical_15::lowpass::lp4000
+[310/1890] classical_15::lowpass::lp2000
+[311/1890] classical_15::distortion::drv4
+[312/1890] classical_15::distortion::drv12
+[313/1890] classical_15::distortion::drv32
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[314/1890] classical_15::style_swap::swap_cross
+[315/1890] ambient_01::pitch_shift::-4st
+[316/1890] ambient_01::control::ctrl
+[317/1890] classical_15::style_swap::swap_same
+[318/1890] ambient_01::pitch_shift::-2st
+[319/1890] ambient_01::pitch_shift::-1st
+[320/1890] ambient_01::pitch_shift::+1st
+[321/1890] ambient_01::pitch_shift::+2st
+[322/1890] ambient_01::pitch_shift::+4st
+[323/1890] ambient_01::time_stretch::-10pct
+[324/1890] ambient_01::time_stretch::-20pct
+[325/1890] ambient_01::time_stretch::-5pct
+[326/1890] ambient_01::time_stretch::+5pct
+[327/1890] ambient_01::time_stretch::+10pct
+[328/1890] ambient_01::time_stretch::+20pct
+[329/1890] ambient_01::lowpass::lp8000
+[330/1890] ambient_01::lowpass::lp4000
+[331/1890] ambient_01::lowpass::lp2000
+[332/1890] ambient_01::distortion::drv4
+[333/1890] ambient_01::distortion::drv12
+[334/1890] ambient_01::distortion::drv32
+[335/1890] ambient_01::style_swap::swap_cross
+[336/1890] ambient_02::control::ctrl
+[337/1890] ambient_01::style_swap::swap_same
+[338/1890] ambient_02::pitch_shift::-4st
+[339/1890] ambient_02::pitch_shift::-2st
+[340/1890] ambient_02::pitch_shift::-1st
+[341/1890] ambient_02::pitch_shift::+1st
+[342/1890] ambient_02::pitch_shift::+2st
+[343/1890] ambient_02::pitch_shift::+4st
+[344/1890] ambient_02::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[345/1890] ambient_02::time_stretch::-10pct
+[346/1890] ambient_02::time_stretch::-5pct
+[347/1890] ambient_02::time_stretch::+5pct
+[348/1890] ambient_02::time_stretch::+10pct
+[349/1890] ambient_02::time_stretch::+20pct
+[350/1890] ambient_02::lowpass::lp8000
+[351/1890] ambient_02::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[352/1890] ambient_02::lowpass::lp2000
+[353/1890] ambient_02::distortion::drv4
+[354/1890] ambient_02::distortion::drv12
+[355/1890] ambient_02::style_swap::swap_cross
+[356/1890] ambient_02::distortion::drv32
+[357/1890] ambient_02::style_swap::swap_same
+[358/1890] ambient_03::control::ctrl
+[359/1890] ambient_03::pitch_shift::-4st
+[360/1890] ambient_03::pitch_shift::-2st
+[361/1890] ambient_03::pitch_shift::-1st
+[362/1890] ambient_03::pitch_shift::+1st
+[363/1890] ambient_03::pitch_shift::+2st
+[364/1890] ambient_03::pitch_shift::+4st
+[365/1890] ambient_03::time_stretch::-20pct
+[366/1890] ambient_03::time_stretch::-10pct
+[367/1890] ambient_03::time_stretch::-5pct
+[368/1890] ambient_03::time_stretch::+5pct
+[369/1890] ambient_03::time_stretch::+10pct
+[370/1890] ambient_03::time_stretch::+20pct
+[371/1890] ambient_03::lowpass::lp4000
+[372/1890] ambient_03::lowpass::lp8000
+[373/1890] ambient_03::lowpass::lp2000
+[374/1890] ambient_03::distortion::drv4
+[375/1890] ambient_03::distortion::drv12
+[376/1890] ambient_03::distortion::drv32
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[377/1890] ambient_03::style_swap::swap_same
+[378/1890] ambient_03::style_swap::swap_cross
+[379/1890] ambient_04::control::ctrl
+[380/1890] ambient_04::pitch_shift::-4st
+[381/1890] ambient_04::pitch_shift::-2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[382/1890] ambient_04::pitch_shift::-1st
+[383/1890] ambient_04::pitch_shift::+1st
+[384/1890] ambient_04::pitch_shift::+2st
+[385/1890] ambient_04::pitch_shift::+4st
+[386/1890] ambient_04::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[387/1890] ambient_04::time_stretch::-10pct
+[388/1890] ambient_04::time_stretch::+5pct
+[389/1890] ambient_04::time_stretch::-5pct
+[390/1890] ambient_04::time_stretch::+10pct
+[391/1890] ambient_04::time_stretch::+20pct
+[392/1890] ambient_04::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[393/1890] ambient_04::lowpass::lp4000
+[394/1890] ambient_04::lowpass::lp2000
+[395/1890] ambient_04::distortion::drv12
+[396/1890] ambient_04::distortion::drv4
+[397/1890] ambient_04::distortion::drv32
+[398/1890] ambient_04::style_swap::swap_cross
+[399/1890] ambient_04::style_swap::swap_same
+[400/1890] ambient_05::control::ctrl
+[401/1890] ambient_05::pitch_shift::-4st
+[402/1890] ambient_05::pitch_shift::-2st
+[403/1890] ambient_05::pitch_shift::-1st
+[404/1890] ambient_05::pitch_shift::+1st
+[405/1890] ambient_05::pitch_shift::+2st
+[406/1890] ambient_05::pitch_shift::+4st
+[407/1890] ambient_05::time_stretch::-20pct
+[408/1890] ambient_05::time_stretch::-10pct
+[409/1890] ambient_05::time_stretch::-5pct
+[410/1890] ambient_05::time_stretch::+5pct
+[411/1890] ambient_05::time_stretch::+10pct
+[412/1890] ambient_05::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[413/1890] ambient_05::time_stretch::+20pct
+[414/1890] ambient_05::lowpass::lp4000
+[415/1890] ambient_05::lowpass::lp2000
+[416/1890] ambient_05::distortion::drv4
+[417/1890] ambient_05::distortion::drv12
+[418/1890] ambient_05::distortion::drv32
+[419/1890] ambient_05::style_swap::swap_cross
+[420/1890] ambient_05::style_swap::swap_same
+[421/1890] ambient_06::control::ctrl
+[422/1890] ambient_06::pitch_shift::-4st
+[423/1890] ambient_06::pitch_shift::-2st
+[424/1890] ambient_06::pitch_shift::-1st
+[425/1890] ambient_06::pitch_shift::+1st
+[426/1890] ambient_06::pitch_shift::+2st
+[427/1890] ambient_06::time_stretch::-20pct
+[428/1890] ambient_06::pitch_shift::+4st
+[429/1890] ambient_06::time_stretch::-5pct
+[430/1890] ambient_06::time_stretch::-10pct
+[431/1890] ambient_06::time_stretch::+10pct
+[432/1890] ambient_06::time_stretch::+5pct
+[433/1890] ambient_06::time_stretch::+20pct
+[434/1890] ambient_06::lowpass::lp2000
+[435/1890] ambient_06::lowpass::lp8000
+[436/1890] ambient_06::lowpass::lp4000
+[437/1890] ambient_06::distortion::drv32
+[438/1890] ambient_06::distortion::drv4
+[439/1890] ambient_06::style_swap::swap_cross
+[440/1890] ambient_06::distortion::drv12
+[441/1890] ambient_06::style_swap::swap_same
+[442/1890] ambient_07::pitch_shift::-4st
+[443/1890] ambient_07::control::ctrl
+[444/1890] ambient_07::pitch_shift::-2st
+[445/1890] ambient_07::pitch_shift::-1st
+[446/1890] ambient_07::pitch_shift::+1st
+[447/1890] ambient_07::pitch_shift::+2st
+[448/1890] ambient_07::pitch_shift::+4st
+[449/1890] ambient_07::time_stretch::-20pct
+[450/1890] ambient_07::time_stretch::-10pct
+[451/1890] ambient_07::time_stretch::-5pct
+[452/1890] ambient_07::time_stretch::+5pct
+[453/1890] ambient_07::time_stretch::+10pct
+[454/1890] ambient_07::lowpass::lp8000
+[455/1890] ambient_07::lowpass::lp4000
+[456/1890] ambient_07::time_stretch::+20pct
+[457/1890] ambient_07::lowpass::lp2000
+[458/1890] ambient_07::distortion::drv4
+[459/1890] ambient_07::distortion::drv12
+[460/1890] ambient_07::distortion::drv32
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[461/1890] ambient_07::style_swap::swap_cross
+[462/1890] ambient_08::control::ctrl
+[463/1890] ambient_08::pitch_shift::-4st
+[464/1890] ambient_07::style_swap::swap_same
+[465/1890] ambient_08::pitch_shift::-2st
+[466/1890] ambient_08::pitch_shift::-1st
+[467/1890] ambient_08::pitch_shift::+2st
+[468/1890] ambient_08::pitch_shift::+1st
+[469/1890] ambient_08::pitch_shift::+4st
+[470/1890] ambient_08::time_stretch::-10pct
+[471/1890] ambient_08::time_stretch::-20pct
+[472/1890] ambient_08::time_stretch::+5pct
+[473/1890] ambient_08::time_stretch::+10pct
+[474/1890] ambient_08::time_stretch::+20pct
+[475/1890] ambient_08::time_stretch::-5pct
+[476/1890] ambient_08::lowpass::lp8000
+[477/1890] ambient_08::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[478/1890] ambient_08::lowpass::lp2000
+[479/1890] ambient_08::style_swap::swap_cross
+[480/1890] ambient_08::distortion::drv32
+[481/1890] ambient_08::style_swap::swap_same
+[482/1890] ambient_08::distortion::drv4
+[483/1890] ambient_08::distortion::drv12
+[484/1890] ambient_09::control::ctrl
+[485/1890] ambient_09::pitch_shift::-4st
+[486/1890] ambient_09::pitch_shift::-2st
+[487/1890] ambient_09::pitch_shift::-1st
+[488/1890] ambient_09::pitch_shift::+1st
+[489/1890] ambient_09::pitch_shift::+2st
+[490/1890] ambient_09::pitch_shift::+4st
+[491/1890] ambient_09::time_stretch::-20pct
+[492/1890] ambient_09::time_stretch::-10pct
+[493/1890] ambient_09::time_stretch::-5pct
+[494/1890] ambient_09::time_stretch::+5pct
+[495/1890] ambient_09::time_stretch::+10pct
+[496/1890] ambient_09::lowpass::lp8000
+[497/1890] ambient_09::lowpass::lp4000
+[498/1890] ambient_09::lowpass::lp2000
+[499/1890] ambient_09::distortion::drv4
+[500/1890] ambient_09::time_stretch::+20pct
+[501/1890] ambient_09::distortion::drv12
+[502/1890] ambient_09::distortion::drv32
+[503/1890] ambient_09::style_swap::swap_cross
+[504/1890] ambient_09::style_swap::swap_same
+[505/1890] ambient_10::control::ctrl
+[506/1890] ambient_10::pitch_shift::-2st
+[507/1890] ambient_10::pitch_shift::-4st
+[508/1890] ambient_10::pitch_shift::-1st
+[509/1890] ambient_10::pitch_shift::+1st
+[510/1890] ambient_10::pitch_shift::+2st
+[511/1890] ambient_10::pitch_shift::+4st
+[512/1890] ambient_10::time_stretch::-20pct
+[513/1890] ambient_10::time_stretch::-10pct
+[514/1890] ambient_10::time_stretch::-5pct
+[515/1890] ambient_10::time_stretch::+5pct
+[516/1890] ambient_10::time_stretch::+10pct
+[517/1890] ambient_10::time_stretch::+20pct
+[518/1890] ambient_10::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[519/1890] ambient_10::lowpass::lp2000
+[520/1890] ambient_10::distortion::drv4
+[521/1890] ambient_10::distortion::drv12
+[522/1890] ambient_10::lowpass::lp4000
+[523/1890] ambient_10::style_swap::swap_cross
+[524/1890] ambient_10::distortion::drv32
+[525/1890] ambient_11::control::ctrl
+[526/1890] ambient_10::style_swap::swap_same
+[527/1890] ambient_11::pitch_shift::-4st
+[528/1890] ambient_11::pitch_shift::-2st
+[529/1890] ambient_11::pitch_shift::-1st
+[530/1890] ambient_11::pitch_shift::+1st
+[531/1890] ambient_11::pitch_shift::+2st
+[532/1890] ambient_11::pitch_shift::+4st
+[533/1890] ambient_11::time_stretch::-20pct
+[534/1890] ambient_11::time_stretch::-5pct
+[535/1890] ambient_11::time_stretch::+5pct
+[536/1890] ambient_11::time_stretch::+10pct
+[537/1890] ambient_11::time_stretch::-10pct
+[538/1890] ambient_11::time_stretch::+20pct
+[539/1890] ambient_11::lowpass::lp8000
+[540/1890] ambient_11::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[541/1890] ambient_11::lowpass::lp2000
+[542/1890] ambient_11::distortion::drv4
+[543/1890] ambient_11::distortion::drv12
+[544/1890] ambient_11::distortion::drv32
+[545/1890] ambient_11::style_swap::swap_cross
+[546/1890] ambient_11::style_swap::swap_same
+[547/1890] ambient_12::control::ctrl
+[548/1890] ambient_12::pitch_shift::-4st
+[549/1890] ambient_12::pitch_shift::-2st
+[550/1890] ambient_12::pitch_shift::-1st
+[551/1890] ambient_12::pitch_shift::+1st
+[552/1890] ambient_12::pitch_shift::+2st
+[553/1890] ambient_12::pitch_shift::+4st
+[554/1890] ambient_12::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[555/1890] ambient_12::time_stretch::-10pct
+[556/1890] ambient_12::time_stretch::-5pct
+[557/1890] ambient_12::time_stretch::+5pct
+[558/1890] ambient_12::time_stretch::+20pct
+[559/1890] ambient_12::time_stretch::+10pct
+[560/1890] ambient_12::lowpass::lp8000
+[561/1890] ambient_12::lowpass::lp4000
+[562/1890] ambient_12::lowpass::lp2000
+[563/1890] ambient_12::distortion::drv12
+[564/1890] ambient_12::distortion::drv4
+[565/1890] ambient_12::distortion::drv32
+[566/1890] ambient_12::style_swap::swap_cross
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[567/1890] ambient_12::style_swap::swap_same
+[568/1890] ambient_13::pitch_shift::-4st
+[569/1890] ambient_13::pitch_shift::-2st
+[570/1890] ambient_13::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[571/1890] ambient_13::pitch_shift::-1st
+[572/1890] ambient_13::pitch_shift::+1st
+[573/1890] ambient_13::pitch_shift::+2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[574/1890] ambient_13::pitch_shift::+4st
+[575/1890] ambient_13::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[576/1890] ambient_13::time_stretch::-10pct
+[577/1890] ambient_13::time_stretch::-5pct
+[578/1890] ambient_13::time_stretch::+5pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[579/1890] ambient_13::time_stretch::+10pct
+[580/1890] ambient_13::time_stretch::+20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[581/1890] ambient_13::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[582/1890] ambient_13::lowpass::lp4000
+[583/1890] ambient_13::lowpass::lp2000
+[584/1890] ambient_13::distortion::drv12
+[585/1890] ambient_13::distortion::drv4
+[586/1890] ambient_13::distortion::drv32
+[587/1890] ambient_13::style_swap::swap_cross
+[588/1890] ambient_13::style_swap::swap_same
+[589/1890] ambient_14::control::ctrl
+[590/1890] ambient_14::pitch_shift::-4st
+[591/1890] ambient_14::pitch_shift::-2st
+[592/1890] ambient_14::pitch_shift::-1st
+[593/1890] ambient_14::pitch_shift::+1st
+[594/1890] ambient_14::pitch_shift::+2st
+[595/1890] ambient_14::pitch_shift::+4st
+[596/1890] ambient_14::time_stretch::-20pct
+[597/1890] ambient_14::time_stretch::-10pct
+[598/1890] ambient_14::time_stretch::-5pct
+[599/1890] ambient_14::time_stretch::+5pct
+[600/1890] ambient_14::time_stretch::+10pct
+[601/1890] ambient_14::time_stretch::+20pct
+[602/1890] ambient_14::lowpass::lp8000
+[603/1890] ambient_14::lowpass::lp4000
+[604/1890] ambient_14::lowpass::lp2000
+[605/1890] ambient_14::distortion::drv4
+[606/1890] ambient_14::distortion::drv12
+[607/1890] ambient_14::distortion::drv32
+[608/1890] ambient_14::style_swap::swap_cross
+[609/1890] ambient_14::style_swap::swap_same
+[610/1890] ambient_15::control::ctrl
+[611/1890] ambient_15::pitch_shift::-4st
+[612/1890] ambient_15::pitch_shift::-2st
+[613/1890] ambient_15::pitch_shift::-1st
+[614/1890] ambient_15::pitch_shift::+1st
+[615/1890] ambient_15::pitch_shift::+2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[616/1890] ambient_15::pitch_shift::+4st
+[617/1890] ambient_15::time_stretch::-10pct
+[618/1890] ambient_15::time_stretch::-20pct
+[619/1890] ambient_15::time_stretch::-5pct
+[620/1890] ambient_15::time_stretch::+5pct
+[621/1890] ambient_15::time_stretch::+10pct
+[622/1890] ambient_15::lowpass::lp8000
+[623/1890] ambient_15::time_stretch::+20pct
+[624/1890] ambient_15::lowpass::lp4000
+[625/1890] ambient_15::lowpass::lp2000
+[626/1890] ambient_15::distortion::drv4
+[627/1890] ambient_15::distortion::drv12
+[628/1890] ambient_15::distortion::drv32
+[629/1890] ambient_15::style_swap::swap_cross
+[630/1890] ambient_15::style_swap::swap_same
+[631/1890] electronic_01::control::ctrl
+[632/1890] electronic_01::pitch_shift::-4st
+[633/1890] electronic_01::pitch_shift::-2st
+[634/1890] electronic_01::pitch_shift::-1st
+[635/1890] electronic_01::pitch_shift::+1st
+[636/1890] electronic_01::pitch_shift::+2st
+[637/1890] electronic_01::pitch_shift::+4st
+[638/1890] electronic_01::time_stretch::-20pct
+[639/1890] electronic_01::time_stretch::-10pct
+[640/1890] electronic_01::time_stretch::-5pct
+[641/1890] electronic_01::time_stretch::+5pct
+[642/1890] electronic_01::time_stretch::+10pct
+[643/1890] electronic_01::time_stretch::+20pct
+[644/1890] electronic_01::lowpass::lp8000
+[645/1890] electronic_01::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[646/1890] electronic_01::distortion::drv4
+[647/1890] electronic_01::lowpass::lp2000
+[648/1890] electronic_01::distortion::drv12
+[649/1890] electronic_01::distortion::drv32
+[650/1890] electronic_01::style_swap::swap_cross
+[651/1890] electronic_01::style_swap::swap_same
+[652/1890] electronic_02::control::ctrl
+[653/1890] electronic_02::pitch_shift::-4st
+[654/1890] electronic_02::pitch_shift::-2st
+[655/1890] electronic_02::pitch_shift::+1st
+[656/1890] electronic_02::pitch_shift::-1st
+[657/1890] electronic_02::pitch_shift::+2st
+[658/1890] electronic_02::pitch_shift::+4st
+[659/1890] electronic_02::time_stretch::-10pct
+[660/1890] electronic_02::time_stretch::-5pct
+[661/1890] electronic_02::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[662/1890] electronic_02::time_stretch::+5pct
+[663/1890] electronic_02::time_stretch::+20pct
+[664/1890] electronic_02::time_stretch::+10pct
+[665/1890] electronic_02::lowpass::lp8000
+[666/1890] electronic_02::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[667/1890] electronic_02::lowpass::lp2000
+[668/1890] electronic_02::distortion::drv4
+[669/1890] electronic_02::distortion::drv12
+[670/1890] electronic_02::distortion::drv32
+[671/1890] electronic_02::style_swap::swap_cross
+[672/1890] electronic_02::style_swap::swap_same
+[673/1890] electronic_03::control::ctrl
+[674/1890] electronic_03::pitch_shift::-4st
+[675/1890] electronic_03::pitch_shift::-2st
+[676/1890] electronic_03::pitch_shift::-1st
+[677/1890] electronic_03::pitch_shift::+1st
+[678/1890] electronic_03::time_stretch::-20pct
+[679/1890] electronic_03::pitch_shift::+2st
+[680/1890] electronic_03::pitch_shift::+4st
+[681/1890] electronic_03::time_stretch::-10pct
+[682/1890] electronic_03::time_stretch::-5pct
+[683/1890] electronic_03::time_stretch::+20pct
+[684/1890] electronic_03::time_stretch::+5pct
+[685/1890] electronic_03::time_stretch::+10pct
+[686/1890] electronic_03::lowpass::lp2000
+[687/1890] electronic_03::lowpass::lp8000
+[688/1890] electronic_03::lowpass::lp4000
+[689/1890] electronic_03::distortion::drv12
+[690/1890] electronic_03::distortion::drv4
+[691/1890] electronic_03::distortion::drv32
+[692/1890] electronic_03::style_swap::swap_same
+[693/1890] electronic_03::style_swap::swap_cross
+[694/1890] electronic_04::control::ctrl
+[695/1890] electronic_04::pitch_shift::-4st
+[696/1890] electronic_04::pitch_shift::-2st
+[697/1890] electronic_04::pitch_shift::-1st
+[698/1890] electronic_04::pitch_shift::+1st
+[699/1890] electronic_04::pitch_shift::+2st
+[700/1890] electronic_04::pitch_shift::+4st
+[701/1890] electronic_04::time_stretch::+5pct
+[702/1890] electronic_04::time_stretch::-20pct
+[703/1890] electronic_04::time_stretch::-10pct
+[704/1890] electronic_04::time_stretch::-5pct
+[705/1890] electronic_04::time_stretch::+10pct
+[706/1890] electronic_04::time_stretch::+20pct
+[707/1890] electronic_04::lowpass::lp8000
+[708/1890] electronic_04::lowpass::lp4000
+[709/1890] electronic_04::lowpass::lp2000
+[710/1890] electronic_04::distortion::drv4
+[711/1890] electronic_04::distortion::drv12
+[712/1890] electronic_04::distortion::drv32
+[713/1890] electronic_04::style_swap::swap_cross
+[714/1890] electronic_04::style_swap::swap_same
+[715/1890] electronic_05::control::ctrl
+[716/1890] electronic_05::pitch_shift::-4st
+[717/1890] electronic_05::pitch_shift::-2st
+[718/1890] electronic_05::pitch_shift::-1st
+[719/1890] electronic_05::pitch_shift::+1st
+[720/1890] electronic_05::pitch_shift::+2st
+[721/1890] electronic_05::pitch_shift::+4st
+[722/1890] electronic_05::time_stretch::-20pct
+[723/1890] electronic_05::time_stretch::-10pct
+[724/1890] electronic_05::time_stretch::-5pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[725/1890] electronic_05::time_stretch::+5pct
+[726/1890] electronic_05::time_stretch::+10pct
+[727/1890] electronic_05::time_stretch::+20pct
+[728/1890] electronic_05::lowpass::lp8000
+[729/1890] electronic_05::lowpass::lp4000
+[730/1890] electronic_05::lowpass::lp2000
+[731/1890] electronic_05::distortion::drv4
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[732/1890] electronic_05::distortion::drv12
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[733/1890] electronic_05::style_swap::swap_cross
+[734/1890] electronic_05::distortion::drv32
+[735/1890] electronic_05::style_swap::swap_same
+[736/1890] electronic_06::control::ctrl
+[737/1890] electronic_06::pitch_shift::-4st
+[738/1890] electronic_06::pitch_shift::-2st
+[739/1890] electronic_06::pitch_shift::-1st
+[740/1890] electronic_06::pitch_shift::+1st
+[741/1890] electronic_06::pitch_shift::+2st
+[742/1890] electronic_06::pitch_shift::+4st
+[743/1890] electronic_06::time_stretch::-20pct
+[744/1890] electronic_06::time_stretch::-10pct
+[745/1890] electronic_06::time_stretch::-5pct
+[746/1890] electronic_06::time_stretch::+5pct
+[747/1890] electronic_06::time_stretch::+10pct
+[748/1890] electronic_06::time_stretch::+20pct
+[749/1890] electronic_06::lowpass::lp8000
+[750/1890] electronic_06::lowpass::lp4000
+[751/1890] electronic_06::lowpass::lp2000
+[752/1890] electronic_06::distortion::drv4
+[753/1890] electronic_06::distortion::drv12
+[754/1890] electronic_06::distortion::drv32
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[755/1890] electronic_06::style_swap::swap_cross
+[756/1890] electronic_06::style_swap::swap_same
+[757/1890] electronic_07::control::ctrl
+[758/1890] electronic_07::pitch_shift::-4st
+[759/1890] electronic_07::pitch_shift::-2st
+[760/1890] electronic_07::pitch_shift::-1st
+[761/1890] electronic_07::pitch_shift::+1st
+[762/1890] electronic_07::pitch_shift::+2st
+[763/1890] electronic_07::pitch_shift::+4st
+[764/1890] electronic_07::time_stretch::-20pct
+[765/1890] electronic_07::time_stretch::-5pct
+[766/1890] electronic_07::time_stretch::-10pct
+[767/1890] electronic_07::time_stretch::+5pct
+[768/1890] electronic_07::time_stretch::+10pct
+[769/1890] electronic_07::lowpass::lp8000
+[770/1890] electronic_07::time_stretch::+20pct
+[771/1890] electronic_07::lowpass::lp4000
+[772/1890] electronic_07::lowpass::lp2000
+[773/1890] electronic_07::distortion::drv4
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[774/1890] electronic_07::distortion::drv12
+[775/1890] electronic_07::distortion::drv32
+[776/1890] electronic_07::style_swap::swap_cross
+[777/1890] electronic_07::style_swap::swap_same
+[778/1890] electronic_08::control::ctrl
+[779/1890] electronic_08::pitch_shift::-4st
+[780/1890] electronic_08::pitch_shift::-1st
+[781/1890] electronic_08::pitch_shift::-2st
+[782/1890] electronic_08::pitch_shift::+1st
+[783/1890] electronic_08::pitch_shift::+2st
+[784/1890] electronic_08::pitch_shift::+4st
+[785/1890] electronic_08::time_stretch::-20pct
+[786/1890] electronic_08::time_stretch::-10pct
+[787/1890] electronic_08::time_stretch::-5pct
+[788/1890] electronic_08::time_stretch::+5pct
+[789/1890] electronic_08::time_stretch::+20pct
+[790/1890] electronic_08::lowpass::lp8000
+[791/1890] electronic_08::lowpass::lp4000
+[792/1890] electronic_08::time_stretch::+10pct
+[793/1890] electronic_08::lowpass::lp2000
+[794/1890] electronic_08::distortion::drv4
+[795/1890] electronic_08::distortion::drv12
+[796/1890] electronic_08::distortion::drv32
+[797/1890] electronic_08::style_swap::swap_cross
+[798/1890] electronic_09::control::ctrl
+[799/1890] electronic_09::pitch_shift::-4st
+[800/1890] electronic_09::pitch_shift::-2st
+[801/1890] electronic_08::style_swap::swap_same
+[802/1890] electronic_09::pitch_shift::-1st
+[803/1890] electronic_09::pitch_shift::+1st
+[804/1890] electronic_09::pitch_shift::+2st
+[805/1890] electronic_09::pitch_shift::+4st
+[806/1890] electronic_09::time_stretch::-10pct
+[807/1890] electronic_09::time_stretch::-5pct
+[808/1890] electronic_09::time_stretch::+5pct
+[809/1890] electronic_09::time_stretch::-20pct
+[810/1890] electronic_09::time_stretch::+10pct
+[811/1890] electronic_09::time_stretch::+20pct
+[812/1890] electronic_09::lowpass::lp8000
+[813/1890] electronic_09::lowpass::lp4000
+[814/1890] electronic_09::lowpass::lp2000
+[815/1890] electronic_09::distortion::drv4
+[816/1890] electronic_09::distortion::drv12
+[817/1890] electronic_09::distortion::drv32
+[818/1890] electronic_09::style_swap::swap_cross
+[819/1890] electronic_09::style_swap::swap_same
+[820/1890] electronic_10::control::ctrl
+[821/1890] electronic_10::pitch_shift::-4st
+[822/1890] electronic_10::pitch_shift::-2st
+[823/1890] electronic_10::pitch_shift::-1st
+[824/1890] electronic_10::pitch_shift::+1st
+[825/1890] electronic_10::pitch_shift::+2st
+[826/1890] electronic_10::pitch_shift::+4st
+[827/1890] electronic_10::time_stretch::-20pct
+[828/1890] electronic_10::time_stretch::-10pct
+[829/1890] electronic_10::time_stretch::-5pct
+[830/1890] electronic_10::time_stretch::+5pct
+[831/1890] electronic_10::time_stretch::+20pct
+[832/1890] electronic_10::time_stretch::+10pct
+[833/1890] electronic_10::lowpass::lp8000
+[834/1890] electronic_10::lowpass::lp4000
+[835/1890] electronic_10::lowpass::lp2000
+[836/1890] electronic_10::distortion::drv4
+[837/1890] electronic_10::distortion::drv12
+[838/1890] electronic_10::distortion::drv32
+[839/1890] electronic_10::style_swap::swap_same
+[840/1890] electronic_11::control::ctrl
+[841/1890] electronic_11::pitch_shift::-4st
+[842/1890] electronic_10::style_swap::swap_cross
+[843/1890] electronic_11::pitch_shift::-2st
+[844/1890] electronic_11::pitch_shift::-1st
+[845/1890] electronic_11::pitch_shift::+1st
+[846/1890] electronic_11::pitch_shift::+2st
+[847/1890] electronic_11::time_stretch::-20pct
+[848/1890] electronic_11::time_stretch::-10pct
+[849/1890] electronic_11::pitch_shift::+4st
+[850/1890] electronic_11::time_stretch::-5pct
+[851/1890] electronic_11::time_stretch::+5pct
+[852/1890] electronic_11::time_stretch::+10pct
+[853/1890] electronic_11::time_stretch::+20pct
+[854/1890] electronic_11::lowpass::lp8000
+[855/1890] electronic_11::lowpass::lp4000
+[856/1890] electronic_11::lowpass::lp2000
+[857/1890] electronic_11::distortion::drv4
+[858/1890] electronic_11::distortion::drv12
+[859/1890] electronic_11::distortion::drv32
+[860/1890] electronic_11::style_swap::swap_cross
+[861/1890] electronic_11::style_swap::swap_same
+[862/1890] electronic_12::control::ctrl
+[863/1890] electronic_12::pitch_shift::-4st
+[864/1890] electronic_12::pitch_shift::-2st
+[865/1890] electronic_12::pitch_shift::-1st
+[866/1890] electronic_12::pitch_shift::+1st
+[867/1890] electronic_12::pitch_shift::+2st
+[868/1890] electronic_12::pitch_shift::+4st
+[869/1890] electronic_12::time_stretch::-20pct
+[870/1890] electronic_12::time_stretch::-10pct
+[871/1890] electronic_12::time_stretch::-5pct
+[872/1890] electronic_12::time_stretch::+5pct
+[873/1890] electronic_12::time_stretch::+10pct
+[874/1890] electronic_12::time_stretch::+20pct
+[875/1890] electronic_12::lowpass::lp8000
+[876/1890] electronic_12::lowpass::lp4000
+[877/1890] electronic_12::lowpass::lp2000
+[878/1890] electronic_12::distortion::drv4
+[879/1890] electronic_12::distortion::drv12
+[880/1890] electronic_12::distortion::drv32
+[881/1890] electronic_12::style_swap::swap_same
+[882/1890] electronic_12::style_swap::swap_cross
+[883/1890] electronic_13::control::ctrl
+[884/1890] electronic_13::pitch_shift::-2st
+[885/1890] electronic_13::pitch_shift::-4st
+[886/1890] electronic_13::pitch_shift::-1st
+[887/1890] electronic_13::pitch_shift::+1st
+[888/1890] electronic_13::pitch_shift::+2st
+[889/1890] electronic_13::pitch_shift::+4st
+[890/1890] electronic_13::time_stretch::-20pct
+[891/1890] electronic_13::time_stretch::-10pct
+[892/1890] electronic_13::time_stretch::-5pct
+[893/1890] electronic_13::time_stretch::+5pct
+[894/1890] electronic_13::time_stretch::+10pct
+[895/1890] electronic_13::time_stretch::+20pct
+[896/1890] electronic_13::lowpass::lp8000
+[897/1890] electronic_13::lowpass::lp4000
+[898/1890] electronic_13::lowpass::lp2000
+[899/1890] electronic_13::distortion::drv4
+[900/1890] electronic_13::distortion::drv32
+[901/1890] electronic_13::distortion::drv12
+[902/1890] electronic_13::style_swap::swap_cross
+[903/1890] electronic_13::style_swap::swap_same
+[904/1890] electronic_14::control::ctrl
+[905/1890] electronic_14::pitch_shift::-4st
+[906/1890] electronic_14::pitch_shift::-2st
+[907/1890] electronic_14::pitch_shift::-1st
+[908/1890] electronic_14::pitch_shift::+2st
+[909/1890] electronic_14::pitch_shift::+1st
+[910/1890] electronic_14::pitch_shift::+4st
+[911/1890] electronic_14::time_stretch::-20pct
+[912/1890] electronic_14::time_stretch::-10pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[913/1890] electronic_14::time_stretch::-5pct
+[914/1890] electronic_14::time_stretch::+5pct
+[915/1890] electronic_14::time_stretch::+10pct
+[916/1890] electronic_14::time_stretch::+20pct
+[917/1890] electronic_14::lowpass::lp8000
+[918/1890] electronic_14::lowpass::lp4000
+[919/1890] electronic_14::distortion::drv4
+[920/1890] electronic_14::lowpass::lp2000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[921/1890] electronic_14::distortion::drv12
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[922/1890] electronic_14::style_swap::swap_cross
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[923/1890] electronic_14::distortion::drv32
+[924/1890] electronic_15::control::ctrl
+[925/1890] electronic_14::style_swap::swap_same
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[926/1890] electronic_15::pitch_shift::-4st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[927/1890] electronic_15::pitch_shift::-1st
+[928/1890] electronic_15::pitch_shift::-2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[929/1890] electronic_15::pitch_shift::+1st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[930/1890] electronic_15::pitch_shift::+2st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[931/1890] electronic_15::pitch_shift::+4st
+[932/1890] electronic_15::time_stretch::-20pct
+[933/1890] electronic_15::time_stretch::-10pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[934/1890] electronic_15::time_stretch::-5pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[935/1890] electronic_15::time_stretch::+5pct
+[936/1890] electronic_15::time_stretch::+10pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[937/1890] electronic_15::time_stretch::+20pct
+[938/1890] electronic_15::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[939/1890] electronic_15::lowpass::lp4000
+[940/1890] electronic_15::lowpass::lp2000
+[941/1890] electronic_15::distortion::drv4
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[942/1890] electronic_15::distortion::drv12
+[943/1890] electronic_15::distortion::drv32
+[944/1890] electronic_15::style_swap::swap_cross
+[945/1890] electronic_15::style_swap::swap_same
+[946/1890] folk_01::control::ctrl
+[947/1890] folk_01::pitch_shift::-4st
+[948/1890] folk_01::pitch_shift::-2st
+[949/1890] folk_01::pitch_shift::-1st
+[950/1890] folk_01::pitch_shift::+1st
+[951/1890] folk_01::pitch_shift::+2st
+[952/1890] folk_01::pitch_shift::+4st
+[953/1890] folk_01::time_stretch::-20pct
+[954/1890] folk_01::time_stretch::-10pct
+[955/1890] folk_01::time_stretch::+5pct
+[956/1890] folk_01::time_stretch::+10pct
+[957/1890] folk_01::time_stretch::-5pct
+[958/1890] folk_01::time_stretch::+20pct
+[959/1890] folk_01::lowpass::lp8000
+[960/1890] folk_01::lowpass::lp4000
+[961/1890] folk_01::lowpass::lp2000
+[962/1890] folk_01::distortion::drv4
+[963/1890] folk_01::distortion::drv12
+[964/1890] folk_01::distortion::drv32
+[965/1890] folk_01::style_swap::swap_cross
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[966/1890] folk_02::control::ctrl
+[967/1890] folk_02::pitch_shift::-4st
+[968/1890] folk_01::style_swap::swap_same
+[969/1890] folk_02::pitch_shift::-2st
+[970/1890] folk_02::pitch_shift::-1st
+[971/1890] folk_02::pitch_shift::+1st
+[972/1890] folk_02::pitch_shift::+2st
+[973/1890] folk_02::pitch_shift::+4st
+[974/1890] folk_02::time_stretch::-20pct
+[975/1890] folk_02::time_stretch::-10pct
+[976/1890] folk_02::time_stretch::-5pct
+[977/1890] folk_02::time_stretch::+5pct
+[978/1890] folk_02::time_stretch::+10pct
+[979/1890] folk_02::time_stretch::+20pct
+[980/1890] folk_02::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[981/1890] folk_02::lowpass::lp8000
+[982/1890] folk_02::distortion::drv4
+[983/1890] folk_02::distortion::drv12
+[984/1890] folk_02::lowpass::lp2000
+[985/1890] folk_02::distortion::drv32
+[986/1890] folk_02::style_swap::swap_cross
+[987/1890] folk_02::style_swap::swap_same
+[988/1890] folk_03::control::ctrl
+[989/1890] folk_03::pitch_shift::-4st
+[990/1890] folk_03::pitch_shift::-2st
+[991/1890] folk_03::pitch_shift::-1st
+[992/1890] folk_03::pitch_shift::+1st
+[993/1890] folk_03::pitch_shift::+2st
+[994/1890] folk_03::pitch_shift::+4st
+[995/1890] folk_03::time_stretch::-20pct
+[996/1890] folk_03::time_stretch::-10pct
+[997/1890] folk_03::time_stretch::-5pct
+[998/1890] folk_03::time_stretch::+5pct
+[999/1890] folk_03::time_stretch::+10pct
+[1000/1890] folk_03::time_stretch::+20pct
+[1001/1890] folk_03::lowpass::lp8000
+[1002/1890] folk_03::lowpass::lp4000
+[1003/1890] folk_03::lowpass::lp2000
+[1004/1890] folk_03::distortion::drv4
+[1005/1890] folk_03::distortion::drv12
+[1006/1890] folk_03::distortion::drv32
+[1007/1890] folk_03::style_swap::swap_cross
+[1008/1890] folk_03::style_swap::swap_same
+[1009/1890] folk_04::control::ctrl
+[1010/1890] folk_04::pitch_shift::-4st
+[1011/1890] folk_04::pitch_shift::-2st
+[1012/1890] folk_04::pitch_shift::-1st
+[1013/1890] folk_04::pitch_shift::+1st
+[1014/1890] folk_04::pitch_shift::+2st
+[1015/1890] folk_04::pitch_shift::+4st
+[1016/1890] folk_04::time_stretch::-20pct
+[1017/1890] folk_04::time_stretch::-10pct
+[1018/1890] folk_04::time_stretch::-5pct
+[1019/1890] folk_04::time_stretch::+5pct
+[1020/1890] folk_04::time_stretch::+10pct
+[1021/1890] folk_04::time_stretch::+20pct
+[1022/1890] folk_04::lowpass::lp8000
+[1023/1890] folk_04::lowpass::lp4000
+[1024/1890] folk_04::lowpass::lp2000
+[1025/1890] folk_04::distortion::drv4
+[1026/1890] folk_04::distortion::drv12
+[1027/1890] folk_04::distortion::drv32
+[1028/1890] folk_04::style_swap::swap_cross
+[1029/1890] folk_04::style_swap::swap_same
+[1030/1890] folk_05::control::ctrl
+[1031/1890] folk_05::pitch_shift::-4st
+[1032/1890] folk_05::pitch_shift::-2st
+[1033/1890] folk_05::pitch_shift::-1st
+[1034/1890] folk_05::pitch_shift::+1st
+[1035/1890] folk_05::pitch_shift::+2st
+[1036/1890] folk_05::pitch_shift::+4st
+[1037/1890] folk_05::time_stretch::-20pct
+[1038/1890] folk_05::time_stretch::-10pct
+[1039/1890] folk_05::time_stretch::+5pct
+[1040/1890] folk_05::time_stretch::-5pct
+[1041/1890] folk_05::time_stretch::+10pct
+[1042/1890] folk_05::time_stretch::+20pct
+[1043/1890] folk_05::lowpass::lp8000
+[1044/1890] folk_05::lowpass::lp4000
+[1045/1890] folk_05::lowpass::lp2000
+[1046/1890] folk_05::distortion::drv4
+[1047/1890] folk_05::distortion::drv12
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1048/1890] folk_05::distortion::drv32
+[1049/1890] folk_05::style_swap::swap_cross
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1050/1890] folk_05::style_swap::swap_same
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1051/1890] folk_06::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1052/1890] folk_06::pitch_shift::-4st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1053/1890] folk_06::pitch_shift::-2st
+[1054/1890] folk_06::pitch_shift::-1st
+[1055/1890] folk_06::pitch_shift::+1st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1056/1890] folk_06::pitch_shift::+2st
+[1057/1890] folk_06::pitch_shift::+4st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1058/1890] folk_06::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1059/1890] folk_06::time_stretch::-10pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1060/1890] folk_06::time_stretch::-5pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1061/1890] folk_06::time_stretch::+5pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1062/1890] folk_06::time_stretch::+10pct
+[1063/1890] folk_06::time_stretch::+20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1064/1890] folk_06::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1065/1890] folk_06::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1066/1890] folk_06::lowpass::lp2000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1067/1890] folk_06::distortion::drv4
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1068/1890] folk_06::distortion::drv12
+[1069/1890] folk_06::distortion::drv32
+[1070/1890] folk_06::style_swap::swap_cross
+[1071/1890] folk_06::style_swap::swap_same
+[1072/1890] folk_07::control::ctrl
+[1073/1890] folk_07::pitch_shift::-4st
+[1074/1890] folk_07::pitch_shift::-2st
+[1075/1890] folk_07::pitch_shift::-1st
+[1076/1890] folk_07::pitch_shift::+1st
+[1077/1890] folk_07::pitch_shift::+2st
+[1078/1890] folk_07::pitch_shift::+4st
+[1079/1890] folk_07::time_stretch::-20pct
+[1080/1890] folk_07::time_stretch::-10pct
+[1081/1890] folk_07::time_stretch::-5pct
+[1082/1890] folk_07::time_stretch::+5pct
+[1083/1890] folk_07::time_stretch::+10pct
+[1084/1890] folk_07::time_stretch::+20pct
+[1085/1890] folk_07::lowpass::lp8000
+[1086/1890] folk_07::distortion::drv4
+[1087/1890] folk_07::lowpass::lp4000
+[1088/1890] folk_07::lowpass::lp2000
+[1089/1890] folk_07::distortion::drv12
+[1090/1890] folk_07::style_swap::swap_cross
+[1091/1890] folk_07::distortion::drv32
+[1092/1890] folk_07::style_swap::swap_same
+[1093/1890] folk_08::control::ctrl
+[1094/1890] folk_08::pitch_shift::-4st
+[1095/1890] folk_08::pitch_shift::-2st
+[1096/1890] folk_08::pitch_shift::-1st
+[1097/1890] folk_08::pitch_shift::+1st
+[1098/1890] folk_08::pitch_shift::+2st
+[1099/1890] folk_08::pitch_shift::+4st
+[1100/1890] folk_08::time_stretch::-20pct
+[1101/1890] folk_08::time_stretch::-10pct
+[1102/1890] folk_08::time_stretch::-5pct
+[1103/1890] folk_08::time_stretch::+5pct
+[1104/1890] folk_08::time_stretch::+10pct
+[1105/1890] folk_08::time_stretch::+20pct
+[1106/1890] folk_08::lowpass::lp8000
+[1107/1890] folk_08::lowpass::lp4000
+[1108/1890] folk_08::lowpass::lp2000
+[1109/1890] folk_08::distortion::drv4
+[1110/1890] folk_08::distortion::drv12
+[1111/1890] folk_08::distortion::drv32
+[1112/1890] folk_08::style_swap::swap_same
+[1113/1890] folk_08::style_swap::swap_cross
+[1114/1890] folk_09::control::ctrl
+[1115/1890] folk_09::pitch_shift::-4st
+[1116/1890] folk_09::pitch_shift::-2st
+[1117/1890] folk_09::pitch_shift::-1st
+[1118/1890] folk_09::pitch_shift::+1st
+[1119/1890] folk_09::pitch_shift::+2st
+[1120/1890] folk_09::pitch_shift::+4st
+[1121/1890] folk_09::time_stretch::-20pct
+[1122/1890] folk_09::time_stretch::-5pct
+[1123/1890] folk_09::time_stretch::-10pct
+[1124/1890] folk_09::time_stretch::+5pct
+[1125/1890] folk_09::time_stretch::+10pct
+[1126/1890] folk_09::lowpass::lp8000
+[1127/1890] folk_09::time_stretch::+20pct
+[1128/1890] folk_09::lowpass::lp4000
+[1129/1890] folk_09::lowpass::lp2000
+[1130/1890] folk_09::distortion::drv4
+[1131/1890] folk_09::distortion::drv12
+[1132/1890] folk_09::distortion::drv32
+[1133/1890] folk_09::style_swap::swap_cross
+[1134/1890] folk_09::style_swap::swap_same
+[1135/1890] folk_10::control::ctrl
+[1136/1890] folk_10::pitch_shift::-4st
+[1137/1890] folk_10::pitch_shift::-2st
+[1138/1890] folk_10::pitch_shift::-1st
+[1139/1890] folk_10::pitch_shift::+1st
+[1140/1890] folk_10::pitch_shift::+2st
+[1141/1890] folk_10::pitch_shift::+4st
+[1142/1890] folk_10::time_stretch::-20pct
+[1143/1890] folk_10::time_stretch::-10pct
+[1144/1890] folk_10::time_stretch::-5pct
+[1145/1890] folk_10::time_stretch::+5pct
+[1146/1890] folk_10::time_stretch::+10pct
+[1147/1890] folk_10::time_stretch::+20pct
+[1148/1890] folk_10::lowpass::lp8000
+[1149/1890] folk_10::lowpass::lp4000
+[1150/1890] folk_10::lowpass::lp2000
+[1151/1890] folk_10::distortion::drv4
+[1152/1890] folk_10::distortion::drv12
+[1153/1890] folk_10::distortion::drv32
+[1154/1890] folk_10::style_swap::swap_same
+[1155/1890] folk_11::control::ctrl
+[1156/1890] folk_11::pitch_shift::-4st
+[1157/1890] folk_10::style_swap::swap_cross
+[1158/1890] folk_11::pitch_shift::-2st
+[1159/1890] folk_11::pitch_shift::-1st
+[1160/1890] folk_11::pitch_shift::+1st
+[1161/1890] folk_11::pitch_shift::+2st
+[1162/1890] folk_11::pitch_shift::+4st
+[1163/1890] folk_11::time_stretch::-10pct
+[1164/1890] folk_11::time_stretch::-20pct
+[1165/1890] folk_11::time_stretch::-5pct
+[1166/1890] folk_11::time_stretch::+5pct
+[1167/1890] folk_11::time_stretch::+10pct
+[1168/1890] folk_11::time_stretch::+20pct
+[1169/1890] folk_11::lowpass::lp8000
+[1170/1890] folk_11::lowpass::lp4000
+[1171/1890] folk_11::distortion::drv4
+[1172/1890] folk_11::lowpass::lp2000
+[1173/1890] folk_11::distortion::drv12
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1174/1890] folk_11::distortion::drv32
+[1175/1890] folk_11::style_swap::swap_cross
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1176/1890] folk_11::style_swap::swap_same
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1177/1890] folk_12::control::ctrl
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1178/1890] folk_12::pitch_shift::-4st
+[1179/1890] folk_12::pitch_shift::-1st
+[1180/1890] folk_12::pitch_shift::-2st
+[1181/1890] folk_12::pitch_shift::+1st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1182/1890] folk_12::pitch_shift::+2st
+[1183/1890] folk_12::pitch_shift::+4st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1184/1890] folk_12::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1185/1890] folk_12::time_stretch::-10pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1186/1890] folk_12::time_stretch::-5pct
+[1187/1890] folk_12::time_stretch::+10pct
+[1188/1890] folk_12::time_stretch::+5pct
+[1189/1890] folk_12::time_stretch::+20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1190/1890] folk_12::lowpass::lp8000
+[1191/1890] folk_12::lowpass::lp4000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1192/1890] folk_12::lowpass::lp2000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1193/1890] folk_12::distortion::drv4
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1194/1890] folk_12::distortion::drv12
+[1195/1890] folk_12::style_swap::swap_cross
+[1196/1890] folk_12::distortion::drv32
+[1197/1890] folk_12::style_swap::swap_same
+[1198/1890] folk_13::control::ctrl
+[1199/1890] folk_13::pitch_shift::-4st
+[1200/1890] folk_13::pitch_shift::-2st
+[1201/1890] folk_13::pitch_shift::-1st
+[1202/1890] folk_13::pitch_shift::+1st
+[1203/1890] folk_13::pitch_shift::+2st
+[1204/1890] folk_13::pitch_shift::+4st
+[1205/1890] folk_13::time_stretch::-20pct
+[1206/1890] folk_13::time_stretch::-10pct
+[1207/1890] folk_13::time_stretch::+5pct
+[1208/1890] folk_13::time_stretch::-5pct
+[1209/1890] folk_13::time_stretch::+10pct
+[1210/1890] folk_13::time_stretch::+20pct
+[1211/1890] folk_13::lowpass::lp8000
+[1212/1890] folk_13::lowpass::lp4000
+[1213/1890] folk_13::lowpass::lp2000
+[1214/1890] folk_13::distortion::drv4
+[1215/1890] folk_13::distortion::drv12
+[1216/1890] folk_13::distortion::drv32
+[1217/1890] folk_13::style_swap::swap_cross
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1218/1890] folk_14::control::ctrl
+[1219/1890] folk_14::pitch_shift::-4st
+[1220/1890] folk_13::style_swap::swap_same
+[1221/1890] folk_14::pitch_shift::-2st
+[1222/1890] folk_14::pitch_shift::-1st
+[1223/1890] folk_14::pitch_shift::+1st
+[1224/1890] folk_14::pitch_shift::+2st
+[1225/1890] folk_14::pitch_shift::+4st
+[1226/1890] folk_14::time_stretch::-20pct
+[1227/1890] folk_14::time_stretch::-10pct
+[1228/1890] folk_14::time_stretch::-5pct
+[1229/1890] folk_14::time_stretch::+5pct
+[1230/1890] folk_14::time_stretch::+10pct
+[1231/1890] folk_14::time_stretch::+20pct
+[1232/1890] folk_14::lowpass::lp8000
+[1233/1890] folk_14::lowpass::lp4000
+[1234/1890] folk_14::lowpass::lp2000
+[1235/1890] folk_14::distortion::drv4
+[1236/1890] folk_14::distortion::drv12
+[1237/1890] folk_14::distortion::drv32
+[1238/1890] folk_14::style_swap::swap_cross
+[1239/1890] folk_14::style_swap::swap_same
+[1240/1890] folk_15::control::ctrl
+[1241/1890] folk_15::pitch_shift::-4st
+[1242/1890] folk_15::pitch_shift::-2st
+[1243/1890] folk_15::pitch_shift::-1st
+[1244/1890] folk_15::pitch_shift::+1st
+[1245/1890] folk_15::pitch_shift::+2st
+[1246/1890] folk_15::pitch_shift::+4st
+[1247/1890] folk_15::time_stretch::-20pct
+[1248/1890] folk_15::time_stretch::-10pct
+[1249/1890] folk_15::time_stretch::-5pct
+[1250/1890] folk_15::time_stretch::+5pct
+[1251/1890] folk_15::time_stretch::+10pct
+[1252/1890] folk_15::time_stretch::+20pct
+[1253/1890] folk_15::lowpass::lp8000
+[1254/1890] folk_15::lowpass::lp4000
+[1255/1890] folk_15::lowpass::lp2000
+[1256/1890] folk_15::distortion::drv4
+[1257/1890] folk_15::distortion::drv12
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1258/1890] folk_15::style_swap::swap_cross
+[1259/1890] folk_15::distortion::drv32
+[1260/1890] folk_15::style_swap::swap_same
+[1261/1890] jazz_01::control::ctrl
+[1262/1890] jazz_01::pitch_shift::-4st
+[1263/1890] jazz_01::pitch_shift::-2st
+[1264/1890] jazz_01::pitch_shift::-1st
+[1265/1890] jazz_01::pitch_shift::+1st
+[1266/1890] jazz_01::pitch_shift::+4st
+[1267/1890] jazz_01::pitch_shift::+2st
+[1268/1890] jazz_01::time_stretch::-20pct
+[1269/1890] jazz_01::time_stretch::-10pct
+[1270/1890] jazz_01::time_stretch::+5pct
+[1271/1890] jazz_01::time_stretch::-5pct
+[1272/1890] jazz_01::time_stretch::+10pct
+[1273/1890] jazz_01::time_stretch::+20pct
+[1274/1890] jazz_01::lowpass::lp8000
+[1275/1890] jazz_01::lowpass::lp4000
+[1276/1890] jazz_01::lowpass::lp2000
+[1277/1890] jazz_01::distortion::drv4
+[1278/1890] jazz_01::distortion::drv32
+[1279/1890] jazz_01::style_swap::swap_cross
+[1280/1890] jazz_01::distortion::drv12
+[1281/1890] jazz_01::style_swap::swap_same
+[1282/1890] jazz_02::control::ctrl
+[1283/1890] jazz_02::pitch_shift::-4st
+[1284/1890] jazz_02::pitch_shift::-2st
+[1285/1890] jazz_02::pitch_shift::-1st
+[1286/1890] jazz_02::pitch_shift::+1st
+[1287/1890] jazz_02::pitch_shift::+2st
+[1288/1890] jazz_02::pitch_shift::+4st
+[1289/1890] jazz_02::time_stretch::-20pct
+[1290/1890] jazz_02::time_stretch::-10pct
+[1291/1890] jazz_02::time_stretch::+5pct
+[1292/1890] jazz_02::time_stretch::-5pct
+[1293/1890] jazz_02::time_stretch::+10pct
+[1294/1890] jazz_02::lowpass::lp8000
+[1295/1890] jazz_02::time_stretch::+20pct
+[1296/1890] jazz_02::lowpass::lp4000
+[1297/1890] jazz_02::lowpass::lp2000
+[1298/1890] jazz_02::distortion::drv4
+[1299/1890] jazz_02::distortion::drv12
+[1300/1890] jazz_02::distortion::drv32
+[1301/1890] jazz_02::style_swap::swap_cross
+[1302/1890] jazz_03::control::ctrl
+[1303/1890] jazz_03::pitch_shift::-4st
+[1304/1890] jazz_02::style_swap::swap_same
+[1305/1890] jazz_03::pitch_shift::-2st
+[1306/1890] jazz_03::pitch_shift::-1st
+[1307/1890] jazz_03::pitch_shift::+1st
+[1308/1890] jazz_03::pitch_shift::+2st
+[1309/1890] jazz_03::pitch_shift::+4st
+[1310/1890] jazz_03::time_stretch::-20pct
+[1311/1890] jazz_03::time_stretch::-10pct
+[1312/1890] jazz_03::time_stretch::-5pct
+[1313/1890] jazz_03::time_stretch::+5pct
+[1314/1890] jazz_03::time_stretch::+10pct
+[1315/1890] jazz_03::time_stretch::+20pct
+[1316/1890] jazz_03::lowpass::lp8000
+[1317/1890] jazz_03::lowpass::lp4000
+[1318/1890] jazz_03::lowpass::lp2000
+[1319/1890] jazz_03::distortion::drv4
+[1320/1890] jazz_03::distortion::drv12
+[1321/1890] jazz_03::distortion::drv32
+[1322/1890] jazz_03::style_swap::swap_cross
+[1323/1890] jazz_03::style_swap::swap_same
+[1324/1890] jazz_04::control::ctrl
+[1325/1890] jazz_04::pitch_shift::-4st
+[1326/1890] jazz_04::pitch_shift::-2st
+[1327/1890] jazz_04::pitch_shift::-1st
+[1328/1890] jazz_04::pitch_shift::+1st
+[1329/1890] jazz_04::pitch_shift::+2st
+[1330/1890] jazz_04::pitch_shift::+4st
+[1331/1890] jazz_04::time_stretch::-20pct
+[1332/1890] jazz_04::time_stretch::-10pct
+[1333/1890] jazz_04::time_stretch::-5pct
+[1334/1890] jazz_04::time_stretch::+5pct
+[1335/1890] jazz_04::time_stretch::+20pct
+[1336/1890] jazz_04::time_stretch::+10pct
+[1337/1890] jazz_04::lowpass::lp8000
+[1338/1890] jazz_04::lowpass::lp4000
+[1339/1890] jazz_04::lowpass::lp2000
+[1340/1890] jazz_04::distortion::drv4
+[1341/1890] jazz_04::distortion::drv12
+[1342/1890] jazz_04::style_swap::swap_cross
+[1343/1890] jazz_04::distortion::drv32
+[1344/1890] jazz_04::style_swap::swap_same
+[1345/1890] jazz_05::control::ctrl
+[1346/1890] jazz_05::pitch_shift::-4st
+[1347/1890] jazz_05::pitch_shift::-2st
+[1348/1890] jazz_05::pitch_shift::-1st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1349/1890] jazz_05::pitch_shift::+1st
+[1350/1890] jazz_05::pitch_shift::+2st
+[1351/1890] jazz_05::pitch_shift::+4st
+[1352/1890] jazz_05::time_stretch::-20pct
+[1353/1890] jazz_05::time_stretch::-10pct
+[1354/1890] jazz_05::time_stretch::-5pct
+[1355/1890] jazz_05::time_stretch::+5pct
+[1356/1890] jazz_05::time_stretch::+10pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1357/1890] jazz_05::time_stretch::+20pct
+[1358/1890] jazz_05::lowpass::lp8000
+[1359/1890] jazz_05::lowpass::lp4000
+[1360/1890] jazz_05::lowpass::lp2000
+[1361/1890] jazz_05::distortion::drv4
+[1362/1890] jazz_05::distortion::drv12
+[1363/1890] jazz_05::distortion::drv32
+[1364/1890] jazz_05::style_swap::swap_cross
+[1365/1890] jazz_05::style_swap::swap_same
+[1366/1890] jazz_06::control::ctrl
+[1367/1890] jazz_06::pitch_shift::-4st
+[1368/1890] jazz_06::pitch_shift::-2st
+[1369/1890] jazz_06::pitch_shift::-1st
+[1370/1890] jazz_06::pitch_shift::+1st
+[1371/1890] jazz_06::pitch_shift::+2st
+[1372/1890] jazz_06::pitch_shift::+4st
+[1373/1890] jazz_06::time_stretch::-10pct
+[1374/1890] jazz_06::time_stretch::-20pct
+[1375/1890] jazz_06::time_stretch::-5pct
+[1376/1890] jazz_06::time_stretch::+5pct
+[1377/1890] jazz_06::time_stretch::+10pct
+[1378/1890] jazz_06::time_stretch::+20pct
+[1379/1890] jazz_06::lowpass::lp8000
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1380/1890] jazz_06::distortion::drv4
+[1381/1890] jazz_06::lowpass::lp4000
+[1382/1890] jazz_06::lowpass::lp2000
+[1383/1890] jazz_06::distortion::drv12
+[1384/1890] jazz_06::distortion::drv32
+[1385/1890] jazz_06::style_swap::swap_cross
+[1386/1890] jazz_06::style_swap::swap_same
+[1387/1890] jazz_07::control::ctrl
+[1388/1890] jazz_07::pitch_shift::-2st
+[1389/1890] jazz_07::pitch_shift::-4st
+[1390/1890] jazz_07::pitch_shift::-1st
+[1391/1890] jazz_07::pitch_shift::+1st
+[1392/1890] jazz_07::pitch_shift::+2st
+[1393/1890] jazz_07::pitch_shift::+4st
+[1394/1890] jazz_07::time_stretch::-20pct
+[1395/1890] jazz_07::time_stretch::-10pct
+[1396/1890] jazz_07::time_stretch::+5pct
+[1397/1890] jazz_07::time_stretch::-5pct
+[1398/1890] jazz_07::time_stretch::+20pct
+[1399/1890] jazz_07::lowpass::lp8000
+[1400/1890] jazz_07::time_stretch::+10pct
+[1401/1890] jazz_07::lowpass::lp4000
+[1402/1890] jazz_07::lowpass::lp2000
+[1403/1890] jazz_07::distortion::drv4
+[1404/1890] jazz_07::distortion::drv12
+[1405/1890] jazz_07::distortion::drv32
+[1406/1890] jazz_07::style_swap::swap_cross
+[1407/1890] jazz_07::style_swap::swap_same
+[1408/1890] jazz_08::pitch_shift::-4st
+[1409/1890] jazz_08::control::ctrl
+[1410/1890] jazz_08::pitch_shift::-2st
+[1411/1890] jazz_08::pitch_shift::-1st
+[1412/1890] jazz_08::pitch_shift::+2st
+[1413/1890] jazz_08::pitch_shift::+4st
+[1414/1890] jazz_08::pitch_shift::+1st
+[1415/1890] jazz_08::time_stretch::-20pct
+[1416/1890] jazz_08::time_stretch::-5pct
+[1417/1890] jazz_08::time_stretch::-10pct
+[1418/1890] jazz_08::time_stretch::+5pct
+[1419/1890] jazz_08::time_stretch::+10pct
+[1420/1890] jazz_08::time_stretch::+20pct
+[1421/1890] jazz_08::lowpass::lp8000
+[1422/1890] jazz_08::lowpass::lp4000
+[1423/1890] jazz_08::lowpass::lp2000
+[1424/1890] jazz_08::distortion::drv4
+[1425/1890] jazz_08::distortion::drv12
+[1426/1890] jazz_08::distortion::drv32
+[1427/1890] jazz_08::style_swap::swap_cross
+[1428/1890] jazz_08::style_swap::swap_same
+[1429/1890] jazz_09::control::ctrl
+[1430/1890] jazz_09::pitch_shift::-4st
+[1431/1890] jazz_09::pitch_shift::-2st
+[1432/1890] jazz_09::pitch_shift::-1st
+[1433/1890] jazz_09::pitch_shift::+1st
+[1434/1890] jazz_09::pitch_shift::+2st
+[1435/1890] jazz_09::time_stretch::-20pct
+[1436/1890] jazz_09::pitch_shift::+4st
+[1437/1890] jazz_09::time_stretch::-10pct
+[1438/1890] jazz_09::time_stretch::-5pct
+[1439/1890] jazz_09::time_stretch::+5pct
+[1440/1890] jazz_09::time_stretch::+10pct
+[1441/1890] jazz_09::time_stretch::+20pct
+[1442/1890] jazz_09::lowpass::lp8000
+[1443/1890] jazz_09::lowpass::lp4000
+[1444/1890] jazz_09::lowpass::lp2000
+[1445/1890] jazz_09::distortion::drv4
+[1446/1890] jazz_09::distortion::drv12
+[1447/1890] jazz_09::style_swap::swap_cross
+[1448/1890] jazz_09::distortion::drv32
+[1449/1890] jazz_09::style_swap::swap_same
+[1450/1890] jazz_10::control::ctrl
+[1451/1890] jazz_10::pitch_shift::-4st
+[1452/1890] jazz_10::pitch_shift::-2st
+[1453/1890] jazz_10::pitch_shift::-1st
+[1454/1890] jazz_10::pitch_shift::+1st
+[1455/1890] jazz_10::pitch_shift::+2st
+[1456/1890] jazz_10::pitch_shift::+4st
+[1457/1890] jazz_10::time_stretch::-10pct
+[1458/1890] jazz_10::time_stretch::-20pct
+[1459/1890] jazz_10::time_stretch::-5pct
+[1460/1890] jazz_10::time_stretch::+5pct
+[1461/1890] jazz_10::time_stretch::+10pct
+[1462/1890] jazz_10::time_stretch::+20pct
+[1463/1890] jazz_10::lowpass::lp8000
+[1464/1890] jazz_10::lowpass::lp4000
+[1465/1890] jazz_10::lowpass::lp2000
+[1466/1890] jazz_10::distortion::drv4
+[1467/1890] jazz_10::distortion::drv12
+[1468/1890] jazz_10::distortion::drv32
+[1469/1890] jazz_10::style_swap::swap_cross
+[1470/1890] jazz_10::style_swap::swap_same
+[1471/1890] jazz_11::control::ctrl
+[1472/1890] jazz_11::pitch_shift::-4st
+[1473/1890] jazz_11::pitch_shift::-2st
+[1474/1890] jazz_11::pitch_shift::-1st
+[1475/1890] jazz_11::pitch_shift::+1st
+[1476/1890] jazz_11::pitch_shift::+4st
+[1477/1890] jazz_11::pitch_shift::+2st
+[1478/1890] jazz_11::time_stretch::-20pct
+[1479/1890] jazz_11::time_stretch::-10pct
+[1480/1890] jazz_11::time_stretch::-5pct
+[1481/1890] jazz_11::time_stretch::+5pct
+[1482/1890] jazz_11::time_stretch::+10pct
+[1483/1890] jazz_11::time_stretch::+20pct
+[1484/1890] jazz_11::lowpass::lp8000
+[1485/1890] jazz_11::lowpass::lp4000
+[1486/1890] jazz_11::lowpass::lp2000
+[1487/1890] jazz_11::distortion::drv4
+[1488/1890] jazz_11::distortion::drv12
+[1489/1890] jazz_11::style_swap::swap_cross
+[1490/1890] jazz_11::style_swap::swap_same
+[1491/1890] jazz_12::control::ctrl
+[1492/1890] jazz_12::pitch_shift::-4st
+[1493/1890] jazz_11::distortion::drv32
+[1494/1890] jazz_12::pitch_shift::-2st
+[1495/1890] jazz_12::pitch_shift::-1st
+[1496/1890] jazz_12::pitch_shift::+1st
+[1497/1890] jazz_12::pitch_shift::+2st
+[1498/1890] jazz_12::pitch_shift::+4st
+[1499/1890] jazz_12::time_stretch::-20pct
+[1500/1890] jazz_12::time_stretch::-5pct
+[1501/1890] jazz_12::time_stretch::-10pct
+[1502/1890] jazz_12::time_stretch::+5pct
+[1503/1890] jazz_12::time_stretch::+10pct
+[1504/1890] jazz_12::time_stretch::+20pct
+[1505/1890] jazz_12::lowpass::lp8000
+[1506/1890] jazz_12::lowpass::lp4000
+[1507/1890] jazz_12::distortion::drv4
+[1508/1890] jazz_12::lowpass::lp2000
+[1509/1890] jazz_12::distortion::drv12
+[1510/1890] jazz_12::distortion::drv32
+[1511/1890] jazz_12::style_swap::swap_cross
+[1512/1890] jazz_12::style_swap::swap_same
+[1513/1890] jazz_13::control::ctrl
+[1514/1890] jazz_13::pitch_shift::-4st
+[1515/1890] jazz_13::pitch_shift::-1st
+[1516/1890] jazz_13::pitch_shift::+1st
+[1517/1890] jazz_13::pitch_shift::-2st
+[1518/1890] jazz_13::pitch_shift::+2st
+[1519/1890] jazz_13::pitch_shift::+4st
+[1520/1890] jazz_13::time_stretch::-20pct
+[1521/1890] jazz_13::time_stretch::-10pct
+[1522/1890] jazz_13::time_stretch::-5pct
+[1523/1890] jazz_13::time_stretch::+20pct
+[1524/1890] jazz_13::time_stretch::+10pct
+[1525/1890] jazz_13::time_stretch::+5pct
+[1526/1890] jazz_13::lowpass::lp8000
+[1527/1890] jazz_13::lowpass::lp4000
+[1528/1890] jazz_13::lowpass::lp2000
+[1529/1890] jazz_13::distortion::drv4
+[1530/1890] jazz_13::distortion::drv12
+[1531/1890] jazz_13::distortion::drv32
+[1532/1890] jazz_13::style_swap::swap_same
+[1533/1890] jazz_13::style_swap::swap_cross
+[1534/1890] jazz_14::control::ctrl
+[1535/1890] jazz_14::pitch_shift::-4st
+[1536/1890] jazz_14::pitch_shift::-2st
+[1537/1890] jazz_14::pitch_shift::-1st
+[1538/1890] jazz_14::pitch_shift::+1st
+[1539/1890] jazz_14::pitch_shift::+2st
+[1540/1890] jazz_14::pitch_shift::+4st
+[1541/1890] jazz_14::time_stretch::-20pct
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1542/1890] jazz_14::time_stretch::-10pct
+[1543/1890] jazz_14::time_stretch::-5pct
+[1544/1890] jazz_14::time_stretch::+5pct
+[1545/1890] jazz_14::time_stretch::+10pct
+[1546/1890] jazz_14::time_stretch::+20pct
+[1547/1890] jazz_14::lowpass::lp8000
+[1548/1890] jazz_14::lowpass::lp4000
+[1549/1890] jazz_14::lowpass::lp2000
+[1550/1890] jazz_14::distortion::drv4
+[1551/1890] jazz_14::distortion::drv12
+[1552/1890] jazz_14::distortion::drv32
+[1553/1890] jazz_14::style_swap::swap_cross
+[1554/1890] jazz_14::style_swap::swap_same
+[1555/1890] jazz_15::control::ctrl
+[1556/1890] jazz_15::pitch_shift::-4st
+[1557/1890] jazz_15::pitch_shift::-2st
+[1558/1890] jazz_15::pitch_shift::-1st
+[1559/1890] jazz_15::pitch_shift::+1st
+[1560/1890] jazz_15::pitch_shift::+2st
+[1561/1890] jazz_15::time_stretch::-20pct
+[1562/1890] jazz_15::pitch_shift::+4st
+[1563/1890] jazz_15::time_stretch::-10pct
+[1564/1890] jazz_15::time_stretch::-5pct
+[1565/1890] jazz_15::time_stretch::+5pct
+[1566/1890] jazz_15::time_stretch::+10pct
+[1567/1890] jazz_15::lowpass::lp8000
+[1568/1890] jazz_15::time_stretch::+20pct
+[1569/1890] jazz_15::lowpass::lp2000
+[1570/1890] jazz_15::lowpass::lp4000
+[1571/1890] jazz_15::distortion::drv4
+[1572/1890] jazz_15::distortion::drv12
+[1573/1890] jazz_15::distortion::drv32
+[1574/1890] jazz_15::style_swap::swap_cross
+[1575/1890] jazz_15::style_swap::swap_same
+[1576/1890] rock_01::control::ctrl
+[1577/1890] rock_01::pitch_shift::-2st
+[1578/1890] rock_01::pitch_shift::-4st
+[1579/1890] rock_01::pitch_shift::-1st
+[1580/1890] rock_01::pitch_shift::+1st
+[1581/1890] rock_01::pitch_shift::+2st
+[1582/1890] rock_01::pitch_shift::+4st
+[1583/1890] rock_01::time_stretch::-20pct
+[1584/1890] rock_01::time_stretch::-10pct
+[1585/1890] rock_01::time_stretch::+5pct
+[1586/1890] rock_01::time_stretch::-5pct
+[1587/1890] rock_01::time_stretch::+10pct
+[1588/1890] rock_01::time_stretch::+20pct
+[1589/1890] rock_01::lowpass::lp8000
+[1590/1890] rock_01::lowpass::lp4000
+[1591/1890] rock_01::lowpass::lp2000
+[1592/1890] rock_01::distortion::drv4
+[1593/1890] rock_01::distortion::drv12
+[1594/1890] rock_01::distortion::drv32
+[1595/1890] rock_01::style_swap::swap_cross
+[1596/1890] rock_01::style_swap::swap_same
+[1597/1890] rock_02::control::ctrl
+[1598/1890] rock_02::pitch_shift::-4st
+[1599/1890] rock_02::pitch_shift::-2st
+[1600/1890] rock_02::pitch_shift::-1st
+[1601/1890] rock_02::pitch_shift::+1st
+[1602/1890] rock_02::pitch_shift::+2st
+[1603/1890] rock_02::pitch_shift::+4st
+[1604/1890] rock_02::time_stretch::-20pct
+[1605/1890] rock_02::time_stretch::-10pct
+[1606/1890] rock_02::time_stretch::-5pct
+[1607/1890] rock_02::time_stretch::+5pct
+[1608/1890] rock_02::time_stretch::+10pct
+[1609/1890] rock_02::time_stretch::+20pct
+[1610/1890] rock_02::lowpass::lp8000
+[1611/1890] rock_02::lowpass::lp4000
+[1612/1890] rock_02::lowpass::lp2000
+[1613/1890] rock_02::distortion::drv4
+[1614/1890] rock_02::distortion::drv12
+[1615/1890] rock_02::distortion::drv32
+[1616/1890] rock_02::style_swap::swap_cross
+[1617/1890] rock_03::control::ctrl
+[1618/1890] rock_02::style_swap::swap_same
+[1619/1890] rock_03::pitch_shift::-4st
+[1620/1890] rock_03::pitch_shift::-2st
+[1621/1890] rock_03::pitch_shift::-1st
+[1622/1890] rock_03::pitch_shift::+1st
+[1623/1890] rock_03::pitch_shift::+2st
+[1624/1890] rock_03::pitch_shift::+4st
+[1625/1890] rock_03::time_stretch::-20pct
+[1626/1890] rock_03::time_stretch::-10pct
+[1627/1890] rock_03::time_stretch::+5pct
+[1628/1890] rock_03::time_stretch::-5pct
+[1629/1890] rock_03::time_stretch::+20pct
+[1630/1890] rock_03::time_stretch::+10pct
+[1631/1890] rock_03::lowpass::lp8000
+[1632/1890] rock_03::lowpass::lp4000
+[1633/1890] rock_03::distortion::drv4
+[1634/1890] rock_03::lowpass::lp2000
+[1635/1890] rock_03::distortion::drv12
+[1636/1890] rock_03::distortion::drv32
+[1637/1890] rock_03::style_swap::swap_cross
+[1638/1890] rock_03::style_swap::swap_same
+[1639/1890] rock_04::control::ctrl
+[1640/1890] rock_04::pitch_shift::-4st
+[1641/1890] rock_04::pitch_shift::-1st
+[1642/1890] rock_04::pitch_shift::-2st
+[1643/1890] rock_04::pitch_shift::+2st
+[1644/1890] rock_04::pitch_shift::+1st
+[1645/1890] rock_04::time_stretch::-20pct
+[1646/1890] rock_04::pitch_shift::+4st
+[1647/1890] rock_04::time_stretch::-10pct
+[1648/1890] rock_04::time_stretch::-5pct
+[1649/1890] rock_04::time_stretch::+10pct
+[1650/1890] rock_04::time_stretch::+5pct
+[1651/1890] rock_04::time_stretch::+20pct
+[1652/1890] rock_04::lowpass::lp8000
+[1653/1890] rock_04::lowpass::lp4000
+[1654/1890] rock_04::lowpass::lp2000
+[1655/1890] rock_04::distortion::drv4
+[1656/1890] rock_04::distortion::drv12
+[1657/1890] rock_05::control::ctrl
+[1658/1890] rock_05::pitch_shift::-4st
+[1659/1890] rock_04::distortion::drv32
+[1660/1890] rock_04::style_swap::swap_cross
+[1661/1890] rock_04::style_swap::swap_same
+[1662/1890] rock_05::pitch_shift::-2st
+[1663/1890] rock_05::pitch_shift::-1st
+[1664/1890] rock_05::pitch_shift::+1st
+[1665/1890] rock_05::pitch_shift::+2st
+[1666/1890] rock_05::pitch_shift::+4st
+[1667/1890] rock_05::time_stretch::-10pct
+[1668/1890] rock_05::time_stretch::-20pct
+[1669/1890] rock_05::time_stretch::-5pct
+[1670/1890] rock_05::time_stretch::+5pct
+[1671/1890] rock_05::time_stretch::+10pct
+[1672/1890] rock_05::lowpass::lp8000
+[1673/1890] rock_05::lowpass::lp4000
+[1674/1890] rock_05::lowpass::lp2000
+[1675/1890] rock_05::distortion::drv4
+[1676/1890] rock_05::time_stretch::+20pct
+[1677/1890] rock_05::distortion::drv12
+[1678/1890] rock_05::distortion::drv32
+[1679/1890] rock_05::style_swap::swap_cross
+[1680/1890] rock_05::style_swap::swap_same
+[1681/1890] rock_06::control::ctrl
+[1682/1890] rock_06::pitch_shift::-4st
+[1683/1890] rock_06::pitch_shift::-2st
+[1684/1890] rock_06::pitch_shift::-1st
+[1685/1890] rock_06::pitch_shift::+1st
+[1686/1890] rock_06::pitch_shift::+2st
+[1687/1890] rock_06::pitch_shift::+4st
+[1688/1890] rock_06::time_stretch::-20pct
+[1689/1890] rock_06::time_stretch::-10pct
+[1690/1890] rock_06::time_stretch::-5pct
+[1691/1890] rock_06::time_stretch::+5pct
+[1692/1890] rock_06::lowpass::lp8000
+[1693/1890] rock_06::time_stretch::+10pct
+[1694/1890] rock_06::time_stretch::+20pct
+[1695/1890] rock_06::lowpass::lp4000
+[1696/1890] rock_06::lowpass::lp2000
+[1697/1890] rock_06::distortion::drv4
+[1698/1890] rock_06::distortion::drv12
+[1699/1890] rock_06::distortion::drv32
+[1700/1890] rock_06::style_swap::swap_cross
+[1701/1890] rock_06::style_swap::swap_same
+[1702/1890] rock_07::control::ctrl
+[1703/1890] rock_07::pitch_shift::-4st
+[1704/1890] rock_07::pitch_shift::-2st
+[1705/1890] rock_07::pitch_shift::-1st
+[1706/1890] rock_07::pitch_shift::+1st
+[1707/1890] rock_07::pitch_shift::+2st
+[1708/1890] rock_07::pitch_shift::+4st
+[1709/1890] rock_07::time_stretch::-20pct
+[1710/1890] rock_07::time_stretch::-10pct
+[1711/1890] rock_07::time_stretch::-5pct
+[1712/1890] rock_07::time_stretch::+5pct
+[1713/1890] rock_07::time_stretch::+10pct
+[1714/1890] rock_07::time_stretch::+20pct
+[1715/1890] rock_07::lowpass::lp8000
+[1716/1890] rock_07::lowpass::lp4000
+[1717/1890] rock_07::lowpass::lp2000
+[1718/1890] rock_07::distortion::drv4
+[1719/1890] rock_07::distortion::drv12
+[1720/1890] rock_07::distortion::drv32
+[1721/1890] rock_07::style_swap::swap_cross
+[1722/1890] rock_08::control::ctrl
+[1723/1890] rock_08::pitch_shift::-4st
+[1724/1890] rock_08::pitch_shift::-2st
+[1725/1890] rock_07::style_swap::swap_same
+[1726/1890] rock_08::pitch_shift::-1st
+[1727/1890] rock_08::pitch_shift::+1st
+[1728/1890] rock_08::pitch_shift::+2st
+[1729/1890] rock_08::pitch_shift::+4st
+[1730/1890] rock_08::time_stretch::-20pct
+[1731/1890] rock_08::time_stretch::-10pct
+[1732/1890] rock_08::time_stretch::+5pct
+[1733/1890] rock_08::time_stretch::-5pct
+[1734/1890] rock_08::time_stretch::+10pct
+[1735/1890] rock_08::time_stretch::+20pct
+[1736/1890] rock_08::lowpass::lp8000
+[1737/1890] rock_08::lowpass::lp4000
+[1738/1890] rock_08::lowpass::lp2000
+[1739/1890] rock_08::distortion::drv4
+[1740/1890] rock_08::distortion::drv32
+[1741/1890] rock_08::distortion::drv12
+[1742/1890] rock_08::style_swap::swap_cross
+[1743/1890] rock_08::style_swap::swap_same
+[1744/1890] rock_09::control::ctrl
+[1745/1890] rock_09::pitch_shift::-4st
+[1746/1890] rock_09::pitch_shift::-2st
+[1747/1890] rock_09::pitch_shift::-1st
+[1748/1890] rock_09::pitch_shift::+1st
+[1749/1890] rock_09::pitch_shift::+2st
+[1750/1890] rock_09::pitch_shift::+4st
+[1751/1890] rock_09::time_stretch::-20pct
+[1752/1890] rock_09::time_stretch::-10pct
+[1753/1890] rock_09::time_stretch::-5pct
+[1754/1890] rock_09::time_stretch::+5pct
+[1755/1890] rock_09::time_stretch::+10pct
+[1756/1890] rock_09::time_stretch::+20pct
+[1757/1890] rock_09::lowpass::lp8000
+[1758/1890] rock_09::lowpass::lp4000
+[1759/1890] rock_09::distortion::drv4
+[1760/1890] rock_09::lowpass::lp2000
+[1761/1890] rock_09::distortion::drv12
+[1762/1890] rock_09::distortion::drv32
+[1763/1890] rock_09::style_swap::swap_cross
+[1764/1890] rock_09::style_swap::swap_same
+[1765/1890] rock_10::control::ctrl
+[1766/1890] rock_10::pitch_shift::-4st
+[1767/1890] rock_10::pitch_shift::-2st
+[1768/1890] rock_10::pitch_shift::-1st
+[1769/1890] rock_10::pitch_shift::+1st
+[1770/1890] rock_10::time_stretch::-20pct
+[1771/1890] rock_10::pitch_shift::+2st
+[1772/1890] rock_10::pitch_shift::+4st
+[1773/1890] rock_10::time_stretch::-5pct
+[1774/1890] rock_10::time_stretch::-10pct
+[1775/1890] rock_10::time_stretch::+20pct
+[1776/1890] rock_10::time_stretch::+5pct
+[1777/1890] rock_10::time_stretch::+10pct
+[1778/1890] rock_10::lowpass::lp8000
+[1779/1890] rock_10::lowpass::lp4000
+[1780/1890] rock_10::lowpass::lp2000
+[1781/1890] rock_10::distortion::drv4
+[1782/1890] rock_10::distortion::drv12
+[1783/1890] rock_10::style_swap::swap_cross
+[1784/1890] rock_11::control::ctrl
+[1785/1890] rock_10::distortion::drv32
+[1786/1890] rock_10::style_swap::swap_same
+[1787/1890] rock_11::pitch_shift::-4st
+[1788/1890] rock_11::pitch_shift::-2st
+[1789/1890] rock_11::pitch_shift::-1st
+[1790/1890] rock_11::pitch_shift::+1st
+[1791/1890] rock_11::pitch_shift::+2st
+[1792/1890] rock_11::pitch_shift::+4st
+[1793/1890] rock_11::time_stretch::-20pct
+[1794/1890] rock_11::time_stretch::-10pct
+[1795/1890] rock_11::time_stretch::-5pct
+[1796/1890] rock_11::time_stretch::+5pct
+[1797/1890] rock_11::time_stretch::+10pct
+[1798/1890] rock_11::time_stretch::+20pct
+[1799/1890] rock_11::lowpass::lp8000
+[1800/1890] rock_11::lowpass::lp4000
+[1801/1890] rock_11::distortion::drv4
+[1802/1890] rock_11::lowpass::lp2000
+[1803/1890] rock_11::distortion::drv12
+[1804/1890] rock_11::distortion::drv32
+[1805/1890] rock_11::style_swap::swap_cross
+[1806/1890] rock_11::style_swap::swap_same
+[1807/1890] rock_12::control::ctrl
+[1808/1890] rock_12::pitch_shift::-4st
+[1809/1890] rock_12::pitch_shift::-1st
+[1810/1890] rock_12::pitch_shift::-2st
+[1811/1890] rock_12::pitch_shift::+1st
+[1812/1890] rock_12::pitch_shift::+2st
+[1813/1890] rock_12::pitch_shift::+4st
+[1814/1890] rock_12::time_stretch::-20pct
+[1815/1890] rock_12::time_stretch::-10pct
+[1816/1890] rock_12::time_stretch::-5pct
+[1817/1890] rock_12::time_stretch::+5pct
+[1818/1890] rock_12::time_stretch::+10pct
+[1819/1890] rock_12::time_stretch::+20pct
+[1820/1890] rock_12::lowpass::lp8000
+[1821/1890] rock_12::lowpass::lp4000
+[1822/1890] rock_12::lowpass::lp2000
+[1823/1890] rock_12::distortion::drv4
+[1824/1890] rock_12::style_swap::swap_cross
+[1825/1890] rock_12::distortion::drv32
+[1826/1890] rock_12::style_swap::swap_same
+[1827/1890] rock_13::control::ctrl
+[1828/1890] rock_12::distortion::drv12
+[1829/1890] rock_13::pitch_shift::-4st
+[1830/1890] rock_13::pitch_shift::-2st
+[1831/1890] rock_13::pitch_shift::-1st
+[1832/1890] rock_13::pitch_shift::+1st
+[1833/1890] rock_13::pitch_shift::+2st
+[1834/1890] rock_13::pitch_shift::+4st
+[1835/1890] rock_13::time_stretch::-20pct
+[1836/1890] rock_13::time_stretch::-10pct
+[1837/1890] rock_13::time_stretch::-5pct
+[1838/1890] rock_13::time_stretch::+5pct
+[1839/1890] rock_13::time_stretch::+10pct
+[1840/1890] rock_13::lowpass::lp8000
+[1841/1890] rock_13::time_stretch::+20pct
+[1842/1890] rock_13::lowpass::lp4000
+[1843/1890] rock_13::lowpass::lp2000
+[1844/1890] rock_13::distortion::drv4
+[1845/1890] rock_13::distortion::drv12
+[1846/1890] rock_13::distortion::drv32
+[1847/1890] rock_13::style_swap::swap_cross
+[1848/1890] rock_13::style_swap::swap_same
+[1849/1890] rock_14::control::ctrl
+[1850/1890] rock_14::pitch_shift::-4st
+[1851/1890] rock_14::pitch_shift::-2st
+[1852/1890] rock_14::pitch_shift::-1st
+[1853/1890] rock_14::pitch_shift::+1st
+[1854/1890] rock_14::pitch_shift::+2st
+[1855/1890] rock_14::pitch_shift::+4st
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1856/1890] rock_14::time_stretch::-5pct
+[1857/1890] rock_14::time_stretch::-20pct
+[1858/1890] rock_14::time_stretch::+5pct
+[1859/1890] rock_14::time_stretch::-10pct
+[1860/1890] rock_14::time_stretch::+10pct
+[1861/1890] rock_14::time_stretch::+20pct
+[1862/1890] rock_14::lowpass::lp8000
+[1863/1890] rock_14::lowpass::lp4000
+[1864/1890] rock_14::lowpass::lp2000
+[1865/1890] rock_14::distortion::drv4
+[1866/1890] rock_14::distortion::drv12
+[1867/1890] rock_14::distortion::drv32
+[1868/1890] rock_14::style_swap::swap_cross
+[1869/1890] rock_14::style_swap::swap_same
+[1870/1890] rock_15::control::ctrl
+[1871/1890] rock_15::pitch_shift::-4st
+[1872/1890] rock_15::pitch_shift::-2st
+[1873/1890] rock_15::pitch_shift::+1st
+[1874/1890] rock_15::pitch_shift::-1st
+[1875/1890] rock_15::pitch_shift::+2st
+[1876/1890] rock_15::pitch_shift::+4st
+[1877/1890] rock_15::time_stretch::-20pct
+[1878/1890] rock_15::time_stretch::-10pct
+[1879/1890] rock_15::time_stretch::-5pct
+[1880/1890] rock_15::time_stretch::+5pct
+[1881/1890] rock_15::time_stretch::+10pct
+[1882/1890] rock_15::lowpass::lp8000
+[1883/1890] rock_15::time_stretch::+20pct
+[1884/1890] rock_15::lowpass::lp4000
+[1885/1890] rock_15::lowpass::lp2000
+[1886/1890] rock_15::distortion::drv4
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1887/1890] rock_15::distortion::drv12
+WARNING:root:Audio file too short, or too many few beats estimated. Returning empty estimations.
+[1888/1890] rock_15::style_swap::swap_same
+[1889/1890] rock_15::distortion::drv32
+[1890/1890] rock_15::style_swap::swap_cross
+
+done — 1890 record(s) → results/musecp/setup1/results.json
+  failed pairs:            0
+  pairs w/ failed metric:  0
+  degraded (meaningless):  2

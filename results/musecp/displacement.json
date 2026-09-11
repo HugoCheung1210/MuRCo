@@ -1,0 +1,1397 @@
+{
+ "meta": {
+  "n_temporal": 540,
+  "n_setup1": 1890,
+  "metrics": [
+   "musecp_key",
+   "musecp_chroma_mean",
+   "musecp_chroma_dtw",
+   "musecp_bpm",
+   "musecp_beat_f",
+   "musecp_beat_ig",
+   "musecp_struct_f",
+   "musecp_ari",
+   "musecp_contour",
+   "musecp_motif",
+   "musecp_mfcc_skl",
+   "musecp_mfcc_cos",
+   "musecp_mean12",
+   "musecp_mean10",
+   "C",
+   "C_noS",
+   "H",
+   "T",
+   "R",
+   "S"
+  ],
+  "caveat": "temporal pairs are 8 s and Setup-1 pairs 10 s; H/T/R read the whole file, S read 8 s in both, MuseCPEval read the whole file in both",
+  "sources": {
+   "temporal_musecp": "results/musecp/temporal/musecp_metrics.csv",
+   "temporal_scores": "results/temporal/pair_scores.csv",
+   "setup1_musecp": "results/musecp/setup1/musecp_metrics.csv",
+   "setup1_scores": "results/coherence/pair_scores.csv"
+  }
+ },
+ "levels": {
+  "temporal:control": {
+   "musecp_key": 1.0,
+   "musecp_chroma_mean": 1.0,
+   "musecp_chroma_dtw": 1.0,
+   "musecp_bpm": 1.0,
+   "musecp_beat_f": 0.9778,
+   "musecp_beat_ig": 0.9333,
+   "musecp_struct_f": 1.0,
+   "musecp_ari": 1.0,
+   "musecp_contour": 0.9996,
+   "musecp_motif": 0.9902,
+   "musecp_mfcc_skl": 1.0,
+   "musecp_mfcc_cos": 1.0,
+   "musecp_mean12": 0.9917,
+   "musecp_mean10": 0.9901,
+   "C": 0.8519,
+   "C_noS": 0.9993,
+   "H": 1.0,
+   "T": 0.9979,
+   "R": 1.0,
+   "S": 0.5363,
+   "n": 90
+  },
+  "temporal:displacement": {
+   "musecp_key": 0.7769,
+   "musecp_chroma_mean": 0.9436,
+   "musecp_chroma_dtw": 0.8814,
+   "musecp_bpm": 0.6131,
+   "musecp_beat_f": 0.2566,
+   "musecp_beat_ig": 0.5366,
+   "musecp_struct_f": 0.9531,
+   "musecp_ari": 0.6172,
+   "musecp_contour": 0.3492,
+   "musecp_motif": 0.1107,
+   "musecp_mfcc_skl": 0.5175,
+   "musecp_mfcc_cos": 0.981,
+   "musecp_mean12": 0.5891,
+   "musecp_mean10": 0.5636,
+   "C": 0.6805,
+   "C_noS": 0.7885,
+   "H": 0.9491,
+   "T": 0.631,
+   "R": 0.832,
+   "S": 0.4472,
+   "n": 180
+  },
+  "temporal:shuffle": {
+   "musecp_key": 0.9556,
+   "musecp_chroma_mean": 0.9987,
+   "musecp_chroma_dtw": 0.932,
+   "musecp_bpm": 0.6684,
+   "musecp_beat_f": 0.3029,
+   "musecp_beat_ig": 0.5284,
+   "musecp_struct_f": 0.9542,
+   "musecp_ari": 0.6545,
+   "musecp_contour": 0.4198,
+   "musecp_motif": 0.2948,
+   "musecp_mfcc_skl": 0.8662,
+   "musecp_mfcc_cos": 1.0,
+   "musecp_mean12": 0.6918,
+   "musecp_mean10": 0.6436,
+   "C": 0.804,
+   "C_noS": 0.9153,
+   "H": 0.999,
+   "T": 0.9224,
+   "R": 0.8373,
+   "S": 0.5561,
+   "n": 180
+  },
+  "temporal:reverse": {
+   "musecp_key": 0.9685,
+   "musecp_chroma_mean": 0.9994,
+   "musecp_chroma_dtw": 0.8989,
+   "musecp_bpm": 0.6525,
+   "musecp_beat_f": 0.3517,
+   "musecp_beat_ig": 0.5572,
+   "musecp_struct_f": 0.9613,
+   "musecp_ari": 0.6312,
+   "musecp_contour": 0.3374,
+   "musecp_motif": 0.1859,
+   "musecp_mfcc_skl": 0.733,
+   "musecp_mfcc_cos": 1.0,
+   "musecp_mean12": 0.664,
+   "musecp_mean10": 0.6237,
+   "C": 0.7843,
+   "C_noS": 0.9347,
+   "H": 0.9996,
+   "T": 0.9979,
+   "R": 0.8232,
+   "S": 0.4751,
+   "n": 90
+  },
+  "setup1:control": {
+   "musecp_key": 1.0,
+   "musecp_chroma_mean": 1.0,
+   "musecp_chroma_dtw": 1.0,
+   "musecp_bpm": 1.0,
+   "musecp_beat_f": 0.9556,
+   "musecp_beat_ig": 0.9556,
+   "musecp_struct_f": 1.0,
+   "musecp_ari": 1.0,
+   "musecp_contour": 1.0,
+   "musecp_motif": 1.0,
+   "musecp_mfcc_skl": 1.0,
+   "musecp_mfcc_cos": 1.0,
+   "musecp_mean12": 0.9926,
+   "musecp_mean10": 0.9911,
+   "C": 0.9452,
+   "C_noS": 0.9994,
+   "H": 1.0,
+   "T": 0.9981,
+   "R": 1.0,
+   "S": 0.8016,
+   "n": 90
+  },
+  "setup1:style_swap": {
+   "musecp_key": 0.5463,
+   "musecp_chroma_mean": 0.8514,
+   "musecp_chroma_dtw": 0.7743,
+   "musecp_bpm": 0.2485,
+   "musecp_beat_f": 0.2583,
+   "musecp_beat_ig": 0.3823,
+   "musecp_struct_f": 0.9018,
+   "musecp_ari": 0.5267,
+   "musecp_contour": 0.2846,
+   "musecp_motif": 0.0272,
+   "musecp_mfcc_skl": 0.192,
+   "musecp_mfcc_cos": 0.8668,
+   "musecp_mean12": 0.4508,
+   "musecp_mean10": 0.436,
+   "C": 0.6359,
+   "C_noS": 0.6507,
+   "H": 0.8601,
+   "T": 0.4428,
+   "R": 0.7446,
+   "S": 0.5993,
+   "n": 180
+  },
+  "temporal:disp_near": {
+   "musecp_key": 0.7704,
+   "musecp_chroma_mean": 0.9469,
+   "musecp_chroma_dtw": 0.8871,
+   "musecp_bpm": 0.6008,
+   "musecp_beat_f": 0.2353,
+   "musecp_beat_ig": 0.5315,
+   "musecp_struct_f": 0.956,
+   "musecp_ari": 0.644,
+   "musecp_contour": 0.358,
+   "musecp_motif": 0.1165,
+   "musecp_mfcc_skl": 0.5431,
+   "musecp_mfcc_cos": 0.9827,
+   "musecp_mean12": 0.5936,
+   "musecp_mean10": 0.5658,
+   "C": 0.6901,
+   "C_noS": 0.7971,
+   "H": 0.9515,
+   "T": 0.6456,
+   "R": 0.8376,
+   "S": 0.457,
+   "n": 90
+  },
+  "temporal:disp_far": {
+   "musecp_key": 0.7833,
+   "musecp_chroma_mean": 0.9403,
+   "musecp_chroma_dtw": 0.8757,
+   "musecp_bpm": 0.6254,
+   "musecp_beat_f": 0.2779,
+   "musecp_beat_ig": 0.5418,
+   "musecp_struct_f": 0.9503,
+   "musecp_ari": 0.5905,
+   "musecp_contour": 0.3404,
+   "musecp_motif": 0.105,
+   "musecp_mfcc_skl": 0.492,
+   "musecp_mfcc_cos": 0.9793,
+   "musecp_mean12": 0.5845,
+   "musecp_mean10": 0.5614,
+   "C": 0.6709,
+   "C_noS": 0.7799,
+   "H": 0.9466,
+   "T": 0.6164,
+   "R": 0.8264,
+   "S": 0.4374,
+   "n": 90
+  },
+  "setup1:swap_same": {
+   "musecp_key": 0.5296,
+   "musecp_chroma_mean": 0.8498,
+   "musecp_chroma_dtw": 0.7711,
+   "musecp_bpm": 0.2067,
+   "musecp_beat_f": 0.2679,
+   "musecp_beat_ig": 0.3889,
+   "musecp_struct_f": 0.9005,
+   "musecp_ari": 0.5052,
+   "musecp_contour": 0.288,
+   "musecp_motif": 0.0252,
+   "musecp_mfcc_skl": 0.2139,
+   "musecp_mfcc_cos": 0.8786,
+   "musecp_mean12": 0.4479,
+   "musecp_mean10": 0.429,
+   "C": 0.6494,
+   "C_noS": 0.6596,
+   "H": 0.8582,
+   "T": 0.458,
+   "R": 0.7525,
+   "S": 0.6242,
+   "n": 90
+  },
+  "setup1:swap_cross": {
+   "musecp_key": 0.563,
+   "musecp_chroma_mean": 0.853,
+   "musecp_chroma_dtw": 0.7775,
+   "musecp_bpm": 0.2902,
+   "musecp_beat_f": 0.2488,
+   "musecp_beat_ig": 0.3756,
+   "musecp_struct_f": 0.903,
+   "musecp_ari": 0.5482,
+   "musecp_contour": 0.2811,
+   "musecp_motif": 0.0292,
+   "musecp_mfcc_skl": 0.1702,
+   "musecp_mfcc_cos": 0.8549,
+   "musecp_mean12": 0.4538,
+   "musecp_mean10": 0.443,
+   "C": 0.6224,
+   "C_noS": 0.6417,
+   "H": 0.8619,
+   "T": 0.4276,
+   "R": 0.7367,
+   "S": 0.5744,
+   "n": 90
+  }
+ },
+ "control_level_gap_temporal_minus_setup1": {
+  "musecp_key": 0.0,
+  "musecp_chroma_mean": 0.0,
+  "musecp_chroma_dtw": 0.0,
+  "musecp_bpm": 0.0,
+  "musecp_beat_f": 0.0222,
+  "musecp_beat_ig": -0.0223,
+  "musecp_struct_f": 0.0,
+  "musecp_ari": 0.0,
+  "musecp_contour": -0.0004,
+  "musecp_motif": -0.0098,
+  "musecp_mfcc_skl": 0.0,
+  "musecp_mfcc_cos": 0.0,
+  "musecp_mean12": -0.0009,
+  "musecp_mean10": -0.001,
+  "C": -0.0933,
+  "C_noS": -0.0001,
+  "H": 0.0,
+  "T": -0.0002,
+  "R": 0.0,
+  "S": -0.2653
+ },
+ "auc": {
+  "displacement_vs_substitution": {
+   "n_pos": 180,
+   "n_neg": 180,
+   "auc": {
+    "musecp_key": {
+     "auc": 0.7406,
+     "ci95": [
+      0.6785,
+      0.7855
+     ]
+    },
+    "musecp_chroma_mean": {
+     "auc": 0.8258,
+     "ci95": [
+      0.7747,
+      0.8744
+     ]
+    },
+    "musecp_chroma_dtw": {
+     "auc": 0.7872,
+     "ci95": [
+      0.74,
+      0.8347
+     ]
+    },
+    "musecp_bpm": {
+     "auc": 0.7484,
+     "ci95": [
+      0.6903,
+      0.8022
+     ]
+    },
+    "musecp_beat_f": {
+     "auc": 0.4249,
+     "ci95": [
+      0.3769,
+      0.4932
+     ]
+    },
+    "musecp_beat_ig": {
+     "auc": 0.8307,
+     "ci95": [
+      0.7714,
+      0.885
+     ]
+    },
+    "musecp_struct_f": {
+     "auc": 0.548,
+     "ci95": [
+      0.486,
+      0.6109
+     ]
+    },
+    "musecp_ari": {
+     "auc": 0.5517,
+     "ci95": [
+      0.4902,
+      0.6167
+     ]
+    },
+    "musecp_contour": {
+     "auc": 0.7699,
+     "ci95": [
+      0.7198,
+      0.8201
+     ]
+    },
+    "musecp_motif": {
+     "auc": 0.7946,
+     "ci95": [
+      0.5548,
+      0.6681
+     ]
+    },
+    "musecp_mfcc_skl": {
+     "auc": 0.9097,
+     "ci95": [
+      0.864,
+      0.9505
+     ]
+    },
+    "musecp_mfcc_cos": {
+     "auc": 0.9208,
+     "ci95": [
+      0.8876,
+      0.9505
+     ]
+    },
+    "musecp_mean12": {
+     "auc": 0.8307,
+     "ci95": [
+      0.7793,
+      0.8792
+     ]
+    },
+    "musecp_mean10": {
+     "auc": 0.7932,
+     "ci95": [
+      0.7381,
+      0.8453
+     ]
+    },
+    "C": {
+     "auc": 0.7087,
+     "ci95": [
+      0.6395,
+      0.7778
+     ]
+    },
+    "C_noS": {
+     "auc": 0.9466,
+     "ci95": [
+      0.9165,
+      0.9724
+     ]
+    },
+    "H": {
+     "auc": 0.8319,
+     "ci95": [
+      0.78,
+      0.8809
+     ]
+    },
+    "T": {
+     "auc": 0.9311,
+     "ci95": [
+      0.8969,
+      0.9608
+     ]
+    },
+    "R": {
+     "auc": 0.6589,
+     "ci95": [
+      0.6136,
+      0.709
+     ]
+    },
+    "S": {
+     "auc": 0.135,
+     "ci95": [
+      0.0933,
+      0.1816
+     ]
+    }
+   },
+   "auc_control_normalised": {
+    "musecp_key": {
+     "auc": 0.7406,
+     "ci95": [
+      0.6785,
+      0.7855
+     ]
+    },
+    "musecp_chroma_mean": {
+     "auc": 0.8258,
+     "ci95": [
+      0.7747,
+      0.8744
+     ]
+    },
+    "musecp_chroma_dtw": {
+     "auc": 0.7872,
+     "ci95": [
+      0.74,
+      0.8347
+     ]
+    },
+    "musecp_bpm": {
+     "auc": 0.7484,
+     "ci95": [
+      0.6903,
+      0.8022
+     ]
+    },
+    "musecp_beat_f": {
+     "auc": 0.4257,
+     "ci95": [
+      0.374,
+      0.4893
+     ]
+    },
+    "musecp_beat_ig": {
+     "auc": 0.845,
+     "ci95": [
+      0.7872,
+      0.9008
+     ]
+    },
+    "musecp_struct_f": {
+     "auc": 0.548,
+     "ci95": [
+      0.486,
+      0.6109
+     ]
+    },
+    "musecp_ari": {
+     "auc": 0.5517,
+     "ci95": [
+      0.4902,
+      0.6167
+     ]
+    },
+    "musecp_contour": {
+     "auc": 0.7705,
+     "ci95": [
+      0.7204,
+      0.8204
+     ]
+    },
+    "musecp_motif": {
+     "auc": 0.7961,
+     "ci95": [
+      0.5567,
+      0.6692
+     ]
+    },
+    "musecp_mfcc_skl": {
+     "auc": 0.9097,
+     "ci95": [
+      0.864,
+      0.9505
+     ]
+    },
+    "musecp_mfcc_cos": {
+     "auc": 0.9208,
+     "ci95": [
+      0.8876,
+      0.9505
+     ]
+    },
+    "musecp_mean12": {
+     "auc": 0.8315,
+     "ci95": [
+      0.7802,
+      0.8798
+     ]
+    },
+    "musecp_mean10": {
+     "auc": 0.794,
+     "ci95": [
+      0.7389,
+      0.8461
+     ]
+    },
+    "C": {
+     "auc": 0.8858,
+     "ci95": [
+      0.8381,
+      0.9286
+     ]
+    },
+    "C_noS": {
+     "auc": 0.9466,
+     "ci95": [
+      0.9165,
+      0.9724
+     ]
+    },
+    "H": {
+     "auc": 0.8319,
+     "ci95": [
+      0.78,
+      0.8809
+     ]
+    },
+    "T": {
+     "auc": 0.9312,
+     "ci95": [
+      0.897,
+      0.9608
+     ]
+    },
+    "R": {
+     "auc": 0.6589,
+     "ci95": [
+      0.6136,
+      0.709
+     ]
+    },
+    "S": {
+     "auc": 0.655,
+     "ci95": [
+      0.582,
+      0.7276
+     ]
+    }
+   },
+   "C - musecp_mean12": {
+    "delta_auc": 0.0543,
+    "ci95": [
+     0.0155,
+     0.0931
+    ],
+    "excludes_zero": true
+   },
+   "C_noS - musecp_mean12": {
+    "delta_auc": 0.1151,
+    "ci95": [
+     0.0763,
+     0.1549
+    ],
+    "excludes_zero": true
+   },
+   "C - musecp_mean10": {
+    "delta_auc": 0.0917,
+    "ci95": [
+     0.0451,
+     0.1384
+    ],
+    "excludes_zero": true
+   },
+   "C_noS - musecp_mean10": {
+    "delta_auc": 0.1525,
+    "ci95": [
+     0.1086,
+     0.1984
+    ],
+    "excludes_zero": true
+   }
+  },
+  "displacement_vs_swap_cross": {
+   "n_pos": 180,
+   "n_neg": 90,
+   "auc": {
+    "musecp_key": {
+     "auc": 0.736,
+     "ci95": [
+      0.6503,
+      0.7836
+     ]
+    },
+    "musecp_chroma_mean": {
+     "auc": 0.8316,
+     "ci95": [
+      0.7725,
+      0.8851
+     ]
+    },
+    "musecp_chroma_dtw": {
+     "auc": 0.7918,
+     "ci95": [
+      0.7351,
+      0.8449
+     ]
+    },
+    "musecp_bpm": {
+     "auc": 0.7275,
+     "ci95": [
+      0.656,
+      0.787
+     ]
+    },
+    "musecp_beat_f": {
+     "auc": 0.4536,
+     "ci95": [
+      0.385,
+      0.5093
+     ]
+    },
+    "musecp_beat_ig": {
+     "auc": 0.8323,
+     "ci95": [
+      0.771,
+      0.8887
+     ]
+    },
+    "musecp_struct_f": {
+     "auc": 0.541,
+     "ci95": [
+      0.4581,
+      0.6096
+     ]
+    },
+    "musecp_ari": {
+     "auc": 0.5485,
+     "ci95": [
+      0.4627,
+      0.6071
+     ]
+    },
+    "musecp_contour": {
+     "auc": 0.7875,
+     "ci95": [
+      0.7365,
+      0.8378
+     ]
+    },
+    "musecp_motif": {
+     "auc": 0.6867,
+     "ci95": [
+      0.5317,
+      0.6645
+     ]
+    },
+    "musecp_mfcc_skl": {
+     "auc": 0.9251,
+     "ci95": [
+      0.882,
+      0.9625
+     ]
+    },
+    "musecp_mfcc_cos": {
+     "auc": 0.9408,
+     "ci95": [
+      0.9093,
+      0.9672
+     ]
+    },
+    "musecp_mean12": {
+     "auc": 0.8319,
+     "ci95": [
+      0.7731,
+      0.8849
+     ]
+    },
+    "musecp_mean10": {
+     "auc": 0.7867,
+     "ci95": [
+      0.7224,
+      0.8467
+     ]
+    },
+    "C": {
+     "auc": 0.7629,
+     "ci95": [
+      0.6941,
+      0.8282
+     ]
+    },
+    "C_noS": {
+     "auc": 0.9576,
+     "ci95": [
+      0.9307,
+      0.9799
+     ]
+    },
+    "H": {
+     "auc": 0.8378,
+     "ci95": [
+      0.7777,
+      0.8921
+     ]
+    },
+    "T": {
+     "auc": 0.9515,
+     "ci95": [
+      0.9209,
+      0.9767
+     ]
+    },
+    "R": {
+     "auc": 0.6796,
+     "ci95": [
+      0.6281,
+      0.7352
+     ]
+    },
+    "S": {
+     "auc": 0.1656,
+     "ci95": [
+      0.1139,
+      0.2215
+     ]
+    }
+   },
+   "auc_control_normalised": {
+    "musecp_key": {
+     "auc": 0.736,
+     "ci95": [
+      0.6503,
+      0.7836
+     ]
+    },
+    "musecp_chroma_mean": {
+     "auc": 0.8316,
+     "ci95": [
+      0.7725,
+      0.8851
+     ]
+    },
+    "musecp_chroma_dtw": {
+     "auc": 0.7918,
+     "ci95": [
+      0.7351,
+      0.8449
+     ]
+    },
+    "musecp_bpm": {
+     "auc": 0.7275,
+     "ci95": [
+      0.656,
+      0.787
+     ]
+    },
+    "musecp_beat_f": {
+     "auc": 0.448,
+     "ci95": [
+      0.382,
+      0.5059
+     ]
+    },
+    "musecp_beat_ig": {
+     "auc": 0.8441,
+     "ci95": [
+      0.7838,
+      0.8999
+     ]
+    },
+    "musecp_struct_f": {
+     "auc": 0.541,
+     "ci95": [
+      0.4581,
+      0.6096
+     ]
+    },
+    "musecp_ari": {
+     "auc": 0.5485,
+     "ci95": [
+      0.4627,
+      0.6071
+     ]
+    },
+    "musecp_contour": {
+     "auc": 0.7881,
+     "ci95": [
+      0.7371,
+      0.8386
+     ]
+    },
+    "musecp_motif": {
+     "auc": 0.6881,
+     "ci95": [
+      0.5328,
+      0.6667
+     ]
+    },
+    "musecp_mfcc_skl": {
+     "auc": 0.9251,
+     "ci95": [
+      0.882,
+      0.9625
+     ]
+    },
+    "musecp_mfcc_cos": {
+     "auc": 0.9408,
+     "ci95": [
+      0.9093,
+      0.9672
+     ]
+    },
+    "musecp_mean12": {
+     "auc": 0.8325,
+     "ci95": [
+      0.7736,
+      0.8856
+     ]
+    },
+    "musecp_mean10": {
+     "auc": 0.7877,
+     "ci95": [
+      0.7234,
+      0.8475
+     ]
+    },
+    "C": {
+     "auc": 0.9109,
+     "ci95": [
+      0.866,
+      0.9485
+     ]
+    },
+    "C_noS": {
+     "auc": 0.9576,
+     "ci95": [
+      0.9307,
+      0.9799
+     ]
+    },
+    "H": {
+     "auc": 0.8378,
+     "ci95": [
+      0.7777,
+      0.8921
+     ]
+    },
+    "T": {
+     "auc": 0.9516,
+     "ci95": [
+      0.9209,
+      0.9767
+     ]
+    },
+    "R": {
+     "auc": 0.6796,
+     "ci95": [
+      0.6281,
+      0.7352
+     ]
+    },
+    "S": {
+     "auc": 0.7095,
+     "ci95": [
+      0.6361,
+      0.7808
+     ]
+    }
+   },
+   "C - musecp_mean12": {
+    "delta_auc": 0.0783,
+    "ci95": [
+     0.0374,
+     0.1225
+    ],
+    "excludes_zero": true
+   },
+   "C_noS - musecp_mean12": {
+    "delta_auc": 0.1251,
+    "ci95": [
+     0.0817,
+     0.1716
+    ],
+    "excludes_zero": true
+   },
+   "C - musecp_mean10": {
+    "delta_auc": 0.1232,
+    "ci95": [
+     0.0725,
+     0.1757
+    ],
+    "excludes_zero": true
+   },
+   "C_noS - musecp_mean10": {
+    "delta_auc": 0.1699,
+    "ci95": [
+     0.118,
+     0.2237
+    ],
+    "excludes_zero": true
+   }
+  },
+  "displacement_vs_swap_same": {
+   "n_pos": 180,
+   "n_neg": 90,
+   "auc": {
+    "musecp_key": {
+     "auc": 0.7717,
+     "ci95": [
+      0.687,
+      0.805
+     ]
+    },
+    "musecp_chroma_mean": {
+     "auc": 0.8201,
+     "ci95": [
+      0.7694,
+      0.8693
+     ]
+    },
+    "musecp_chroma_dtw": {
+     "auc": 0.7827,
+     "ci95": [
+      0.7329,
+      0.8335
+     ]
+    },
+    "musecp_bpm": {
+     "auc": 0.7709,
+     "ci95": [
+      0.7102,
+      0.8305
+     ]
+    },
+    "musecp_beat_f": {
+     "auc": 0.4277,
+     "ci95": [
+      0.3575,
+      0.4869
+     ]
+    },
+    "musecp_beat_ig": {
+     "auc": 0.8302,
+     "ci95": [
+      0.7675,
+      0.8865
+     ]
+    },
+    "musecp_struct_f": {
+     "auc": 0.5648,
+     "ci95": [
+      0.4866,
+      0.644
+     ]
+    },
+    "musecp_ari": {
+     "auc": 0.575,
+     "ci95": [
+      0.4988,
+      0.6454
+     ]
+    },
+    "musecp_contour": {
+     "auc": 0.7524,
+     "ci95": [
+      0.6906,
+      0.8122
+     ]
+    },
+    "musecp_motif": {
+     "auc": 0.7228,
+     "ci95": [
+      0.5557,
+      0.6802
+     ]
+    },
+    "musecp_mfcc_skl": {
+     "auc": 0.8943,
+     "ci95": [
+      0.8437,
+      0.939
+     ]
+    },
+    "musecp_mfcc_cos": {
+     "auc": 0.9008,
+     "ci95": [
+      0.859,
+      0.938
+     ]
+    },
+    "musecp_mean12": {
+     "auc": 0.8295,
+     "ci95": [
+      0.778,
+      0.8776
+     ]
+    },
+    "musecp_mean10": {
+     "auc": 0.7998,
+     "ci95": [
+      0.7449,
+      0.8523
+     ]
+    },
+    "C": {
+     "auc": 0.6544,
+     "ci95": [
+      0.5801,
+      0.7315
+     ]
+    },
+    "C_noS": {
+     "auc": 0.9356,
+     "ci95": [
+      0.9001,
+      0.9654
+     ]
+    },
+    "H": {
+     "auc": 0.8261,
+     "ci95": [
+      0.7761,
+      0.876
+     ]
+    },
+    "T": {
+     "auc": 0.9107,
+     "ci95": [
+      0.8703,
+      0.9473
+     ]
+    },
+    "R": {
+     "auc": 0.6381,
+     "ci95": [
+      0.5922,
+      0.6882
+     ]
+    },
+    "S": {
+     "auc": 0.1043,
+     "ci95": [
+      0.0635,
+      0.153
+     ]
+    }
+   },
+   "auc_control_normalised": {
+    "musecp_key": {
+     "auc": 0.7717,
+     "ci95": [
+      0.687,
+      0.805
+     ]
+    },
+    "musecp_chroma_mean": {
+     "auc": 0.8201,
+     "ci95": [
+      0.7694,
+      0.8693
+     ]
+    },
+    "musecp_chroma_dtw": {
+     "auc": 0.7827,
+     "ci95": [
+      0.7329,
+      0.8335
+     ]
+    },
+    "musecp_bpm": {
+     "auc": 0.7709,
+     "ci95": [
+      0.7102,
+      0.8305
+     ]
+    },
+    "musecp_beat_f": {
+     "auc": 0.4133,
+     "ci95": [
+      0.3546,
+      0.4843
+     ]
+    },
+    "musecp_beat_ig": {
+     "auc": 0.8507,
+     "ci95": [
+      0.7865,
+      0.9062
+     ]
+    },
+    "musecp_struct_f": {
+     "auc": 0.5648,
+     "ci95": [
+      0.4866,
+      0.644
+     ]
+    },
+    "musecp_ari": {
+     "auc": 0.575,
+     "ci95": [
+      0.4988,
+      0.6454
+     ]
+    },
+    "musecp_contour": {
+     "auc": 0.7529,
+     "ci95": [
+      0.6917,
+      0.8125
+     ]
+    },
+    "musecp_motif": {
+     "auc": 0.7232,
+     "ci95": [
+      0.5564,
+      0.6802
+     ]
+    },
+    "musecp_mfcc_skl": {
+     "auc": 0.8943,
+     "ci95": [
+      0.8437,
+      0.939
+     ]
+    },
+    "musecp_mfcc_cos": {
+     "auc": 0.9008,
+     "ci95": [
+      0.859,
+      0.938
+     ]
+    },
+    "musecp_mean12": {
+     "auc": 0.8304,
+     "ci95": [
+      0.7793,
+      0.8786
+     ]
+    },
+    "musecp_mean10": {
+     "auc": 0.8004,
+     "ci95": [
+      0.7457,
+      0.853
+     ]
+    },
+    "C": {
+     "auc": 0.8607,
+     "ci95": [
+      0.8059,
+      0.9109
+     ]
+    },
+    "C_noS": {
+     "auc": 0.9356,
+     "ci95": [
+      0.9001,
+      0.9654
+     ]
+    },
+    "H": {
+     "auc": 0.8261,
+     "ci95": [
+      0.7761,
+      0.876
+     ]
+    },
+    "T": {
+     "auc": 0.9108,
+     "ci95": [
+      0.8706,
+      0.9473
+     ]
+    },
+    "R": {
+     "auc": 0.6381,
+     "ci95": [
+      0.5922,
+      0.6882
+     ]
+    },
+    "S": {
+     "auc": 0.6004,
+     "ci95": [
+      0.521,
+      0.6822
+     ]
+    }
+   },
+   "C - musecp_mean12": {
+    "delta_auc": 0.0303,
+    "ci95": [
+     -0.0153,
+     0.0744
+    ],
+    "excludes_zero": false
+   },
+   "C_noS - musecp_mean12": {
+    "delta_auc": 0.1052,
+    "ci95": [
+     0.0636,
+     0.1474
+    ],
+    "excludes_zero": true
+   },
+   "C - musecp_mean10": {
+    "delta_auc": 0.0602,
+    "ci95": [
+     0.0068,
+     0.1121
+    ],
+    "excludes_zero": true
+   },
+   "C_noS - musecp_mean10": {
+    "delta_auc": 0.1351,
+    "ci95": [
+     0.089,
+     0.1833
+    ],
+    "excludes_zero": true
+   }
+  }
+ },
+ "within_temporal_control_vs_displacement": {
+  "n_control": 90,
+  "n_displacement": 180,
+  "auc": {
+   "musecp_key": {
+    "auc": 0.8051,
+    "ci95": [
+     0.7289,
+     0.832
+    ]
+   },
+   "musecp_chroma_mean": {
+    "auc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ]
+   },
+   "musecp_chroma_dtw": {
+    "auc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ]
+   },
+   "musecp_bpm": {
+    "auc": 0.8305,
+    "ci95": [
+     0.7257,
+     0.8328
+    ]
+   },
+   "musecp_beat_f": {
+    "auc": 0.956,
+    "ci95": [
+     0.9285,
+     0.9834
+    ]
+   },
+   "musecp_beat_ig": {
+    "auc": 0.9355,
+    "ci95": [
+     0.8875,
+     0.9788
+    ]
+   },
+   "musecp_struct_f": {
+    "auc": 0.8718,
+    "ci95": [
+     0.8341,
+     0.9092
+    ]
+   },
+   "musecp_ari": {
+    "auc": 0.8615,
+    "ci95": [
+     0.8338,
+     0.909
+    ]
+   },
+   "musecp_contour": {
+    "auc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ]
+   },
+   "musecp_motif": {
+    "auc": 0.9815,
+    "ci95": [
+     0.9639,
+     0.9977
+    ]
+   },
+   "musecp_mfcc_skl": {
+    "auc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ]
+   },
+   "musecp_mfcc_cos": {
+    "auc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ]
+   },
+   "musecp_mean12": {
+    "auc": 0.9999,
+    "ci95": [
+     0.9994,
+     1.0
+    ]
+   },
+   "musecp_mean10": {
+    "auc": 0.9998,
+    "ci95": [
+     0.9991,
+     1.0
+    ]
+   },
+   "C": {
+    "auc": 0.9838,
+    "ci95": [
+     0.968,
+     0.9958
+    ]
+   },
+   "C_noS": {
+    "auc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ]
+   },
+   "H": {
+    "auc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ]
+   },
+   "T": {
+    "auc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ]
+   },
+   "R": {
+    "auc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ]
+   },
+   "S": {
+    "auc": 0.7299,
+    "ci95": [
+     0.6844,
+     0.7796
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "meta": {
+  "n_rated": 154,
+  "n_matched": 154,
+  "n_tracks": 59,
+  "alphas": [
+   0.01,
+   0.1,
+   1.0,
+   10.0,
+   100.0,
+   1000.0
+  ],
+  "musecp_columns": [
+   "musecp_key",
+   "musecp_chroma_mean",
+   "musecp_chroma_dtw",
+   "musecp_bpm",
+   "musecp_beat_f",
+   "musecp_beat_ig",
+   "musecp_struct_f",
+   "musecp_ari",
+   "musecp_contour",
+   "musecp_motif",
+   "musecp_mfcc_skl",
+   "musecp_mfcc_cos"
+  ],
+  "protocol": "leave-one-source-track-out; ridge alpha by inner GroupKFold on the training fold only; features standardised within each training fold",
+  "sources": {
+   "mos": "results/mos/mos_live.csv",
+   "scores": "results/coherence/pair_scores.csv",
+   "musecp": "results/musecp/setup1/musecp_metrics.csv"
+  }
+ },
+ "held_out": {
+  "musecp12": {
+   "r": 0.7747,
+   "n_features": 12,
+   "n_predicted": 154,
+   "alpha_median": 10.0
+  },
+  "musecp10": {
+   "r": 0.5415,
+   "n_features": 10,
+   "n_predicted": 154,
+   "alpha_median": 10.0
+  },
+  "HTRS": {
+   "r": 0.7961,
+   "n_features": 4,
+   "n_predicted": 154,
+   "alpha_median": 1.0
+  },
+  "HTR": {
+   "r": 0.7721,
+   "n_features": 3,
+   "n_predicted": 154,
+   "alpha_median": 0.01
+  },
+  "C_uniform": {
+   "r": 0.7878,
+   "n_features": 0,
+   "n_predicted": 154,
+   "alpha_median": null,
+   "note": "geometric mean at uniform weights, zero fitted parameters"
+  }
+ },
+ "in_sample": {
+  "musecp12": {
+   "r": 0.8143,
+   "coefficients": {
+    "musecp_key": 0.1179,
+    "musecp_chroma_mean": 0.0601,
+    "musecp_chroma_dtw": 0.1492,
+    "musecp_bpm": 0.1947,
+    "musecp_beat_f": -0.1368,
+    "musecp_beat_ig": -0.1061,
+    "musecp_struct_f": -0.1228,
+    "musecp_ari": 0.202,
+    "musecp_contour": 0.209,
+    "musecp_motif": 0.1031,
+    "musecp_mfcc_skl": 0.403,
+    "musecp_mfcc_cos": 0.1095
+   }
+  },
+  "musecp10": {
+   "r": 0.6122,
+   "coefficients": {
+    "musecp_key": 0.1089,
+    "musecp_chroma_mean": 0.1086,
+    "musecp_chroma_dtw": 0.146,
+    "musecp_bpm": 0.1882,
+    "musecp_beat_f": -0.1627,
+    "musecp_beat_ig": -0.0601,
+    "musecp_struct_f": -0.183,
+    "musecp_ari": 0.2953,
+    "musecp_contour": 0.2461,
+    "musecp_motif": 0.0243
+   }
+  },
+  "HTRS": {
+   "r": 0.8105,
+   "coefficients": {
+    "H": 0.2072,
+    "T": 0.5063,
+    "R": 0.2817,
+    "S": 0.2162
+   }
+  },
+  "HTR": {
+   "r": 0.7851,
+   "coefficients": {
+    "H": 0.2483,
+    "T": 0.6106,
+    "R": 0.2915
+   }
+  }
+ },
+ "contrasts": {
+  "C_uniform - musecp12": {
+   "delta_r": 0.0131,
+   "ci95": [
+    -0.0382,
+    0.0687
+   ],
+   "excludes_zero": false,
+   "n_boot": 5000
+  },
+  "C_uniform - musecp10": {
+   "delta_r": 0.2462,
+   "ci95": [
+    0.1594,
+    0.349
+   ],
+   "excludes_zero": true,
+   "n_boot": 5000
+  },
+  "HTRS - musecp12": {
+   "delta_r": 0.0214,
+   "ci95": [
+    -0.0279,
+    0.0759
+   ],
+   "excludes_zero": false,
+   "n_boot": 5000
+  },
+  "HTR - musecp12": {
+   "delta_r": -0.0025,
+   "ci95": [
+    -0.0565,
+    0.0499
+   ],
+   "excludes_zero": false,
+   "n_boot": 5000
+  },
+  "HTRS - HTR": {
+   "delta_r": 0.0239,
+   "ci95": [
+    -0.002,
+    0.0529
+   ],
+   "excludes_zero": false,
+   "n_boot": 5000
+  },
+  "musecp12 - musecp10": {
+   "delta_r": 0.2331,
+   "ci95": [
+    0.1656,
+    0.3132
+   ],
+   "excludes_zero": true,
+   "n_boot": 5000
+  }
+ }
+}

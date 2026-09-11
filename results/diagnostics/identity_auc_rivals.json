@@ -1,0 +1,119 @@
+{
+  "scores": "results/coherence/pair_scores.csv",
+  "baselines": "results/baselines/baseline_scores.json,results/baselines/cocola_scores.csv,results/baselines/rival_scores.json",
+  "n_boot": 2000,
+  "splits": [
+    {
+      "title": "TRANSPOSE vs STYLE-SWAP (the confusion H cannot resolve)",
+      "n_same": 540,
+      "n_diff": 180,
+      "auc": {
+        "H": 0.518,
+        "T": 0.971,
+        "R": 0.978,
+        "S": 0.921,
+        "C_signal(HTR)": 0.961,
+        "C_full(HTRS)": 0.976,
+        "base:clap_htsat": 0.997,
+        "base:scs": 1.0,
+        "base:cocola": 0.685,
+        "base:tunejury_b": 0.425,
+        "base:tunejury_cat": 0.548,
+        "base:tunejury_rel": 0.696,
+        "base:songeval_coherence_b": 0.422,
+        "base:songeval_coherence_cat": 0.5,
+        "base:songeval_coherence_rel": 0.606
+      },
+      "delta_auc_full_minus_signal": 0.016,
+      "delta_auc_ci95": [
+        0.01,
+        0.022
+      ],
+      "verdict": "S ADDS VALUE"
+    },
+    {
+      "title": "ALL SAME-SONG vs STYLE-SWAP (broad identity discrimination)",
+      "n_same": 1710,
+      "n_diff": 180,
+      "auc": {
+        "H": 0.847,
+        "T": 0.92,
+        "R": 0.822,
+        "S": 0.918,
+        "C_signal(HTR)": 0.976,
+        "C_full(HTRS)": 0.984,
+        "base:clap_htsat": 0.977,
+        "base:scs": 0.907,
+        "base:cocola": 0.697,
+        "base:tunejury_b": 0.406,
+        "base:tunejury_cat": 0.49,
+        "base:tunejury_rel": 0.605,
+        "base:songeval_coherence_b": 0.423,
+        "base:songeval_coherence_cat": 0.527,
+        "base:songeval_coherence_rel": 0.665
+      },
+      "delta_auc_full_minus_signal": 0.008,
+      "delta_auc_ci95": [
+        0.004,
+        0.012
+      ],
+      "verdict": "S ADDS VALUE"
+    },
+    {
+      "title": "SAME-SONG vs CROSS-GENRE swap (easy: T/R separate it)",
+      "n_same": 1710,
+      "n_diff": 90,
+      "auc": {
+        "H": 0.848,
+        "T": 0.938,
+        "R": 0.829,
+        "S": 0.952,
+        "C_signal(HTR)": 0.981,
+        "C_full(HTRS)": 0.992,
+        "base:clap_htsat": 0.99,
+        "base:scs": 0.914,
+        "base:cocola": 0.7,
+        "base:tunejury_b": 0.398,
+        "base:tunejury_cat": 0.483,
+        "base:tunejury_rel": 0.607,
+        "base:songeval_coherence_b": 0.421,
+        "base:songeval_coherence_cat": 0.516,
+        "base:songeval_coherence_rel": 0.657
+      },
+      "delta_auc_full_minus_signal": 0.01,
+      "delta_auc_ci95": [
+        0.007,
+        0.015
+      ],
+      "verdict": "S ADDS VALUE"
+    },
+    {
+      "title": "SAME-SONG vs SAME-GENRE swap (hard: surface preserved, S should matter more)",
+      "n_same": 1710,
+      "n_diff": 90,
+      "auc": {
+        "H": 0.846,
+        "T": 0.902,
+        "R": 0.815,
+        "S": 0.883,
+        "C_signal(HTR)": 0.971,
+        "C_full(HTRS)": 0.976,
+        "base:clap_htsat": 0.963,
+        "base:scs": 0.901,
+        "base:cocola": 0.695,
+        "base:tunejury_b": 0.415,
+        "base:tunejury_cat": 0.498,
+        "base:tunejury_rel": 0.603,
+        "base:songeval_coherence_b": 0.425,
+        "base:songeval_coherence_cat": 0.537,
+        "base:songeval_coherence_rel": 0.673
+      },
+      "delta_auc_full_minus_signal": 0.005,
+      "delta_auc_ci95": [
+        -0.001,
+        0.011
+      ],
+      "verdict": "inconclusive"
+    }
+  ]
+}

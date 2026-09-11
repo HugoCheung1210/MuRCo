@@ -1,0 +1,39 @@
+{
+ "meta": {
+  "encoder": "mert",
+  "protocol": "leave-one-track-out, L2 fixed at C=1, difference feature e_B - e_A; a SCREEN that selects on the scored folds and therefore favours the baseline, which is the intended direction",
+  "best_layer": "12"
+ },
+ "by_layer": {
+  "12": {
+   "acc": 0.7928,
+   "macro_f1": 0.7058,
+   "file": "mert_L12.npz"
+  },
+  "18": {
+   "acc": 0.7661,
+   "macro_f1": 0.6904,
+   "file": "mert_L18.npz"
+  },
+  "24": {
+   "acc": 0.7556,
+   "macro_f1": 0.6785,
+   "file": "mert_L24.npz"
+  },
+  "3": {
+   "acc": 0.7789,
+   "macro_f1": 0.7076,
+   "file": "mert_L3.npz"
+  },
+  "6": {
+   "acc": 0.78,
+   "macro_f1": 0.7039,
+   "file": "mert_L6.npz"
+  },
+  "9": {
+   "acc": 0.7822,
+   "macro_f1": 0.7035,
+   "file": "mert_L9.npz"
+  }
+ }
+}

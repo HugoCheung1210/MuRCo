@@ -1,0 +1,40 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Chi Wang Cheung
+
+This licence covers the RESEARCH DATA AND FIGURES in this repository, meaning
+the contents of `results/` and `figures/`, together with the source-selection
+and pair manifests in `sources_selection/` and `perturbations/`.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence, and
+indicate if changes were made.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary:          https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+
+  Cheung, C. W. (2026). MuRCo: a relational coherence metric for iterative
+  music editing. Data and results. https://github.com/HugoCheung1210/MuRCo
+
+---
+
+WHAT THIS DATA IS, AND WHAT IT IS NOT
+
+`results/mos/` contains anonymous listening-study data: per-pair mean opinion
+scores, per-session response records under a random session code, and the
+derived analysis outputs. No personal data was collected at any point. The
+survey was configured with response anonymisation enabled, so no IP address,
+location, or contact detail exists in any file here, and this was verified
+against the released exports rather than assumed.
+
+The study was reviewed and approved by the UCL Computer Science Low Risk Ethics
+Committee (Project ID 4972). The approved application provides for the
+anonymous ratings and the aggregated per-clip averages to be deposited in a
+repository and shared alongside a publication, which is what this release does.
+
+The generated audio stimuli are NOT included and may not be redistributed. The
+approved application states that the AI-generated segments are used only as
+private research stimuli. The perturbation battery is instead rebuilt from its
+sources by the released scripts; see README.md.

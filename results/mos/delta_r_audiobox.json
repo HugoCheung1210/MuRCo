@@ -1,0 +1,140 @@
+{
+  "n_pairs": 154,
+  "n_sources": 59,
+  "dropped": [],
+  "rivals": [
+    "audiobox_ce_b",
+    "audiobox_ce_rel",
+    "audiobox_cu_b",
+    "audiobox_cu_rel",
+    "audiobox_pc_b",
+    "audiobox_pc_rel",
+    "audiobox_pq_b",
+    "audiobox_pq_rel"
+  ],
+  "weights": "uniform",
+  "marginal_r": {
+    "C": 0.7877682979947651,
+    "C_noS": 0.7482630077654085,
+    "clap_htsat": 0.6889050462911233,
+    "scs": 0.166807282711911,
+    "audiobox_ce_b": 0.2243749812884551,
+    "audiobox_ce_rel": -0.25486149475339076,
+    "audiobox_cu_b": 0.22305229107780142,
+    "audiobox_cu_rel": -0.2565208995351376,
+    "audiobox_pc_b": 0.02437565685821084,
+    "audiobox_pc_rel": -0.455703851480704,
+    "audiobox_pq_b": 0.17344195545603505,
+    "audiobox_pq_rel": -0.23051901272693753
+  },
+  "contrasts": {
+    "C - C_noS": {
+      "delta_r": 0.04041175092941487,
+      "ci95": [
+        0.01681209459727173,
+        0.06799379803772443
+      ],
+      "frac_le_zero": 0.00015,
+      "excludes_zero": true
+    },
+    "C - clap_htsat": {
+      "delta_r": 0.09635150793982876,
+      "ci95": [
+        0.025380814069503987,
+        0.16985499513244096
+      ],
+      "frac_le_zero": 0.003,
+      "excludes_zero": true
+    },
+    "C_noS - clap_htsat": {
+      "delta_r": 0.05621936709776746,
+      "ci95": [
+        -0.027552613622648048,
+        0.13735964433055836
+      ],
+      "frac_le_zero": 0.09075,
+      "excludes_zero": false
+    },
+    "C - scs": {
+      "delta_r": 0.6242954494812035,
+      "ci95": [
+        0.4829349246846398,
+        0.7817090916183811
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - audiobox_ce_b": {
+      "delta_r": 0.5611811452530437,
+      "ci95": [
+        0.38838063637585735,
+        0.7378178968624386
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - audiobox_ce_rel": {
+      "delta_r": 1.032287477525896,
+      "ci95": [
+        0.7968489621572235,
+        1.2410336548690677
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - audiobox_cu_b": {
+      "delta_r": 0.56149999680412,
+      "ci95": [
+        0.3983747683693736,
+        0.7227983631346728
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - audiobox_cu_rel": {
+      "delta_r": 1.0417625755350353,
+      "ci95": [
+        0.9069832412948351,
+        1.1619084978950855
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - audiobox_pc_b": {
+      "delta_r": 0.7600955837213369,
+      "ci95": [
+        0.6001959432647994,
+        0.9108516419487516
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - audiobox_pc_rel": {
+      "delta_r": 1.2400527334998812,
+      "ci95": [
+        1.0372921389630807,
+        1.4168726432645429
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - audiobox_pq_b": {
+      "delta_r": 0.6094255591149467,
+      "ci95": [
+        0.4346504295154749,
+        0.7781487087645439
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    },
+    "C - audiobox_pq_rel": {
+      "delta_r": 1.013225943895279,
+      "ci95": [
+        0.842760698590542,
+        1.175921514168215
+      ],
+      "frac_le_zero": 0.0,
+      "excludes_zero": true
+    }
+  }
+}
